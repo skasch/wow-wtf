@@ -1,0 +1,22 @@
+
+brokerSpecializationsDB = {
+	["profileKeys"] = {
+		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
+	},
+	["profiles"] = {
+		["Tenga - La Croisade écarlate"] = {
+			["playerClass"] = "PRIEST",
+			["specOptions"] = {
+				[257] = {
+					["lootSpec"] = 0,
+				},
+				[258] = {
+					["lootSpec"] = 0,
+				},
+				[256] = {
+					["lootSpec"] = 0,
+				},
+			},
+		},
+	},
+}

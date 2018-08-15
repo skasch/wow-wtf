@@ -1,0 +1,3185 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 54,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003977,
+							["damage_from"] = {
+								["Static-Charged Hippogryph"] = true,
+							},
+							["targets"] = {
+							},
+							["on_hold"] = false,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003977,
+							["spec"] = 104,
+							["dps_started"] = false,
+							["total"] = 0.003977,
+							["classe"] = "DRUID",
+							["serial"] = "Player-1086-06FB4E46",
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["end_time"] = 1531811957,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 66.003977,
+							["start_time"] = 1531811957,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 54,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 54,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 54,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 104,
+							["grupo"] = true,
+							["buff_uptime"] = 10,
+							["nome"] = "Kanpa",
+							["pets"] = {
+							},
+							["last_event"] = 1531811957,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[118089] = {
+										["activedamt"] = 1,
+										["id"] = 118089,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 54,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kanpa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Static-Charged Hippogryph",
+				["combat_counter"] = 90,
+				["playing_solo"] = true,
+				["totals"] = {
+					-0.00664799999999843, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kanpa"] = 0.003977,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1483.07,
+				["combat_id"] = 54,
+				["instance_type"] = "none",
+				["frags"] = {
+				},
+				["data_fim"] = "09:19:18",
+				["data_inicio"] = "09:19:08",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1473.346,
+				["contra"] = "Static-Charged Hippogryph",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 53,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003267,
+							["damage_from"] = {
+								["Static-Charged Hippogryph"] = true,
+								["Mistwing Cliffdweller"] = true,
+							},
+							["targets"] = {
+								["Static-Charged Hippogryph"] = 1641,
+								["Rabbit"] = 261,
+								["Mistwing Cliffdweller"] = 5634,
+							},
+							["total"] = 7536.003267,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7536.003267,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1531811893,
+							["friendlyfire_total"] = 0,
+							["spec"] = 104,
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 295,
+										["g_amt"] = 0,
+										["n_max"] = 78,
+										["targets"] = {
+											["Static-Charged Hippogryph"] = 77,
+											["Mistwing Cliffdweller"] = 520,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 302,
+										["n_min"] = 72,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 597,
+										["c_max"] = 149,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 146,
+									}, -- [1]
+									[164812] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 1387,
+										["g_amt"] = 0,
+										["n_max"] = 88,
+										["targets"] = {
+											["Static-Charged Hippogryph"] = 946,
+											["Mistwing Cliffdweller"] = 2957,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2516,
+										["n_min"] = 84,
+										["g_dmg"] = 0,
+										["counter"] = 37,
+										["total"] = 3903,
+										["c_max"] = 176,
+										["id"] = 164812,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 29,
+										["r_amt"] = 0,
+										["c_min"] = 171,
+									},
+									[77758] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 519,
+										["g_amt"] = 0,
+										["n_max"] = 262,
+										["targets"] = {
+											["Static-Charged Hippogryph"] = 520,
+											["Rabbit"] = 261,
+											["Mistwing Cliffdweller"] = 1561,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1823,
+										["n_min"] = 258,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 2342,
+										["c_max"] = 519,
+										["id"] = 77758,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 519,
+									},
+									[192090] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 55,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Static-Charged Hippogryph"] = 98,
+											["Mistwing Cliffdweller"] = 101,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 144,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 199,
+										["c_max"] = 55,
+										["id"] = 192090,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 55,
+									},
+									[33917] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 293,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 495,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 495,
+										["n_min"] = 202,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 495,
+										["c_max"] = 0,
+										["id"] = 33917,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 202,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1086-06FB4E46",
+							["last_dps"] = 372.977147587232,
+							["custom"] = 0,
+							["last_event"] = 1531811893,
+							["damage_taken"] = 1208.003267,
+							["start_time"] = 1531811873,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 53,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 0.008038,
+							["total_without_pet"] = 602.008038,
+							["total"] = 602.008038,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1086-06FB4E46",
+							["totalabsorb"] = 0.008038,
+							["last_hps"] = 29.7950031180402,
+							["targets"] = {
+								["Kanpa"] = 602,
+							},
+							["totalover_without_pet"] = 0.008038,
+							["healing_taken"] = 602.008038,
+							["fight_component"] = true,
+							["end_time"] = 1531811893,
+							["healing_from"] = {
+								["Kanpa"] = true,
+							},
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 76,
+										["targets"] = {
+											["Kanpa"] = 602,
+										},
+										["n_min"] = 75,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 602,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 602,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1531811885,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 104,
+							["totaldenied"] = 0.008038,
+							["delay"] = 0,
+							["last_event"] = 1531811893,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 53,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 22.005523,
+							["resource"] = 0.005523,
+							["targets"] = {
+								["Kanpa"] = 22,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DRUID",
+							["fight_component"] = true,
+							["total"] = 22.005523,
+							["nome"] = "Kanpa",
+							["spec"] = 104,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1531811893,
+							["alternatepower"] = 0.005523,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[77758] = {
+										["id"] = 77758,
+										["total"] = 12,
+										["targets"] = {
+											["Kanpa"] = 12,
+										},
+										["counter"] = 3,
+									},
+									[33917] = {
+										["id"] = 33917,
+										["total"] = 10,
+										["targets"] = {
+											["Kanpa"] = 10,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 53,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[164812] = {
+										["activedamt"] = 0,
+										["id"] = 164812,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 4,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[192090] = {
+										["activedamt"] = 0,
+										["id"] = 192090,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 5,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 26,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[5487] = {
+										["activedamt"] = 1,
+										["id"] = 5487,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[192081] = {
+										["activedamt"] = 1,
+										["id"] = 192081,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 32,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 104,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[33917] = 2,
+								[77758] = 3,
+								[192081] = 1,
+								[8921] = 7,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1531811893,
+							["nome"] = "Kanpa",
+							["pets"] = {
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 53,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kanpa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Mistwing Cliffdweller",
+				["combat_counter"] = 89,
+				["playing_solo"] = true,
+				["totals"] = {
+					7535.991479, -- [1]
+					602, -- [2]
+					{
+						0, -- [1]
+						[0] = 22,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kanpa"] = 602.008038,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kanpa"] = 7536.003267,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1419.081,
+				["combat_id"] = 53,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Rabbit"] = 1,
+					["Static-Charged Hippogryph"] = 1,
+					["Mistwing Cliffdweller"] = 3,
+				},
+				["data_fim"] = "09:18:14",
+				["data_inicio"] = "09:17:53",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					7536, -- [1]
+					602, -- [2]
+					{
+						0, -- [1]
+						[0] = 22,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1398.679,
+				["contra"] = "Mistwing Cliffdweller",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 52,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004764,
+							["damage_from"] = {
+								["Mistwing Cliffdweller"] = true,
+							},
+							["targets"] = {
+								["Mistwing Cliffdweller"] = 1975,
+							},
+							["total"] = 1975.004764,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1975.004764,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1531811858,
+							["friendlyfire_total"] = 0,
+							["spec"] = 104,
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 76,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 201,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 201,
+										["n_min"] = 49,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 201,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 49,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[33917] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 588,
+										["g_amt"] = 0,
+										["n_max"] = 305,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 893,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 305,
+										["n_min"] = 305,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 893,
+										["c_max"] = 588,
+										["id"] = 33917,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 588,
+									},
+									[77758] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 259,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 259,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 259,
+										["n_min"] = 259,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 259,
+										["c_max"] = 0,
+										["id"] = 77758,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[192090] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 15,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 15,
+										["c_max"] = 0,
+										["id"] = 192090,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[164812] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 175,
+										["g_amt"] = 0,
+										["n_max"] = 87,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 607,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 432,
+										["n_min"] = 84,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 607,
+										["c_max"] = 175,
+										["id"] = 164812,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 175,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1086-06FB4E46",
+							["last_dps"] = 271.73978591085,
+							["custom"] = 0,
+							["last_event"] = 1531811858,
+							["damage_taken"] = 137.004764,
+							["start_time"] = 1531811851,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 52,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 0.003554,
+							["total_without_pet"] = 150.003554,
+							["total"] = 150.003554,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1086-06FB4E46",
+							["totalabsorb"] = 0.003554,
+							["last_hps"] = 20.6389039625762,
+							["targets"] = {
+								["Kanpa"] = 150,
+							},
+							["totalover_without_pet"] = 0.003554,
+							["healing_taken"] = 150.003554,
+							["fight_component"] = true,
+							["end_time"] = 1531811858,
+							["healing_from"] = {
+								["Kanpa"] = true,
+							},
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 75,
+										["targets"] = {
+											["Kanpa"] = 150,
+										},
+										["n_min"] = 75,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 150,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 150,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1531811858,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 104,
+							["totaldenied"] = 0.003554,
+							["delay"] = 0,
+							["last_event"] = 1531811858,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 52,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 14.006426,
+							["resource"] = 0.006426,
+							["targets"] = {
+								["Kanpa"] = 14,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DRUID",
+							["fight_component"] = true,
+							["total"] = 14.006426,
+							["nome"] = "Kanpa",
+							["spec"] = 104,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1531811858,
+							["alternatepower"] = 0.006426,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[33917] = {
+										["id"] = 33917,
+										["total"] = 10,
+										["targets"] = {
+											["Kanpa"] = 10,
+										},
+										["counter"] = 2,
+									},
+									[77758] = {
+										["id"] = 77758,
+										["total"] = 4,
+										["targets"] = {
+											["Kanpa"] = 4,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 52,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[164812] = {
+										["activedamt"] = 0,
+										["id"] = 164812,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[192090] = {
+										["activedamt"] = 0,
+										["id"] = 192090,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 7,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[5487] = {
+										["activedamt"] = 1,
+										["id"] = 5487,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 11,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 104,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[33917] = 2,
+								[77758] = 1,
+								[8921] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1531811858,
+							["nome"] = "Kanpa",
+							["pets"] = {
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 52,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kanpa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Mistwing Cliffdweller",
+				["combat_counter"] = 88,
+				["playing_solo"] = true,
+				["totals"] = {
+					1974.988142, -- [1]
+					150, -- [2]
+					{
+						0, -- [1]
+						[0] = 14,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kanpa"] = 150.003554,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kanpa"] = 1975.004764,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1383.891,
+				["combat_id"] = 52,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Mistwing Cliffdweller"] = 1,
+				},
+				["data_fim"] = "09:17:39",
+				["data_inicio"] = "09:17:31",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1975, -- [1]
+					150, -- [2]
+					{
+						0, -- [1]
+						[0] = 14,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1376.619,
+				["contra"] = "Mistwing Cliffdweller",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 51,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007681,
+							["damage_from"] = {
+								["Mistwing Cliffdweller"] = true,
+							},
+							["targets"] = {
+								["Mistwing Cliffdweller"] = 4156,
+							},
+							["total"] = 4156.007681,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4156.007681,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1531811821,
+							["friendlyfire_total"] = 0,
+							["spec"] = 104,
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 152,
+										["g_amt"] = 0,
+										["n_max"] = 72,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 224,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 72,
+										["n_min"] = 72,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 224,
+										["c_max"] = 152,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 152,
+									}, -- [1]
+									[33917] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 317,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 622,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 622,
+										["n_min"] = 305,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 622,
+										["c_max"] = 0,
+										["id"] = 33917,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[77758] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 523,
+										["g_amt"] = 0,
+										["n_max"] = 259,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 1300,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 777,
+										["n_min"] = 259,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1300,
+										["c_max"] = 523,
+										["id"] = 77758,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 523,
+									},
+									[192090] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 26,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 26,
+										["c_max"] = 0,
+										["id"] = 192090,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[164812] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 175,
+										["g_amt"] = 0,
+										["n_max"] = 87,
+										["targets"] = {
+											["Mistwing Cliffdweller"] = 1984,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1809,
+										["n_min"] = 84,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 1984,
+										["c_max"] = 175,
+										["id"] = 164812,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 21,
+										["r_amt"] = 0,
+										["c_min"] = 175,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1086-06FB4E46",
+							["last_dps"] = 203.935800628099,
+							["custom"] = 0,
+							["last_event"] = 1531811820,
+							["damage_taken"] = 726.007681,
+							["start_time"] = 1531811803,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 51,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 0.004199,
+							["total_without_pet"] = 300.004199,
+							["total"] = 300.004199,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1086-06FB4E46",
+							["totalabsorb"] = 0.004199,
+							["last_hps"] = 14.7212424063988,
+							["targets"] = {
+								["Kanpa"] = 300,
+							},
+							["totalover_without_pet"] = 0.004199,
+							["healing_taken"] = 300.004199,
+							["fight_component"] = true,
+							["end_time"] = 1531811821,
+							["healing_from"] = {
+								["Kanpa"] = true,
+							},
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 75,
+										["targets"] = {
+											["Kanpa"] = 300,
+										},
+										["n_min"] = 75,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 300,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 300,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1531811820,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 104,
+							["totaldenied"] = 0.004199,
+							["delay"] = 0,
+							["last_event"] = 1531811820,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 51,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 78.003364,
+							["resource"] = 0.003364,
+							["targets"] = {
+								["Kanpa"] = 78,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DRUID",
+							["fight_component"] = true,
+							["total"] = 78.003364,
+							["nome"] = "Kanpa",
+							["spec"] = 104,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1531811849,
+							["alternatepower"] = 0.003364,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[33917] = {
+										["id"] = 33917,
+										["total"] = 10,
+										["targets"] = {
+											["Kanpa"] = 10,
+										},
+										["counter"] = 2,
+									},
+									[77758] = {
+										["id"] = 77758,
+										["total"] = 8,
+										["targets"] = {
+											["Kanpa"] = 8,
+										},
+										["counter"] = 2,
+									},
+									[17057] = {
+										["id"] = 17057,
+										["total"] = 60,
+										["targets"] = {
+											["Kanpa"] = 60,
+										},
+										["counter"] = 3,
+									},
+								},
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 51,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[164812] = {
+										["activedamt"] = 0,
+										["id"] = 164812,
+										["targets"] = {
+										},
+										["uptime"] = 17,
+										["appliedamt"] = 2,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[192090] = {
+										["activedamt"] = 0,
+										["id"] = 192090,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 2,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 20,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[118089] = {
+										["activedamt"] = 1,
+										["id"] = 118089,
+										["targets"] = {
+										},
+										["actived_at"] = 1531811800,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[5487] = {
+										["activedamt"] = 1,
+										["id"] = 5487,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 22,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 104,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[33917] = 2,
+								[8921] = 6,
+								[5487] = 1,
+								[77758] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1531811821,
+							["nome"] = "Kanpa",
+							["pets"] = {
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 51,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kanpa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Mistwing Cliffdweller",
+				["combat_counter"] = 87,
+				["playing_solo"] = true,
+				["totals"] = {
+					4155.988406, -- [1]
+					300, -- [2]
+					{
+						0, -- [1]
+						[0] = 78,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kanpa"] = 300.004199,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kanpa"] = 4156.007681,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1346.63,
+				["combat_id"] = 51,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Mistwing Cliffdweller"] = 2,
+				},
+				["data_fim"] = "09:17:01",
+				["data_inicio"] = "09:16:41",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					4156, -- [1]
+					300, -- [2]
+					{
+						0, -- [1]
+						[0] = 78,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1326.007,
+				["contra"] = "Mistwing Cliffdweller",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 50,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007027,
+							["damage_from"] = {
+								["Spitelash Stormfury"] = true,
+							},
+							["targets"] = {
+								["Spitelash Stormfury"] = 4294,
+							},
+							["total"] = 4294.007027,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4294.007027,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1531811783,
+							["friendlyfire_total"] = 0,
+							["spec"] = 104,
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 77,
+										["targets"] = {
+											["Spitelash Stormfury"] = 297,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 297,
+										["n_min"] = 71,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 297,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[164812] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 865,
+										["g_amt"] = 0,
+										["n_max"] = 89,
+										["targets"] = {
+											["Spitelash Stormfury"] = 1986,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1121,
+										["n_min"] = 86,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 1986,
+										["c_max"] = 176,
+										["id"] = 164812,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 170,
+									},
+									[77758] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 519,
+										["g_amt"] = 0,
+										["n_max"] = 260,
+										["targets"] = {
+											["Spitelash Stormfury"] = 1298,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 779,
+										["n_min"] = 259,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1298,
+										["c_max"] = 519,
+										["id"] = 77758,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 519,
+									},
+									[192090] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Spitelash Stormfury"] = 89,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 89,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 89,
+										["c_max"] = 0,
+										["id"] = 192090,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[33917] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 320,
+										["targets"] = {
+											["Spitelash Stormfury"] = 624,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 624,
+										["n_min"] = 304,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 624,
+										["c_max"] = 0,
+										["id"] = 33917,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1086-06FB4E46",
+							["last_dps"] = 310.619721281832,
+							["custom"] = 0,
+							["last_event"] = 1531811783,
+							["damage_taken"] = 507.007027,
+							["start_time"] = 1531811769,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 50,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Kanpa"] = 41,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 41.002532,
+							["total_without_pet"] = 370.002532,
+							["total"] = 370.002532,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1086-06FB4E46",
+							["totalabsorb"] = 0.002532,
+							["last_hps"] = 26.7652294560188,
+							["targets"] = {
+								["Kanpa"] = 370,
+							},
+							["totalover_without_pet"] = 0.002532,
+							["healing_taken"] = 370.002532,
+							["fight_component"] = true,
+							["end_time"] = 1531811783,
+							["healing_from"] = {
+								["Kanpa"] = true,
+							},
+							["nome"] = "Kanpa",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[8936] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kanpa"] = 41,
+										},
+										["n_max"] = 21,
+										["targets"] = {
+											["Kanpa"] = 69,
+										},
+										["n_min"] = 8,
+										["counter"] = 5,
+										["overheal"] = 41,
+										["total"] = 69,
+										["c_max"] = 40,
+										["id"] = 8936,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 40,
+										["m_crit"] = 0,
+										["c_min"] = 40,
+										["m_amt"] = 0,
+										["n_curado"] = 29,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 76,
+										["targets"] = {
+											["Kanpa"] = 301,
+										},
+										["n_min"] = 75,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 301,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 301,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1531811769,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 104,
+							["totaldenied"] = 0.002532,
+							["delay"] = 0,
+							["last_event"] = 1531811783,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 50,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 18.008001,
+							["resource"] = 0.008001,
+							["targets"] = {
+								["Kanpa"] = 18,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DRUID",
+							["fight_component"] = true,
+							["total"] = 18.008001,
+							["nome"] = "Kanpa",
+							["spec"] = 104,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1531811780,
+							["alternatepower"] = 0.008001,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[77758] = {
+										["id"] = 77758,
+										["total"] = 8,
+										["targets"] = {
+											["Kanpa"] = 8,
+										},
+										["counter"] = 2,
+									},
+									[33917] = {
+										["id"] = 33917,
+										["total"] = 10,
+										["targets"] = {
+											["Kanpa"] = 10,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 50,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[164812] = {
+										["activedamt"] = 0,
+										["id"] = 164812,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 2,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[192090] = {
+										["activedamt"] = 0,
+										["id"] = 192090,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 2,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 20,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8936] = {
+										["activedamt"] = 1,
+										["id"] = 8936,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5487] = {
+										["activedamt"] = 1,
+										["id"] = 5487,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 25,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 104,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[33917] = 2,
+								[77758] = 2,
+								[8921] = 5,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1531811783,
+							["nome"] = "Kanpa",
+							["pets"] = {
+							},
+							["serial"] = "Player-1086-06FB4E46",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 50,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kanpa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Spitelash Stormfury",
+				["combat_counter"] = 86,
+				["playing_solo"] = true,
+				["totals"] = {
+					4293.991665, -- [1]
+					370, -- [2]
+					{
+						0, -- [1]
+						[0] = 18,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kanpa"] = 370.002532,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kanpa"] = 4294.007027,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1309.33,
+				["combat_id"] = 50,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Spitelash Stormfury"] = 2,
+				},
+				["data_fim"] = "09:16:24",
+				["data_inicio"] = "09:16:10",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					4294, -- [1]
+					370, -- [2]
+					{
+						0, -- [1]
+						[0] = 18,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1295.062,
+				["contra"] = "Spitelash Stormfury",
+				["TimeData"] = {
+				},
+			}, -- [5]
+		},
+	},
+	["combat_counter"] = 90,
+	["character_data"] = {
+		["logons"] = 8,
+	},
+	["tabela_instancias"] = {
+	},
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["verticalSnap"] = true,
+			["is_open"] = true,
+			["isLocked"] = false,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[2] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = 454.345092773438,
+					["x"] = -868.502281188965,
+					["w"] = 186.000198364258,
+					["h"] = 132.999969482422,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["verticalSnap"] = true,
+			["is_open"] = true,
+			["isLocked"] = false,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[4] = 1,
+			},
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = 305.844909667969,
+					["x"] = -868.502281188965,
+					["w"] = 186.000198364258,
+					["h"] = 96.0001220703125,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["cached_talents"] = {
+		["Player-1086-06FB4E46"] = {
+			22418, -- [1]
+		},
+	},
+	["last_instance_id"] = 0,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Tsuma-La Croisade écarlate",
+	["last_realversion"] = 130,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = true,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 202.523141019343,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["author"] = "Details! Team",
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.05175781250e-005,
+				["x"] = 3.05175781250e-005,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["use_spark"] = true,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["y"] = 4.577636718750e-005,
+			["main_frame_strata"] = "LOW",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1533036482,
+		["last_version"] = 10,
+	},
+	["ignore_nicktag"] = false,
+	["last_day"] = "17",
+	["last_version"] = "v7.3.5.5572",
+	["combat_id"] = 54,
+	["savedStyles"] = {
+	},
+	["last_instance_time"] = 0,
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.007403,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Spitelash Seacaller"] = 0,
+						["Warlord Krellian"] = 0,
+						["Explosives Stockpile"] = 0,
+						["Shipwrecker <Spitelash Seacaller>"] = 0,
+						["Marius Tanolaar"] = 0,
+						["Spitelash Screamer"] = 0,
+						["Static-Charged Hippogryph"] = 0,
+						["Mistwing Cliffdweller"] = 0,
+						["Shade of Hate"] = 0,
+						["Talrendis Saboteur"] = 0,
+						["Greystone Basilisk"] = 0,
+						["Spitelash Stormfury"] = 0,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 0.007403,
+					["tipo"] = 1,
+					["classe"] = "DRUID",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.007403,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1531777387,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Spitelash Seacaller"] = 0,
+									["Warlord Krellian"] = 0,
+									["Shipwrecker <Spitelash Seacaller>"] = 0,
+									["Marius Tanolaar"] = 0,
+									["Spitelash Screamer"] = 0,
+									["Static-Charged Hippogryph"] = 0,
+									["Mistwing Cliffdweller"] = 0,
+									["Shade of Hate"] = 0,
+									["Talrendis Saboteur"] = 0,
+									["Greystone Basilisk"] = 0,
+									["Spitelash Stormfury"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[33917] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Spitelash Seacaller"] = 0,
+									["Warlord Krellian"] = 0,
+									["Shipwrecker <Spitelash Seacaller>"] = 0,
+									["Marius Tanolaar"] = 0,
+									["Spitelash Screamer"] = 0,
+									["Static-Charged Hippogryph"] = 0,
+									["Shade of Hate"] = 0,
+									["Talrendis Saboteur"] = 0,
+									["Greystone Basilisk"] = 0,
+									["Spitelash Stormfury"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 33917,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[77758] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Spitelash Seacaller"] = 0,
+									["Warlord Krellian"] = 0,
+									["Explosives Stockpile"] = 0,
+									["Shipwrecker <Spitelash Seacaller>"] = 0,
+									["Marius Tanolaar"] = 0,
+									["Spitelash Screamer"] = 0,
+									["Static-Charged Hippogryph"] = 0,
+									["Mistwing Cliffdweller"] = 0,
+									["Shade of Hate"] = 0,
+									["Talrendis Saboteur"] = 0,
+									["Greystone Basilisk"] = 0,
+									["Spitelash Stormfury"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 77758,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[164812] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Spitelash Seacaller"] = 0,
+									["Warlord Krellian"] = 0,
+									["Shipwrecker <Spitelash Seacaller>"] = 0,
+									["Marius Tanolaar"] = 0,
+									["Spitelash Screamer"] = 0,
+									["Static-Charged Hippogryph"] = 0,
+									["Mistwing Cliffdweller"] = 0,
+									["Shade of Hate"] = 0,
+									["Talrendis Saboteur"] = 0,
+									["Greystone Basilisk"] = 0,
+									["Spitelash Stormfury"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 164812,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[192090] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Spitelash Seacaller"] = 0,
+									["Warlord Krellian"] = 0,
+									["Shipwrecker <Spitelash Seacaller>"] = 0,
+									["Marius Tanolaar"] = 0,
+									["Spitelash Screamer"] = 0,
+									["Static-Charged Hippogryph"] = 0,
+									["Mistwing Cliffdweller"] = 0,
+									["Shade of Hate"] = 0,
+									["Talrendis Saboteur"] = 0,
+									["Greystone Basilisk"] = 0,
+									["Spitelash Stormfury"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 192090,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["nome"] = "Kanpa",
+					["spec"] = 104,
+					["grupo"] = true,
+					["total"] = 0.007403,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1531777384,
+					["serial"] = "Player-1086-06FB4E46",
+					["on_hold"] = false,
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.008875,
+					["total_without_pet"] = 0.008875,
+					["total"] = 0.008875,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1086-06FB4E46",
+					["totalabsorb"] = 0.008875,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Kanpa"] = 0,
+					},
+					["totalover_without_pet"] = 0.008875,
+					["healing_taken"] = 0.008875,
+					["fight_component"] = true,
+					["end_time"] = 1531777387,
+					["classe"] = "DRUID",
+					["nome"] = "Kanpa",
+					["spells"] = {
+						["_ActorTable"] = {
+							[8936] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kanpa"] = 0,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Kanpa"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 8936,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 0,
+								["n_curado"] = 0,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Kanpa"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 0,
+								["n_amt"] = 0,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["targets_overheal"] = {
+						["Kanpa"] = 0,
+					},
+					["spec"] = 104,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["totaldenied"] = 0.008875,
+					["start_time"] = 1531777384,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 0.002911,
+					["resource"] = 0.1051,
+					["targets"] = {
+						["Kanpa"] = 0,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "DRUID",
+					["fight_component"] = true,
+					["total"] = 0.002911,
+					["nome"] = "Kanpa",
+					["spec"] = 104,
+					["grupo"] = true,
+					["flag_original"] = 1297,
+					["tipo"] = 3,
+					["alternatepower"] = 0.002911,
+					["last_event"] = 0,
+					["serial"] = "Player-1086-06FB4E46",
+					["spells"] = {
+						["_ActorTable"] = {
+							[33917] = {
+								["id"] = 33917,
+								["total"] = 0,
+								["targets"] = {
+									["Kanpa"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[77758] = {
+								["id"] = 77758,
+								["total"] = 0,
+								["targets"] = {
+									["Kanpa"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[204031] = {
+								["id"] = 204031,
+								["total"] = 0,
+								["targets"] = {
+									["Kanpa"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[17057] = {
+								["id"] = 17057,
+								["total"] = 0,
+								["targets"] = {
+									["Kanpa"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 7,
+					},
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[192090] = {
+								["id"] = 192090,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[164812] = {
+								["id"] = 164812,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["cooldowns_defensive"] = 0,
+					["buff_uptime"] = 0,
+					["classe"] = "DRUID",
+					["cooldowns_defensive_targets"] = {
+						["Kanpa"] = 0,
+					},
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[155835] = {
+								["id"] = 155835,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[783] = {
+								["id"] = 783,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[192081] = {
+								["id"] = 192081,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[8936] = {
+								["id"] = 8936,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[5487] = {
+								["id"] = 5487,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[165961] = {
+								["id"] = 165961,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[67570] = {
+								["id"] = 67570,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[768] = {
+								["id"] = 768,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[118089] = {
+								["id"] = 118089,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 104,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[77758] = 0,
+						[155835] = 0,
+						[768] = 0,
+						[33917] = 0,
+						[192081] = 0,
+						[5487] = 0,
+						[8936] = 0,
+						[8921] = 0,
+						[783] = 0,
+					},
+					["last_event"] = 0,
+					["serial"] = "Player-1086-06FB4E46",
+					["tipo"] = 4,
+					["pets"] = {
+					},
+					["nome"] = "Kanpa",
+					["cooldowns_defensive_spells"] = {
+						["_ActorTable"] = {
+							[155835] = {
+								["id"] = 155835,
+								["targets"] = {
+									["Kanpa"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime_targets"] = {
+					},
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 9,
+		["totals"] = {
+			-0.00545, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["totals_grupo"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["data_inicio"] = 0,
+		["CombatSkillCache"] = {
+		},
+		["player_last_events"] = {
+		},
+		["start_time"] = 0,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["overall_refreshed"] = true,
+	},
+	["force_font_outline"] = "",
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1086-06FB4E46"] = 104,
+	},
+}

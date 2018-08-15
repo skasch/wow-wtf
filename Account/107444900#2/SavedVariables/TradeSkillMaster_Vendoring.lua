@@ -1,0 +1,71 @@
+
+TradeSkillMaster_VendoringDB = {
+	["g@ @qsDestroyValue"] = "destroy",
+	["_scopeKeys"] = {
+		["char"] = {
+			"Tsuma - La Croisade écarlate", -- [1]
+			"Tenga - La Croisade écarlate", -- [2]
+			"Seina - La Croisade écarlate", -- [3]
+			"Onaka - La Croisade écarlate", -- [4]
+			"Higi - La Croisade écarlate", -- [5]
+			"Tsuri - La Croisade écarlate", -- [6]
+			"Sueki - La Croisade écarlate", -- [7]
+			"Suzui - La Croisade écarlate", -- [8]
+			"Vermily - La Croisade écarlate", -- [9]
+			"Simetra - La Croisade écarlate", -- [10]
+			"Skasch - Elune", -- [11]
+			"Kanpa - La Croisade écarlate", -- [12]
+			"Skasch - La Croisade écarlate", -- [13]
+			"Asane - La Croisade écarlate", -- [14]
+		},
+		["realm"] = {
+			"La Croisade écarlate", -- [1]
+			"Elune", -- [2]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - La Croisade écarlate", -- [1]
+			"Alliance - La Croisade écarlate", -- [2]
+			"Alliance - Elune", -- [3]
+			"Neutral - La Croisade écarlate", -- [4]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+		["buyback"] = true,
+		["quickSell"] = true,
+		["groups"] = true,
+		["buy"] = true,
+	},
+	["_hash"] = 7791016,
+	["g@ @qsHideGrouped"] = true,
+	["_currentProfile"] = {
+		["Tenga - La Croisade écarlate"] = "Default",
+		["Suzui - La Croisade écarlate"] = "Default",
+		["Tsuri - La Croisade écarlate"] = "Default",
+		["Onaka - La Croisade écarlate"] = "Default",
+		["Skasch - La Croisade écarlate"] = "Default",
+		["Kanpa - La Croisade écarlate"] = "Default",
+		["Sueki - La Croisade écarlate"] = "Default",
+		["Vermily - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
+		["Simetra - La Croisade écarlate"] = "Default",
+		["Higi - La Croisade écarlate"] = "Default",
+		["Seina - La Croisade écarlate"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Default",
+	},
+	["g@ @qsHideSoulbound"] = true,
+	["g@ @defaultPage"] = 1,
+	["g@ @qsBatchSize"] = 12,
+	["g@ @displayMoneyCollected"] = false,
+	["g@ @ignore"] = {
+	},
+	["g@ @defaultMerchantTab"] = false,
+	["g@ @autoSellTrash"] = false,
+	["g@ @qsMaxMarketValue"] = "100g",
+	["g@ @qsMaxDestroyValue"] = "100g",
+	["_version"] = 1,
+	["g@ @qsMarketValue"] = "dbmarket",
+}

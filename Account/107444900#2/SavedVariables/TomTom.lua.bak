@@ -1,0 +1,31 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Kanpa - Elune"] = "Default",
+		["Skasch - Elune"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["block"] = {
+				["enable"] = false,
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Kanpa - Elune"] = "Kanpa - Elune",
+		["Skasch - Elune"] = "Skasch - Elune",
+		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+	},
+	["profiles"] = {
+		["Kanpa - Elune"] = {
+		},
+		["Skasch - Elune"] = {
+		},
+		["Tsuma - La Croisade écarlate"] = {
+		},
+	},
+}

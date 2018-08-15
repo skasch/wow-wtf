@@ -1,0 +1,37 @@
+
+TradeSkillMaster_ShoppingDB = {
+	["g@ @sniperCustomPrice"] = "0c",
+	["g@ @maxDeSearchPercent"] = 1,
+	["g@ @postUndercut"] = "1c",
+	["g@ @postBidPercent"] = 0.95,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Kashima - La Croisade écarlate", -- [1]
+		},
+		["realm"] = {
+			"La Croisade écarlate", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Neutral - La Croisade écarlate", -- [1]
+			"Alliance - La Croisade écarlate", -- [2]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+	},
+	["g@ @sniperVendorPrice"] = true,
+	["_hash"] = 1861581,
+	["g@ @savedSearches"] = {
+	},
+	["g@ @sniperSound"] = "TSM_NO_SOUND",
+	["g@ @marketValueSource"] = "dbmarket",
+	["g@ @maxDeSearchLvl"] = 735,
+	["g@ @minDeSearchLvl"] = 1,
+	["g@ @normalPostPrice"] = "150% dbmarket",
+	["_version"] = 3,
+	["_currentProfile"] = {
+		["Kashima - La Croisade écarlate"] = "Default",
+	},
+}

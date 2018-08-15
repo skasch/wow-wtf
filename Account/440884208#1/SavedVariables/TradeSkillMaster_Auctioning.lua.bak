@@ -1,0 +1,42 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["g@ @confirmCompleteSound"] = "TSM_NO_SOUND",
+	["g@ @roundNormalPrice"] = false,
+	["g@ @disableInvalidMsg"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Kashima - La Croisade écarlate", -- [1]
+		},
+		["realm"] = {
+			"La Croisade écarlate", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Neutral - La Croisade écarlate", -- [1]
+			"Alliance - La Croisade écarlate", -- [2]
+		},
+	},
+	["f@Alliance - La Croisade écarlate@player"] = {
+		["Kashima"] = true,
+	},
+	["g@ @priceColumn"] = 1,
+	["f@Neutral - La Croisade écarlate@whitelist"] = {
+	},
+	["g@ @matchWhitelist"] = true,
+	["g@ @cancelWithBid"] = false,
+	["_hash"] = 5870975,
+	["f@Neutral - La Croisade écarlate@player"] = {
+		["Kashima"] = true,
+	},
+	["g@ @scanCompleteSound"] = "TSM_NO_SOUND",
+	["_version"] = 1,
+	["g@ @helpPlatesShown"] = {
+	},
+	["f@Alliance - La Croisade écarlate@whitelist"] = {
+	},
+	["_currentProfile"] = {
+		["Kashima - La Croisade écarlate"] = "Default",
+	},
+}

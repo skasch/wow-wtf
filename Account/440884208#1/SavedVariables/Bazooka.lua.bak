@@ -1,0 +1,47 @@
+
+BazookaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Kashima - La Croisade écarlate"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["plugins"] = {
+				["launcher"] = {
+					["TradeSkillMasterMinimapIcon"] = {
+						["pos"] = 3,
+					},
+					["TradeSkillMaster"] = {
+						["pos"] = 2,
+					},
+					["Paste"] = {
+						["pos"] = 5,
+					},
+					["SavedInstances"] = {
+						["pos"] = 4,
+					},
+				},
+				["data source"] = {
+					["Broker Currency"] = {
+						["pos"] = 1,
+					},
+					["Broker_LootSpec"] = {
+						["pos"] = 2,
+					},
+					["Broker_SpecializationsLDB"] = {
+						["pos"] = 3,
+					},
+				},
+			},
+			["bars"] = {
+				{
+					["bgInset"] = 4,
+					["pos"] = 1,
+				}, -- [1]
+			},
+		},
+	},
+}

@@ -1,0 +1,5 @@
+ChocolateBar: disabled
+Broker_Everything: enabled
+Broker_Currency: disabled
+Broker_LootSpec: enabled
+Broker_Specializations: disabled

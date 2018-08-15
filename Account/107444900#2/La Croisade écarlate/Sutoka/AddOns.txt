@@ -1,0 +1,15 @@
+ChocolateBar: disabled
+Carbonite: disabled
+Prat-3.0: disabled
+TomTom: disabled
+AethysRotation_Priest: disabled
+AethysRotation_Shaman: enabled
+WorldQuestTracker: disabled
+TinyTooltip: disabled
+TinyInspect: disabled
+DBM-StatusBarTimers: disabled
+AethysRotation: enabled
+Oilvl: enabled
+TipTac: enabled
+TipTacItemRef: enabled
+TipTacTalents: enabled

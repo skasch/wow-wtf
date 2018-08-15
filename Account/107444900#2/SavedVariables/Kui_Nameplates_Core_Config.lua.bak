@@ -1,0 +1,28 @@
+
+KuiNameplatesCoreSaved = {
+	["profiles"] = {
+		["default"] = {
+			["auras_on_personal"] = false,
+			["nameonly_target"] = false,
+			["target_arrows"] = true,
+			["frame_height_personal"] = 10,
+			["frame_width"] = 150,
+			["health_text_friend_dmg"] = 3,
+			["health_text"] = true,
+			["frame_width_personal"] = 150,
+			["nameonly_damaged_friends"] = false,
+			["frame_height_minus"] = 8,
+			["target_arrows_size"] = 30,
+			["hide_names"] = false,
+			["level_text"] = true,
+			["font_face"] = "UbuntuCondensed",
+			["frame_height"] = 10,
+			["use_blizzard_personal"] = true,
+			["frame_width_minus"] = 100,
+			["bar_animation"] = 1,
+			["bot_vertical_offset"] = -1,
+			["font_style"] = 3,
+			["bar_texture"] = "Details Serenity",
+		},
+	},
+}

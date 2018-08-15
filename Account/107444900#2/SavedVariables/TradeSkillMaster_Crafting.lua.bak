@@ -1,0 +1,7793 @@
+
+TradeSkillMaster_CraftingDB = {
+	["f@Alliance - Elune@ignoreDECheckBox"] = false,
+	["f@Alliance - Elune@mats"] = {
+		["i:108996"] = {
+			["name"] = "Alchemical Catalyst",
+		},
+		["i:109118"] = {
+			["name"] = "Blackrock Ore",
+		},
+		["i:109129"] = {
+			["name"] = "Talador Orchid",
+		},
+		["i:124124"] = {
+			["name"] = "Blood of Sargeras",
+		},
+		["i:765"] = {
+			["name"] = "Silverleaf",
+		},
+		["i:109125"] = {
+			["name"] = "Fireweed",
+		},
+		["i:2449"] = {
+			["name"] = "Earthroot",
+		},
+		["i:109222"] = {
+			["name"] = "Draenic Mana Potion",
+		},
+		["i:109124"] = {
+			["name"] = "Frostweed",
+		},
+		["i:124106"] = {
+			["name"] = "Felwort",
+		},
+		["i:127835"] = {
+			["name"] = "Ancient Mana Potion",
+		},
+		["i:109126"] = {
+			["name"] = "Gorgrond Flytrap",
+		},
+		["i:2447"] = {
+			["name"] = "Peacebloom",
+		},
+		["i:124101"] = {
+			["name"] = "Aethril",
+		},
+		["i:109128"] = {
+			["name"] = "Nagrand Arrowbloom",
+		},
+		["i:124104"] = {
+			["name"] = "Fjarnskaggl",
+		},
+		["i:128304"] = {
+			["name"] = "Yseralline Seed",
+		},
+		["i:127836"] = {
+			["name"] = "Ancient Rejuvenation Potion",
+		},
+		["i:113262"] = {
+			["name"] = "Sorcerous Water",
+		},
+		["i:109143"] = {
+			["name"] = "Abyssal Gulper Eel Flesh",
+		},
+		["i:109127"] = {
+			["name"] = "Starflower",
+		},
+		["i:109223"] = {
+			["name"] = "Healing Tonic",
+		},
+		["i:109140"] = {
+			["name"] = "Blind Lake Sturgeon Flesh",
+		},
+		["i:109139"] = {
+			["name"] = "Fat Sleeper Flesh",
+		},
+		["i:124444"] = {
+			["name"] = "Infernal Brimstone",
+		},
+		["i:109141"] = {
+			["name"] = "Fire Ammonite Tentacle",
+		},
+		["i:109138"] = {
+			["name"] = "Jawless Skulker Flesh",
+		},
+		["i:124103"] = {
+			["name"] = "Foxflower",
+		},
+		["i:3371"] = {
+			["name"] = "Crystal Vial",
+		},
+		["i:124105"] = {
+			["name"] = "Starlight Rose",
+		},
+		["i:109137"] = {
+			["name"] = "Crescent Saberfish Flesh",
+		},
+		["i:109145"] = {
+			["name"] = "Draenic Agility Flask",
+		},
+		["i:127834"] = {
+			["name"] = "Ancient Healing Potion",
+		},
+		["i:124102"] = {
+			["name"] = "Dreamleaf",
+		},
+		["i:109144"] = {
+			["name"] = "Blackwater Whiptail Flesh",
+		},
+		["i:109123"] = {
+			["name"] = "Crescent Oil",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+	},
+	["g@ @ignoreCharacters"] = {
+	},
+	["_hash"] = 15983053,
+	["f@Horde - La Croisade écarlate@evenStacks"] = false,
+	["f@Horde - La Croisade écarlate@ignoreIntermediate"] = false,
+	["f@Horde - La Croisade écarlate@ignoreAlts"] = false,
+	["f@Neutral - La Croisade écarlate@ignoreAlts"] = false,
+	["f@Alliance - La Croisade écarlate@mats"] = {
+		["i:2674"] = {
+			["name"] = "Crawler Meat",
+		},
+		["i:2589"] = {
+			["name"] = "Linen Cloth",
+		},
+		["i:10940"] = {
+			["name"] = "Strange Dust",
+		},
+		["i:5465"] = {
+			["name"] = "Small Spider Leg",
+		},
+		["i:3470"] = {
+			["name"] = "Rough Grinding Stone",
+		},
+		["i:6889"] = {
+			["name"] = "Small Egg",
+		},
+		["i:2775"] = {
+			["name"] = "Silver Ore",
+		},
+		["i:2321"] = {
+			["name"] = "Fine Thread",
+		},
+		["i:2672"] = {
+			["name"] = "Stringy Wolf Meat",
+		},
+		["i:1475"] = {
+			["name"] = "Small Venom Sac",
+		},
+		["i:67229"] = {
+			["name"] = "Stag Flank",
+		},
+		["i:38682"] = {
+			["name"] = "Enchanting Vellum",
+		},
+		["i:3576"] = {
+			["name"] = "Tin Bar",
+		},
+		["i:2840"] = {
+			["name"] = "Copper Bar",
+		},
+		["i:2592"] = {
+			["name"] = "Wool Cloth",
+		},
+		["i:2835"] = {
+			["name"] = "Rough Stone",
+		},
+		["i:2770"] = {
+			["name"] = "Copper Ore",
+		},
+		["i:769"] = {
+			["name"] = "Chunk of Boar Meat",
+		},
+		["i:5468"] = {
+			["name"] = "Soft Frenzy Flesh",
+		},
+		["i:2771"] = {
+			["name"] = "Tin Ore",
+		},
+		["i:6217"] = {
+			["name"] = "Copper Rod",
+		},
+		["i:2678"] = {
+			["name"] = "Mild Spices",
+		},
+		["i:159"] = {
+			["name"] = "Refreshing Spring Water",
+		},
+		["i:2673"] = {
+			["name"] = "Coyote Meat",
+		},
+		["i:2318"] = {
+			["name"] = "Light Leather",
+		},
+		["i:2880"] = {
+			["name"] = "Weak Flux",
+		},
+		["i:10938"] = {
+			["name"] = "Lesser Magic Essence",
+		},
+		["i:774"] = {
+			["name"] = "Malachite",
+		},
+		["i:5503"] = {
+			["name"] = "Clam Meat",
+		},
+		["i:30817"] = {
+			["name"] = "Simple Flour",
+		},
+	},
+	["f@Horde - La Croisade écarlate@buyAH"] = false,
+	["f@Alliance - La Croisade écarlate@disableCheckBox"] = false,
+	["f@Alliance - Elune@crafts"] = {
+		[188323] = {
+			["mats"] = {
+				["i:124106"] = 5,
+				["i:124124"] = 3,
+				["i:124444"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Infernal Alchemist Stone",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127842",
+		},
+		[156579] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109128"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Strength Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109219",
+		},
+		[156587] = {
+			["mats"] = {
+				["i:109124"] = 20,
+				["i:109118"] = 10,
+			},
+			["numResult"] = 1,
+			["name"] = "Alchemical Catalyst",
+			["profession"] = "Alchemy",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["hasCD"] = true,
+			["queued"] = 0,
+			["itemString"] = "i:108996",
+		},
+		[188347] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124101"] = 10,
+				["i:124102"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Flask of Ten Thousand Scars",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127850",
+		},
+		[188300] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:128304"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Ancient Healing Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127834",
+		},
+		[188308] = {
+			["mats"] = {
+				["i:127834"] = 1,
+				["i:124101"] = 20,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draught of Raw Magic",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127837",
+		},
+		[188316] = {
+			["mats"] = {
+				["i:124104"] = 5,
+				["i:127835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Skaggldrynk",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127840",
+		},
+		[188332] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 1,
+				["i:124101"] = 2,
+				["i:124103"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Unbending Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127845",
+		},
+		[175866] = {
+			["mats"] = {
+				["i:109123"] = 1,
+				["i:109143"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Water Breathing Elixir",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:116271",
+		},
+		[188301] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:128304"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Ancient Mana Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127835",
+		},
+		[156581] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109127"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Channeled Mana Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109221",
+		},
+		[188341] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124104"] = 10,
+				["i:124103"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Flask of the Seventh Demon",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127848",
+		},
+		[2329] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2449"] = 1,
+				["i:765"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Elixir of Lion's Strength",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2454",
+		},
+		[188326] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 1,
+				["i:124104"] = 2,
+				["i:124102"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Potion of Deadly Grace",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127843",
+		},
+		[156582] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109126"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Mana Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109222",
+		},
+		[175868] = {
+			["mats"] = {
+				["i:109141"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Pure Rage Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:118704",
+		},
+		[2330] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2447"] = 1,
+				["i:765"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Minor Healing Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:118",
+		},
+		[188311] = {
+			["mats"] = {
+				["i:127834"] = 1,
+				["i:124102"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Sylvan Elixir",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127838",
+		},
+		[175853] = {
+			["mats"] = {
+				["i:109144"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Swiftness Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:116266",
+		},
+		[188335] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 1,
+				["i:124101"] = 2,
+				["i:124102"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Leytorrent Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127846",
+		},
+		[175869] = {
+			["mats"] = {
+				["i:109140"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Water Walking Elixir",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:118711",
+		},
+		[188800] = {
+			["mats"] = {
+				["i:124105"] = 1,
+				["i:124104"] = 10,
+				["i:124101"] = 10,
+				["i:124102"] = 10,
+				["i:124103"] = 10,
+			},
+			["numResult"] = 1,
+			["name"] = "Wild Transmutation",
+			["profession"] = "Alchemy",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["hasCD"] = true,
+			["queued"] = 0,
+			["itemString"] = "i:141323",
+		},
+		[188304] = {
+			["mats"] = {
+				["i:127834"] = 1,
+				["i:127835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Ancient Rejuvenation Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127836",
+		},
+		[188320] = {
+			["mats"] = {
+				["i:127836"] = 1,
+				["i:124105"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Skystep Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127841",
+		},
+		[156584] = {
+			["mats"] = {
+				["i:109223"] = 1,
+				["i:109222"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Rejuvenation Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109226",
+		},
+		[188344] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124101"] = 10,
+				["i:124103"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Flask of the Countless Armies",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127849",
+		},
+		[7183] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:765"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Elixir of Minor Defense",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5997",
+		},
+		[188313] = {
+			["mats"] = {
+				["i:124103"] = 5,
+				["i:127835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Avalanche Elixir",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127839",
+		},
+		[156569] = {
+			["mats"] = {
+				["i:108996"] = 5,
+				["i:113262"] = 1,
+				["i:109145"] = 5,
+			},
+			["numResult"] = 5,
+			["profession"] = "Alchemy",
+			["name"] = "Greater Draenic Agility Flask",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109153",
+		},
+		[156577] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109125"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Agility Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109217",
+		},
+		[156585] = {
+			["mats"] = {
+				["i:109137"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Crescent Oil",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109123",
+		},
+		[175867] = {
+			["mats"] = {
+				["i:109123"] = 1,
+				["i:109139"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Living Action Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:116276",
+		},
+		[188330] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 1,
+				["i:124104"] = 2,
+				["i:124103"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Potion of the Old War",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127844",
+		},
+		[188338] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124104"] = 10,
+				["i:124102"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Flask of the Whispered Pact",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127847",
+		},
+		[175865] = {
+			["mats"] = {
+				["i:109123"] = 1,
+				["i:109138"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Invisibility Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:116268",
+		},
+		[175880] = {
+			["mats"] = {
+				["i:109124"] = 5,
+			},
+			["numResult"] = 1,
+			["name"] = "Secret of Draenor Alchemy",
+			["profession"] = "Alchemy",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["hasCD"] = true,
+			["queued"] = 0,
+			["itemString"] = "i:118700",
+		},
+		[156568] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109129"] = 4,
+				["i:109128"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Stamina Flask",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109152",
+		},
+		[156580] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109124"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Versatility Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109220",
+		},
+		[156561] = {
+			["mats"] = {
+				["i:109127"] = 4,
+				["i:3371"] = 1,
+				["i:109125"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Agility Flask",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109145",
+		},
+		[156578] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109129"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Draenic Intellect Potion",
+			["players"] = {
+				["Skasch"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109218",
+		},
+	},
+	["f@Neutral - La Croisade écarlate@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Neutral - La Croisade écarlate@mats"] = {
+	},
+	["f@Alliance - Elune@ignoreIntermediate"] = false,
+	["f@Alliance - Elune@ignoreAlts"] = false,
+	["f@Alliance - Elune@playerProfessions"] = {
+		["Skasch"] = {
+			["Alchemy"] = {
+				["isSecondary"] = false,
+				["level"] = 780,
+				["maxLevel"] = 800,
+				["link"] = "|cffffd000|Htrade:Player-1315-0854687C:195095:171|h[Alchemy]|h|r",
+			},
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 11,
+				["maxLevel"] = 700,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 141,
+				["maxLevel"] = 700,
+			},
+			["Enchanting"] = {
+				["isSecondary"] = false,
+				["level"] = 44,
+				["maxLevel"] = 800,
+			},
+		},
+	},
+	["g@ @priceColumn"] = 1,
+	["f@Neutral - La Croisade écarlate@disableCheckBox"] = false,
+	["g@ @questSmartCrafting"] = true,
+	["g@ @profitPercent"] = 0.05,
+	["f@Alliance - La Croisade écarlate@inkTrade"] = false,
+	["g@ @helpPlatesShown"] = {
+		["gatherSelection"] = true,
+		["gatheringFrame"] = true,
+		["groups"] = true,
+		["profession"] = true,
+	},
+	["f@Neutral - La Croisade écarlate@buyAH"] = false,
+	["f@Alliance - La Croisade écarlate@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Neutral - La Croisade écarlate@evenStacks"] = false,
+	["f@Alliance - La Croisade écarlate@evenStacks"] = false,
+	["f@Alliance - Elune@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["f@Alliance - La Croisade écarlate@professionScanCache"] = {
+		["SeinaFirst Aid"] = {
+			["hash"] = 9879888,
+			["scanTime"] = 1527704968,
+		},
+		["SeinaBlacksmithing"] = {
+			["hash"] = 9602414,
+			["scanTime"] = 1527705119,
+		},
+		["SeinaCooking"] = {
+			["hash"] = 5762789,
+			["scanTime"] = 1527708993,
+		},
+		["SeinaMining"] = {
+			["hash"] = 13699071,
+			["scanTime"] = 1527709028,
+		},
+		["OnakaEnchanting"] = {
+			["hash"] = 6233554,
+			["scanTime"] = 1528837373,
+		},
+	},
+	["f@Neutral - La Croisade écarlate@professionScanCache"] = {
+	},
+	["f@Horde - La Croisade écarlate@ignoreDECheckBox"] = false,
+	["f@Horde - La Croisade écarlate@mats"] = {
+		["i:35625"] = {
+			["name"] = "Eternal Life",
+		},
+		["i:1529"] = {
+			["name"] = "Jade",
+		},
+		["i:2996"] = {
+			["name"] = "Bolt of Linen Cloth",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:2321"] = {
+			["name"] = "Fine Thread",
+		},
+		["i:130870"] = {
+			["name"] = "Tanned Stonehide Leather",
+		},
+		["i:127286"] = {
+			["name"] = "Tanithria's Silkweave",
+		},
+		["i:52329"] = {
+			["name"] = "Volatile Life",
+		},
+		["i:14256"] = {
+			["name"] = "Felcloth",
+		},
+		["i:14227"] = {
+			["name"] = "Ironweb Spider Silk",
+		},
+		["i:3355"] = {
+			["name"] = "Wild Steelbloom",
+		},
+		["i:22445"] = {
+			["name"] = "Arcane Dust",
+		},
+		["i:6217"] = {
+			["name"] = "Copper Rod",
+		},
+		["i:2678"] = {
+			["name"] = "Mild Spices",
+		},
+		["i:2934"] = {
+			["name"] = "Ruined Leather Scraps",
+		},
+		["i:21887"] = {
+			["name"] = "Knothide Leather",
+		},
+		["i:52326"] = {
+			["name"] = "Volatile Water",
+		},
+		["i:2842"] = {
+			["name"] = "Silver Bar",
+		},
+		["i:109126"] = {
+			["name"] = "Gorgrond Flytrap",
+		},
+		["i:6371"] = {
+			["name"] = "Fire Oil",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:2447"] = {
+			["name"] = "Peacebloom",
+		},
+		["i:10286"] = {
+			["name"] = "Heart of the Wild",
+		},
+		["i:128304"] = {
+			["name"] = "Yseralline Seed",
+		},
+		["i:109127"] = {
+			["name"] = "Starflower",
+		},
+		["i:52078"] = {
+			["name"] = "Chaos Orb",
+		},
+		["i:14341"] = {
+			["name"] = "Rune Thread",
+		},
+		["i:2325"] = {
+			["name"] = "Black Dye",
+		},
+		["i:2604"] = {
+			["name"] = "Red Dye",
+		},
+		["i:3383"] = {
+			["name"] = "Elixir of Wisdom",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:6260"] = {
+			["name"] = "Blue Dye",
+		},
+		["i:53643"] = {
+			["name"] = "Bolt of Embersilk Cloth",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:118"] = {
+			["name"] = "Minor Healing Potion",
+		},
+		["i:133591"] = {
+			["name"] = "River Onion",
+		},
+		["i:5503"] = {
+			["name"] = "Clam Meat",
+		},
+		["i:818"] = {
+			["name"] = "Tigerseye",
+		},
+		["i:10285"] = {
+			["name"] = "Shadow Silk",
+		},
+		["i:21877"] = {
+			["name"] = "Netherweave Cloth",
+		},
+		["i:14343"] = {
+			["name"] = "Small Brilliant Shard",
+		},
+		["i:2320"] = {
+			["name"] = "Coarse Thread",
+		},
+		["i:36860"] = {
+			["name"] = "Eternal Fire",
+		},
+		["i:4234"] = {
+			["name"] = "Heavy Leather",
+		},
+		["i:9210"] = {
+			["name"] = "Ghost Dye",
+		},
+		["i:156930"] = {
+			["name"] = "Rich Illusion Dust",
+		},
+		["i:133607"] = {
+			["name"] = "Silver Mackerel",
+		},
+		["i:2835"] = {
+			["name"] = "Rough Stone",
+		},
+		["i:38425"] = {
+			["name"] = "Heavy Borean Leather",
+		},
+		["i:7068"] = {
+			["name"] = "Elemental Fire",
+		},
+		["i:2324"] = {
+			["name"] = "Bleach",
+		},
+		["i:3371"] = {
+			["name"] = "Crystal Vial",
+		},
+		["i:6361"] = {
+			["name"] = "Raw Rainbow Fin Albacore",
+		},
+		["i:2318"] = {
+			["name"] = "Light Leather",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:109139"] = {
+			["name"] = "Fat Sleeper Flesh",
+		},
+		["i:3182"] = {
+			["name"] = "Spider's Silk",
+		},
+		["i:127382"] = {
+			["name"] = "Tanithria's Sharpened Spritethorn",
+		},
+		["i:52555"] = {
+			["name"] = "Hypnotic Dust",
+		},
+		["i:8153"] = {
+			["name"] = "Wildvine",
+		},
+		["i:124440"] = {
+			["name"] = "Arkhana",
+		},
+		["i:6037"] = {
+			["name"] = "Truesilver Bar",
+		},
+		["i:1475"] = {
+			["name"] = "Small Venom Sac",
+		},
+		["i:2776"] = {
+			["name"] = "Gold Ore",
+		},
+		["i:16202"] = {
+			["name"] = "Lesser Eternal Essence",
+		},
+		["i:2592"] = {
+			["name"] = "Wool Cloth",
+		},
+		["i:4339"] = {
+			["name"] = "Bolt of Mageweave",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:124113"] = {
+			["name"] = "Stonehide Leather",
+		},
+		["i:37704"] = {
+			["name"] = "Crystallized Life",
+		},
+		["i:38426"] = {
+			["name"] = "Eternium Thread",
+		},
+		["i:10938"] = {
+			["name"] = "Lesser Magic Essence",
+		},
+		["i:2673"] = {
+			["name"] = "Coyote Meat",
+		},
+		["i:769"] = {
+			["name"] = "Chunk of Boar Meat",
+		},
+		["i:2836"] = {
+			["name"] = "Coarse Stone",
+		},
+		["i:774"] = {
+			["name"] = "Malachite",
+		},
+		["i:109144"] = {
+			["name"] = "Blackwater Whiptail Flesh",
+		},
+		["i:3820"] = {
+			["name"] = "Stranglekelp",
+		},
+		["i:2589"] = {
+			["name"] = "Linen Cloth",
+		},
+		["i:34052"] = {
+			["name"] = "Dream Shard",
+		},
+		["i:6358"] = {
+			["name"] = "Oily Blackmouth",
+		},
+		["i:6889"] = {
+			["name"] = "Small Egg",
+		},
+		["i:159"] = {
+			["name"] = "Refreshing Spring Water",
+		},
+		["i:6359"] = {
+			["name"] = "Firefin Snapper",
+		},
+		["i:8343"] = {
+			["name"] = "Heavy Silken Thread",
+		},
+		["i:765"] = {
+			["name"] = "Silverleaf",
+		},
+		["i:4305"] = {
+			["name"] = "Bolt of Silk Cloth",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:109142"] = {
+			["name"] = "Sea Scorpion Segment",
+		},
+		["i:6261"] = {
+			["name"] = "Orange Dye",
+		},
+		["i:127835"] = {
+			["name"] = "Ancient Mana Potion",
+		},
+		["i:4291"] = {
+			["name"] = "Silken Thread",
+		},
+		["i:33470"] = {
+			["name"] = "Frostweave Cloth",
+		},
+		["i:76061"] = {
+			["name"] = "Spirit of Harmony",
+		},
+		["i:127834"] = {
+			["name"] = "Ancient Healing Potion",
+		},
+		["i:2770"] = {
+			["name"] = "Copper Ore",
+		},
+		["i:3827"] = {
+			["name"] = "Mana Potion",
+		},
+		["i:127359"] = {
+			["name"] = "Basic Silkweave Robe",
+		},
+		["i:82441"] = {
+			["name"] = "Bolt of Windwool Cloth",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:2605"] = {
+			["name"] = "Green Dye",
+		},
+		["i:34055"] = {
+			["name"] = "Greater Cosmic Essence",
+		},
+		["i:34054"] = {
+			["name"] = "Infinite Dust",
+		},
+		["i:37701"] = {
+			["name"] = "Crystallized Earth",
+		},
+		["i:2771"] = {
+			["name"] = "Tin Ore",
+		},
+		["i:8170"] = {
+			["name"] = "Rugged Leather",
+		},
+		["i:109140"] = {
+			["name"] = "Blind Lake Sturgeon Flesh",
+		},
+		["i:130891"] = {
+			["name"] = "Namha's Tanning Mixture",
+		},
+		["i:127287"] = {
+			["name"] = "Tanithria's Thread",
+		},
+		["i:23112"] = {
+			["name"] = "Golden Draenite",
+		},
+		["i:109141"] = {
+			["name"] = "Fire Ammonite Tentacle",
+		},
+		["i:5465"] = {
+			["name"] = "Small Spider Leg",
+		},
+		["i:12662"] = {
+			["name"] = "Demonic Rune",
+		},
+		["i:41593"] = {
+			["name"] = "Ebonweave",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:130872"] = {
+			["name"] = "Stonehide Leather Lining",
+		},
+		["i:14048"] = {
+			["name"] = "Bolt of Runecloth",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:14047"] = {
+			["name"] = "Runecloth",
+		},
+		["i:36783"] = {
+			["name"] = "Northsea Pearl",
+		},
+		["i:30817"] = {
+			["name"] = "Simple Flour",
+		},
+		["i:67229"] = {
+			["name"] = "Stag Flank",
+		},
+		["i:5500"] = {
+			["name"] = "Iridescent Pearl",
+		},
+		["i:2672"] = {
+			["name"] = "Stringy Wolf Meat",
+		},
+		["i:109143"] = {
+			["name"] = "Abyssal Gulper Eel Flesh",
+		},
+		["i:2997"] = {
+			["name"] = "Bolt of Woolen Cloth",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:27668"] = {
+			["name"] = "Lynx Meat",
+		},
+		["i:41511"] = {
+			["name"] = "Bolt of Imbued Frostweave",
+		},
+		["i:7071"] = {
+			["name"] = "Iron Buckle",
+		},
+		["i:5468"] = {
+			["name"] = "Soft Frenzy Flesh",
+		},
+		["i:124101"] = {
+			["name"] = "Aethril",
+		},
+		["i:127289"] = {
+			["name"] = "Tanithria's Purple Dye",
+		},
+		["i:53010"] = {
+			["name"] = "Embersilk Cloth",
+		},
+		["i:127343"] = {
+			["name"] = "Lyndras' Runic Catgut",
+		},
+		["i:2841"] = {
+			["name"] = "Bronze Bar",
+		},
+		["i:109137"] = {
+			["name"] = "Crescent Saberfish Flesh",
+		},
+		["i:109138"] = {
+			["name"] = "Jawless Skulker Flesh",
+		},
+		["i:52325"] = {
+			["name"] = "Volatile Fire",
+		},
+		["i:109125"] = {
+			["name"] = "Fireweed",
+		},
+		["i:7069"] = {
+			["name"] = "Elemental Air",
+		},
+		["i:109123"] = {
+			["name"] = "Crescent Oil",
+		},
+		["i:35627"] = {
+			["name"] = "Eternal Shadow",
+		},
+		["i:130875"] = {
+			["name"] = "Stonehide Leather Strip",
+		},
+		["i:41594"] = {
+			["name"] = "Moonshroud",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:10940"] = {
+			["name"] = "Strange Dust",
+		},
+		["i:35622"] = {
+			["name"] = "Eternal Water",
+		},
+		["i:109129"] = {
+			["name"] = "Talador Orchid",
+		},
+		["i:2319"] = {
+			["name"] = "Medium Leather",
+		},
+		["i:2453"] = {
+			["name"] = "Bruiseweed",
+		},
+		["i:5498"] = {
+			["name"] = "Small Lustrous Pearl",
+		},
+		["i:2452"] = {
+			["name"] = "Swiftthistle",
+		},
+		["i:21840"] = {
+			["name"] = "Bolt of Netherweave",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:6370"] = {
+			["name"] = "Blackmouth Oil",
+		},
+		["i:4470"] = {
+			["name"] = "Simple Wood",
+		},
+		["i:38682"] = {
+			["name"] = "Enchanting Vellum",
+		},
+		["i:124121"] = {
+			["name"] = "Wildfowl Egg",
+		},
+		["i:2772"] = {
+			["name"] = "Iron Ore",
+		},
+		["i:41510"] = {
+			["name"] = "Bolt of Frostweave",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:7910"] = {
+			["name"] = "Star Ruby",
+		},
+		["i:124437"] = {
+			["name"] = "Shal'dorei Silk",
+		},
+		["i:20816"] = {
+			["name"] = "Delicate Copper Wire",
+		},
+		["i:4341"] = {
+			["name"] = "Yellow Dye",
+		},
+		["i:1210"] = {
+			["name"] = "Shadowgem",
+		},
+		["i:3356"] = {
+			["name"] = "Kingsblood",
+		},
+		["i:109124"] = {
+			["name"] = "Frostweed",
+		},
+		["i:2449"] = {
+			["name"] = "Earthroot",
+		},
+		["i:52328"] = {
+			["name"] = "Volatile Air",
+		},
+		["i:16204"] = {
+			["name"] = "Light Illusion Dust",
+		},
+		["i:37702"] = {
+			["name"] = "Crystallized Fire",
+		},
+		["i:130868"] = {
+			["name"] = "Fresh Stonehide Pelt",
+		},
+		["i:10939"] = {
+			["name"] = "Greater Magic Essence",
+		},
+		["i:72988"] = {
+			["name"] = "Windwool Cloth",
+		},
+		["i:2450"] = {
+			["name"] = "Briarthorn",
+		},
+		["i:127291"] = {
+			["name"] = "Tanithria's Red Dye",
+		},
+		["i:7077"] = {
+			["name"] = "Heart of Fire",
+		},
+		["i:109118"] = {
+			["name"] = "Blackrock Ore",
+		},
+		["i:127681"] = {
+			["name"] = "Sharp Spritethorn",
+		},
+		["i:42253"] = {
+			["name"] = "Iceweb Spider Silk",
+		},
+		["i:127037"] = {
+			["name"] = "Runic Catgut",
+		},
+		["i:7067"] = {
+			["name"] = "Elemental Earth",
+		},
+		["i:4306"] = {
+			["name"] = "Silk Cloth",
+		},
+		["i:2775"] = {
+			["name"] = "Silver Ore",
+		},
+		["i:4340"] = {
+			["name"] = "Gray Dye",
+		},
+		["i:41595"] = {
+			["name"] = "Spellweave",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:3577"] = {
+			["name"] = "Gold Bar",
+			["customValue"] = "first(min(vendorbuy, buying, avgbuy,), selling, avgsell, dbmarket, dbminbuyout)",
+		},
+		["i:130869"] = {
+			["name"] = "Shaved Stonehide Pelt",
+		},
+		["i:109128"] = {
+			["name"] = "Nagrand Arrowbloom",
+		},
+		["i:43102"] = {
+			["name"] = "Frozen Orb",
+		},
+		["i:111557"] = {
+			["name"] = "Sumptuous Fur",
+		},
+		["i:3576"] = {
+			["name"] = "Tin Bar",
+		},
+		["i:52327"] = {
+			["name"] = "Volatile Earth",
+		},
+		["i:127292"] = {
+			["name"] = "Tanithria's Green Dye",
+		},
+		["i:36930"] = {
+			["name"] = "Monarch Topaz",
+		},
+		["i:133593"] = {
+			["name"] = "Royal Olive",
+		},
+		["i:124115"] = {
+			["name"] = "Stormscale",
+		},
+		["i:7070"] = {
+			["name"] = "Elemental Water",
+		},
+		["i:127290"] = {
+			["name"] = "Tanithria's Blue Dye",
+		},
+		["i:124439"] = {
+			["name"] = "Unbroken Tooth",
+		},
+		["i:4338"] = {
+			["name"] = "Mageweave Cloth",
+		},
+		["i:16203"] = {
+			["name"] = "Greater Eternal Essence",
+		},
+		["i:124124"] = {
+			["name"] = "Blood of Sargeras",
+		},
+		["i:785"] = {
+			["name"] = "Mageroyal",
+		},
+		["i:2840"] = {
+			["name"] = "Copper Bar",
+		},
+		["i:35624"] = {
+			["name"] = "Eternal Earth",
+		},
+		["i:4304"] = {
+			["name"] = "Thick Leather",
+		},
+	},
+	["f@Alliance - Elune@evenStacks"] = false,
+	["f@Alliance - Elune@gathering"] = {
+		["extraMats"] = {
+		},
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["gatheredMats"] = false,
+		["neededMats"] = {
+		},
+		["selectedSources"] = {
+		},
+		["professions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["destroyingMats"] = {
+		},
+	},
+	["f@Alliance - La Croisade écarlate@playerProfessions"] = {
+		["Seina"] = {
+			["Cooking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F367E8:3102:185|h[Cooking]|h|r",
+				["isSecondary"] = true,
+				["level"] = 84,
+				["maxLevel"] = 150,
+			},
+			["Blacksmithing"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F367E8:3100:164|h[Blacksmithing]|h|r",
+				["isSecondary"] = false,
+				["level"] = 76,
+				["maxLevel"] = 150,
+			},
+			["First Aid"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F367E8:3274:129|h[First Aid]|h|r",
+				["isSecondary"] = true,
+				["level"] = 123,
+				["maxLevel"] = 150,
+			},
+			["Mining"] = {
+				["isSecondary"] = false,
+				["level"] = 150,
+				["prompted"] = true,
+				["maxLevel"] = 150,
+			},
+		},
+		["Onaka"] = {
+			["Tailoring"] = {
+				["isSecondary"] = false,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["Enchanting"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F7C6CB:7411:333|h[Enchanting]|h|r",
+				["isSecondary"] = false,
+				["level"] = 37,
+				["maxLevel"] = 75,
+			},
+		},
+	},
+	["f@Alliance - Elune@professionScanCache"] = {
+		["SkaschAlchemy"] = {
+			["hash"] = 15597975,
+			["scanTime"] = 1529525603,
+		},
+	},
+	["f@Alliance - Elune@inkTrade"] = false,
+	["_version"] = 7,
+	["f@Alliance - Elune@disableCheckBox"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Tsuma - La Croisade écarlate", -- [1]
+			"Seina - La Croisade écarlate", -- [2]
+			"Tenga - La Croisade écarlate", -- [3]
+			"Onaka - La Croisade écarlate", -- [4]
+			"Higi - La Croisade écarlate", -- [5]
+			"Tsuri - La Croisade écarlate", -- [6]
+			"Sueki - La Croisade écarlate", -- [7]
+			"Suzui - La Croisade écarlate", -- [8]
+			"Vermily - La Croisade écarlate", -- [9]
+			"Simetra - La Croisade écarlate", -- [10]
+			"Skasch - Elune", -- [11]
+			"Kanpa - La Croisade écarlate", -- [12]
+			"Skasch - La Croisade écarlate", -- [13]
+			"Asane - La Croisade écarlate", -- [14]
+		},
+		["realm"] = {
+			"La Croisade écarlate", -- [1]
+			"Elune", -- [2]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - La Croisade écarlate", -- [1]
+			"Alliance - La Croisade écarlate", -- [2]
+			"Alliance - Elune", -- [3]
+			"Neutral - La Croisade écarlate", -- [4]
+		},
+	},
+	["f@Neutral - La Croisade écarlate@inkTrade"] = false,
+	["f@Horde - La Croisade écarlate@inkTrade"] = false,
+	["f@Neutral - La Croisade écarlate@playerProfessions"] = {
+	},
+	["f@Alliance - La Croisade écarlate@crafts"] = {
+		[2539] = {
+			["mats"] = {
+				["i:2672"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Spiced Wolf Meat",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2680",
+		},
+		[3319] = {
+			["mats"] = {
+				["i:2840"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Plate Boots",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3469",
+		},
+		[2658] = {
+			["mats"] = {
+				["i:2775"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["name"] = "Silver Bar",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2842",
+		},
+		[2540] = {
+			["mats"] = {
+				["i:769"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Roasted Boar Meat",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2681",
+		},
+		[2737] = {
+			["mats"] = {
+				["i:2840"] = 6,
+				["i:2589"] = 2,
+				["i:2880"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Mace",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2844",
+		},
+		[3320] = {
+			["mats"] = {
+				["i:2835"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Rough Grinding Stone",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3470",
+		},
+		[2659] = {
+			["mats"] = {
+				["i:3576"] = 1,
+				["i:2840"] = 1,
+			},
+			["numResult"] = 2,
+			["profession"] = "Mining",
+			["name"] = "Bronze Bar",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2841",
+		},
+		[2541] = {
+			["mats"] = {
+				["i:2673"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Coyote Steak",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2684",
+		},
+		[2738] = {
+			["mats"] = {
+				["i:2840"] = 6,
+				["i:2589"] = 2,
+				["i:2880"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Axe",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2845",
+		},
+		[6499] = {
+			["mats"] = {
+				["i:5503"] = 1,
+				["i:159"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Boiled Clams",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5525",
+		},
+		[2660] = {
+			["mats"] = {
+				["i:2835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Rough Sharpening Stone",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2862",
+		},
+		[7934] = {
+			["mats"] = {
+				["i:1475"] = 1,
+			},
+			["numResult"] = 3,
+			["profession"] = "First Aid",
+			["name"] = "Anti-Venom",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6452",
+		},
+		[3275] = {
+			["mats"] = {
+				["i:2589"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Linen Bandage",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:1251",
+		},
+		[2661] = {
+			["mats"] = {
+				["i:2840"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Plate Belt",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2851",
+		},
+		[2543] = {
+			["mats"] = {
+				["i:769"] = 1,
+				["i:159"] = 1,
+			},
+			["numResult"] = 2,
+			["profession"] = "Cooking",
+			["name"] = "Westfall Stew",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:733",
+		},
+		[3323] = {
+			["mats"] = {
+				["i:2840"] = 8,
+				["i:3470"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Runed Copper Gauntlets",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3472",
+		},
+		[3276] = {
+			["mats"] = {
+				["i:2589"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Heavy Linen Bandage",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2581",
+		},
+		[2662] = {
+			["mats"] = {
+				["i:2840"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Plate Pants",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2852",
+		},
+		[9983] = {
+			["mats"] = {
+				["i:2840"] = 10,
+				["i:3470"] = 1,
+				["i:2318"] = 1,
+				["i:2880"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Claymore",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:7955",
+		},
+		[3324] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:2840"] = 8,
+				["i:3470"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Runed Copper Pants",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3473",
+		},
+		[3277] = {
+			["mats"] = {
+				["i:2592"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Wool Bandage",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3530",
+		},
+		[2739] = {
+			["mats"] = {
+				["i:2840"] = 6,
+				["i:2589"] = 2,
+				["i:2880"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Shortsword",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2847",
+		},
+		[2663] = {
+			["mats"] = {
+				["i:2840"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Bracers",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2853",
+		},
+		[6412] = {
+			["mats"] = {
+				["i:5465"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Kaldorei Spider Kabob",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5472",
+		},
+		[7428] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:10938"] = 1,
+				["i:10940"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Dodge",
+			["players"] = {
+				["Onaka"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38768",
+		},
+		[7418] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:10940"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Health",
+			["players"] = {
+				["Onaka"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38679",
+		},
+		[93741] = {
+			["mats"] = {
+				["i:67229"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Venison Jerky",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:67230",
+		},
+		[7421] = {
+			["mats"] = {
+				["i:10938"] = 1,
+				["i:6217"] = 1,
+				["i:10940"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Runed Copper Rod",
+			["players"] = {
+				["Onaka"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6218",
+		},
+		[37836] = {
+			["mats"] = {
+				["i:30817"] = 1,
+				["i:2678"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Spice Bread",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:30816",
+		},
+		[8604] = {
+			["mats"] = {
+				["i:6889"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Herb Baked Egg",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6888",
+		},
+		[2538] = {
+			["mats"] = {
+				["i:2672"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Charred Wolf Meat",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2679",
+		},
+		[3115] = {
+			["mats"] = {
+				["i:2835"] = 1,
+				["i:2589"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Rough Weightstone",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3239",
+		},
+		[2544] = {
+			["mats"] = {
+				["i:2674"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Crab Cake",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2683",
+		},
+		[12260] = {
+			["mats"] = {
+				["i:2840"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Rough Copper Vest",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:10421",
+		},
+		[8880] = {
+			["mats"] = {
+				["i:2840"] = 6,
+				["i:3470"] = 1,
+				["i:2318"] = 1,
+				["i:2880"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Dagger",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:7166",
+		},
+		[6415] = {
+			["mats"] = {
+				["i:5468"] = 1,
+			},
+			["numResult"] = 2,
+			["profession"] = "Cooking",
+			["name"] = "Fillet of Frenzy",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5476",
+		},
+		[3304] = {
+			["mats"] = {
+				["i:2771"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["name"] = "Tin Bar",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3576",
+		},
+		[2657] = {
+			["mats"] = {
+				["i:2770"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["name"] = "Copper Bar",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2840",
+		},
+		[3293] = {
+			["mats"] = {
+				["i:2318"] = 2,
+				["i:2880"] = 2,
+				["i:774"] = 2,
+				["i:2840"] = 12,
+				["i:3470"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Blacksmithing",
+			["name"] = "Copper Battle Axe",
+			["players"] = {
+				["Seina"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3488",
+		},
+	},
+	["f@Neutral - La Croisade écarlate@ignoreIntermediate"] = false,
+	["g@ @frameQueueOpen"] = true,
+	["f@Alliance - La Croisade écarlate@buyAH"] = false,
+	["f@Horde - La Croisade écarlate@gathering"] = {
+		["extraMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSources"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["availableMats"] = {
+		},
+	},
+	["f@Neutral - La Croisade écarlate@gathering"] = {
+		["destroyingMats"] = {
+		},
+		["extraMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["selectedSources"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["availableMats"] = {
+		},
+	},
+	["f@Neutral - La Croisade écarlate@crafts"] = {
+	},
+	["g@ @defaultCraftPriceMethod"] = "first(min(buying, selling, dbavg), avgbuy, avgsell, matprice, dbmarket, dbminbuyout, vendorsell)",
+	["f@Horde - La Croisade écarlate@disableCheckBox"] = false,
+	["g@ @ignoreCDCraftCost"] = true,
+	["g@ @ignoreGuilds"] = {
+	},
+	["g@ @defaultMatCostMethod"] = "first(min(vendorbuy, buying, avgbuy, crafting), selling, avgsell, dbmarket, dbminbuyout)",
+	["f@Alliance - La Croisade écarlate@ignoreDECheckBox"] = false,
+	["f@Horde - La Croisade écarlate@professionScanCache"] = {
+		["HigiEnchanting"] = {
+			["hash"] = 12478779,
+			["scanTime"] = 1530041683,
+		},
+		["SuekiSkinning"] = {
+			["hash"] = 2995884,
+			["scanTime"] = 1530310092,
+		},
+		["TsumaCooking"] = {
+			["hash"] = 6379979,
+			["scanTime"] = 1528154793,
+		},
+		["AsaneCooking"] = {
+			["hash"] = 14108490,
+			["scanTime"] = 1530039233,
+		},
+		["AsaneLeatherworking"] = {
+			["hash"] = 15734742,
+			["scanTime"] = 1530041240,
+		},
+		["HigiCooking"] = {
+			["hash"] = 10365162,
+			["scanTime"] = 1528745024,
+		},
+		["TsumaHerbalism"] = {
+			["hash"] = 9581210,
+			["scanTime"] = 1528147650,
+		},
+		["TengaCooking"] = {
+			["hash"] = 6281733,
+			["scanTime"] = 1528675318,
+		},
+		["HigiTailoring"] = {
+			["hash"] = 2044230,
+			["scanTime"] = 1530308154,
+		},
+		["TengaMining"] = {
+			["hash"] = 3493008,
+			["scanTime"] = 1528548357,
+		},
+		["SuekiLeatherworking"] = {
+			["hash"] = 2768419,
+			["scanTime"] = 1530309893,
+		},
+		["TsumaFirst Aid"] = {
+			["hash"] = 11331773,
+			["scanTime"] = 1528068798,
+		},
+		["TengaFirst Aid"] = {
+			["hash"] = 5474448,
+			["scanTime"] = 1528477237,
+		},
+		["TsumaAlchemy"] = {
+			["hash"] = 3757036,
+			["scanTime"] = 1528282834,
+		},
+		["TengaJewelcrafting"] = {
+			["hash"] = 13894387,
+			["scanTime"] = 1528476701,
+		},
+		["HigiFirst Aid"] = {
+			["hash"] = 7987926,
+			["scanTime"] = 1528745021,
+		},
+	},
+	["f@Neutral - La Croisade écarlate@ignoreDECheckBox"] = false,
+	["f@Alliance - La Croisade écarlate@ignoreIntermediate"] = false,
+	["f@Horde - La Croisade écarlate@playerProfessions"] = {
+		["Higi"] = {
+			["Tailoring"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F81BC0:195126:197|h[Tailoring]|h|r",
+				["isSecondary"] = false,
+				["level"] = 700,
+				["maxLevel"] = 800,
+			},
+			["Cooking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F81BC0:2550:185|h[Cooking]|h|r",
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["First Aid"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F81BC0:3273:129|h[First Aid]|h|r",
+				["isSecondary"] = true,
+				["level"] = 700,
+				["maxLevel"] = 700,
+			},
+			["Enchanting"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F81BC0:195096:333|h[Enchanting]|h|r",
+				["isSecondary"] = false,
+				["level"] = 712,
+				["maxLevel"] = 810,
+			},
+		},
+		["Tsuma"] = {
+			["Herbalism"] = {
+				["isSecondary"] = false,
+				["level"] = 782,
+				["prompted"] = true,
+				["maxLevel"] = 800,
+			},
+			["Alchemy"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06E6799D:2259:171|h[Alchemy]|h|r",
+				["isSecondary"] = false,
+				["level"] = 184,
+				["maxLevel"] = 815,
+			},
+			["First Aid"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06E6799D:158741:129|h[First Aid]|h|r",
+				["isSecondary"] = true,
+				["level"] = 385,
+				["maxLevel"] = 700,
+			},
+			["Cooking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06E6799D:158765:185|h[Cooking]|h|r",
+				["isSecondary"] = true,
+				["level"] = 49,
+				["maxLevel"] = 700,
+			},
+		},
+		["Tsuri"] = {
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 60,
+				["maxLevel"] = 150,
+			},
+			["Leatherworking"] = {
+				["isSecondary"] = false,
+				["level"] = 45,
+				["maxLevel"] = 75,
+			},
+			["Skinning"] = {
+				["isSecondary"] = false,
+				["level"] = 70,
+				["maxLevel"] = 150,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 48,
+				["maxLevel"] = 75,
+			},
+		},
+		["Vermily"] = {
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 270,
+				["maxLevel"] = 300,
+			},
+		},
+		["Asane"] = {
+			["Cooking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06FC8E0A:2550:185|h[Cooking]|h|r",
+				["isSecondary"] = true,
+				["level"] = 55,
+				["maxLevel"] = 165,
+			},
+			["Leatherworking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06FC8E0A:2108:165|h[Leatherworking]|h|r",
+				["isSecondary"] = false,
+				["level"] = 12,
+				["maxLevel"] = 75,
+			},
+			["Skinning"] = {
+				["isSecondary"] = false,
+				["level"] = 23,
+				["maxLevel"] = 75,
+			},
+		},
+		["Tenga"] = {
+			["Jewelcrafting"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06E691B9:25230:755|h[Jewelcrafting]|h|r",
+				["isSecondary"] = false,
+				["level"] = 700,
+				["maxLevel"] = 800,
+			},
+			["Mining"] = {
+				["isSecondary"] = false,
+				["level"] = 700,
+				["prompted"] = true,
+				["maxLevel"] = 800,
+			},
+			["First Aid"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06E691B9:3274:129|h[First Aid]|h|r",
+				["isSecondary"] = true,
+				["level"] = 700,
+				["maxLevel"] = 800,
+			},
+			["Cooking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06E691B9:3102:185|h[Cooking]|h|r",
+				["isSecondary"] = true,
+				["level"] = 72,
+				["maxLevel"] = 150,
+			},
+		},
+		["Suzui"] = {
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 270,
+				["maxLevel"] = 300,
+			},
+		},
+		["Sueki"] = {
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["Leatherworking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1086-06F962BE:195119:165|h[Leatherworking]|h|r",
+				["isSecondary"] = false,
+				["level"] = 1,
+				["maxLevel"] = 800,
+			},
+			["Skinning"] = {
+				["isSecondary"] = false,
+				["level"] = 127,
+				["prompted"] = true,
+				["maxLevel"] = 800,
+			},
+		},
+	},
+	["f@Horde - La Croisade écarlate@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["_currentProfile"] = {
+		["Tenga - La Croisade écarlate"] = "Default",
+		["Suzui - La Croisade écarlate"] = "Default",
+		["Tsuri - La Croisade écarlate"] = "Default",
+		["Onaka - La Croisade écarlate"] = "Default",
+		["Skasch - La Croisade écarlate"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Default",
+		["Sueki - La Croisade écarlate"] = "Default",
+		["Vermily - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Higi - La Croisade écarlate"] = "Default",
+		["Seina - La Croisade écarlate"] = "Default",
+		["Simetra - La Croisade écarlate"] = "Default",
+		["Kanpa - La Croisade écarlate"] = "Default",
+	},
+	["g@ @queueSort"] = 1,
+	["f@Alliance - La Croisade écarlate@ignoreAlts"] = false,
+	["f@Alliance - Elune@buyAH"] = false,
+	["f@Alliance - La Croisade écarlate@gathering"] = {
+		["availableMats"] = {
+		},
+		["extraMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["gatheredMats"] = false,
+		["neededMats"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSources"] = {
+		},
+	},
+	["f@Horde - La Croisade écarlate@crafts"] = {
+		[8483] = {
+			["mats"] = {
+				["i:2324"] = 2,
+				["i:4291"] = 1,
+				["i:4305"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:6795",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "White Swashbuckler's Shirt",
+		},
+		[12072] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10024",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Headband",
+		},
+		[12076] = {
+			["mats"] = {
+				["i:4339"] = 5,
+				["i:8343"] = 2,
+				["i:10285"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10028",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shadoweave Shoulders",
+		},
+		[13617] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:3356"] = 3,
+				["i:16204"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38801",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Herbalism",
+		},
+		[12088] = {
+			["mats"] = {
+				["i:4339"] = 5,
+				["i:8343"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10044",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cindercloth Boots",
+		},
+		[12092] = {
+			["mats"] = {
+				["i:8343"] = 3,
+				["i:6037"] = 1,
+				["i:1529"] = 1,
+				["i:8153"] = 4,
+				["i:10286"] = 2,
+				["i:4339"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10041",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dreamweave Circlet",
+		},
+		[55921] = {
+			["mats"] = {
+				["i:41510"] = 10,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41549",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Robe",
+		},
+		[56001] = {
+			["mats"] = {
+				["i:41511"] = 1,
+				["i:35625"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41594",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Moonshroud",
+		},
+		[26771] = {
+			["mats"] = {
+				["i:21840"] = 6,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21852",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Pants",
+		},
+		[185934] = {
+			["mats"] = {
+				["i:124437"] = 13,
+				["i:127037"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Silkweave Bracers",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:126994",
+		},
+		[25278] = {
+			["mats"] = {
+				["i:2841"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:20817",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bronze Setting",
+		},
+		[7623] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Brown Linen Robe",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6238",
+		},
+		[2539] = {
+			["mats"] = {
+				["i:2672"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Spiced Wolf Meat",
+			["players"] = {
+				["Tenga"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2680",
+		},
+		[2540] = {
+			["mats"] = {
+				["i:769"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Roasted Boar Meat",
+			["players"] = {
+				["Tenga"] = true,
+				["Asane"] = true,
+				["Higi"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2681",
+		},
+		[2541] = {
+			["mats"] = {
+				["i:2673"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Coyote Steak",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2684",
+		},
+		[188299] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:128304"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Ancient Healing Potion",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127834",
+		},
+		[7126] = {
+			["mats"] = {
+				["i:2318"] = 3,
+				["i:2320"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Handstitched Leather Vest",
+			["players"] = {
+				["Asane"] = true,
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5957",
+		},
+		[185936] = {
+			["mats"] = {
+				["i:124437"] = 18,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Silkweave Epaulets",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:126992",
+		},
+		[55906] = {
+			["mats"] = {
+				["i:41510"] = 4,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41520",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Boots",
+		},
+		[55922] = {
+			["mats"] = {
+				["i:41510"] = 9,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41545",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Gloves",
+		},
+		[56002] = {
+			["mats"] = {
+				["i:35627"] = 2,
+				["i:41511"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41593",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ebonweave",
+		},
+		[56018] = {
+			["mats"] = {
+				["i:42253"] = 4,
+				["i:38426"] = 1,
+				["i:41593"] = 1,
+				["i:41511"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41984",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Hat of Wintry Doom",
+		},
+		[14807] = {
+			["mats"] = {
+				["i:4470"] = 1,
+				["i:10939"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Greater Magic Wand",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:11288",
+		},
+		[188302] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:128304"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127835",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ancient Mana Potion",
+		},
+		[18420] = {
+			["mats"] = {
+				["i:14048"] = 4,
+				["i:3577"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14103",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Brightcloth Cloak",
+		},
+		[18444] = {
+			["mats"] = {
+				["i:14048"] = 6,
+				["i:14341"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13866",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Headband",
+		},
+		[60969] = {
+			["mats"] = {
+				["i:22445"] = 4,
+				["i:8343"] = 5,
+				["i:23112"] = 4,
+				["i:21840"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:44554",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Flying Carpet",
+		},
+		[134585] = {
+			["mats"] = {
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:92726",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bipsi's Gloves",
+		},
+		[188304] = {
+			["mats"] = {
+				["i:127834"] = 1,
+				["i:127835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Ancient Rejuvenation Potion",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127836",
+		},
+		[55907] = {
+			["mats"] = {
+				["i:41510"] = 5,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41521",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Cowl",
+		},
+		[55923] = {
+			["mats"] = {
+				["i:41510"] = 10,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41550",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Shoulders",
+		},
+		[13378] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:16204"] = 2,
+				["i:16202"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Stamina",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38787",
+		},
+		[8791] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:4305"] = 4,
+				["i:2604"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7058",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crimson Silk Vest",
+		},
+		[56003] = {
+			["mats"] = {
+				["i:36860"] = 2,
+				["i:41511"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41595",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spellweave",
+		},
+		[26764] = {
+			["mats"] = {
+				["i:21840"] = 3,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21849",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Bracers",
+		},
+		[26772] = {
+			["mats"] = {
+				["i:14341"] = 1,
+				["i:21840"] = 6,
+				["i:21887"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21853",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Boots",
+		},
+		[25255] = {
+			["mats"] = {
+				["i:2840"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:20816",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Delicate Copper Wire",
+		},
+		[7745] = {
+			["mats"] = {
+				["i:10939"] = 2,
+				["i:38682"] = 1,
+				["i:10940"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Impact",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38772",
+		},
+		[188307] = {
+			["mats"] = {
+				["i:127834"] = 1,
+				["i:124101"] = 20,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127837",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draught of Raw Magic",
+		},
+		[32801] = {
+			["mats"] = {
+				["i:2836"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:25880",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Coarse Stone Statue",
+		},
+		[75247] = {
+			["mats"] = {
+				["i:53010"] = 6,
+			},
+			["numResult"] = 3,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54442",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Embersilk Net",
+		},
+		[7771] = {
+			["mats"] = {
+				["i:10939"] = 1,
+				["i:38682"] = 1,
+				["i:10940"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Protection",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38775",
+		},
+		[55908] = {
+			["mats"] = {
+				["i:41510"] = 3,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41522",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Belt",
+		},
+		[55924] = {
+			["mats"] = {
+				["i:41510"] = 10,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41544",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Boots",
+		},
+		[194696] = {
+			["mats"] = {
+				["i:124113"] = 15,
+				["i:124439"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:128882",
+			["players"] = {
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Warhide Belt",
+		},
+		[175853] = {
+			["mats"] = {
+				["i:109144"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116266",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Swiftness Potion",
+		},
+		[56020] = {
+			["mats"] = {
+				["i:42253"] = 4,
+				["i:38426"] = 1,
+				["i:41595"] = 1,
+				["i:41511"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41986",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deep Frozen Cord",
+		},
+		[75248] = {
+			["mats"] = {
+				["i:53643"] = 2,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54471",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Belt",
+		},
+		[32178] = {
+			["mats"] = {
+				["i:20816"] = 1,
+				["i:774"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:25438",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Malachite Pendant",
+		},
+		[18413] = {
+			["mats"] = {
+				["i:14048"] = 2,
+				["i:9210"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14142",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ghostweave Gloves",
+		},
+		[18421] = {
+			["mats"] = {
+				["i:14048"] = 4,
+				["i:14341"] = 1,
+				["i:156930"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14132",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Wizardweave Leggings",
+		},
+		[194698] = {
+			["mats"] = {
+				["i:124113"] = 32,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:128880",
+			["players"] = {
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Warhide Pants",
+		},
+		[18437] = {
+			["mats"] = {
+				["i:14048"] = 2,
+				["i:14256"] = 2,
+				["i:8170"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14108",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Felcloth Boots",
+		},
+		[12049] = {
+			["mats"] = {
+				["i:4339"] = 2,
+				["i:4291"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:9999",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Leggings",
+		},
+		[18453] = {
+			["mats"] = {
+				["i:14048"] = 7,
+				["i:14256"] = 3,
+				["i:12662"] = 2,
+				["i:8170"] = 4,
+				["i:14341"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14112",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Felcloth Shoulders",
+		},
+		[45545] = {
+			["mats"] = {
+				["i:33470"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["itemString"] = "i:34721",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Bandage",
+		},
+		[7827] = {
+			["mats"] = {
+				["i:6361"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["itemString"] = "i:5095",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Rainbow Fin Albacore",
+		},
+		[12065] = {
+			["mats"] = {
+				["i:4339"] = 4,
+				["i:4291"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10050",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mageweave Bag",
+		},
+		[12069] = {
+			["mats"] = {
+				["i:4339"] = 5,
+				["i:7077"] = 2,
+				["i:8343"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10042",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cindercloth Robe",
+		},
+		[75249] = {
+			["mats"] = {
+				["i:53643"] = 2,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54473",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Bracers",
+		},
+		[12077] = {
+			["mats"] = {
+				["i:2324"] = 1,
+				["i:4339"] = 3,
+				["i:2325"] = 1,
+				["i:8343"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10053",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Simple Black Dress",
+		},
+		[7837] = {
+			["mats"] = {
+				["i:6359"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:6371",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Fire Oil",
+		},
+		[93741] = {
+			["mats"] = {
+				["i:67229"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Venison Jerky",
+			["players"] = {
+				["Tenga"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:67230",
+		},
+		[7841] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2452"] = 1,
+				["i:6370"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:6372",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Swim Speed Potion",
+		},
+		[55925] = {
+			["mats"] = {
+				["i:42253"] = 2,
+				["i:38426"] = 2,
+				["i:41511"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41553",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Duskweave Leggings",
+		},
+		[55941] = {
+			["mats"] = {
+				["i:42253"] = 2,
+				["i:38426"] = 2,
+				["i:41511"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41554",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Duskweave Robe",
+		},
+		[59582] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 3,
+				["i:37702"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43969",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Belt",
+		},
+		[56021] = {
+			["mats"] = {
+				["i:42253"] = 4,
+				["i:38426"] = 1,
+				["i:41594"] = 1,
+				["i:41511"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42093",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostmoon Pants",
+		},
+		[9059] = {
+			["mats"] = {
+				["i:2318"] = 2,
+				["i:2320"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Handstitched Leather Bracers",
+			["players"] = {
+				["Asane"] = true,
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:7277",
+		},
+		[2657] = {
+			["mats"] = {
+				["i:2770"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["name"] = "Copper Bar",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 2000,
+			["itemString"] = "i:2840",
+		},
+		[7863] = {
+			["mats"] = {
+				["i:16204"] = 4,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Stamina",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38785",
+		},
+		[3170] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2449"] = 2,
+				["i:2447"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Weak Troll's Blood Elixir",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3382",
+		},
+		[3171] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:785"] = 1,
+				["i:2450"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:3383",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Wisdom",
+		},
+		[25280] = {
+			["mats"] = {
+				["i:2842"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:20818",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elegant Silver Ring",
+		},
+		[3173] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:785"] = 1,
+				["i:3820"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:3385",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Mana Potion",
+		},
+		[190869] = {
+			["mats"] = {
+				["i:124440"] = 15,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:128540",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Word of Versatility",
+		},
+		[3176] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2453"] = 2,
+				["i:2450"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:3388",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Strong Troll's Blood Elixir",
+		},
+		[3177] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:3355"] = 1,
+				["i:3820"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:3389",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Defense",
+		},
+		[31460] = {
+			["mats"] = {
+				["i:21877"] = 3,
+			},
+			["numResult"] = 2,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:24268",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Net",
+		},
+		[8604] = {
+			["mats"] = {
+				["i:6889"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Herb Baked Egg",
+			["players"] = {
+				["Tenga"] = true,
+				["Asane"] = true,
+				["Higi"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6888",
+		},
+		[26925] = {
+			["mats"] = {
+				["i:2840"] = 1,
+				["i:20816"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:21931",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Woven Copper Ring",
+		},
+		[55910] = {
+			["mats"] = {
+				["i:41510"] = 7,
+				["i:38426"] = 4,
+				["i:36783"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41523",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mystic Frostwoven Shoulders",
+		},
+		[74964] = {
+			["mats"] = {
+				["i:53010"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:53643",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Embersilk Cloth",
+		},
+		[59583] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 3,
+				["i:37702"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43974",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Bracers",
+		},
+		[14293] = {
+			["mats"] = {
+				["i:4470"] = 1,
+				["i:10938"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Lesser Magic Wand",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:11287",
+		},
+		[172540] = {
+			["mats"] = {
+				["i:109142"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Healing Tonic",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:109223",
+		},
+		[7929] = {
+			["mats"] = {
+				["i:4306"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Heavy Silk Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6451",
+		},
+		[7420] = {
+			["mats"] = {
+				["i:10940"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Health",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38766",
+		},
+		[32179] = {
+			["mats"] = {
+				["i:20816"] = 1,
+				["i:818"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:25439",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Tigerseye Band",
+		},
+		[7426] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:10938"] = 1,
+				["i:10940"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Absorption",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38767",
+		},
+		[18406] = {
+			["mats"] = {
+				["i:14048"] = 5,
+				["i:14227"] = 1,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13858",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Robe",
+		},
+		[18414] = {
+			["mats"] = {
+				["i:14048"] = 4,
+				["i:3577"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14100",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Brightcloth Robe",
+		},
+		[6412] = {
+			["mats"] = {
+				["i:5465"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Kaldorei Spider Kabob",
+			["players"] = {
+				["Tenga"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5472",
+		},
+		[18438] = {
+			["mats"] = {
+				["i:14048"] = 5,
+				["i:14227"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13865",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Pants",
+		},
+		[18446] = {
+			["mats"] = {
+				["i:14048"] = 8,
+				["i:14341"] = 1,
+				["i:156930"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14128",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Wizardweave Robe",
+		},
+		[32259] = {
+			["mats"] = {
+				["i:2835"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:25498",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Rough Stone Statue",
+		},
+		[172542] = {
+			["mats"] = {
+				["i:109141"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Fire Ammonite Oil",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:116981",
+		},
+		[75253] = {
+			["mats"] = {
+				["i:53643"] = 7,
+				["i:52325"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54478",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Gloves",
+		},
+		[8760] = {
+			["mats"] = {
+				["i:4305"] = 2,
+				["i:6260"] = 2,
+				["i:2321"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7048",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Azure Silk Hood",
+		},
+		[8764] = {
+			["mats"] = {
+				["i:4305"] = 3,
+				["i:7067"] = 1,
+				["i:2321"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7051",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Earthen Vest",
+		},
+		[8772] = {
+			["mats"] = {
+				["i:4305"] = 4,
+				["i:7071"] = 1,
+				["i:4291"] = 1,
+				["i:2604"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7055",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crimson Silk Belt",
+		},
+		[8776] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Linen Belt",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:7026",
+		},
+		[55943] = {
+			["mats"] = {
+				["i:42253"] = 2,
+				["i:38426"] = 2,
+				["i:41511"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41555",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Duskweave Wristwraps",
+		},
+		[175865] = {
+			["mats"] = {
+				["i:109138"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116268",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 3,
+			["name"] = "Draenic Invisibility Potion",
+		},
+		[59584] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 4,
+				["i:37702"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43973",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Shoulders",
+		},
+		[56023] = {
+			["mats"] = {
+				["i:38425"] = 2,
+				["i:42253"] = 4,
+				["i:38426"] = 1,
+				["i:41594"] = 1,
+				["i:41511"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42096",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Aurora Slippers",
+		},
+		[8804] = {
+			["mats"] = {
+				["i:4305"] = 6,
+				["i:4291"] = 2,
+				["i:7068"] = 2,
+				["i:6371"] = 2,
+				["i:2604"] = 4,
+				["i:4304"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7064",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crimson Silk Gloves",
+		},
+		[75254] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54472",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Leggings",
+		},
+		[18630] = {
+			["mats"] = {
+				["i:14047"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["itemString"] = "i:14530",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Heavy Runecloth Bandage",
+		},
+		[125524] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82398",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Shoulders",
+		},
+		[175867] = {
+			["mats"] = {
+				["i:109139"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116276",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Living Action Potion",
+		},
+		[3755] = {
+			["mats"] = {
+				["i:2320"] = 3,
+				["i:2996"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Linen Bag",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4238",
+		},
+		[156577] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109125"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109217",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Agility Potion",
+		},
+		[3757] = {
+			["mats"] = {
+				["i:2997"] = 3,
+				["i:2321"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Woolen Bag",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4240",
+		},
+		[26926] = {
+			["mats"] = {
+				["i:20816"] = 2,
+				["i:2840"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:21932",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Heavy Copper Ring",
+		},
+		[175868] = {
+			["mats"] = {
+				["i:109141"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:118704",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Pure Rage Potion",
+		},
+		[156578] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109129"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109218",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Intellect Potion",
+		},
+		[125525] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82399",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Tunic",
+		},
+		[125557] = {
+			["players"] = {
+				["Higi"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Higi"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:82441"] = 8,
+			},
+			["itemString"] = "i:92960",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Silkworm Cocoon",
+		},
+		[175869] = {
+			["mats"] = {
+				["i:109140"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:118711",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Water Walking Elixir",
+		},
+		[56008] = {
+			["mats"] = {
+				["i:37704"] = 2,
+				["i:42253"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41601",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shining Spellthread",
+		},
+		[56024] = {
+			["mats"] = {
+				["i:41594"] = 8,
+				["i:38426"] = 1,
+				["i:41511"] = 6,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42100",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Moonshroud Robe",
+		},
+		[75256] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54476",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Cowl",
+		},
+		[156580] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109124"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109220",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Versatility Potion",
+		},
+		[18407] = {
+			["mats"] = {
+				["i:14048"] = 5,
+				["i:14227"] = 1,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13857",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Tunic",
+		},
+		[125526] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82400",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Gloves",
+		},
+		[18423] = {
+			["mats"] = {
+				["i:14048"] = 4,
+				["i:8170"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13864",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Boots",
+		},
+		[8465] = {
+			["mats"] = {
+				["i:2324"] = 1,
+				["i:6260"] = 1,
+				["i:2320"] = 1,
+				["i:2996"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Simple Dress",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6786",
+		},
+		[12046] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2996"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Simple Kilt",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:10047",
+		},
+		[3276] = {
+			["mats"] = {
+				["i:2589"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Heavy Linen Bandage",
+			["players"] = {
+				["Tenga"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2581",
+		},
+		[3277] = {
+			["mats"] = {
+				["i:2592"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Wool Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3530",
+		},
+		[3278] = {
+			["mats"] = {
+				["i:2592"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Heavy Wool Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:3531",
+		},
+		[8489] = {
+			["mats"] = {
+				["i:4305"] = 3,
+				["i:4291"] = 1,
+				["i:2604"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:6796",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Red Swashbuckler's Shirt",
+		},
+		[12070] = {
+			["mats"] = {
+				["i:10286"] = 2,
+				["i:8343"] = 2,
+				["i:8153"] = 6,
+				["i:4339"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10021",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dreamweave Vest",
+		},
+		[75257] = {
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52325"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54475",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Robe",
+		},
+		[12082] = {
+			["mats"] = {
+				["i:10285"] = 6,
+				["i:4339"] = 6,
+				["i:8343"] = 3,
+				["i:4304"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10031",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shadoweave Boots",
+		},
+		[156582] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109126"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109222",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Mana Potion",
+		},
+		[55913] = {
+			["mats"] = {
+				["i:41510"] = 5,
+				["i:38426"] = 4,
+				["i:36783"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41528",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mystic Frostwoven Wristwraps",
+		},
+		[125527] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82401",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Pants",
+		},
+		[59586] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 4,
+				["i:37702"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41516",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Gloves",
+		},
+		[56025] = {
+			["mats"] = {
+				["i:41594"] = 4,
+				["i:38426"] = 1,
+				["i:41511"] = 4,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42103",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Moonshroud Gloves",
+		},
+		[75258] = {
+			["mats"] = {
+				["i:53643"] = 4,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54481",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Belt",
+		},
+		[186094] = {
+			["mats"] = {
+				["i:124437"] = 35,
+				["i:127037"] = 1,
+				["i:127681"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:127032",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Flourish",
+		},
+		[3813] = {
+			["mats"] = {
+				["i:4305"] = 3,
+				["i:4234"] = 2,
+				["i:2321"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4245",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Small Silk Pack",
+		},
+		[3304] = {
+			["mats"] = {
+				["i:2771"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["name"] = "Tin Bar",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 2000,
+			["itemString"] = "i:3576",
+		},
+		[7624] = {
+			["mats"] = {
+				["i:2324"] = 1,
+				["i:2320"] = 1,
+				["i:2996"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "White Linen Robe",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6241",
+		},
+		[3307] = {
+			["mats"] = {
+				["i:2772"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["itemString"] = "i:3575",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 1870,
+			["name"] = "Iron Bar",
+		},
+		[3308] = {
+			["mats"] = {
+				["i:2776"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["itemString"] = "i:3577",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 1988,
+			["name"] = "Gold Bar",
+		},
+		[156585] = {
+			["mats"] = {
+				["i:109137"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109123",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crescent Oil",
+		},
+		[26927] = {
+			["mats"] = {
+				["i:1210"] = 1,
+				["i:2841"] = 2,
+				["i:20816"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:21933",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Thick Bronze Necklace",
+		},
+		[75291] = {
+			["mats"] = {
+				["i:52326"] = 3,
+				["i:52325"] = 3,
+				["i:53643"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75064",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Embersilk Shoulders",
+		},
+		[55898] = {
+			["mats"] = {
+				["i:33470"] = 6,
+			},
+			["numResult"] = 5,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41509",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Net",
+		},
+		[55914] = {
+			["mats"] = {
+				["i:41510"] = 7,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41543",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Belt",
+		},
+		[125529] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82403",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Boots",
+		},
+		[186388] = {
+			["mats"] = {
+				["i:124437"] = 90,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Silkweave Satchel",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127035",
+		},
+		[186097] = {
+			["mats"] = {
+				["i:124437"] = 35,
+				["i:127037"] = 1,
+				["i:127681"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:127016",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Cover",
+		},
+		[12052] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 1,
+				["i:10285"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10002",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shadoweave Pants",
+		},
+		[156587] = {
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Tsuma"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:109118"] = 10,
+				["i:109124"] = 20,
+			},
+			["itemString"] = "i:108996",
+			["profession"] = "Alchemy",
+			["queued"] = 0,
+			["name"] = "Alchemical Catalyst",
+		},
+		[25490] = {
+			["mats"] = {
+				["i:2841"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:20907",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Solid Bronze Ring",
+		},
+		[64729] = {
+			["mats"] = {
+				["i:42253"] = 4,
+				["i:35624"] = 4,
+				["i:41511"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:45811",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostguard Drape",
+		},
+		[3839] = {
+			["mats"] = {
+				["i:4306"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4305",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Silk Cloth",
+		},
+		[3840] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Heavy Linen Gloves",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4307",
+		},
+		[3841] = {
+			["mats"] = {
+				["i:2605"] = 1,
+				["i:2320"] = 2,
+				["i:2996"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Green Linen Bracers",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4308",
+		},
+		[3842] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:2996"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Handstitched Linen Britches",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4309",
+		},
+		[3843] = {
+			["mats"] = {
+				["i:2997"] = 3,
+				["i:2321"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Heavy Woolen Gloves",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4310",
+		},
+		[75290] = {
+			["mats"] = {
+				["i:52325"] = 3,
+				["i:53643"] = 6,
+				["i:52328"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75089",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Fireweave Bracers",
+		},
+		[3845] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2318"] = 2,
+				["i:2996"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Soft-Soled Linen Boots",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4312",
+		},
+		[12044] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Simple Linen Pants",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:10045",
+		},
+		[18416] = {
+			["mats"] = {
+				["i:14048"] = 2,
+				["i:9210"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14141",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ghostweave Vest",
+		},
+		[18424] = {
+			["mats"] = {
+				["i:14048"] = 6,
+				["i:6260"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13871",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Pants",
+		},
+		[7179] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:6370"] = 2,
+				["i:3820"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:5996",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Water Breathing",
+		},
+		[3850] = {
+			["mats"] = {
+				["i:2997"] = 5,
+				["i:2321"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4316",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Heavy Woolen Pants",
+		},
+		[7183] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:765"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Elixir of Minor Defense",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5997",
+		},
+		[3852] = {
+			["mats"] = {
+				["i:2321"] = 3,
+				["i:3383"] = 1,
+				["i:2997"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4318",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Gloves of Meditation",
+		},
+		[185941] = {
+			["mats"] = {
+				["i:124437"] = 24,
+				["i:127037"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Silkweave Robe",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:126987",
+		},
+		[7428] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:10938"] = 1,
+				["i:10940"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Dodge",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38768",
+		},
+		[3855] = {
+			["mats"] = {
+				["i:5500"] = 2,
+				["i:3182"] = 4,
+				["i:2319"] = 4,
+				["i:4305"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4320",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spidersilk Boots",
+		},
+		[12073] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 2,
+				["i:4304"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10026",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Boots",
+		},
+		[75261] = {
+			["mats"] = {
+				["i:53643"] = 4,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54482",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Boots",
+		},
+		[175880] = {
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Tsuma"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:109124"] = 5,
+			},
+			["itemString"] = "i:118700",
+			["profession"] = "Alchemy",
+			["queued"] = 0,
+			["name"] = "Secret of Draenor Alchemy",
+		},
+		[3859] = {
+			["mats"] = {
+				["i:4305"] = 5,
+				["i:6260"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4324",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Azure Silk Vest",
+		},
+		[60993] = {
+			["mats"] = {
+				["i:36860"] = 3,
+				["i:35622"] = 3,
+				["i:38426"] = 3,
+				["i:41511"] = 6,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43583",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Glacial Robe",
+		},
+		[3861] = {
+			["mats"] = {
+				["i:4305"] = 4,
+				["i:4291"] = 1,
+				["i:3827"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4326",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Long Silken Cloak",
+		},
+		[2329] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2449"] = 1,
+				["i:765"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Elixir of Lion's Strength",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2454",
+		},
+		[2330] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2447"] = 1,
+				["i:765"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Minor Healing Potion",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:118",
+		},
+		[2331] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:785"] = 1,
+				["i:765"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Minor Mana Potion",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2455",
+		},
+		[3865] = {
+			["mats"] = {
+				["i:4338"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4339",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Mageweave",
+		},
+		[3866] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2997"] = 3,
+				["i:2604"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4330",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Stylish Red Shirt",
+		},
+		[55995] = {
+			["mats"] = {
+				["i:41510"] = 4,
+				["i:4341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41251",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Yellow Lumberjack Shirt",
+		},
+		[10841] = {
+			["mats"] = {
+				["i:4338"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Heavy Mageweave Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:8545",
+		},
+		[229217] = {
+			["mats"] = {
+				["i:124124"] = 1,
+				["i:3371"] = 10,
+			},
+			["numResult"] = 10,
+			["profession"] = "Alchemy",
+			["name"] = "Potion of Prolonged Power",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:142117",
+		},
+		[64730] = {
+			["mats"] = {
+				["i:42253"] = 4,
+				["i:35627"] = 4,
+				["i:41511"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:45810",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cloak of Crimson Snow",
+		},
+		[3871] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:4305"] = 3,
+				["i:2324"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4334",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Formal White Shirt",
+		},
+		[9058] = {
+			["mats"] = {
+				["i:2318"] = 2,
+				["i:2320"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Handstitched Leather Cloak",
+			["players"] = {
+				["Asane"] = true,
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:7276",
+		},
+		[75262] = {
+			["mats"] = {
+				["i:53643"] = 4,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54484",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Gloves",
+		},
+		[75294] = {
+			["mats"] = {
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75087",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Fireweave Boots",
+		},
+		[25283] = {
+			["mats"] = {
+				["i:2840"] = 2,
+				["i:774"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:20821",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Inlaid Malachite Ring",
+		},
+		[2152] = {
+			["mats"] = {
+				["i:2318"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Light Armor Kit",
+			["players"] = {
+				["Asane"] = true,
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2304",
+		},
+		[2334] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2447"] = 1,
+				["i:2449"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Elixir of Minor Fortitude",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2458",
+		},
+		[7748] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:10938"] = 2,
+				["i:10940"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Lesser Health",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38773",
+		},
+		[75146] = {
+			["players"] = {
+				["Higi"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Higi"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52326"] = 30,
+			},
+			["itemString"] = "i:54440",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Dreamcloth",
+		},
+		[125552] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82442",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Pearlescent Spellthread",
+		},
+		[2149] = {
+			["mats"] = {
+				["i:2318"] = 2,
+				["i:2320"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Handstitched Leather Boots",
+			["players"] = {
+				["Asane"] = true,
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2302",
+		},
+		[75259] = {
+			["mats"] = {
+				["i:53643"] = 4,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54480",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Bracers",
+		},
+		[125553] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82443",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cerulean Spellthread",
+		},
+		[25493] = {
+			["mats"] = {
+				["i:20816"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:20906",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Braided Copper Ring",
+		},
+		[2659] = {
+			["mats"] = {
+				["i:3576"] = 1,
+				["i:2840"] = 1,
+			},
+			["numResult"] = 2,
+			["profession"] = "Mining",
+			["name"] = "Bronze Bar",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 1000,
+			["itemString"] = "i:2841",
+		},
+		[175866] = {
+			["mats"] = {
+				["i:109143"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116271",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Water Breathing Elixir",
+		},
+		[56007] = {
+			["mats"] = {
+				["i:41511"] = 6,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41599",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Bag",
+		},
+		[18629] = {
+			["mats"] = {
+				["i:14047"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Runecloth Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:14529",
+		},
+		[75263] = {
+			["mats"] = {
+				["i:53643"] = 4,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54483",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Leggings",
+		},
+		[75295] = {
+			["mats"] = {
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75070",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Embersilk Gloves",
+		},
+		[201498] = {
+			["mats"] = {
+				["i:133591"] = 2,
+				["i:124121"] = 5,
+				["i:133593"] = 3,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133563",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Faronaar Fizz",
+		},
+		[60994] = {
+			["mats"] = {
+				["i:36860"] = 2,
+				["i:35622"] = 2,
+				["i:38426"] = 2,
+				["i:41511"] = 4,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43585",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Glacial Slippers",
+		},
+		[55900] = {
+			["mats"] = {
+				["i:41510"] = 2,
+				["i:34054"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41511",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Imbued Frostweave",
+		},
+		[7857] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:16204"] = 4,
+				["i:16202"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Health",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38782",
+		},
+		[56027] = {
+			["mats"] = {
+				["i:41511"] = 4,
+				["i:38426"] = 1,
+				["i:41593"] = 4,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42111",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ebonweave Gloves",
+		},
+		[156579] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109128"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109219",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Strength Potion",
+		},
+		[161002] = {
+			["mats"] = {
+				["i:109137"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["itemString"] = "i:111456",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Grilled Saberfish",
+		},
+		[7788] = {
+			["mats"] = {
+				["i:10939"] = 2,
+				["i:38682"] = 1,
+				["i:10940"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Striking",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38780",
+		},
+		[125523] = {
+			["mats"] = {
+				["i:82441"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82397",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Hood",
+		},
+		[102698] = {
+			["mats"] = {
+				["i:72988"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Heavy Windwool Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:72986",
+		},
+		[56028] = {
+			["mats"] = {
+				["i:41511"] = 6,
+				["i:38426"] = 1,
+				["i:41595"] = 8,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42102",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spellweave Robe",
+		},
+		[27032] = {
+			["mats"] = {
+				["i:21877"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["itemString"] = "i:21990",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Bandage",
+		},
+		[2881] = {
+			["mats"] = {
+				["i:2934"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Light Leather",
+			["players"] = {
+				["Asane"] = true,
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2318",
+		},
+		[3275] = {
+			["mats"] = {
+				["i:2589"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Linen Bandage",
+			["players"] = {
+				["Tenga"] = true,
+				["Higi"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:1251",
+		},
+		[75264] = {
+			["mats"] = {
+				["i:53643"] = 15,
+				["i:52555"] = 15,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54443",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Embersilk Bag",
+		},
+		[75296] = {
+			["mats"] = {
+				["i:52325"] = 4,
+				["i:53643"] = 10,
+				["i:52328"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75063",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Fireweave Gloves",
+		},
+		[59589] = {
+			["mats"] = {
+				["i:41511"] = 4,
+				["i:38426"] = 2,
+				["i:37701"] = 5,
+				["i:37702"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43971",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Cowl",
+		},
+		[59585] = {
+			["mats"] = {
+				["i:41511"] = 3,
+				["i:38426"] = 2,
+				["i:37701"] = 4,
+				["i:37702"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43970",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Boots",
+		},
+		[18401] = {
+			["mats"] = {
+				["i:14047"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14048",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Runecloth",
+		},
+		[18409] = {
+			["mats"] = {
+				["i:14048"] = 4,
+				["i:14227"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13860",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Cloak",
+		},
+		[18417] = {
+			["mats"] = {
+				["i:14048"] = 5,
+				["i:14341"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13863",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Gloves",
+		},
+		[2538] = {
+			["mats"] = {
+				["i:2672"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Charred Wolf Meat",
+			["players"] = {
+				["Tenga"] = true,
+				["Asane"] = true,
+				["Higi"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2679",
+		},
+		[99537] = {
+			["mats"] = {
+				["i:52326"] = 6,
+				["i:52325"] = 6,
+				["i:53643"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75065",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Embersilk Cape",
+		},
+		[3914] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Brown Linen Pants",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4343",
+		},
+		[3915] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Brown Linen Shirt",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4344",
+		},
+		[12055] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 1,
+				["i:10285"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10004",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shadoweave Robe",
+		},
+		[130325] = {
+			["mats"] = {
+				["i:82441"] = 5,
+				["i:76061"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82447",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Imperial Silk",
+		},
+		[2385] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Brown Linen Vest",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2568",
+		},
+		[2386] = {
+			["mats"] = {
+				["i:2318"] = 1,
+				["i:2320"] = 1,
+				["i:2996"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Linen Boots",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2569",
+		},
+		[2387] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2996"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Linen Cloak",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2570",
+		},
+		[75265] = {
+			["mats"] = {
+				["i:53643"] = 9,
+				["i:52555"] = 8,
+				["i:34055"] = 4,
+				["i:34052"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54445",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Otherworldly Bag",
+		},
+		[7836] = {
+			["mats"] = {
+				["i:6358"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Blackmouth Oil",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6370",
+		},
+		[18441] = {
+			["mats"] = {
+				["i:14048"] = 3,
+				["i:9210"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14144",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ghostweave Pants",
+		},
+		[2389] = {
+			["mats"] = {
+				["i:2996"] = 3,
+				["i:2320"] = 2,
+				["i:2604"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Red Linen Robe",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2572",
+		},
+		[2392] = {
+			["mats"] = {
+				["i:2996"] = 2,
+				["i:2320"] = 1,
+				["i:2604"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Red Linen Shirt",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2575",
+		},
+		[2393] = {
+			["mats"] = {
+				["i:2324"] = 1,
+				["i:2320"] = 1,
+				["i:2996"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "White Linen Shirt",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2576",
+		},
+		[2394] = {
+			["mats"] = {
+				["i:6260"] = 1,
+				["i:2320"] = 1,
+				["i:2996"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Blue Linen Shirt",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2577",
+		},
+		[2395] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2318"] = 1,
+				["i:2996"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Barbaric Linen Vest",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2578",
+		},
+		[2396] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2605"] = 1,
+				["i:2996"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Green Linen Shirt",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2579",
+		},
+		[2397] = {
+			["mats"] = {
+				["i:2320"] = 3,
+				["i:2996"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Reinforced Linen Cape",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2580",
+		},
+		[75252] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54477",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Boots",
+		},
+		[2399] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:2605"] = 1,
+				["i:2997"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Green Woolen Vest",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2582",
+		},
+		[56029] = {
+			["mats"] = {
+				["i:41511"] = 4,
+				["i:38426"] = 1,
+				["i:41595"] = 4,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42113",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spellweave Gloves",
+		},
+		[2401] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:2318"] = 2,
+				["i:2997"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Woolen Boots",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2583",
+		},
+		[2402] = {
+			["mats"] = {
+				["i:2997"] = 1,
+				["i:2321"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Woolen Cape",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2584",
+		},
+		[63742] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:4305"] = 3,
+				["i:3182"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:45626",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spidersilk Drape",
+		},
+		[75266] = {
+			["mats"] = {
+				["i:53643"] = 15,
+				["i:52326"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54485",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Cowl",
+		},
+		[2335] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2452"] = 1,
+				["i:2450"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Swiftness Potion",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2459",
+		},
+		[2406] = {
+			["mats"] = {
+				["i:4340"] = 1,
+				["i:2997"] = 2,
+				["i:2321"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:2587",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Gray Woolen Shirt",
+		},
+		[7418] = {
+			["mats"] = {
+				["i:10940"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Health",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38679",
+		},
+		[7779] = {
+			["mats"] = {
+				["i:10939"] = 1,
+				["i:38682"] = 1,
+				["i:10940"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Agility",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38777",
+		},
+		[55911] = {
+			["mats"] = {
+				["i:41510"] = 8,
+				["i:38426"] = 4,
+				["i:36783"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41525",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mystic Frostwoven Robe",
+		},
+		[186091] = {
+			["mats"] = {
+				["i:124437"] = 35,
+				["i:127037"] = 1,
+				["i:127681"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:127031",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Shade",
+		},
+		[26745] = {
+			["mats"] = {
+				["i:21877"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21840",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Netherweave",
+		},
+		[60971] = {
+			["mats"] = {
+				["i:2604"] = 4,
+				["i:42253"] = 4,
+				["i:36930"] = 4,
+				["i:4341"] = 2,
+				["i:41511"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:44558",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Magnificent Flying Carpet",
+		},
+		[75260] = {
+			["mats"] = {
+				["i:53643"] = 9,
+				["i:52326"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54479",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Shoulders",
+		},
+		[75251] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54474",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deathsilk Shoulders",
+		},
+		[26765] = {
+			["mats"] = {
+				["i:21840"] = 3,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21850",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Belt",
+		},
+		[75292] = {
+			["mats"] = {
+				["i:52325"] = 4,
+				["i:53643"] = 10,
+				["i:52328"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75091",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Fireweave Shoulders",
+		},
+		[12067] = {
+			["mats"] = {
+				["i:10286"] = 2,
+				["i:8343"] = 2,
+				["i:8153"] = 4,
+				["i:4339"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10019",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dreamweave Gloves",
+		},
+		[172541] = {
+			["mats"] = {
+				["i:109144"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Blackwater Anti-Venom",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:116979",
+		},
+		[59587] = {
+			["mats"] = {
+				["i:41511"] = 4,
+				["i:38426"] = 2,
+				["i:37701"] = 5,
+				["i:37702"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43972",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Robe",
+		},
+		[75267] = {
+			["mats"] = {
+				["i:53643"] = 6,
+				["i:38426"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54486",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spiritmend Robe",
+		},
+		[161001] = {
+			["mats"] = {
+				["i:109137"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["itemString"] = "i:111455",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Saberfish Broth",
+		},
+		[12079] = {
+			["mats"] = {
+				["i:4339"] = 4,
+				["i:8343"] = 2,
+				["i:2604"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10051",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Red Mageweave Bag",
+		},
+		[56031] = {
+			["mats"] = {
+				["i:41510"] = 3,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41512",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Wristwraps",
+		},
+		[55902] = {
+			["mats"] = {
+				["i:41510"] = 3,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41513",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Shoulders",
+		},
+		[3447] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2453"] = 1,
+				["i:2450"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:929",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Healing Potion",
+		},
+		[18449] = {
+			["mats"] = {
+				["i:14048"] = 7,
+				["i:14341"] = 1,
+				["i:14227"] = 2,
+				["i:8170"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13867",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Shoulders",
+		},
+		[12071] = {
+			["mats"] = {
+				["i:4339"] = 5,
+				["i:8343"] = 2,
+				["i:10285"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10023",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Shadoweave Gloves",
+		},
+		[2332] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2447"] = 1,
+				["i:785"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Minor Rejuvenation Potion",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2456",
+		},
+		[3848] = {
+			["mats"] = {
+				["i:2997"] = 3,
+				["i:2321"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:4314",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Double-Stitched Woolen Shoulders",
+		},
+		[13882] = {
+			["mats"] = {
+				["i:16203"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38835",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Agility",
+		},
+		[56014] = {
+			["mats"] = {
+				["i:41510"] = 7,
+				["i:36783"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41607",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cloak of the Moon",
+		},
+		[56030] = {
+			["mats"] = {
+				["i:41510"] = 5,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41519",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Leggings",
+		},
+		[27033] = {
+			["mats"] = {
+				["i:21877"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Heavy Netherweave Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:21991",
+		},
+		[18442] = {
+			["mats"] = {
+				["i:14048"] = 2,
+				["i:14256"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14111",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Felcloth Hood",
+		},
+		[7928] = {
+			["mats"] = {
+				["i:4306"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Silk Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6450",
+		},
+		[75268] = {
+			["mats"] = {
+				["i:53643"] = 20,
+				["i:52329"] = 40,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54446",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Hyjal Expedition Bag",
+		},
+		[7421] = {
+			["mats"] = {
+				["i:6217"] = 1,
+				["i:10938"] = 1,
+				["i:10940"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Runed Copper Rod",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6218",
+		},
+		[7934] = {
+			["mats"] = {
+				["i:1475"] = 1,
+			},
+			["numResult"] = 3,
+			["profession"] = "First Aid",
+			["name"] = "Anti-Venom",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:6452",
+		},
+		[55919] = {
+			["mats"] = {
+				["i:41510"] = 8,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41546",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Cowl",
+		},
+		[18402] = {
+			["mats"] = {
+				["i:14048"] = 3,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13856",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runecloth Belt",
+		},
+		[18410] = {
+			["mats"] = {
+				["i:14048"] = 2,
+				["i:9210"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14143",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ghostweave Belt",
+		},
+		[8770] = {
+			["mats"] = {
+				["i:4339"] = 2,
+				["i:7067"] = 2,
+				["i:7068"] = 2,
+				["i:7069"] = 2,
+				["i:7070"] = 2,
+				["i:4291"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7054",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Robe of Power",
+		},
+		[7457] = {
+			["mats"] = {
+				["i:10940"] = 3,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Minor Stamina",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38771",
+		},
+		[2963] = {
+			["mats"] = {
+				["i:2589"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Bolt of Linen Cloth",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2996",
+		},
+		[6415] = {
+			["mats"] = {
+				["i:5468"] = 1,
+			},
+			["numResult"] = 2,
+			["profession"] = "Cooking",
+			["name"] = "Fillet of Frenzy",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5476",
+		},
+		[18450] = {
+			["mats"] = {
+				["i:14048"] = 6,
+				["i:7910"] = 1,
+				["i:14341"] = 1,
+				["i:156930"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14130",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Wizardweave Turban",
+		},
+		[8758] = {
+			["mats"] = {
+				["i:4305"] = 4,
+				["i:6260"] = 2,
+				["i:2321"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7046",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Azure Silk Pants",
+		},
+		[75141] = {
+			["players"] = {
+				["Higi"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Higi"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52328"] = 30,
+			},
+			["itemString"] = "i:54440",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Dreamcloth",
+		},
+		[75269] = {
+			["mats"] = {
+				["i:52325"] = 3,
+				["i:53643"] = 6,
+				["i:52328"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75086",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Fireweave Belt",
+		},
+		[2337] = {
+			["mats"] = {
+				["i:118"] = 1,
+				["i:2450"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Lesser Healing Potion",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:858",
+		},
+		[74556] = {
+			["mats"] = {
+				["i:53010"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Embersilk Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:53049",
+		},
+		[194739] = {
+			["mats"] = {
+				["i:124115"] = 32,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:128895",
+			["players"] = {
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Battlebound Warhelm",
+		},
+		[2964] = {
+			["mats"] = {
+				["i:2592"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Bolt of Woolen Cloth",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2997",
+		},
+		[8762] = {
+			["mats"] = {
+				["i:4305"] = 3,
+				["i:2321"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7050",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silk Headband",
+		},
+		[8766] = {
+			["mats"] = {
+				["i:2321"] = 2,
+				["i:7071"] = 1,
+				["i:4305"] = 4,
+				["i:7070"] = 1,
+				["i:6260"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7052",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Azure Silk Belt",
+		},
+		[55903] = {
+			["mats"] = {
+				["i:41510"] = 4,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41515",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Robe",
+		},
+		[8774] = {
+			["mats"] = {
+				["i:4305"] = 5,
+				["i:4291"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7057",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Green Silken Shoulders",
+		},
+		[75255] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:52326"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54449",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ghostly Spellthread",
+		},
+		[12061] = {
+			["mats"] = {
+				["i:4339"] = 1,
+				["i:8343"] = 1,
+				["i:6261"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10056",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Orange Mageweave Shirt",
+		},
+		[37836] = {
+			["mats"] = {
+				["i:2678"] = 1,
+				["i:30817"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Spice Bread",
+			["players"] = {
+				["Tenga"] = true,
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:30816",
+		},
+		[26746] = {
+			["mats"] = {
+				["i:21840"] = 4,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21841",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Bag",
+		},
+		[75142] = {
+			["players"] = {
+				["Higi"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Higi"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52327"] = 30,
+			},
+			["itemString"] = "i:54440",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Dreamcloth",
+		},
+		[56015] = {
+			["mats"] = {
+				["i:41510"] = 8,
+				["i:36783"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41608",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Cloak of Frozen Spirits",
+		},
+		[26770] = {
+			["mats"] = {
+				["i:14341"] = 1,
+				["i:21840"] = 4,
+				["i:21887"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:21851",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Netherweave Gloves",
+		},
+		[10840] = {
+			["mats"] = {
+				["i:4338"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Mageweave Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:8544",
+		},
+		[55901] = {
+			["mats"] = {
+				["i:41510"] = 8,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41548",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Leggings",
+		},
+		[6690] = {
+			["mats"] = {
+				["i:3182"] = 2,
+				["i:4305"] = 2,
+				["i:2321"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:5766",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Wizard's Robe",
+		},
+		[75270] = {
+			["mats"] = {
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75098",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Embersilk Bracers",
+		},
+		[13421] = {
+			["mats"] = {
+				["i:14343"] = 1,
+				["i:16204"] = 6,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["name"] = "Lesser Protection",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:38790",
+		},
+		[201512] = {
+			["mats"] = {
+				["i:133607"] = 5,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["itemString"] = "i:133575",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dried Mackerel Strips",
+		},
+		[56022] = {
+			["mats"] = {
+				["i:42253"] = 4,
+				["i:38426"] = 1,
+				["i:41594"] = 1,
+				["i:41511"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42095",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Light Blessed Mittens",
+		},
+		[12050] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10001",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Robe",
+		},
+		[75297] = {
+			["mats"] = {
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75095",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Embersilk Boots",
+		},
+		[186100] = {
+			["mats"] = {
+				["i:124437"] = 35,
+				["i:127037"] = 1,
+				["i:127681"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:127017",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silkweave Drape",
+		},
+		[55899] = {
+			["mats"] = {
+				["i:33470"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41510",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Frostweave",
+		},
+		[8799] = {
+			["mats"] = {
+				["i:4305"] = 4,
+				["i:4291"] = 2,
+				["i:2604"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:7062",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Crimson Silk Pantaloons",
+		},
+		[75250] = {
+			["mats"] = {
+				["i:53643"] = 3,
+				["i:52325"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54447",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Enchanted Spellthread",
+		},
+		[60990] = {
+			["mats"] = {
+				["i:36860"] = 2,
+				["i:35622"] = 2,
+				["i:38426"] = 2,
+				["i:41511"] = 4,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43584",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Glacial Waistband",
+		},
+		[33276] = {
+			["mats"] = {
+				["i:27668"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Lynx Steak",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:27635",
+		},
+		[75293] = {
+			["mats"] = {
+				["i:52326"] = 4,
+				["i:52325"] = 4,
+				["i:53643"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:75096",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Vicious Embersilk Belt",
+		},
+		[56010] = {
+			["mats"] = {
+				["i:42253"] = 2,
+				["i:37702"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41603",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Azure Spellthread",
+		},
+		[59588] = {
+			["mats"] = {
+				["i:41511"] = 4,
+				["i:38426"] = 2,
+				["i:37701"] = 5,
+				["i:37702"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:43975",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostsavage Leggings",
+		},
+		[56026] = {
+			["mats"] = {
+				["i:41511"] = 6,
+				["i:38426"] = 1,
+				["i:41593"] = 8,
+				["i:43102"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:42101",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ebonweave Robe",
+		},
+		[94743] = {
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52078"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:54440",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dreamcloth",
+		},
+		[2658] = {
+			["mats"] = {
+				["i:2775"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["itemString"] = "i:2842",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 2000,
+			["name"] = "Silver Bar",
+		},
+		[18415] = {
+			["mats"] = {
+				["i:14048"] = 4,
+				["i:3577"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14101",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Brightcloth Gloves",
+		},
+		[6499] = {
+			["mats"] = {
+				["i:5503"] = 1,
+				["i:159"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Cooking",
+			["name"] = "Boiled Clams",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5525",
+		},
+		[55904] = {
+			["mats"] = {
+				["i:41510"] = 3,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:44211",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostwoven Gloves",
+		},
+		[55920] = {
+			["mats"] = {
+				["i:41510"] = 8,
+				["i:38426"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41551",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Duskweave Wristwraps",
+		},
+		[125528] = {
+			["mats"] = {
+				["i:82441"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82402",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Bracers",
+		},
+		[26928] = {
+			["mats"] = {
+				["i:818"] = 2,
+				["i:2840"] = 2,
+				["i:20816"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["itemString"] = "i:21934",
+			["players"] = {
+				["Tenga"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ornate Tigerseye Necklace",
+		},
+		[125551] = {
+			["mats"] = {
+				["i:72988"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82441",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Bolt of Windwool Cloth",
+		},
+		[12045] = {
+			["mats"] = {
+				["i:2320"] = 1,
+				["i:2318"] = 1,
+				["i:2996"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Simple Linen Boots",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:10046",
+		},
+		[56000] = {
+			["mats"] = {
+				["i:41510"] = 4,
+				["i:2605"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41255",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Green Workman's Shirt",
+		},
+		[156581] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:109127"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:109221",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Channeled Mana Potion",
+		},
+		[75144] = {
+			["players"] = {
+				["Higi"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Higi"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52329"] = 30,
+			},
+			["itemString"] = "i:54440",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Dreamcloth",
+		},
+		[56019] = {
+			["mats"] = {
+				["i:38425"] = 2,
+				["i:42253"] = 4,
+				["i:38426"] = 1,
+				["i:41595"] = 1,
+				["i:41511"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:41985",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Silky Iceshard Boots",
+		},
+		[6521] = {
+			["mats"] = {
+				["i:5498"] = 1,
+				["i:2997"] = 3,
+				["i:2321"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Pearl-Clasped Cloak",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:5542",
+		},
+		[75145] = {
+			["players"] = {
+				["Higi"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Higi"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:53643"] = 8,
+				["i:52325"] = 30,
+			},
+			["itemString"] = "i:54440",
+			["profession"] = "Tailoring",
+			["queued"] = 0,
+			["name"] = "Dreamcloth",
+		},
+		[12053] = {
+			["mats"] = {
+				["i:4339"] = 2,
+				["i:8343"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10003",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Gloves",
+		},
+		[12074] = {
+			["mats"] = {
+				["i:4339"] = 3,
+				["i:8343"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:10027",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Shoulders",
+		},
+		[125530] = {
+			["mats"] = {
+				["i:82441"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:82404",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Windwool Belt",
+		},
+		[172539] = {
+			["mats"] = {
+				["i:111557"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Antiseptic Bandage",
+			["players"] = {
+				["Tsuma"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:111603",
+		},
+		[18403] = {
+			["mats"] = {
+				["i:14048"] = 5,
+				["i:6260"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13869",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Tunic",
+		},
+		[18411] = {
+			["mats"] = {
+				["i:14048"] = 5,
+				["i:6260"] = 2,
+				["i:14341"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:13870",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Frostweave Gloves",
+		},
+		[194702] = {
+			["mats"] = {
+				["i:124113"] = 32,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:128876",
+			["players"] = {
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Warhide Jerkin",
+		},
+		[185935] = {
+			["mats"] = {
+				["i:124437"] = 18,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["name"] = "Silkweave Cinch",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:126993",
+		},
+		[8467] = {
+			["mats"] = {
+				["i:2321"] = 1,
+				["i:2997"] = 3,
+				["i:2324"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:6787",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "White Woolen Dress",
+		},
+		[12048] = {
+			["mats"] = {
+				["i:4339"] = 2,
+				["i:4291"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:9998",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Black Mageweave Vest",
+		},
+		[18451] = {
+			["mats"] = {
+				["i:14048"] = 8,
+				["i:14256"] = 3,
+				["i:14341"] = 2,
+				["i:12662"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Tailoring",
+			["itemString"] = "i:14106",
+			["players"] = {
+				["Higi"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Felcloth Robe",
+		},
+		[194699] = {
+			["mats"] = {
+				["i:124113"] = 32,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["itemString"] = "i:128879",
+			["players"] = {
+				["Sueki"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Warhide Mask",
+		},
+	},
+}
