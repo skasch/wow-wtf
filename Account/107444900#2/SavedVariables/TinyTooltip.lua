@@ -43,23 +43,23 @@ BigTipDB = {
 			0, -- [3]
 			0.77, -- [4]
 		},
-		["statusbarOffsetX"] = 6,
+		["borderCorner"] = "Details BarBorder 3",
 		["statusbarPosition"] = "bottom",
-		["alwaysShowIdInfo"] = true,
-		["statusbarFont"] = "Roboto Condensed Bold",
+		["statusbarOffsetX"] = 6,
+		["headerFontSize"] = 16,
 		["bodyFontSize"] = 13,
+		["statusbarFontFlag"] = "OUTLINE",
+		["statusbarColor"] = "auto",
+		["statusbarOffsetY"] = -5,
+		["statusbarText"] = true,
+		["bodyFont"] = "Friz Quadrata TT",
+		["skinMoreFrames"] = true,
+		["statusbarHeight"] = 8,
+		["headerFontFlag"] = "NORMAL",
 		["bodyFontFlag"] = "default",
 		["statusbarTexture"] = "Details Serenity",
-		["statusbarOffsetY"] = -5,
-		["bodyFont"] = "Friz Quadrata TT",
-		["borderCorner"] = "Details BarBorder 3",
-		["statusbarHeight"] = 8,
-		["skinMoreFrames"] = true,
-		["headerFontFlag"] = "NORMAL",
-		["headerFontSize"] = 16,
-		["statusbarColor"] = "auto",
-		["statusbarText"] = true,
-		["statusbarFontFlag"] = "OUTLINE",
+		["statusbarFont"] = "Roboto Condensed Bold",
+		["alwaysShowIdInfo"] = true,
 	},
 	["version"] = 2,
 	["item"] = {
@@ -218,10 +218,8 @@ BigTipDB = {
 					["wildcard"] = "<%s>",
 					["filter"] = "none",
 				},
-				["className"] = {
+				["factionIcon"] = {
 					["enable"] = true,
-					["color"] = "ffffff",
-					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
 				["name"] = {
@@ -230,8 +228,10 @@ BigTipDB = {
 					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
-				["factionIcon"] = {
+				["className"] = {
 					["enable"] = true,
+					["color"] = "ffffff",
+					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
 				["classIcon"] = {
@@ -257,6 +257,7 @@ BigTipDB = {
 			["grayForDead"] = true,
 		},
 		["npc"] = {
+			["coloredBorder"] = "reaction",
 			["elements"] = {
 				{
 					"raidIcon", -- [1]
@@ -340,7 +341,7 @@ BigTipDB = {
 					["filter"] = "none",
 				},
 			},
-			["coloredBorder"] = "reaction",
+			["showTarget"] = true,
 			["anchor"] = {
 				["returnOnUnitFrame"] = false,
 				["position"] = "inherit",
@@ -348,7 +349,6 @@ BigTipDB = {
 				["p"] = "BOTTOMRIGHT",
 				["returnInCombat"] = true,
 			},
-			["showTarget"] = true,
 			["background"] = {
 				["colorfunc"] = "class",
 				["alpha"] = "0.59",

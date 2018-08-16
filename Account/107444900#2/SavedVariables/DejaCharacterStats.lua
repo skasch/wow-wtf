@@ -7,8 +7,8 @@ DejaCharacterStatsDB = {
 		["dejacharacterstatsItemLevelChecked"] = {
 			["ItemLevelTwoDecimalsSetChecked"] = true,
 			["ItemLevelEQ_AV_SetChecked"] = true,
-			["ItemLevelDecimalsSetChecked"] = false,
 			["ItemLevelClassColorSetChecked"] = true,
+			["ItemLevelDecimalsSetChecked"] = false,
 		},
 		["dejacharacterstatsHideAtZeroChecked"] = {
 			["SetChecked"] = true,
@@ -19,8 +19,8 @@ DejaCharacterStatsDB = {
 		["dejacharacterstatsShowDecimalsChecked"] = {
 			["SetChecked"] = true,
 		},
-		["dejacharacterstatsScrollbarChecked"] = {
-			["ScrollbarSetChecked"] = false,
+		["dejacharacterstatsExpandButtonChecked"] = {
+			["ExpandButtonSetChecked"] = true,
 		},
 		["dejacharacterstatsShowDuraTextureChecked"] = {
 			["ShowDuraTextureSetChecked"] = true,
@@ -31,17 +31,17 @@ DejaCharacterStatsDB = {
 		["dejacharacterstatsClassBackgroundChecked"] = {
 			["ClassBackgroundChecked"] = true,
 		},
-		["dejacharacterstatsShowItemLevelChecked"] = {
-			["ShowItemLevelSetChecked"] = false,
+		["dejacharacterstatsShowDuraChecked"] = {
+			["ShowDuraSetChecked"] = false,
 		},
 		["dejacharacterstatsExpandChecked"] = {
 			["ExpandSetChecked"] = true,
 		},
-		["dejacharacterstatsShowDuraChecked"] = {
-			["ShowDuraSetChecked"] = false,
+		["dejacharacterstatsShowItemLevelChecked"] = {
+			["ShowItemLevelSetChecked"] = false,
 		},
-		["dejacharacterstatsExpandButtonChecked"] = {
-			["ExpandButtonSetChecked"] = true,
+		["dejacharacterstatsScrollbarChecked"] = {
+			["ScrollbarSetChecked"] = false,
 		},
 	},
 }
@@ -1712,40 +1712,41 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Seina:La Croisade écarlate:2",
 	},
-	["Vermily:La Croisade écarlate:1"] = {
+	["Tenga:La Croisade écarlate:3"] = {
 		{
-			["statKey"] = "ItemLevelFrame",
+			["statKey"] = "REPAIR_COST",
 		}, -- [1]
 		{
-			["statKey"] = "GeneralCategory",
+			["statKey"] = "ItemLevelFrame",
 		}, -- [2]
 		{
-			["statKey"] = "HEALTH",
+			["statKey"] = "GeneralCategory",
 		}, -- [3]
 		{
-			["statKey"] = "DCS_POWER",
+			["statKey"] = "HEALTH",
 		}, -- [4]
 		{
-			["statKey"] = "DCS_ALTERNATEMANA",
+			["statKey"] = "DCS_POWER",
 		}, -- [5]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [6]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
-		}, -- [6]
-		{
-			["statKey"] = "MOVESPEED",
 		}, -- [7]
 		{
-			["statKey"] = "DURABILITY_STAT",
+			["statKey"] = "MOVESPEED",
 		}, -- [8]
 		{
-			["statKey"] = "REPAIR_COST",
+			["statKey"] = "DURABILITY_STAT",
 		}, -- [9]
 		{
 			["statKey"] = "AttributesCategory",
 		}, -- [10]
 		{
 			["statKey"] = "STRENGTH",
+			["hidden"] = true,
 		}, -- [11]
 		{
 			["statKey"] = "AGILITY",
@@ -1753,90 +1754,96 @@ DCS_ClassSpecDB = {
 		}, -- [12]
 		{
 			["statKey"] = "INTELLECT",
-			["hidden"] = true,
 		}, -- [13]
 		{
 			["statKey"] = "STAMINA",
 		}, -- [14]
 		{
-			["statKey"] = "OffenseCategory",
+			["statKey"] = "ARMOR",
 		}, -- [15]
 		{
-			["statKey"] = "ATTACK_DAMAGE",
+			["statKey"] = "OffenseCategory",
 		}, -- [16]
 		{
-			["statKey"] = "ATTACK_AP",
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
 		}, -- [17]
 		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
 		}, -- [18]
 		{
-			["statKey"] = "WEAPON_DPS",
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
 		}, -- [19]
 		{
-			["statKey"] = "SPELLPOWER",
+			["statKey"] = "WEAPON_DPS",
 			["hidden"] = true,
 		}, -- [20]
 		{
-			["statKey"] = "MANAREGEN",
-			["hidden"] = true,
+			["statKey"] = "SPELLPOWER",
 		}, -- [21]
 		{
-			["statKey"] = "ENERGY_REGEN",
+			["statKey"] = "MANAREGEN",
 		}, -- [22]
 		{
-			["statKey"] = "DCS_RUNEREGEN",
+			["statKey"] = "ENERGY_REGEN",
 		}, -- [23]
 		{
-			["statKey"] = "FOCUS_REGEN",
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
 		}, -- [24]
 		{
-			["statKey"] = "GCD",
+			["statKey"] = "FOCUS_REGEN",
 		}, -- [25]
 		{
-			["statKey"] = "EnhancementsCategory",
+			["statKey"] = "GCD",
 		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [27]
+		}, -- [28]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [29]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [29]
+		}, -- [30]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [30]
+		}, -- [31]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [31]
+		}, -- [32]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [32]
-		{
-			["statKey"] = "DefenseCategory",
 		}, -- [33]
 		{
-			["statKey"] = "ARMOR",
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
 		}, -- [34]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [35]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [36]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [37]
 		{
 			["statKey"] = "RatingCategory",
@@ -1895,7 +1902,7 @@ DCS_ClassSpecDB = {
 			["hideAt"] = 0,
 			["hidden"] = true,
 		}, -- [49]
-		["uniqueKey"] = "Vermily:La Croisade écarlate:1",
+		["uniqueKey"] = "Tenga:La Croisade écarlate:3",
 	},
 	["Higi:La Croisade écarlate:2"] = {
 		{
@@ -3213,41 +3220,40 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Asane:La Croisade écarlate:2",
 	},
-	["Tenga:La Croisade écarlate:3"] = {
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [1]
+	["Vermily:La Croisade écarlate:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
-		}, -- [2]
+		}, -- [1]
 		{
 			["statKey"] = "GeneralCategory",
-		}, -- [3]
+		}, -- [2]
 		{
 			["statKey"] = "HEALTH",
-		}, -- [4]
+		}, -- [3]
 		{
 			["statKey"] = "DCS_POWER",
-		}, -- [5]
+		}, -- [4]
 		{
 			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [6]
+		}, -- [5]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
-		}, -- [7]
+		}, -- [6]
 		{
 			["statKey"] = "MOVESPEED",
-		}, -- [8]
+		}, -- [7]
 		{
 			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
 		}, -- [9]
 		{
 			["statKey"] = "AttributesCategory",
 		}, -- [10]
 		{
 			["statKey"] = "STRENGTH",
-			["hidden"] = true,
 		}, -- [11]
 		{
 			["statKey"] = "AGILITY",
@@ -3255,96 +3261,90 @@ DCS_ClassSpecDB = {
 		}, -- [12]
 		{
 			["statKey"] = "INTELLECT",
+			["hidden"] = true,
 		}, -- [13]
 		{
 			["statKey"] = "STAMINA",
 		}, -- [14]
 		{
-			["statKey"] = "ARMOR",
+			["statKey"] = "OffenseCategory",
 		}, -- [15]
 		{
-			["statKey"] = "OffenseCategory",
+			["statKey"] = "ATTACK_DAMAGE",
 		}, -- [16]
 		{
-			["statKey"] = "ATTACK_DAMAGE",
-			["hidden"] = true,
+			["statKey"] = "ATTACK_AP",
 		}, -- [17]
 		{
-			["statKey"] = "ATTACK_AP",
-			["hidden"] = true,
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
 		}, -- [18]
 		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-			["hidden"] = true,
+			["statKey"] = "WEAPON_DPS",
 		}, -- [19]
 		{
-			["statKey"] = "WEAPON_DPS",
+			["statKey"] = "SPELLPOWER",
 			["hidden"] = true,
 		}, -- [20]
 		{
-			["statKey"] = "SPELLPOWER",
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
 		}, -- [21]
 		{
-			["statKey"] = "MANAREGEN",
+			["statKey"] = "ENERGY_REGEN",
 		}, -- [22]
 		{
-			["statKey"] = "ENERGY_REGEN",
+			["statKey"] = "DCS_RUNEREGEN",
 		}, -- [23]
 		{
-			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
+			["statKey"] = "FOCUS_REGEN",
 		}, -- [24]
 		{
-			["statKey"] = "FOCUS_REGEN",
+			["statKey"] = "GCD",
 		}, -- [25]
 		{
-			["statKey"] = "GCD",
-		}, -- [26]
-		{
 			["statKey"] = "EnhancementsCategory",
-		}, -- [27]
+		}, -- [26]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [27]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [29]
+		}, -- [28]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [30]
+		}, -- [29]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [31]
+		}, -- [30]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [32]
+		}, -- [31]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [33]
+		}, -- [32]
 		{
 			["statKey"] = "DefenseCategory",
-			["hidden"] = true,
+		}, -- [33]
+		{
+			["statKey"] = "ARMOR",
 		}, -- [34]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [35]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [36]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [37]
 		{
 			["statKey"] = "RatingCategory",
@@ -3403,6 +3403,6 @@ DCS_ClassSpecDB = {
 			["hideAt"] = 0,
 			["hidden"] = true,
 		}, -- [49]
-		["uniqueKey"] = "Tenga:La Croisade écarlate:3",
+		["uniqueKey"] = "Vermily:La Croisade écarlate:1",
 	},
 }

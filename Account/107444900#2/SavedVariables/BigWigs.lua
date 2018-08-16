@@ -1,5 +1,14 @@
 
 BigWigs3DB = {
+	["global"] = {
+		["watchedMovies"] = {
+			["875:1"] = true,
+			[-367] = true,
+			[-917] = true,
+			[688] = true,
+			[686] = true,
+		},
+	},
 	["profileKeys"] = {
 		["Tenga - La Croisade écarlate"] = "Default",
 		["Higi - La Croisade écarlate"] = "Default",
@@ -9,17 +18,18 @@ BigWigs3DB = {
 		["Skasch - La Croisade écarlate"] = "Default",
 		["Tsuma - La Croisade écarlate"] = "Default",
 	},
-	["global"] = {
-		["watchedMovies"] = {
-			["875:1"] = true,
-			[-367] = true,
-			[-917] = true,
-			[686] = true,
-			[688] = true,
-		},
-	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
+		},
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 312.594087842797,
+					["posy"] = 206.255838798259,
+				},
+			},
+		},
+		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
@@ -27,14 +37,10 @@ BigWigs3DB = {
 					["posx"] = 256.506559630652,
 					["fontSize"] = 12,
 					["fontOutline"] = "",
-					["font"] = "Friz Quadrata TT",
 					["posy"] = 274.533187808995,
+					["font"] = "Friz Quadrata TT",
 				},
 			},
-		},
-		["BigWigs_Plugins_Colors"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 		},
@@ -51,8 +57,8 @@ BigWigs3DB = {
 					["BigWigsAnchor_height"] = 16.0000400543213,
 					["font"] = "Friz Quadrata TT",
 					["BigWigsAnchor_x"] = 263.233207071402,
-					["BigWigsEmphasizeAnchor_width"] = 277.934509277344,
 					["fontSizeEmph"] = 11,
+					["BigWigsEmphasizeAnchor_width"] = 277.934509277344,
 				},
 			},
 		},
@@ -66,6 +72,21 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 830.211156549922,
+					["fontSize"] = 20,
+					["posy"] = 402.422345626048,
+					["height"] = 94.1001739501953,
+					["font"] = "Friz Quadrata TT",
+					["sound"] = true,
+					["width"] = 160.094039916992,
+				},
+			},
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
@@ -87,30 +108,9 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 830.211156549922,
-					["fontSize"] = 20,
-					["posy"] = 402.422345626048,
-					["height"] = 94.1001739501953,
-					["font"] = "Friz Quadrata TT",
-					["sound"] = true,
-					["width"] = 160.094039916992,
-				},
-			},
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 312.594087842797,
-					["posy"] = 206.255838798259,
-				},
-			},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 	},
 	["wipe80"] = true,
@@ -123,14 +123,6 @@ BigWigs3DB = {
 BigWigsIconDB = {
 }
 BigWigsStatsDB = {
-	[1520] = {
-		[1726] = {
-			["LFR"] = {
-				["best"] = 91.4069999999992,
-				["kills"] = 1,
-			},
-		},
-	},
 	[1712] = {
 		[1984] = {
 			["LFR"] = {
@@ -163,6 +155,14 @@ BigWigsStatsDB = {
 		[1862] = {
 			["LFR"] = {
 				["best"] = 163.103999999999,
+				["kills"] = 1,
+			},
+		},
+	},
+	[1520] = {
+		[1726] = {
+			["LFR"] = {
+				["best"] = 91.4069999999992,
 				["kills"] = 1,
 			},
 		},

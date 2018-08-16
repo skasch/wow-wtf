@@ -4,6 +4,8 @@ WeakAurasSaved = {
 	},
 	["registered"] = {
 	},
+	["login_squelch_time"] = 10,
+	["editor_bracket_matching"] = true,
 	["displays"] = {
 		["Health Bar"] = {
 			["sparkWidth"] = 10,
@@ -65,7 +67,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["ingroup"] = {
+				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -73,7 +75,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["ingroup"] = {
 					["multi"] = {
 					},
 				},
@@ -117,77 +119,57 @@ WeakAurasSaved = {
 			["internalVersion"] = 6,
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["main"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
 			["backdropInFront"] = false,
 			["text"] = true,
 			["stickyDuration"] = false,
-			["color"] = {
-			},
-			["borderColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["do_custom"] = true,
+					["custom"] = "aura_env.pretty = function(hp)\n    if hp < 10000 then\n        return string.format('%s', hp)\n    end\n    if hp < 1000000 then\n        hpRed = hp/1000\n        suffix = 'k'\n    elseif hp < 1000000000 then\n        hpRed = hp/1000000\n        suffix = 'm'\n    else\n        hpRed = hp/1000000000\n        suffix = 'b'\n    end\n    if hpRed < 10 then\n        return string.format('%.3f%s', hpRed, suffix)\n    elseif hpRed < 100 then\n        return string.format('%.2f%s', hpRed, suffix)\n    else\n        return string.format('%.1f%s', hpRed, suffix)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+				},
 			},
 			["stacksFont"] = "Friz Quadrata TT",
-			["orientation"] = "HORIZONTAL_INVERSE",
+			["init_started"] = 1,
 			["timer"] = true,
 			["timerFlags"] = "None",
 			["borderOffset"] = 5,
 			["sparkBlendMode"] = "ADD",
 			["useAdjustededMax"] = false,
-			["numTriggers"] = 1,
-			["backdropColor"] = {
+			["inverse"] = true,
+			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				0.5, -- [4]
+				1, -- [4]
 			},
-			["icon"] = false,
-			["anchorFrameType"] = "SCREEN",
+			["height"] = 8,
+			["width"] = 280,
 			["textFlags"] = "None",
 			["border"] = false,
 			["borderEdge"] = "None",
-			["trigger"] = {
-				["use_alwaystrue"] = true,
-				["use_absorbMode"] = true,
-				["genericShowOn"] = "showOnActive",
-				["names"] = {
-				},
-				["debuffType"] = "HELPFUL",
-				["type"] = "custom",
-				["subeventPrefix"] = "SPELL",
-				["custom_type"] = "status",
-				["unevent"] = "auto",
-				["unit"] = "player",
-				["event"] = "Conditions",
-				["spellIds"] = {
-				},
-				["customDuration"] = "function()\n    local health = UnitHealth(\"player\");\n    local maxHealth = UnitHealthMax(\"player\");\n    return health, maxHealth, true\nend",
-				["customName"] = "function()\n    local health = UnitHealth(\"player\");\n    local maxHealth = UnitHealthMax(\"player\");\n    return string.format(\"%s | %s\", aura_env.pretty(health), aura_env.pretty(maxHealth))\nend\n\n\n",
-				["events"] = "UNIT_HEALTH",
-				["custom"] = "function()\n    return true\nend\n",
-				["check"] = "update",
-				["subeventSuffix"] = "_CAST_START",
-				["custom_hide"] = "timed",
-				["use_unit"] = true,
-			},
+			["borderInFront"] = true,
 			["borderSize"] = 16,
-			["id"] = "Health Bar",
+			["sparkHidden"] = "NEVER",
 			["icon_side"] = "LEFT",
-			["sparkRotationMode"] = "AUTO",
-			["timerSize"] = 10,
+			["sparkOffsetX"] = 0,
+			["displayTextRight"] = "%n",
 			["sparkHeight"] = 30,
 			["textSize"] = 10,
 			["auto"] = true,
@@ -197,152 +179,55 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["displayTextRight"] = "%n",
-			["sparkOffsetX"] = 0,
-			["sparkHidden"] = "NEVER",
-			["borderInFront"] = true,
+			["timerSize"] = 10,
+			["sparkRotationMode"] = "AUTO",
+			["id"] = "Health Bar",
+			["trigger"] = {
+				["use_alwaystrue"] = true,
+				["use_absorbMode"] = true,
+				["genericShowOn"] = "showOnActive",
+				["names"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["type"] = "custom",
+				["use_unit"] = true,
+				["custom_type"] = "status",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Conditions",
+				["events"] = "UNIT_HEALTH",
+				["customDuration"] = "function()\n    local health = UnitHealth(\"player\");\n    local maxHealth = UnitHealthMax(\"player\");\n    return health, maxHealth, true\nend",
+				["customName"] = "function()\n    local health = UnitHealth(\"player\");\n    local maxHealth = UnitHealthMax(\"player\");\n    return string.format(\"%s | %s\", aura_env.pretty(health), aura_env.pretty(maxHealth))\nend\n\n\n",
+				["spellIds"] = {
+				},
+				["custom"] = "function()\n    return true\nend\n",
+				["check"] = "update",
+				["unit"] = "player",
+				["unevent"] = "auto",
+				["subeventPrefix"] = "SPELL",
+			},
 			["frameStrata"] = 1,
-			["width"] = 280,
-			["height"] = 8,
-			["sparkColor"] = {
+			["anchorFrameType"] = "SCREEN",
+			["icon"] = false,
+			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				0.5, -- [4]
 			},
-			["inverse"] = true,
-			["sparkDesature"] = false,
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-					["do_custom"] = true,
-					["custom"] = "aura_env.pretty = function(hp)\n    if hp < 10000 then\n        return string.format('%s', hp)\n    end\n    if hp < 1000000 then\n        hpRed = hp/1000\n        suffix = 'k'\n    elseif hp < 1000000000 then\n        hpRed = hp/1000000\n        suffix = 'm'\n    else\n        hpRed = hp/1000000000\n        suffix = 'b'\n    end\n    if hpRed < 10 then\n        return string.format('%.3f%s', hpRed, suffix)\n    elseif hpRed < 100 then\n        return string.format('%.2f%s', hpRed, suffix)\n    else\n        return string.format('%.1f%s', hpRed, suffix)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-				},
-				["finish"] = {
-				},
-			},
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-		},
-		["Details! Aura Group"] = {
-			["grow"] = "RIGHT",
-			["controlledChildren"] = {
-			},
-			["xOffset"] = -678.999450683594,
-			["yOffset"] = 212.765991210938,
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = 0,
-			["space"] = 0,
-			["background"] = "None",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["internalVersion"] = 6,
-			["selfPoint"] = "LEFT",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["unit"] = "player",
-				["spellIds"] = {
-				},
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["subeventPrefix"] = "SPELL",
-				["buffShowOn"] = "showOnActive",
-			},
-			["stagger"] = 0,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_combat"] = true,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["animate"] = true,
-			["scale"] = 1,
-			["border"] = "None",
-			["regionType"] = "dynamicgroup",
-			["sort"] = "none",
-			["expanded"] = true,
-			["constantFactor"] = "RADIUS",
-			["borderOffset"] = 16,
-			["id"] = "Details! Aura Group",
-			["rotation"] = 0,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["align"] = "CENTER",
-			["radius"] = 200,
 			["numTriggers"] = 1,
-			["untrigger"] = {
-			},
-			["init_started"] = 1,
+			["sparkDesature"] = false,
+			["orientation"] = "HORIZONTAL_INVERSE",
 			["conditions"] = {
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
+			["borderColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
 			},
-			["backgroundInset"] = 0,
+			["color"] = {
+			},
 		},
 		["Details! Boss Mods Group"] = {
 			["grow"] = "DOWN",
@@ -357,9 +242,9 @@ WeakAurasSaved = {
 			["actions"] = {
 				["start"] = {
 				},
-				["finish"] = {
-				},
 				["init"] = {
+				},
+				["finish"] = {
 				},
 			},
 			["radius"] = 200,
@@ -395,7 +280,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
@@ -403,7 +288,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -421,21 +306,22 @@ WeakAurasSaved = {
 			["constantFactor"] = "RADIUS",
 			["borderOffset"] = 16,
 			["id"] = "Details! Boss Mods Group",
-			["rotation"] = 0,
+			["internalVersion"] = 6,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["names"] = {
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
-				["spellIds"] = {
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
-				["debuffType"] = "HELPFUL",
-				["unit"] = "player",
-				["subeventPrefix"] = "SPELL",
-				["buffShowOn"] = "showOnActive",
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
 			},
 			["backgroundInset"] = 0,
 			["numTriggers"] = 1,
@@ -444,6 +330,114 @@ WeakAurasSaved = {
 			["init_started"] = 1,
 			["conditions"] = {
 			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["buffShowOn"] = "showOnActive",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["rotation"] = 0,
+		},
+		["Details! Aura Group"] = {
+			["grow"] = "RIGHT",
+			["controlledChildren"] = {
+			},
+			["xOffset"] = -678.999450683594,
+			["yOffset"] = 212.765991210938,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = 0,
+			["space"] = 0,
+			["background"] = "None",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["internalVersion"] = 6,
+			["selfPoint"] = "LEFT",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["buffShowOn"] = "showOnActive",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["stagger"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animate"] = true,
+			["scale"] = 1,
+			["border"] = "None",
+			["regionType"] = "dynamicgroup",
+			["sort"] = "none",
+			["expanded"] = true,
+			["constantFactor"] = "RADIUS",
+			["borderOffset"] = 16,
+			["id"] = "Details! Aura Group",
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -458,16 +452,22 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["internalVersion"] = 6,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["untrigger"] = {
+			},
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["align"] = "CENTER",
+			["rotation"] = 0,
 		},
 	},
-	["editor_bracket_matching"] = true,
-	["login_squelch_time"] = 10,
 	["frame"] = {
 		["xOffset"] = -424.633911132813,
-		["yOffset"] = -104.13134765625,
-		["height"] = 492,
 		["width"] = 630,
+		["height"] = 492,
+		["yOffset"] = -104.13134765625,
 	},
 	["editor_theme"] = "Monokai",
 }

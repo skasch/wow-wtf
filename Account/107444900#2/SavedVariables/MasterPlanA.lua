@@ -2,8 +2,8 @@
 MasterPlanAG = {
 	["La Croisade écarlate"] = {
 		["Tenga"] = {
-			["class"] = "PRIEST",
 			["faction"] = "Horde",
+			["class"] = "PRIEST",
 		},
 		["Seina"] = {
 			["summary"] = {
@@ -38,28 +38,38 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1532771047,
 		},
 		["Simetra"] = {
-			["class"] = "HUNTER",
 			["faction"] = "Horde",
+			["class"] = "HUNTER",
 		},
 		["Suzui"] = {
-			["faction"] = "Horde",
 			["class"] = "DEATHKNIGHT",
+			["faction"] = "Horde",
 		},
 		["Higi"] = {
-			["faction"] = "Horde",
 			["class"] = "MAGE",
-		},
-		["Sueki"] = {
-			["class"] = "DEMONHUNTER",
 			["faction"] = "Horde",
+		},
+		["Tsuma"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[228] = 1528035859,
+					[140] = 1528034951,
+					[367] = 1528058573,
+					[366] = 1528058582,
+				},
+			},
+			["faction"] = "Horde",
+			["lastCacheTime"] = 1528049339,
+			["curRes"] = 1179,
+			["class"] = "SHAMAN",
 		},
 		["Tsuri"] = {
 			["faction"] = "Horde",
 			["class"] = "DRUID",
 		},
-		["Kanpa"] = {
-			["class"] = "DRUID",
-			["faction"] = "Horde",
+		["Onaka"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
 		},
 		["Skasch"] = {
 			["summary"] = {
@@ -85,33 +95,23 @@ MasterPlanAG = {
 			["curRes"] = 701,
 			["lastCacheTime"] = 1531562467,
 		},
-		["Onaka"] = {
-			["class"] = "WARLOCK",
-			["faction"] = "Alliance",
-		},
-		["Tsuma"] = {
-			["summary"] = {
-				["inProgress"] = {
-					[228] = 1528035859,
-					[140] = 1528034951,
-					[367] = 1528058573,
-					[366] = 1528058582,
-				},
-			},
+		["Kanpa"] = {
 			["faction"] = "Horde",
-			["lastCacheTime"] = 1528049339,
-			["curRes"] = 1179,
-			["class"] = "SHAMAN",
+			["class"] = "DRUID",
+		},
+		["Sueki"] = {
+			["faction"] = "Horde",
+			["class"] = "DEMONHUNTER",
 		},
 	},
 	["Elune"] = {
 		["Skasch"] = {
-			["faction"] = "Alliance",
 			["class"] = "ROGUE",
+			["faction"] = "Alliance",
 		},
 		["Kanpa"] = {
-			["faction"] = "Alliance",
 			["class"] = "DRUID",
+			["faction"] = "Alliance",
 		},
 	},
 	["IgnoreRewards"] = {

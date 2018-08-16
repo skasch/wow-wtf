@@ -84,24 +84,24 @@ MADB = {
 						-155.555552651501, -- [5]
 					},
 				},
-				["TalkingHeadFrame"] = {
+				["MinimapCluster"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
+						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
-						"BOTTOM", -- [3]
+						"TOPRIGHT", -- [3]
 						0, -- [4]
-						96, -- [5]
+						0, -- [5]
 					},
-					["name"] = "TalkingHeadFrame",
-					["scale"] = 0.899999976158142,
+					["name"] = "MinimapCluster",
 					["pos"] = {
-						"BOTTOMLEFT", -- [1]
+						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						66.6666717529297, -- [4]
-						244.444473266602, -- [5]
+						"TOPRIGHT", -- [3]
+						0.0006103515625, -- [4]
+						-0.0001220703125, -- [5]
 					},
-					["orgScale"] = 1,
+					["frameStrata"] = "LOW",
+					["orgFrameStrata"] = "LOW",
 				},
 				["AchievementAlertFrame1"] = {
 					["name"] = "AchievementAlertFrame1",
@@ -118,7 +118,7 @@ MADB = {
 						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMRIGHT", -- [3]
-						-41, -- [4]
+						0, -- [4]
 						757.690246582031, -- [5]
 					},
 					["name"] = "DurabilityFrame",
@@ -164,40 +164,57 @@ MADB = {
 						285, -- [5]
 					},
 				},
-				["MinimapCluster"] = {
+				["TalkingHeadFrame"] = {
 					["orgPos"] = {
-						"TOPRIGHT", -- [1]
+						"BOTTOM", -- [1]
 						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
+						"BOTTOM", -- [3]
 						0, -- [4]
-						0, -- [5]
+						96, -- [5]
 					},
-					["name"] = "MinimapCluster",
-					["orgFrameStrata"] = "LOW",
-					["frameStrata"] = "LOW",
+					["name"] = "TalkingHeadFrame",
+					["scale"] = 0.899999976158142,
+					["orgScale"] = 1,
 					["pos"] = {
-						"TOPRIGHT", -- [1]
+						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						0.0006103515625, -- [4]
-						-0.0001220703125, -- [5]
+						"BOTTOMLEFT", -- [3]
+						66.6666717529297, -- [4]
+						244.444473266602, -- [5]
 					},
 				},
-				["MainMenuBarVehicleLeaveButton"] = {
+				["AlertFrame"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
+						"BOTTOM", -- [1]
 						nil, -- [2]
-						"TOPLEFT", -- [3]
+						"BOTTOM", -- [3]
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "MainMenuBarVehicleLeaveButton",
+					["name"] = "AlertFrame",
 					["pos"] = {
-						"TOPRIGHT", -- [1]
+						"BOTTOM", -- [1]
 						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
+						"BOTTOM", -- [3]
 						0, -- [4]
-						0, -- [5]
+						70, -- [5]
+					},
+				},
+				["FocusFrame"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						-183, -- [4]
+						148, -- [5]
+					},
+					["name"] = "FocusFrame",
+					["pos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						383.640045166016, -- [4]
+						-185.500069562884, -- [5]
 					},
 				},
 				["TooltipMover"] = {
@@ -214,27 +231,6 @@ MADB = {
 						"BOTTOMRIGHT", -- [3]
 						-60, -- [4]
 						210, -- [5]
-					},
-				},
-				["LootFrame"] = {
-					["UIPanelWindows"] = {
-						["pushable"] = 7,
-						["area"] = "left",
-					},
-					["orgPos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						-135, -- [5]
-					},
-					["name"] = "LootFrame",
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						326.502349853516, -- [4]
-						706.690124511719, -- [5]
 					},
 				},
 				["PlayerPowerBarAltMover"] = {
@@ -259,7 +255,7 @@ MADB = {
 						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMRIGHT", -- [3]
-						-62.0000038146973, -- [4]
+						0, -- [4]
 						889.690124511719, -- [5]
 					},
 					["name"] = "VehicleSeatIndicator",
@@ -323,38 +319,42 @@ MADB = {
 					["frameStrata"] = "MEDIUM",
 					["orgFrameStrata"] = "LOW",
 				},
-				["FocusFrame"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						-183, -- [4]
-						148, -- [5]
+				["LootFrame"] = {
+					["UIPanelWindows"] = {
+						["pushable"] = 7,
+						["area"] = "left",
 					},
-					["name"] = "FocusFrame",
-					["pos"] = {
+					["orgPos"] = {
 						"TOPLEFT", -- [1]
 						"UIParent", -- [2]
 						"TOPLEFT", -- [3]
-						383.640045166016, -- [4]
-						-185.500069562884, -- [5]
+						327.000030517578, -- [4]
+						-135.000015258789, -- [5]
+					},
+					["name"] = "LootFrame",
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						326.502349853516, -- [4]
+						706.690124511719, -- [5]
 					},
 				},
-				["AlertFrame"] = {
+				["MainMenuBarVehicleLeaveButton"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
+						"TOPLEFT", -- [1]
 						nil, -- [2]
-						"BOTTOM", -- [3]
+						"TOPLEFT", -- [3]
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "AlertFrame",
+					["name"] = "MainMenuBarVehicleLeaveButton",
 					["pos"] = {
-						"BOTTOM", -- [1]
+						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
-						"BOTTOM", -- [3]
+						"TOPRIGHT", -- [3]
 						0, -- [4]
-						70, -- [5]
+						0, -- [5]
 					},
 				},
 				["AchievementAlertFrame2"] = {
@@ -370,8 +370,8 @@ MADB = {
 			},
 		},
 	},
-	["tooltips"] = true,
-	["playSound"] = false,
-	["noBags"] = false,
 	["closeGUIOnEscape"] = false,
+	["noBags"] = false,
+	["playSound"] = false,
+	["tooltips"] = true,
 }

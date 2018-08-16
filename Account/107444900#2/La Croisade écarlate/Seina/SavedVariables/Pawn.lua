@@ -4,7 +4,6 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Seina-La Croisade écarlate",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128866] = {
 			["Relics"] = {
@@ -20,6 +19,7 @@ PawnOptions = {
 			["Name"] = "Truthguard",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PALADIN",

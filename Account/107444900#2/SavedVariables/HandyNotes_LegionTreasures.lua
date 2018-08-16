@@ -3,9 +3,9 @@ HandyNotes_LegionTreasuresDB = {
 	["profileKeys"] = {
 		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
 		["Higi - La Croisade écarlate"] = "Higi - La Croisade écarlate",
-		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Kanpa - La Croisade écarlate"] = "Kanpa - La Croisade écarlate",
 		["Tsuri - La Croisade écarlate"] = "Tsuri - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
+		["Skasch - Elune"] = "Skasch - Elune",
 		["Onaka - La Croisade écarlate"] = "Onaka - La Croisade écarlate",
 		["Skasch - La Croisade écarlate"] = "Skasch - La Croisade écarlate",
 		["Sutoka - La Croisade écarlate"] = "Sutoka - La Croisade écarlate",
@@ -15,19 +15,19 @@ HandyNotes_LegionTreasuresDB = {
 		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
 		["Suzui - La Croisade écarlate"] = "Suzui - La Croisade écarlate",
 		["Seina - La Croisade écarlate"] = "Seina - La Croisade écarlate",
-		["Skasch - Elune"] = "Skasch - Elune",
-		["Kanpa - La Croisade écarlate"] = "Kanpa - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
+		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 	},
 	["profiles"] = {
 		["Tenga - La Croisade écarlate"] = {
 		},
 		["Higi - La Croisade écarlate"] = {
 		},
-		["Tsuma - La Croisade écarlate"] = {
+		["Kanpa - La Croisade écarlate"] = {
 		},
 		["Tsuri - La Croisade écarlate"] = {
 		},
-		["Asane - La Croisade écarlate"] = {
+		["Skasch - Elune"] = {
 		},
 		["Onaka - La Croisade écarlate"] = {
 		},
@@ -47,9 +47,9 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Seina - La Croisade écarlate"] = {
 		},
-		["Skasch - Elune"] = {
+		["Asane - La Croisade écarlate"] = {
 		},
-		["Kanpa - La Croisade écarlate"] = {
+		["Tsuma - La Croisade écarlate"] = {
 		},
 	},
 }

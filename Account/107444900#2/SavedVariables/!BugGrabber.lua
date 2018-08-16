@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 1318,
 	["lastSanitation"] = 3,
+	["session"] = 1335,
 	["errors"] = {
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Dominos' tried to call the protected function 'DominosFrameexp:ClearAllPoints()'.",
@@ -1512,36 +1512,20 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [195]
 		{
-			["message"] = "Interface\\FrameXML\\FloatingChatFrame.lua:1115: bad argument #1 to 'max' (number expected, got nil)",
-			["time"] = "2018/07/18 08:51:12",
-			["locals"] = "(*temporary) = nil\n(*temporary) = 0.25\n(*temporary) = \"number expected, got nil\"\n",
-			["stack"] = "[C]: in function `max'\nInterface\\FrameXML\\FloatingChatFrame.lua:1115: in function `FCF_FadeInChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1121: in function `FCF_FadeInChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1201: in function `FCF_OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
-			["session"] = 1305,
-			["counter"] = 41,
-		}, -- [196]
-		{
-			["message"] = "Interface\\FrameXML\\FloatingChatFrame.lua:1147: bad argument #2 to 'max' (number expected, got nil)",
-			["time"] = "2018/07/18 08:51:19",
-			["locals"] = "(*temporary) = 1\n(*temporary) = nil\n(*temporary) = \"number expected, got nil\"\n",
-			["stack"] = "[C]: in function `max'\nInterface\\FrameXML\\FloatingChatFrame.lua:1147: in function `FCF_FadeOutChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1153: in function `FCF_FadeOutChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1210: in function `FCF_OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
-			["session"] = 1305,
-			["counter"] = 41,
-		}, -- [197]
-		{
 			["message"] = "Interface\\FrameXML\\CompactUnitFrame.lua:1787: Attempt to access forbidden object from code tainted by an AddOn",
 			["time"] = "2018/07/31 00:05:55",
 			["locals"] = "InCombatSkipped",
 			["stack"] = "[C]: in function `SetHeight'\nInterface\\FrameXML\\CompactUnitFrame.lua:1787: in function `DefaultCompactNamePlateFrameSetupInternal'\nInterface\\FrameXML\\CompactUnitFrame.lua:1766: in function `DefaultCompactNamePlateFrameSetup'\nInterface\\FrameXML\\CompactUnitFrame.lua:1770: in function `func'\nInterface\\FrameXML\\CompactUnitFrame.lua:204: in function <Interface\\FrameXML\\CompactUnitFrame.lua:203>\n[C]: in function `CompactUnitFrame_SetUpFrame'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:108: in function `ApplyFrameOptions'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:84: in function `OnNamePlateAdded'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:44: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:35>",
 			["session"] = 1311,
 			["counter"] = 114,
-		}, -- [198]
+		}, -- [196]
 		{
 			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'Atlas' tried to call the protected function 'GuildControlSetRank()'.",
 			["time"] = "2018/08/12 13:51:57",
 			["stack"] = "Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[C]: in function `GuildControlSetRank'\n...\\Blizzard_GuildControlUI\\Blizzard_GuildControlUI.lua:24: in function <...\\Blizzard_GuildControlUI\\Blizzard_GuildControlUI.lua:7>\n[C]: ?\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:445: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:691: in function `Communities_LoadUI'\nInterface\\FrameXML\\UIParent.lua:925: in function `ToggleCommunitiesFrame'\nInterface\\FrameXML\\UIParent.lua:812: in function `ToggleGuildFrame'\n[string \"TOGGLEGUILDTAB\"]:1: in function <[string \"TOGGLEGUILDTAB\"]:1>",
 			["session"] = 1313,
 			["counter"] = 1,
-		}, -- [199]
+		}, -- [197]
 		{
 			["message"] = "Interface\\FrameXML\\LootFrame.lua:517: Usage: GetLootRollItemInfo(id)",
 			["time"] = "2018/08/12 20:24:57",
@@ -1549,7 +1533,7 @@ BugGrabberDB = {
 			["stack"] = "[C]: in function `GetLootRollItemInfo'\nInterface\\FrameXML\\LootFrame.lua:517: in function <Interface\\FrameXML\\LootFrame.lua:516>\n[C]: ?\n[C]: in function `Show'\nInterface\\AddOns\\MoveAnything\\MoveAnything-17.0.0.lua:2386: in function `AttachMoverToFrame'\nInterface\\AddOns\\MoveAnything\\MoveAnything-17.0.0.lua:1867: in function `AttachMover'\nInterface\\AddOns\\MoveAnything\\MoveAnything-17.0.0.lua:1971: in function `ToggleMove'\nInterface\\AddOns\\MoveAnything\\MoveAnything-17.0.0.lua:2570: in function `OnMoveCheck'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 1315,
 			["counter"] = 4,
-		}, -- [200]
+		}, -- [198]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'TinyInspect' tried to call the protected function 'SetTargetClampingInsets()'.",
 			["time"] = "2018/08/01 19:25:05",
@@ -1557,29 +1541,7 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[C]: in function `SetTargetClampingInsets'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:242: in function `SetupClassNameplateBars'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:87: in function `OnNamePlateAdded'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:44: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:35>",
 			["session"] = 1315,
 			["counter"] = 5,
-		}, -- [201]
-		{
-			["message"] = "Interface\\AddOns\\Broker_Everything\\modules/guild.lua:252: attempt to index global 'racebyId' (a nil value)",
-			["time"] = "2018/04/22 18:24:28",
-			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n _OnMouseUp_arg = <table> {\n }\n width = 0\n _OnEnter_func = <function> defined @Interface\\AddOns\\Broker_Everything\\modules/guild.lua:234\n info = <table> {\n }\n _OnMouseUp_func = <function> defined @Interface\\AddOns\\Broker_Everything\\modules/guild.lua:207\n height = 12.018779754639\n justification = \"LEFT\"\n cells = <table> {\n }\n _OnEnter_arg = <table> {\n }\n}\ninfo = <table> {\n 1 = \"Tsuma-LaCroisadeécarlate\"\n 2 = \"Tsuma\"\n 3 = \"LaCroisadeécarlate\"\n 4 = \"Flute à bec\"\n 5 = 5\n 6 = 42\n 7 = \"Shaman\"\n 8 = \"Desolace\"\n 9 = \"\"\n 10 = \"\"\n 11 = true\n 12 = 0\n 13 = \"SHAMAN\"\n 16 = false\n 18 = 6\n 19 = \"Player-1086-06E6799D\"\n 20 = \"Honored\"\n 21 = \"Goblin\"\n}\nv = <table> {\n 1 = \"Tsuma-LaCroisadeécarlate\"\n 2 = \"Tsuma\"\n 3 = \"LaCroisadeécarlate\"\n 4 = \"Flute à bec\"\n 5 = 5\n 6 = 42\n 7 = \"Shaman\"\n 8 = \"Desolace\"\n 9 = \"\"\n 10 = \"\"\n 11 = true\n 12 = 0\n 13 = \"SHAMAN\"\n 16 = false\n 18 = 6\n 19 = \"Player-1086-06E6799D\"\n 20 = \"Honored\"\n 21 = \"Goblin\"\n}\ns = \"\"\nt = nil\n_ = nil\nrealm = \"La Croisade écarlate\"\n(*temporary) = nil\n(*temporary) = \"Goblin\"\n(*temporary) = nil\n(*temporary) = \"|cff69ccf0Realm|r\"\n(*temporary) = \"|cffffcc00La Croisade écarlate|r\"\n(*temporary) = <unnamed> {\n 0 = <userdata>\n regularFont = GameTooltipText {\n }\n parent = <table> {\n }\n headerFont = GameTooltipHeaderText {\n }\n key = \"GuildTT2\"\n scripts = <table> {\n }\n mode = <table> {\n }\n scrollFrame = <unnamed> {\n }\n columns = <table> {\n }\n scrollChild = <unnamed> {\n }\n colspans = <table> {\n }\n width = 177.26291275024\n labelProvider = <table> {\n }\n lines = <table> {\n }\n height = 35.040689468384\n elapsed = 0\n}\n(*temporary) = GameTooltipText {\n 0 = <userdata>\n}\n(*temporary) = 3\n(*temporary) = <unnamed> {\n 0 = <userdata>\n cells = <table> {\n }\n width = 0\n height = 12.018780708313\n justification = \"RIGHT\"\n}\n(*temporary) = \"attempt to index global 'racebyId' (a nil value)\"\nmRealm = 3\ntt2 = <unnamed> {\n 0 = <userdata>\n regularFont = GameTooltipText {\n }\n parent = <table> {\n }\n headerFont = GameTooltipHeaderText {\n }\n key = \"GuildTT2\"\n scripts = <table> {\n }\n mode = <table> {\n }\n scrollFrame = <unnamed> {\n }\n columns = <table> {\n }\n scrollChild = <unnamed> {\n }\n colspans = <table> {\n }\n width = 177.26291275024\n labelProvider = <table> {\n }\n lines = <table> {\n }\n height = 35.040689468384\n elapsed = 0\n}\nns = <table> {\n scm = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:1335\n ClickOpts = <table> {\n }\n modules = <table> {\n }\n LDBI = <table> {\n }\n LC = <table> {\n }\n LQT = <table> {\n }\n stripRealm = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:71\n debug = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:166\n eventPlayerEnteredWorld = true\n coexist = <table> {\n }\n items = <table> {\n }\n tooltipChkOnShowModifier = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:376\n hideTooltip = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:334\n SetCVar = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:180\n UseContainerItemHook = <table> {\n }\n LocalizationsOnEvent = <function> defined @Interface\\AddOns\\Broker_Everything\\localizations/en.lua:80\n artifactrelikts = <table> {\n }\n FormatLargeNumber = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:566\n LT = <table> {\n }\n showCharsFrom_Values = <table> {\n }\n pairsByKeys = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:540\n realms = <table> {\n }\n artifactpower_items = <table> {\n }\n strWrap = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:592\n toggleEquipment = <function> defined @Interface\\AddOns\\Broker_Everything\\modules/equipment.lua:33\n realm_short = \"LaCroisadeécarlate\"\n hideFrames = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:1354\n tooltipScaling = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:232\n ScanTT = <table> {\n }\n showThisChar = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:109\n print = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:150\n LRI = <table> {\n }\n AddSpannedLine = <function> ",
-			["stack"] = "Interface\\AddOns\\Broker_Everything\\modules/guild.lua:252: in function `_OnEnter_func'\n...s\\Broker_Everything\\libs\\LibQTip-1.0\\LibQTip-1.0-44.lua:1233: in function <...s\\Broker_Everything\\libs\\LibQTip-1.0\\LibQTip-1.0.lua:1227>",
-			["session"] = 1316,
-			["counter"] = 77,
-		}, -- [202]
-		{
-			["message"] = "Couldn't open Interface\\AddOns\\Broker_LootSpec\\lib\\CallbackHandler-1.0-7\\CallbackHandler-1.0.xml",
-			["session"] = 1318,
-			["time"] = "2018/07/22 09:31:27",
-			["counter"] = 612,
-		}, -- [203]
-		{
-			["message"] = "Interface\\FrameXML\\ChatFrame.lua:4360: attempt to index local 'info' (a nil value)",
-			["time"] = "2018/08/09 01:17:51",
-			["locals"] = "editBox = ChatFrame4EditBox {\n 0 = <userdata>\n MAParent = \"ChatEditBoxesLengthMover\"\n headerSuffix = ChatFrame4EditBoxHeaderSuffix {\n }\n focusLeft = ChatFrame4EditBoxFocusLeft {\n }\n focusRight = ChatFrame4EditBoxFocusRight {\n }\n addHighlightedText = true\n rDrag = <unnamed> {\n }\n chatFrame = ChatFrame4 {\n }\n addSpaceToAutoComplete = true\n focusMid = ChatFrame4EditBoxFocusMid {\n }\n frame = <unnamed> {\n }\n lDrag = <unnamed> {\n }\n header = ChatFrame4EditBoxHeader {\n }\n}\ntype = \"ERRORS\"\ninfo = nil\nheader = ChatFrame4EditBoxHeader {\n 0 = <userdata>\n}\nheaderSuffix = ChatFrame4EditBoxHeaderSuffix {\n 0 = <userdata>\n}\nheaderWidth = 1\neditBoxWidth = 4.9999923706055\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = ChatFrame4EditBoxHeader {\n 0 = <userdata>\n}\n(*temporary) = <userdata>\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = <function> defined @Interface\\SharedXML\\ScrollingMessageFrame.lua:300\n(*temporary) = ChatFrame4 {\n GatherSelectedText = <function> defined =[C]:-1\n RefreshIfNecessary = <function> defined =[C]:-1\n OnPostShow = <function> defined =[C]:-1\n GetNumVisibleLines = <function> defined =[C]:-1\n ScrollUp = <function> defined =[C]:-1\n SetTimeVisible = <function> defined =[C]:-1\n isDisplayDirty = true\n tellTimer = 59193.71\n onScrollChangedCallback = <function> defined =[C]:-1\n fadeDurationSecs = 3\n 0 = <userdata>\n UpdateSelectingText = <function> defined =[C]:-1\n GetFading = <function> defined =[C]:-1\n IsTextCopyable = <function> defined =[C]:-1\n Clear = <function> defined =[C]:-1\n shouldFadeAfterInactivity = true\n channelList = <table> {\n }\n GetTimeVisible = <function> defined =[C]:-1\n GetJustifyV = <function> defined =[C]:-1\n ScrollToBottom = <function> defined =[C]:-1\n SetTextCopyable = <function> defined =[C]:-1\n GetMaxLines = <function> defined =[C]:-1\n Show = <function> defined @Interface\\FrameXML\\FrameLocks.lua:131\n BackFillMessage = <function> defined =[C]:-1\n CalculateLineAlphaValueFromTimestamp = <function> defined =[C]:-1\n UnpackageEntry = <function> defined =[C]:-1\n ScrollBar = <unnamed> {\n }\n GetInsertMode = <function> defined =[C]:-1\n GetIndentedWordWrap = <function> defined =[C]:-1\n messageTypeList = <table> {\n }\n originalHide = <function> defined =[C]:-1\n GetFont = <function> defined =[C]:-1\n hasOwnFontObject = true\n SetMaxLines = <function> defined =[C]:-1\n timeVisibleSecs = 120\n OnPostUpdate = <function> defined =[C]:-1\n originalShow = <function> defined =[C]:-1\n RefreshDisplay = <function> defined =[C]:-1\n SetFontObject = <function> defined =[C]:-1\n OnFontObjectUpdated = <function> defined =[C]:-1\n textIsCopyable = false\n buttonSide = \"left\"\n SetOnScrollChangedCallback = <function> defined =[C]:-1\n ResizeButton = ChatFrame4ResizeButton {\n }\n SetIndentedWordWrap = <function> defined =[C]:-1\n fontObject = table: 00000192717C2D90 {\n }\n overrideFadeTimestamp = 0\n MarkLayoutDirty = <function> defined =[C]:-1\n SetInsertMode = <function> defined =[C]:-1\n MarkDisplayDirty = <function> defined =[C]:-1\n SetFont = <function> defined =[C]:-1\n FontStringContainer = <unnamed> {\n }\n SetShadowOffset = <function> defined =[C]:-1\n GetMessageInfo = <function> defined =[C]:-1\n GetOnScrollChangedCallback = <function> defined =[C]:-1\n Background = ChatFrame4Background {\n }\n ScrollDown = <function> defined =[C]:-1\n AtTop = <function> defined =[C]:-1\n GetFontObject = <function> defined =[C]:-1\n zoneChannelList = <table> {\n }\n SetScrollOffset = <function> defined =[C]:-1\n CalculateSelectingCharacterIndicesForVisibleLine = <function> defined =[C]:-1\n PackageEntry = <function> defined =[C]:-1\n isLayoutDirty = true\n MakeFontObjectCustom = <function> defined =[C]:-1\n CanEffectivelyFade = <function> defined =[C]:-1\n onDisplayRefreshedCallback = <function> defined =[C]:-1\n CalculateNumVisibleLines = <function> defined =[C]:-1\n insertMode = 2\n visibleLines = <table> {\n }\n OnPreSizeChanged = <function> defined =[C]:-1\n scrollOffset = 0\n GetScrollOffset = <function> defined =[C]:-1\n ResetSelectingText = <function> defined =[C]:-1\n historyBuffer = <table> {\n }\n editBox = ChatFrame4EditBox {\n }\n ScrollToBottomButton =",
-			["stack"] = "Interface\\FrameXML\\ChatFrame.lua:4360: in function `ChatEdit_UpdateHeader'\nInterface\\FrameXML\\ChatFrame.lua:2960: in function `ChatFrame_ConfigEventHandler'\nInterface\\FrameXML\\ChatFrame.lua:2892: in function `ChatFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 1318,
-			["counter"] = 70,
-		}, -- [204]
+		}, -- [199]
 		{
 			["message"] = "Interface\\AddOns\\TinyTooltip\\linkid.lua:17: bad argument #3 to 'format' (string expected, got boolean)",
 			["time"] = "2018/07/18 21:32:30",
@@ -1587,14 +1549,52 @@ BugGrabberDB = {
 			["stack"] = "[C]: in function `format'\nInterface\\AddOns\\TinyTooltip\\linkid.lua:17: in function <Interface\\AddOns\\TinyTooltip\\linkid.lua:11>\nInterface\\AddOns\\TinyTooltip\\linkid.lua:63: in function <Interface\\AddOns\\TinyTooltip\\linkid.lua:63>\n[C]: in function `SetUnitAura'\n...nterface\\AddOns\\ShadowedUnitFrames\\modules\\auras-Auras.lua:199: in function <...nterface\\AddOns\\ShadowedUnitFrames\\modules\\auras.lua:190>",
 			["session"] = 1318,
 			["counter"] = 579,
+		}, -- [200]
+		{
+			["message"] = "Interface\\FrameXML\\FloatingChatFrame.lua:1115: bad argument #1 to 'max' (number expected, got nil)",
+			["time"] = "2018/07/18 08:51:12",
+			["locals"] = "(*temporary) = nil\n(*temporary) = 0.25\n(*temporary) = \"number expected, got nil\"\n",
+			["stack"] = "[C]: in function `max'\nInterface\\FrameXML\\FloatingChatFrame.lua:1115: in function `FCF_FadeInChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1121: in function `FCF_FadeInChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1201: in function `FCF_OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
+			["session"] = 1331,
+			["counter"] = 43,
+		}, -- [201]
+		{
+			["message"] = "Interface\\FrameXML\\FloatingChatFrame.lua:1147: bad argument #2 to 'max' (number expected, got nil)",
+			["time"] = "2018/07/18 08:51:19",
+			["locals"] = "(*temporary) = 1\n(*temporary) = nil\n(*temporary) = \"number expected, got nil\"\n",
+			["stack"] = "[C]: in function `max'\nInterface\\FrameXML\\FloatingChatFrame.lua:1147: in function `FCF_FadeOutChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1153: in function `FCF_FadeOutChatFrame'\nInterface\\FrameXML\\FloatingChatFrame.lua:1210: in function `FCF_OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
+			["session"] = 1331,
+			["counter"] = 43,
+		}, -- [202]
+		{
+			["message"] = "Couldn't open Interface\\AddOns\\Broker_LootSpec\\lib\\CallbackHandler-1.0-7\\CallbackHandler-1.0.xml",
+			["time"] = "2018/07/22 09:31:27",
+			["session"] = 1335,
+			["counter"] = 680,
+		}, -- [203]
+		{
+			["message"] = "Interface\\FrameXML\\ChatFrame.lua:4360: attempt to index local 'info' (a nil value)",
+			["time"] = "2018/08/09 01:17:51",
+			["locals"] = "editBox = ChatFrame4EditBox {\n 0 = <userdata>\n MAParent = \"ChatEditBoxesLengthMover\"\n headerSuffix = ChatFrame4EditBoxHeaderSuffix {\n }\n focusLeft = ChatFrame4EditBoxFocusLeft {\n }\n focusRight = ChatFrame4EditBoxFocusRight {\n }\n addHighlightedText = true\n rDrag = <unnamed> {\n }\n chatFrame = ChatFrame4 {\n }\n addSpaceToAutoComplete = true\n focusMid = ChatFrame4EditBoxFocusMid {\n }\n frame = <unnamed> {\n }\n lDrag = <unnamed> {\n }\n header = ChatFrame4EditBoxHeader {\n }\n}\ntype = \"ERRORS\"\ninfo = nil\nheader = ChatFrame4EditBoxHeader {\n 0 = <userdata>\n}\nheaderSuffix = ChatFrame4EditBoxHeaderSuffix {\n 0 = <userdata>\n}\nheaderWidth = 1\neditBoxWidth = 4.9999923706055\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = ChatFrame4EditBoxHeader {\n 0 = <userdata>\n}\n(*temporary) = <userdata>\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = <function> defined @Interface\\SharedXML\\ScrollingMessageFrame.lua:300\n(*temporary) = ChatFrame4 {\n GatherSelectedText = <function> defined =[C]:-1\n RefreshIfNecessary = <function> defined =[C]:-1\n OnPostShow = <function> defined =[C]:-1\n GetNumVisibleLines = <function> defined =[C]:-1\n ScrollUp = <function> defined =[C]:-1\n SetTimeVisible = <function> defined =[C]:-1\n isDisplayDirty = true\n tellTimer = 59193.71\n onScrollChangedCallback = <function> defined =[C]:-1\n fadeDurationSecs = 3\n 0 = <userdata>\n UpdateSelectingText = <function> defined =[C]:-1\n GetFading = <function> defined =[C]:-1\n IsTextCopyable = <function> defined =[C]:-1\n Clear = <function> defined =[C]:-1\n shouldFadeAfterInactivity = true\n channelList = <table> {\n }\n GetTimeVisible = <function> defined =[C]:-1\n GetJustifyV = <function> defined =[C]:-1\n ScrollToBottom = <function> defined =[C]:-1\n SetTextCopyable = <function> defined =[C]:-1\n GetMaxLines = <function> defined =[C]:-1\n Show = <function> defined @Interface\\FrameXML\\FrameLocks.lua:131\n BackFillMessage = <function> defined =[C]:-1\n CalculateLineAlphaValueFromTimestamp = <function> defined =[C]:-1\n UnpackageEntry = <function> defined =[C]:-1\n ScrollBar = <unnamed> {\n }\n GetInsertMode = <function> defined =[C]:-1\n GetIndentedWordWrap = <function> defined =[C]:-1\n messageTypeList = <table> {\n }\n originalHide = <function> defined =[C]:-1\n GetFont = <function> defined =[C]:-1\n hasOwnFontObject = true\n SetMaxLines = <function> defined =[C]:-1\n timeVisibleSecs = 120\n OnPostUpdate = <function> defined =[C]:-1\n originalShow = <function> defined =[C]:-1\n RefreshDisplay = <function> defined =[C]:-1\n SetFontObject = <function> defined =[C]:-1\n OnFontObjectUpdated = <function> defined =[C]:-1\n textIsCopyable = false\n buttonSide = \"left\"\n SetOnScrollChangedCallback = <function> defined =[C]:-1\n ResizeButton = ChatFrame4ResizeButton {\n }\n SetIndentedWordWrap = <function> defined =[C]:-1\n fontObject = table: 00000192717C2D90 {\n }\n overrideFadeTimestamp = 0\n MarkLayoutDirty = <function> defined =[C]:-1\n SetInsertMode = <function> defined =[C]:-1\n MarkDisplayDirty = <function> defined =[C]:-1\n SetFont = <function> defined =[C]:-1\n FontStringContainer = <unnamed> {\n }\n SetShadowOffset = <function> defined =[C]:-1\n GetMessageInfo = <function> defined =[C]:-1\n GetOnScrollChangedCallback = <function> defined =[C]:-1\n Background = ChatFrame4Background {\n }\n ScrollDown = <function> defined =[C]:-1\n AtTop = <function> defined =[C]:-1\n GetFontObject = <function> defined =[C]:-1\n zoneChannelList = <table> {\n }\n SetScrollOffset = <function> defined =[C]:-1\n CalculateSelectingCharacterIndicesForVisibleLine = <function> defined =[C]:-1\n PackageEntry = <function> defined =[C]:-1\n isLayoutDirty = true\n MakeFontObjectCustom = <function> defined =[C]:-1\n CanEffectivelyFade = <function> defined =[C]:-1\n onDisplayRefreshedCallback = <function> defined =[C]:-1\n CalculateNumVisibleLines = <function> defined =[C]:-1\n insertMode = 2\n visibleLines = <table> {\n }\n OnPreSizeChanged = <function> defined =[C]:-1\n scrollOffset = 0\n GetScrollOffset = <function> defined =[C]:-1\n ResetSelectingText = <function> defined =[C]:-1\n historyBuffer = <table> {\n }\n editBox = ChatFrame4EditBox {\n }\n ScrollToBottomButton =",
+			["stack"] = "Interface\\FrameXML\\ChatFrame.lua:4360: in function `ChatEdit_UpdateHeader'\nInterface\\FrameXML\\ChatFrame.lua:2960: in function `ChatFrame_ConfigEventHandler'\nInterface\\FrameXML\\ChatFrame.lua:2892: in function `ChatFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 1335,
+			["counter"] = 87,
+		}, -- [204]
+		{
+			["message"] = "Interface\\AddOns\\Broker_Everything\\modules/guild.lua:252: attempt to index global 'racebyId' (a nil value)",
+			["time"] = "2018/04/22 18:24:28",
+			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n _OnMouseUp_arg = <table> {\n }\n width = 0\n _OnEnter_func = <function> defined @Interface\\AddOns\\Broker_Everything\\modules/guild.lua:234\n info = <table> {\n }\n _OnMouseUp_func = <function> defined @Interface\\AddOns\\Broker_Everything\\modules/guild.lua:207\n height = 12.018779754639\n justification = \"LEFT\"\n cells = <table> {\n }\n _OnEnter_arg = <table> {\n }\n}\ninfo = <table> {\n 1 = \"Tsuma-LaCroisadeécarlate\"\n 2 = \"Tsuma\"\n 3 = \"LaCroisadeécarlate\"\n 4 = \"Flute à bec\"\n 5 = 5\n 6 = 42\n 7 = \"Shaman\"\n 8 = \"Desolace\"\n 9 = \"\"\n 10 = \"\"\n 11 = true\n 12 = 0\n 13 = \"SHAMAN\"\n 16 = false\n 18 = 6\n 19 = \"Player-1086-06E6799D\"\n 20 = \"Honored\"\n 21 = \"Goblin\"\n}\nv = <table> {\n 1 = \"Tsuma-LaCroisadeécarlate\"\n 2 = \"Tsuma\"\n 3 = \"LaCroisadeécarlate\"\n 4 = \"Flute à bec\"\n 5 = 5\n 6 = 42\n 7 = \"Shaman\"\n 8 = \"Desolace\"\n 9 = \"\"\n 10 = \"\"\n 11 = true\n 12 = 0\n 13 = \"SHAMAN\"\n 16 = false\n 18 = 6\n 19 = \"Player-1086-06E6799D\"\n 20 = \"Honored\"\n 21 = \"Goblin\"\n}\ns = \"\"\nt = nil\n_ = nil\nrealm = \"La Croisade écarlate\"\n(*temporary) = nil\n(*temporary) = \"Goblin\"\n(*temporary) = nil\n(*temporary) = \"|cff69ccf0Realm|r\"\n(*temporary) = \"|cffffcc00La Croisade écarlate|r\"\n(*temporary) = <unnamed> {\n 0 = <userdata>\n regularFont = GameTooltipText {\n }\n parent = <table> {\n }\n headerFont = GameTooltipHeaderText {\n }\n key = \"GuildTT2\"\n scripts = <table> {\n }\n mode = <table> {\n }\n scrollFrame = <unnamed> {\n }\n columns = <table> {\n }\n scrollChild = <unnamed> {\n }\n colspans = <table> {\n }\n width = 177.26291275024\n labelProvider = <table> {\n }\n lines = <table> {\n }\n height = 35.040689468384\n elapsed = 0\n}\n(*temporary) = GameTooltipText {\n 0 = <userdata>\n}\n(*temporary) = 3\n(*temporary) = <unnamed> {\n 0 = <userdata>\n cells = <table> {\n }\n width = 0\n height = 12.018780708313\n justification = \"RIGHT\"\n}\n(*temporary) = \"attempt to index global 'racebyId' (a nil value)\"\nmRealm = 3\ntt2 = <unnamed> {\n 0 = <userdata>\n regularFont = GameTooltipText {\n }\n parent = <table> {\n }\n headerFont = GameTooltipHeaderText {\n }\n key = \"GuildTT2\"\n scripts = <table> {\n }\n mode = <table> {\n }\n scrollFrame = <unnamed> {\n }\n columns = <table> {\n }\n scrollChild = <unnamed> {\n }\n colspans = <table> {\n }\n width = 177.26291275024\n labelProvider = <table> {\n }\n lines = <table> {\n }\n height = 35.040689468384\n elapsed = 0\n}\nns = <table> {\n scm = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:1335\n ClickOpts = <table> {\n }\n modules = <table> {\n }\n LDBI = <table> {\n }\n LC = <table> {\n }\n LQT = <table> {\n }\n stripRealm = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:71\n debug = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:166\n eventPlayerEnteredWorld = true\n coexist = <table> {\n }\n items = <table> {\n }\n tooltipChkOnShowModifier = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:376\n hideTooltip = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:334\n SetCVar = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:180\n UseContainerItemHook = <table> {\n }\n LocalizationsOnEvent = <function> defined @Interface\\AddOns\\Broker_Everything\\localizations/en.lua:80\n artifactrelikts = <table> {\n }\n FormatLargeNumber = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:566\n LT = <table> {\n }\n showCharsFrom_Values = <table> {\n }\n pairsByKeys = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:540\n realms = <table> {\n }\n artifactpower_items = <table> {\n }\n strWrap = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:592\n toggleEquipment = <function> defined @Interface\\AddOns\\Broker_Everything\\modules/equipment.lua:33\n realm_short = \"LaCroisadeécarlate\"\n hideFrames = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:1354\n tooltipScaling = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:232\n ScanTT = <table> {\n }\n showThisChar = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:109\n print = <function> defined @Interface\\AddOns\\Broker_Everything\\shared.lua:150\n LRI = <table> {\n }\n AddSpannedLine = <function> ",
+			["stack"] = "Interface\\AddOns\\Broker_Everything\\modules/guild.lua:252: in function `_OnEnter_func'\n...s\\Broker_Everything\\libs\\LibQTip-1.0\\LibQTip-1.0-44.lua:1233: in function <...s\\Broker_Everything\\libs\\LibQTip-1.0\\LibQTip-1.0.lua:1227>",
+			["session"] = 1335,
+			["counter"] = 79,
 		}, -- [205]
 		{
 			["message"] = "Interface\\AddOns\\TinyInspect\\InspectParty.lua:72: attempt to call global 'SendAddonMessage' (a nil value)",
 			["time"] = "2018/07/20 18:59:55",
 			["locals"] = "ilvl = 134.8125\nspec = \"Protection\"\n(*temporary) = nil\n(*temporary) = \"TinyInspect\"\n(*temporary) = \"LV|134.8125|Protection\"\n(*temporary) = \"PARTY\"\n(*temporary) = \"attempt to call global 'SendAddonMessage' (a nil value)\"\n",
 			["stack"] = "Interface\\AddOns\\TinyInspect\\InspectParty.lua:72: in function <Interface\\AddOns\\TinyInspect\\InspectParty.lua:69>\nInterface\\AddOns\\TinyInspect\\InspectParty.lua:117: in function `v'\nInterface\\AddOns\\TinyInspect\\libs\\LibEvent.lua:18: in function <Interface\\AddOns\\TinyInspect\\libs\\LibEvent.lua:15>",
-			["session"] = 1318,
-			["counter"] = 301,
+			["session"] = 1335,
+			["counter"] = 308,
 		}, -- [206]
 	},
 }

@@ -29,8 +29,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -45,6 +43,8 @@ Quartz3DB = {
 					["texture"] = "Minimalist",
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -91,8 +91,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -101,16 +99,18 @@ Quartz3DB = {
 					["mirrorspacing"] = 0,
 					["mirrory"] = 1000,
 					["mirrorgap"] = 0,
-					["mirroralpha"] = 0.8,
+					["mirrorheight"] = 20,
 					["mirrortexture"] = "Minimalist",
 					["mirrorx"] = 870,
 					["mirrorposition"] = "top",
 					["mirrorwidth"] = 200,
-					["mirrorheight"] = 20,
+					["mirroralpha"] = 0.8,
 					["mirrorfontsize"] = 12,
 					["mirrorgrowdirection"] = "down",
 				},
 			},
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -118,9 +118,9 @@ Quartz3DB = {
 	["profileKeys"] = {
 		["Tenga - La Croisade écarlate"] = "Default",
 		["Higi - La Croisade écarlate"] = "Default",
-		["Tsuma - La Croisade écarlate"] = "Default",
+		["Kanpa - La Croisade écarlate"] = "Default",
 		["Tsuri - La Croisade écarlate"] = "Default",
-		["Asane - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
 		["Onaka - La Croisade écarlate"] = "Default",
 		["Skasch - La Croisade écarlate"] = "Default",
 		["Sutoka - La Croisade écarlate"] = "Default",
@@ -130,8 +130,8 @@ Quartz3DB = {
 		["Simetra - La Croisade écarlate"] = "Default",
 		["Suzui - La Croisade écarlate"] = "Default",
 		["Seina - La Croisade écarlate"] = "Default",
-		["Skasch - Elune"] = "Default",
-		["Kanpa - La Croisade écarlate"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

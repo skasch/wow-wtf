@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0223,
+	["LastVersion"] = 2.0226,
 	["LastPlayerFullName"] = "Tsuri-La Croisade écarlate",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

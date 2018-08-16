@@ -2,8 +2,8 @@
 MasterPlanAG = {
 	["La Croisade écarlate"] = {
 		["Tenga"] = {
-			["faction"] = "Horde",
 			["class"] = "PRIEST",
+			["faction"] = "Horde",
 		},
 		["Seina"] = {
 			["summary"] = {
@@ -38,38 +38,28 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1532771047,
 		},
 		["Simetra"] = {
-			["faction"] = "Horde",
 			["class"] = "HUNTER",
+			["faction"] = "Horde",
 		},
 		["Suzui"] = {
-			["class"] = "DEATHKNIGHT",
 			["faction"] = "Horde",
+			["class"] = "DEATHKNIGHT",
 		},
 		["Higi"] = {
+			["faction"] = "Horde",
 			["class"] = "MAGE",
-			["faction"] = "Horde",
 		},
-		["Tsuma"] = {
-			["summary"] = {
-				["inProgress"] = {
-					[228] = 1528035859,
-					[140] = 1528034951,
-					[367] = 1528058573,
-					[366] = 1528058582,
-				},
-			},
+		["Sueki"] = {
+			["class"] = "DEMONHUNTER",
 			["faction"] = "Horde",
-			["lastCacheTime"] = 1528049339,
-			["curRes"] = 1179,
-			["class"] = "SHAMAN",
 		},
 		["Tsuri"] = {
 			["class"] = "DRUID",
 			["faction"] = "Horde",
 		},
-		["Onaka"] = {
-			["faction"] = "Alliance",
-			["class"] = "WARLOCK",
+		["Kanpa"] = {
+			["class"] = "DRUID",
+			["faction"] = "Horde",
 		},
 		["Skasch"] = {
 			["summary"] = {
@@ -95,25 +85,33 @@ MasterPlanAG = {
 			["curRes"] = 701,
 			["lastCacheTime"] = 1531562467,
 		},
-		["Kanpa"] = {
-			["faction"] = "Horde",
-			["class"] = "DRUID",
+		["Onaka"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
 		},
-		["Sueki"] = {
+		["Tsuma"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[228] = 1528035859,
+					[140] = 1528034951,
+					[367] = 1528058573,
+					[366] = 1528058582,
+				},
+			},
 			["faction"] = "Horde",
-			["class"] = "DEMONHUNTER",
+			["lastCacheTime"] = 1528049339,
+			["curRes"] = 1179,
+			["class"] = "SHAMAN",
 		},
 	},
 	["Elune"] = {
 		["Skasch"] = {
-			["class"] = "ROGUE",
 			["faction"] = "Alliance",
+			["class"] = "ROGUE",
 		},
 		["Kanpa"] = {
-			["class"] = "DRUID",
 			["faction"] = "Alliance",
+			["class"] = "DRUID",
 		},
-	},
-	["IgnoreRewards"] = {
 	},
 }

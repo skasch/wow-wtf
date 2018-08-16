@@ -2,7 +2,6 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
-			["critFontName"] = "Friz Quadrata TT",
 			["events"] = {
 				["NOTIFICATION_ITEM_COOLDOWN"] = {
 					["disabled"] = true,
@@ -14,37 +13,38 @@ MSBTProfiles_SavedVars = {
 					["disabled"] = true,
 				},
 			},
+			["critFontName"] = "Friz Quadrata TT",
 			["enableBlizzardDamage"] = false,
 			["scrollAreas"] = {
-				["Static"] = {
-					["stickyDirection"] = "Down",
-					["direction"] = "Up",
-					["offsetX"] = 700,
-					["offsetY"] = -340,
-					["scrollHeight"] = 150,
-				},
 				["Incoming"] = {
 					["stickyTextAlignIndex"] = 1,
 					["offsetX"] = -840,
+					["scrollHeight"] = 180,
+					["behavior"] = "MSBT_NORMAL",
+					["offsetY"] = 0,
 					["textAlignIndex"] = 1,
+					["animationStyle"] = "Straight",
+				},
+				["Outgoing"] = {
+					["scrollHeight"] = 180,
+					["offsetX"] = 800,
+					["stickyTextAlignIndex"] = 3,
 					["behavior"] = "MSBT_NORMAL",
 					["offsetY"] = 0,
 					["animationStyle"] = "Straight",
-					["scrollHeight"] = 180,
+					["textAlignIndex"] = 3,
 				},
 				["Notification"] = {
 					["scrollWidth"] = 280,
 					["offsetX"] = -870,
 					["offsetY"] = -340,
 				},
-				["Outgoing"] = {
-					["scrollHeight"] = 180,
-					["offsetX"] = 800,
-					["animationStyle"] = "Straight",
-					["behavior"] = "MSBT_NORMAL",
-					["offsetY"] = 0,
-					["textAlignIndex"] = 3,
-					["stickyTextAlignIndex"] = 3,
+				["Static"] = {
+					["stickyDirection"] = "Down",
+					["direction"] = "Up",
+					["offsetX"] = 700,
+					["offsetY"] = -340,
+					["scrollHeight"] = 150,
 				},
 			},
 			["normalFontName"] = "Friz Quadrata TT",

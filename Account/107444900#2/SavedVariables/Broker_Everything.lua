@@ -40,22 +40,22 @@ Broker_Everything_DataDB = {
 			["Runeforging"] = true,
 			["Cooking"] = true,
 			[1804] = true,
-			[2366] = true,
+			[45357] = true,
 			["Blacksmithing"] = true,
 			["Skinning"] = true,
-			["Mining"] = true,
+			["Leatherworking"] = true,
 			["Alchemy"] = true,
-			[3908] = true,
+			["Mining"] = true,
 			["First Aid"] = true,
 			[53428] = true,
-			[25229] = true,
-			["Jewelcrafting"] = true,
-			[2656] = true,
-			["Pick Lock"] = true,
-			[2259] = true,
 			["Mining Skills"] = true,
-			["Leatherworking"] = true,
-			[45357] = true,
+			[2259] = true,
+			["Pick Lock"] = true,
+			[2656] = true,
+			["Jewelcrafting"] = true,
+			[25229] = true,
+			[3908] = true,
+			[2366] = true,
 		},
 	},
 	["localeNames"] = {
@@ -69,29 +69,27 @@ Broker_Everything_DataDB = {
 		[38252] = "Assault on the Ruins of Kra'nak",
 		[38440] = "Assault on The Fel Forge",
 		[39526] = "Pressing the Attack",
-		[39452] = "Assault on Ironhold Harbor",
-		[39510] = "A Little Wetwork",
+		[39433] = "Unseen Influence",
+		[39448] = "Assault on the Ruins of Kra'nak",
 		[39529] = "Tooth and Claw",
 		[39454] = "Assault on the Throne of Kil'jaeden",
-		[39532] = "Bringing Down the Iron Horde",
 		[38044] = "Bleeding the Bleeding Hollow",
+		[39532] = "Bringing Down the Iron Horde",
+		[38047] = "Battle At The Iron Front",
 		[38449] = "Assault on the Temple of Sha'naar",
-		[39565] = "Rumble in the Jungle",
 		[39442] = "Bleeding the Bleeding Hollow",
 		[39449] = "Assault on the Temple of Sha'naar",
 		[39444] = "Battle At The Iron Front",
-		[38047] = "Battle At The Iron Front",
+		[39565] = "Rumble in the Jungle",
 		[39446] = "Assault on the Fel Forge",
 		[39509] = "Bloodied Blades of Zeth'Gol",
-		[39448] = "Assault on the Ruins of Kra'nak",
-		[39433] = "Unseen Influence",
+		[39510] = "A Little Wetwork",
+		[39452] = "Assault on Ironhold Harbor",
 	},
 	["Emissary Quests"] = {
 		["factions"] = {
 		},
 	},
-	["locale"] = "enUS",
-	["AceDBfix"] = 1,
 	["Gold"] = {
 		["profit"] = {
 			["weekly"] = {
@@ -104,23 +102,28 @@ Broker_Everything_DataDB = {
 				},
 			},
 			["daily"] = {
-				[227] = {
-					149122212, -- [1]
-					158345343, -- [2]
+				[229] = {
+					170819616, -- [1]
 				},
 				[228] = {
 					158345343, -- [1]
+					170819616, -- [2]
 				},
 			},
 		},
 	},
+	["AceDBfix"] = 1,
+	["locale"] = "enUS",
 }
 Broker_Everything_CharacterDB = {
 	["Kanpa-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "DRUID",
-		["orderId"] = 13,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
 		["race"] = "HighmountainTauren",
 		["name"] = "Kanpa",
 		["gold"] = 74001,
@@ -133,10 +136,7 @@ Broker_Everything_CharacterDB = {
 		},
 		["level"] = 26,
 		["faction"] = "Horde",
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
+		["orderId"] = 13,
 	},
 	["order"] = {
 		"Tsuma-La Croisade écarlate", -- [1]
@@ -160,10 +160,13 @@ Broker_Everything_CharacterDB = {
 		["Durability"] = {
 		},
 		["class"] = "DRUID",
-		["orderId"] = 3,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
 		["race"] = "Tauren",
 		["name"] = "Tsuri",
-		["gold"] = 442591542,
+		["gold"] = 842520420,
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -191,10 +194,7 @@ Broker_Everything_CharacterDB = {
 		},
 		["level"] = 19,
 		["faction"] = "Horde",
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
+		["orderId"] = 3,
 	},
 	["Tsuma-La Croisade écarlate"] = {
 		["Durability"] = {
@@ -216,6 +216,10 @@ Broker_Everything_CharacterDB = {
 			["factions"] = {
 			},
 		},
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
 		["garrison"] = {
 			0, -- [1]
 			0, -- [2]
@@ -226,61 +230,8 @@ Broker_Everything_CharacterDB = {
 			{
 			}, -- [4]
 		},
-		["xp"] = {
-			["cur"] = 2601,
-			["percentCur"] = 0.01,
-			["max"] = 188020,
-			["need"] = 185419,
-			["restStr"] = ">17.00%",
-			["percentStr"] = "1%",
-			["percentRest"] = 0.17,
-			["bonusSum"] = 25,
-			["rest"] = 29166,
-			["bonus"] = {
-				[5] = {
-					["percent"] = 10,
-					["maxLevel"] = 100,
-				},
-				[15] = {
-					["percent"] = 5,
-					["maxLevel"] = 100,
-				},
-				[3] = {
-					["percent"] = 10,
-					["maxLevel"] = 100,
-				},
-			},
-		},
 		["Dungeons"] = {
 		},
-		["professions"] = {
-			["cooldown_locks"] = {
-			},
-			["cooldowns"] = {
-			},
-			["profession2"] = {
-				"Herb Gathering", -- [1]
-				"Herbalism", -- [2]
-				136246, -- [3]
-				83, -- [4]
-				100, -- [5]
-				6, -- [6]
-			},
-			["profession1"] = {
-				"Alchemy", -- [1]
-				"Alchemy", -- [2]
-				136240, -- [3]
-				16, -- [4]
-				115, -- [5]
-				5, -- [6]
-				2259, -- [7]
-			},
-			["hasCooldowns"] = false,
-		},
-		["tanaanjungle"] = {
-		},
-		["name"] = "Tsuma",
-		["faction"] = "Horde",
 		["mail"] = {
 			["stored"] = {
 			},
@@ -325,32 +276,84 @@ Broker_Everything_CharacterDB = {
 				"The Postmaster", -- [38]
 			},
 		},
+		["tanaanjungle"] = {
+		},
+		["name"] = "Tsuma",
+		["faction"] = "Horde",
+		["professions"] = {
+			["cooldown_locks"] = {
+			},
+			["cooldowns"] = {
+			},
+			["profession2"] = {
+				"Herb Gathering", -- [1]
+				"Herbalism", -- [2]
+				136246, -- [3]
+				83, -- [4]
+				100, -- [5]
+				6, -- [6]
+			},
+			["profession1"] = {
+				"Alchemy", -- [1]
+				"Alchemy", -- [2]
+				136240, -- [3]
+				16, -- [4]
+				115, -- [5]
+				5, -- [6]
+				2259, -- [7]
+			},
+			["hasCooldowns"] = false,
+		},
 		["garrison_cache"] = {
 			0, -- [1]
 			false, -- [2]
 		},
-		["Professions"] = {
-			["learnedRecipes"] = {
+		["xp"] = {
+			["cur"] = 2601,
+			["percentCur"] = 0.01,
+			["max"] = 188020,
+			["need"] = 185419,
+			["restStr"] = ">17.00%",
+			["percentStr"] = "1%",
+			["percentRest"] = 0.17,
+			["bonusSum"] = 25,
+			["rest"] = 29166,
+			["bonus"] = {
+				[5] = {
+					["percent"] = 10,
+					["maxLevel"] = 100,
+				},
+				[15] = {
+					["percent"] = 5,
+					["maxLevel"] = 100,
+				},
+				[3] = {
+					["percent"] = 10,
+					["maxLevel"] = 100,
+				},
 			},
 		},
 		["Artifact weapon"] = {
+			["knowledgeLevel"] = 0,
+			["equipped"] = false,
 			["obtained"] = {
 			},
-			["equipped"] = false,
-			["knowledgeLevel"] = 0,
 		},
 	},
 	["Simetra-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "HUNTER",
+		["orderId"] = 12,
+		["race"] = "Tauren",
+		["name"] = "Simetra",
+		["gold"] = 0,
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
 		},
-		["race"] = "Tauren",
-		["name"] = "Simetra",
-		["gold"] = 0,
+		["level"] = 1,
+		["faction"] = "Horde",
 		["professions"] = {
 			["cooldowns"] = {
 			},
@@ -358,24 +361,11 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["level"] = 1,
-		["faction"] = "Horde",
-		["orderId"] = 12,
 	},
 	["Kanpa-Elune"] = {
 		["Durability"] = {
 		},
 		["class"] = "DRUID",
-		["orderId"] = 16,
-		["race"] = "Worgen",
-		["name"] = "Kanpa",
-		["gold"] = 163782310,
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
-		["level"] = 110,
-		["faction"] = "Alliance",
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -401,6 +391,16 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
+		["race"] = "Worgen",
+		["name"] = "Kanpa",
+		["gold"] = 163782310,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["level"] = 110,
+		["faction"] = "Alliance",
+		["orderId"] = 16,
 	},
 	["Tenga-La Croisade écarlate"] = {
 		["Durability"] = {
@@ -421,16 +421,6 @@ Broker_Everything_CharacterDB = {
 			["factions"] = {
 			},
 		},
-		["garrison"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				0, -- [2]
-			}, -- [3]
-			{
-			}, -- [4]
-		},
 		["xp"] = {
 			["cur"] = 16035,
 			["percentCur"] = 0.95,
@@ -446,21 +436,44 @@ Broker_Everything_CharacterDB = {
 					["percent"] = 10,
 					["maxLevel"] = 100,
 				},
-				[3] = {
+				[7] = {
 					["percent"] = 10,
-					["maxLevel"] = 100,
+					["maxLevel"] = 90,
 				},
 				[15] = {
 					["percent"] = 5,
 					["maxLevel"] = 100,
 				},
-				[7] = {
+				[3] = {
 					["percent"] = 10,
-					["maxLevel"] = 90,
+					["maxLevel"] = 100,
 				},
 			},
 		},
-		["class"] = "PRIEST",
+		["garrison"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				0, -- [2]
+			}, -- [3]
+			{
+			}, -- [4]
+		},
+		["mail"] = {
+			["stored"] = {
+			},
+			["new"] = {
+			},
+		},
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["tanaanjungle"] = {
+		},
+		["name"] = "Tenga",
+		["faction"] = "Horde",
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -486,35 +499,26 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["tanaanjungle"] = {
-		},
-		["name"] = "Tenga",
-		["faction"] = "Horde",
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
 		["garrison_cache"] = {
 			0, -- [1]
 			false, -- [2]
 		},
-		["mail"] = {
-			["stored"] = {
-			},
-			["new"] = {
-			},
-		},
+		["class"] = "PRIEST",
 		["Artifact weapon"] = {
-			["knowledgeLevel"] = 0,
-			["equipped"] = false,
 			["obtained"] = {
 			},
+			["equipped"] = false,
+			["knowledgeLevel"] = 0,
 		},
 	},
 	["Higi-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "MAGE",
+		["orderId"] = 8,
+		["race"] = "BloodElf",
+		["name"] = "Higi",
+		["gold"] = 117081407,
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -540,21 +544,21 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["race"] = "BloodElf",
-		["name"] = "Higi",
-		["gold"] = 117081407,
+		["level"] = 110,
+		["faction"] = "Horde",
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
 		},
-		["level"] = 110,
-		["faction"] = "Horde",
-		["orderId"] = 8,
 	},
 	["Vermily-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "DEATHKNIGHT",
+		["orderId"] = 11,
+		["race"] = "Troll",
+		["name"] = "Vermily",
+		["gold"] = 163425336,
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -580,22 +584,21 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["race"] = "Troll",
-		["name"] = "Vermily",
-		["gold"] = 163425336,
+		["level"] = 110,
+		["faction"] = "Horde",
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
 		},
-		["level"] = 110,
-		["faction"] = "Horde",
-		["orderId"] = 11,
 	},
 	["Sueki-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "DEMONHUNTER",
-		["orderId"] = 9,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
 		["race"] = "BloodElf",
 		["name"] = "Sueki",
 		["gold"] = 127098759,
@@ -626,25 +629,12 @@ Broker_Everything_CharacterDB = {
 		},
 		["level"] = 110,
 		["faction"] = "Horde",
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
+		["orderId"] = 9,
 	},
 	["Suzui-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "DEATHKNIGHT",
-		["orderId"] = 10,
-		["race"] = "Troll",
-		["name"] = "Suzui",
-		["gold"] = 2000,
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
-		["level"] = 55,
-		["faction"] = "Horde",
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -654,12 +644,25 @@ Broker_Everything_CharacterDB = {
 			["profession1"] = false,
 			["hasCooldowns"] = false,
 		},
+		["race"] = "Troll",
+		["name"] = "Suzui",
+		["gold"] = 2000,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["level"] = 55,
+		["faction"] = "Horde",
+		["orderId"] = 10,
 	},
 	["Skasch-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "ROGUE",
-		["orderId"] = 14,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
 		["race"] = "Nightborne",
 		["name"] = "Skasch",
 		["gold"] = 191709812,
@@ -689,22 +692,22 @@ Broker_Everything_CharacterDB = {
 		},
 		["level"] = 110,
 		["faction"] = "Horde",
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
+		["orderId"] = 14,
 	},
 	["Sutoka-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "HUNTER",
+		["orderId"] = 4,
+		["race"] = "BloodElf",
+		["name"] = "Sutoka",
+		["gold"] = 3257,
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
 		},
-		["race"] = "BloodElf",
-		["name"] = "Sutoka",
-		["gold"] = 3257,
+		["level"] = 9,
+		["faction"] = "Horde",
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -729,14 +732,15 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["level"] = 9,
-		["faction"] = "Horde",
-		["orderId"] = 4,
 	},
 	["Onaka-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "WARLOCK",
+		["orderId"] = 7,
+		["race"] = "Gnome",
+		["name"] = "Onaka",
+		["gold"] = 40011117,
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -762,28 +766,27 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["race"] = "Gnome",
-		["name"] = "Onaka",
-		["gold"] = 40103177,
+		["level"] = 6,
+		["faction"] = "Alliance",
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
 		},
-		["level"] = 6,
-		["faction"] = "Alliance",
-		["orderId"] = 7,
 	},
 	["Asane-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
 		["class"] = "MONK",
+		["orderId"] = 15,
+		["race"] = "Pandaren",
+		["name"] = "Asane",
+		["gold"] = 122199510,
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
 		},
-		["race"] = "Pandaren",
-		["name"] = "Asane",
-		["gold"] = 122199510,
+		["level"] = 110,
+		["faction"] = "Horde",
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -808,64 +811,11 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["level"] = 110,
-		["faction"] = "Horde",
-		["orderId"] = 15,
-	},
-	["Seina-La Croisade écarlate"] = {
-		["Durability"] = {
-		},
-		["class"] = "PALADIN",
-		["orderId"] = 6,
-		["race"] = "Human",
-		["name"] = "Seina",
-		["gold"] = 170819616,
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
-		["level"] = 112,
-		["faction"] = "Alliance",
-		["professions"] = {
-			["cooldown_locks"] = {
-			},
-			["cooldowns"] = {
-			},
-			["profession2"] = {
-				"Mining", -- [1]
-				"Mining", -- [2]
-				134708, -- [3]
-				26, -- [4]
-				150, -- [5]
-				7, -- [6]
-				2575, -- [7]
-			},
-			["profession1"] = {
-				"Blacksmithing", -- [1]
-				"Blacksmithing", -- [2]
-				136241, -- [3]
-				1, -- [4]
-				150, -- [5]
-				5, -- [6]
-				2018, -- [7]
-			},
-			["hasCooldowns"] = false,
-		},
 	},
 	["Skasch-Elune"] = {
 		["Durability"] = {
 		},
 		["class"] = "ROGUE",
-		["orderId"] = 5,
-		["race"] = "NightElf",
-		["name"] = "Skasch",
-		["gold"] = 159357634,
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
-		["level"] = 110,
-		["faction"] = "Alliance",
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
@@ -891,15 +841,65 @@ Broker_Everything_CharacterDB = {
 			},
 			["hasCooldowns"] = false,
 		},
+		["race"] = "NightElf",
+		["name"] = "Skasch",
+		["gold"] = 159357634,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["level"] = 110,
+		["faction"] = "Alliance",
+		["orderId"] = 5,
+	},
+	["Seina-La Croisade écarlate"] = {
+		["Durability"] = {
+		},
+		["class"] = "PALADIN",
+		["professions"] = {
+			["cooldown_locks"] = {
+			},
+			["cooldowns"] = {
+			},
+			["profession2"] = {
+				"Mining", -- [1]
+				"Mining", -- [2]
+				134708, -- [3]
+				32, -- [4]
+				150, -- [5]
+				7, -- [6]
+				2575, -- [7]
+			},
+			["profession1"] = {
+				"Blacksmithing", -- [1]
+				"Blacksmithing", -- [2]
+				136241, -- [3]
+				1, -- [4]
+				150, -- [5]
+				5, -- [6]
+				2018, -- [7]
+			},
+			["hasCooldowns"] = false,
+		},
+		["race"] = "Human",
+		["name"] = "Seina",
+		["gold"] = 181811699,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["level"] = 113,
+		["faction"] = "Alliance",
+		["orderId"] = 6,
 	},
 }
 Broker_Everything_AceDB = {
 	["profileKeys"] = {
 		["Tenga - La Croisade écarlate"] = "Default",
 		["Higi - La Croisade écarlate"] = "Default",
-		["Tsuma - La Croisade écarlate"] = "Default",
+		["Kanpa - La Croisade écarlate"] = "Default",
 		["Tsuri - La Croisade écarlate"] = "Default",
-		["Asane - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
 		["Onaka - La Croisade écarlate"] = "Default",
 		["Skasch - La Croisade écarlate"] = "Default",
 		["Sutoka - La Croisade écarlate"] = "Default",
@@ -909,8 +909,8 @@ Broker_Everything_AceDB = {
 		["Simetra - La Croisade écarlate"] = "Default",
 		["Suzui - La Croisade écarlate"] = "Default",
 		["Seina - La Croisade écarlate"] = "Default",
-		["Skasch - Elune"] = "Default",
-		["Kanpa - La Croisade écarlate"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -1025,18 +1025,18 @@ Broker_Everything_AceDB = {
 					["hide"] = true,
 				},
 			},
-			["Broken Isles Invasions"] = {
+			["Bags"] = {
+				["enabled"] = false,
 				["minimap"] = {
-					["minimapPos"] = 125.917592123832,
-				},
-			},
-			["Gold"] = {
-				["showSessionProfit"] = false,
-				["minimap"] = {
-					["minimapPos"] = 269.878517132752,
+					["minimapPos"] = 97.2427272162152,
 					["hide"] = true,
 				},
-				["showCharsFrom"] = "4",
+				["freespace"] = false,
+			},
+			["Location"] = {
+				["minimap"] = {
+					["hide"] = true,
+				},
 			},
 			["Nameplates"] = {
 				["minimap"] = {
@@ -1061,13 +1061,10 @@ Broker_Everything_AceDB = {
 				},
 				["useWheel"] = true,
 			},
-			["ClassSpecs"] = {
-				["showTalentsShort"] = true,
+			["Notes"] = {
 				["minimap"] = {
 					["hide"] = true,
 				},
-				["showPvPTalentsShort"] = true,
-				["enabled"] = true,
 			},
 			["Friends"] = {
 				["showZoneTT2"] = true,
@@ -1078,30 +1075,28 @@ Broker_Everything_AceDB = {
 					["hide"] = true,
 				},
 				["showRealIDTT2"] = true,
-				["showGameTT2"] = true,
 				["showBattleTagTT2"] = true,
+				["showGameTT2"] = true,
 			},
-			["Calendar"] = {
+			["Latency"] = {
+				["enabled"] = true,
 				["minimap"] = {
 					["hide"] = true,
 				},
 			},
-			["Dungeons"] = {
-				["showExpansion4"] = true,
-				["showExpansion6"] = true,
+			["System"] = {
+				["minimap"] = {
+					["minimapPos"] = 274.776513705048,
+					["hide"] = true,
+				},
+				["showMemoryUsageOnBroker"] = false,
+				["enabled"] = false,
+			},
+			["Garrison"] = {
 				["minimap"] = {
 					["hide"] = true,
 				},
-				["showExpansion2"] = true,
-				["showExpansion7"] = true,
-				["showExpansion3"] = true,
-				["showExpansion5"] = true,
-				["showExpansion1"] = true,
-			},
-			["Stuff"] = {
-				["minimap"] = {
-					["minimapPos"] = 125.951262005014,
-				},
+				["showCharsFrom"] = "4",
 			},
 			["ChatChannels"] = {
 				["minimap"] = {
@@ -1131,24 +1126,24 @@ Broker_Everything_AceDB = {
 					["hide"] = true,
 				},
 			},
-			["GPS"] = {
-				["minimap"] = {
-					["minimapPos"] = 98.8054913300034,
-					["hide"] = true,
-				},
-				["precision"] = 2,
-			},
-			["Traffic"] = {
-				["minimap"] = {
-					["hide"] = true,
-				},
-			},
 			["Clock"] = {
 				["enabled"] = true,
 				["minimap"] = {
 					["hide"] = true,
 				},
 				["showSeconds"] = true,
+			},
+			["Traffic"] = {
+				["minimap"] = {
+					["hide"] = true,
+				},
+			},
+			["GPS"] = {
+				["minimap"] = {
+					["minimapPos"] = 98.8054913300034,
+					["hide"] = true,
+				},
+				["precision"] = 2,
 			},
 			["Emissary Quests"] = {
 				["showCharsFrom"] = "4",
@@ -1162,22 +1157,24 @@ Broker_Everything_AceDB = {
 					["hide"] = true,
 				},
 			},
-			["Garrison"] = {
+			["Stuff"] = {
+				["minimap"] = {
+					["minimapPos"] = 125.951262005014,
+				},
+			},
+			["Dungeons"] = {
+				["showExpansion4"] = true,
+				["showExpansion6"] = true,
 				["minimap"] = {
 					["hide"] = true,
 				},
-				["showCharsFrom"] = "4",
+				["showExpansion2"] = true,
+				["showExpansion1"] = true,
+				["showExpansion3"] = true,
+				["showExpansion5"] = true,
+				["showExpansion7"] = true,
 			},
-			["System"] = {
-				["minimap"] = {
-					["minimapPos"] = 274.776513705048,
-					["hide"] = true,
-				},
-				["showMemoryUsageOnBroker"] = false,
-				["enabled"] = false,
-			},
-			["Latency"] = {
-				["enabled"] = true,
+			["Calendar"] = {
 				["minimap"] = {
 					["hide"] = true,
 				},
@@ -1187,10 +1184,13 @@ Broker_Everything_AceDB = {
 					["hide"] = true,
 				},
 			},
-			["Notes"] = {
+			["ClassSpecs"] = {
+				["showTalentsShort"] = true,
 				["minimap"] = {
 					["hide"] = true,
 				},
+				["enabled"] = true,
+				["showPvPTalentsShort"] = true,
 			},
 			["Wardrobe"] = {
 				["minimap"] = {
@@ -1211,18 +1211,18 @@ Broker_Everything_AceDB = {
 					["minimapPos"] = 121.135132246926,
 				},
 			},
-			["Location"] = {
+			["Gold"] = {
+				["showSessionProfit"] = false,
 				["minimap"] = {
+					["minimapPos"] = 269.878517132752,
 					["hide"] = true,
 				},
+				["showCharsFrom"] = "4",
 			},
-			["Bags"] = {
-				["enabled"] = false,
+			["Broken Isles Invasions"] = {
 				["minimap"] = {
-					["minimapPos"] = 97.2427272162152,
-					["hide"] = true,
+					["minimapPos"] = 125.917592123832,
 				},
-				["freespace"] = false,
 			},
 		},
 	},
