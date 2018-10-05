@@ -3,20 +3,20 @@ Details_StreamerDB = {
 	["characters"] = {
 		["Tenga - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Higi - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Kanpa - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Tsuri - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Skasch - Elune"] = "Tsuma - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Onaka - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Skasch - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Sutoka - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Sueki - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Vermily - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Kanpa - Elune"] = "Tsuma - La Croisade écarlate",
+		["Skasch - Elune"] = "Tsuma - La Croisade écarlate",
 		["Simetra - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Suzui - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Seina - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Kanpa - Elune"] = "Tsuma - La Croisade écarlate",
+		["Kanpa - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 	},
 	["profiles"] = {
 		["Tsuma - La Croisade écarlate"] = {
@@ -40,16 +40,16 @@ Details_StreamerDB = {
 			["minimap"] = {
 				["minimapPos"] = 202.523141019343,
 				["radius"] = 160,
-				["hide"] = false,
+				["hide"] = true,
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["author"] = "Details! Team",
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -57,17 +57,13 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
 			["y"] = 4.577636718750e-005,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -75,14 +71,18 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 3.05175781250e-005,
 				["x"] = 3.05175781250e-005,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
-			["main_frame_strata"] = "LOW",
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }

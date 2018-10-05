@@ -1,9 +1,9 @@
-TipTac: disabled
-TipTacItemRef: disabled
-TipTacTalents: disabled
-TinyTooltip: enabled
+TipTac: enabled
+TipTacItemRef: enabled
+TipTacTalents: enabled
+TinyTooltip: disabled
 BigWigs: enabled
-WorldQuestTracker: enabled
+WorldQuestTracker: disabled
 AethysRotation_DeathKnight: enabled
 AethysRotation_Mage: enabled
 AethysRotation_Priest: enabled
@@ -19,7 +19,7 @@ TradeSkillMaster_Warehousing: disabled
 Kui_Nameplates_Core: enabled
 Kui_Nameplates: enabled
 Kui_Media: enabled
-TinyInspect: enabled
+TinyInspect: disabled
 Plater: disabled
 Prat-3.0_Libraries: disabled
 TidyPlates: disabled
@@ -126,7 +126,7 @@ RaiderIO_DB_EU_A: enabled
 RaiderIO_DB_EU_H: enabled
 SavedInstances: enabled
 TheUndermineJournal: disabled
-TipTacOptions: disabled
+TipTacOptions: enabled
 WIM: enabled
 xp_timer: enabled
 TradeSkillMaster_AppHelper: enabled
@@ -137,3 +137,7 @@ ChocolateBar: disabled
 BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
+Azeroth Auto Pilot: disabled
+Immersion: disabled
+DBM-Interrupts: disabled
+SexyMap: disabled

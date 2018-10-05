@@ -1,8 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0224,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Skasch-La Croisade écarlate",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
@@ -13,11 +13,42 @@ PawnOptions = {
 					["Type"] = "Fel",
 				}, -- [1]
 				{
-					["ItemLevel"] = 7,
+					["ItemLevel"] = 8,
 					["Type"] = "Shadow",
 				}, -- [2]
+				{
+					["Type"] = "Fel",
+				}, -- [3]
 			},
 			["Name"] = "Fangs of the Devourer",
+		},
+		[128870] = {
+			["Relics"] = {
+				{
+					["Type"] = "Shadow",
+				}, -- [1]
+				{
+					["Type"] = "Iron",
+				}, -- [2]
+				{
+					["Type"] = "Blood",
+				}, -- [3]
+			},
+			["Name"] = "The Kingslayers",
+		},
+		[128872] = {
+			["Relics"] = {
+				{
+					["Type"] = "Blood",
+				}, -- [1]
+				{
+					["Type"] = "Iron",
+				}, -- [2]
+				{
+					["Type"] = "Wind",
+				}, -- [3]
+			},
+			["Name"] = "The Dreadblades",
 		},
 	},
 }

@@ -18,42 +18,42 @@ Quartz3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["h"] = 10,
-					["w"] = 300,
-					["x"] = 810,
+					["w"] = 280,
+					["x"] = 815,
 					["border"] = "Details BarBorder 3",
 					["fontsize"] = 12,
 					["alpha"] = 0.6,
-					["y"] = 350,
+					["y"] = 455,
 					["nametextx"] = 0,
-					["texture"] = "Minimalist",
-				},
-			},
-		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["h"] = 15,
-					["nametextx"] = 0,
-					["w"] = 300,
-					["y"] = 365,
-					["border"] = "Details BarBorder 3",
-					["fontsize"] = 12,
-					["x"] = 810,
-					["alpha"] = 0.6,
 					["texture"] = "Minimalist",
 				},
 			},
 		},
 		["EnemyCasts"] = {
 		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["h"] = 15,
+					["nametextx"] = 0,
+					["w"] = 280,
+					["y"] = 470,
+					["border"] = "Details BarBorder 3",
+					["fontsize"] = 12,
+					["x"] = 815,
+					["alpha"] = 0.6,
+					["texture"] = "Minimalist",
+				},
+			},
+		},
 		["GCD"] = {
 		},
 		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["h"] = 25,
-					["w"] = 210,
-					["y"] = 385,
+					["noInterruptChangeColor"] = true,
+					["h"] = 30,
+					["y"] = 680,
 					["border"] = "Details BarBorder 3",
 					["noInterruptColor"] = {
 						0.149019607843137, -- [1]
@@ -63,18 +63,17 @@ Quartz3DB = {
 					},
 					["fontsize"] = 12,
 					["texture"] = "Minimalist",
-					["x"] = 740,
+					["x"] = 560,
 					["alpha"] = 0.6,
-					["noInterruptChangeColor"] = true,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["h"] = 25,
-					["w"] = 210,
-					["y"] = 385,
+					["noInterruptChangeColor"] = true,
+					["h"] = 30,
+					["y"] = 680,
 					["border"] = "Details BarBorder 3",
 					["noInterruptColor"] = {
 						0.164705882352941, -- [1]
@@ -84,12 +83,13 @@ Quartz3DB = {
 					},
 					["fontsize"] = 12,
 					["texture"] = "Minimalist",
-					["x"] = 965,
-					["noInterruptChangeColor"] = true,
+					["x"] = 1160,
 					["noInterruptChangeBorder"] = false,
 					["alpha"] = 0.6,
 				},
 			},
+		},
+		["Range"] = {
 		},
 		["Mirror"] = {
 			["profiles"] = {
@@ -99,18 +99,16 @@ Quartz3DB = {
 					["mirrorspacing"] = 0,
 					["mirrory"] = 1000,
 					["mirrorgap"] = 0,
-					["mirrorheight"] = 20,
+					["mirroralpha"] = 0.8,
 					["mirrortexture"] = "Minimalist",
 					["mirrorx"] = 870,
 					["mirrorposition"] = "top",
 					["mirrorwidth"] = 200,
-					["mirroralpha"] = 0.8,
+					["mirrorheight"] = 20,
 					["mirrorfontsize"] = 12,
 					["mirrorgrowdirection"] = "down",
 				},
 			},
-		},
-		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -118,20 +116,20 @@ Quartz3DB = {
 	["profileKeys"] = {
 		["Tenga - La Croisade écarlate"] = "Default",
 		["Higi - La Croisade écarlate"] = "Default",
-		["Kanpa - La Croisade écarlate"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Default",
 		["Tsuri - La Croisade écarlate"] = "Default",
-		["Skasch - Elune"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
 		["Onaka - La Croisade écarlate"] = "Default",
 		["Skasch - La Croisade écarlate"] = "Default",
 		["Sutoka - La Croisade écarlate"] = "Default",
 		["Sueki - La Croisade écarlate"] = "Default",
 		["Vermily - La Croisade écarlate"] = "Default",
-		["Kanpa - Elune"] = "Default",
+		["Skasch - Elune"] = "Default",
 		["Simetra - La Croisade écarlate"] = "Default",
 		["Suzui - La Croisade écarlate"] = "Default",
 		["Seina - La Croisade écarlate"] = "Default",
-		["Asane - La Croisade écarlate"] = "Default",
-		["Tsuma - La Croisade écarlate"] = "Default",
+		["Kanpa - Elune"] = "Default",
+		["Kanpa - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

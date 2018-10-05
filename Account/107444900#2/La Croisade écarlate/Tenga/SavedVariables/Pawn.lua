@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0223,
+	["LastVersion"] = 2.0227,
 	["LastPlayerFullName"] = "Tenga-La Croisade écarlate",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

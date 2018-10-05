@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0223,
+	["LastVersion"] = 2.0227,
 	["LastPlayerFullName"] = "Tsuma-La Croisade écarlate",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128819] = {
 			["Relics"] = {
@@ -24,6 +23,7 @@ PawnOptions = {
 			["Name"] = "Doomhammer",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

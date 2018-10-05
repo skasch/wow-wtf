@@ -1,9 +1,13 @@
+VER 3 000000000000003B "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Dalaran Hearthstone
+END
 VER 3 000000000000001F "Archimonde Targe" "INV_SWORD_04"
 /cleartarget
 /tar Infernal
 /stopmacro [exists,nodead]
 /tar doomfire
-/tar source
+/tar source 
 /tar felb
 /stopmacro [exists,nodead]
 /tar hellfire death
@@ -15,11 +19,19 @@ VER 3 0000000000000015 "Berserk" "ABILITY_DRUID_BERSERK"
 /cast Berserk
 /cast Incarnation: King of the Jungle
 END
+VER 3 0000000000000041 "Consume Magic" "828455"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Consume Magic
+END
 VER 3 0000000000000026 "CotD+Tr" "INV_MISC_QUESTIONMARK"
 #showtooltip Curse of the Dreadblades
 /cast Curse of the Dreadblades
 /use Gnawed Thumb Ring
 /use Tirathon's Betrayal
+END
+VER 3 0000000000000043 "Detox" "460692"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Detox
 END
 VER 3 0000000000000021 "Distance" "SPELL_HOLY_ELUNESGRACE"
 /console cameraDistanceMaxFactor 2.6
@@ -29,6 +41,10 @@ VER 3 000000000000002B "Elemental" "136048"
 END
 VER 3 000000000000002C "Enhancement" "132314"
 /run SetSpecialization(2)
+END
+VER 3 0000000000000044 "Enveloping Mist" "775461"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Enveloping Mist
 END
 VER 3 000000000000001D "ExtraButton" "ABILITY_DRUID_CATFORMATTACK"
 /click ExtraActionButton1
@@ -41,6 +57,11 @@ END
 VER 3 0000000000000013 "Genesis Mouseove" "SPELL_NATURE_PRESERVATION"
 #showtooltip Genesis
 /use [@mouseover,help,nodead][help,nodead][@player]  Genesis
+END
+VER 3 0000000000000042 "Glide" "1305157"
+#showtooltip
+/dismount
+/cast !Glide
 END
 VER 3 000000000000001E "Healing Tonic" "INV_MISC_QUESTIONMARK"
 #showtooltip Ancient Healing Potion
@@ -60,6 +81,14 @@ VER 3 0000000000000010 "IB Mouseover" "SPELL_DRUID_IRONBARK"
 #showtooltip Ironbark
 /use [@mouseover,help,nodead][help,nodead][@player]  Ironbark
 END
+VER 3 000000000000004E "Imprison" "1380368"
+#showtooltip
+/cast [@mouseover,harm,nodead][harm,nodead] Imprison
+END
+VER 3 000000000000003A "Infernal Strike" "1344650"
+#showtooltip Infernal Strike
+/cast [@player] Infernal Strike
+END
 VER 3 000000000000002A "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip Kick
 /cast [@mouseover,harm,nodead][harm,nodead]  Kick
@@ -67,6 +96,10 @@ END
 VER 3 000000000000000C "LB Mouseover" "INV_MISC_HERB_FELBLOSSOM"
 #showtooltip Lifebloom
 /use [@mouseover,help,nodead][help,nodead][@player]  Lifebloom
+END
+VER 3 0000000000000046 "Life Cocoon" "627485"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Life Cocoon
 END
 VER 3 0000000000000020 "Mannoroth Target" "INV_SWORD_04"
 /cleartarget
@@ -97,6 +130,14 @@ END
 VER 3 0000000000000025 "ObliterAGE" "GARRISON_BUILDING_LUMBERMILL"
 /run for b=0,NUM_BAG_SLOTS do for s= 1, 32, 1 do local name = GetContainerItemLink(b,s); if name and string.find(name,"Ancient Healing Potion") then PickupContainerItem(b,s) UseContainerItem(b,s) end end end
 END
+VER 3 0000000000000047 "Paralysis" "629534"
+#showtooltip Paralysis
+/use [@mouseover,nodead,harm][nodead,harm] Paralysis
+END
+VER 3 0000000000000048 "Provoke" "620830"
+#showtooltip Provoke
+/use [@mouseover,nodead,harm][nodead,harm] Provoke
+END
 VER 3 0000000000000014 "RC Mouseover" "SPELL_HOLY_REMOVECURSE"
 #showtooltip Remove Corruption
 /use [@mouseover,help,nodead][help,nodead][@player] Remove Corruption
@@ -105,8 +146,16 @@ VER 3 000000000000000E "Rebirth Mouseove" "SPELL_NATURE_REINCARNATION"
 #showtooltip Rebirth
 /use [@mouseover,help][help] Rebirth
 END
+VER 3 0000000000000049 "Renewing Mist" "627487"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Renewing Mist
+END
 VER 3 000000000000002D "Restoration" "136043"
 /run SetSpecialization(3)
+END
+VER 3 000000000000004A "Resuscitate" "132132"
+#showtooltip Resuscitate
+/cast [@mouseover,help,dead][help,dead] Resuscitate
 END
 VER 3 0000000000000012 "Revive" "ABILITY_DRUID_LUNARGUIDANCE"
 #showtooltip Revive
@@ -131,6 +180,11 @@ VER 3 0000000000000005 "Shadow Blades" "ABILITY_ROGUE_SHADOWDANCE"
 /cast Shadow Reflection
 /cast Shadow Dance
 END
+VER 3 0000000000000023 "Shadow Dance" "ABILITY_ROGUE_SHADOWDANCE"
+#showtooltip Shadow Dance
+/cast Shadow Dance
+/cast Shadowstrike
+END
 VER 3 0000000000000022 "Shadow Dance" "INV_MISC_QUESTIONMARK"
 #showtooltip Marked for Death
 /focus target
@@ -139,15 +193,30 @@ VER 3 0000000000000022 "Shadow Dance" "INV_MISC_QUESTIONMARK"
 /target focus
 /clearfocus
 END
-VER 3 0000000000000023 "Shadow Dance" "ABILITY_ROGUE_SHADOWDANCE"
-#showtooltip Shadow Dance
-/cast Shadow Dance
-/cast Shadowstrike
-END
 VER 3 0000000000000028 "ShD ShStorm" "INV_MISC_QUESTIONMARK"
 #showtooltip Shuriken Storm
 /cast Shadow Dance
 /cast Shuriken Storm
+END
+VER 3 000000000000003D "Sigil of Chains" "1418286"
+#showtooltip
+/cast [@mouseover, harm, nodead][@player] Sigil of Chains
+END
+VER 3 000000000000003C "Sigil of Flame" "1344652"
+#showtooltip
+/cast [@mouseover, harm, nodead][@player] Sigil of Flame
+END
+VER 3 000000000000003F "Sigil of Misery" "1418287"
+#showtooltip
+/cast [@mouseover, harm, nodead][@player] Sigil of Misery
+END
+VER 3 000000000000003E "Sigil of Silence" "1418288"
+#showtooltip
+/cast [@mouseover, harm, nodead][@player] Sigil of Silence
+END
+VER 3 000000000000004B "Soothing Mist" "606550"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Soothing Mist
 END
 VER 3 0000000000000004 "Spec swap" "ABILITY_SEAL"
 /stopmacro [combat]
@@ -175,6 +244,14 @@ VER 3 0000000000000016 "Tiger's Fury" "ABILITY_MOUNT_JUNGLETIGER"
 /use 13
 /cast Tiger's Fury
 END
+VER 3 000000000000004C "Tiger's Lust" "651727"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Tiger's Lust
+END
+VER 3 0000000000000040 "Torment" "1344654"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Torment
+END
 VER 3 0000000000000001 "TotT" "ABILITY_ROGUE_TRICKSOFTHETRADE"
 #showtooltip Trick of the trade
 /cast [@focus] Tricks of the trade
@@ -193,6 +270,10 @@ VER 3 0000000000000006 "Vendetta" "ABILITY_ROGUE_DEADLINESS"
 /cast Berserking
 /cast Shadow Reflection
 /cast Vendetta
+END
+VER 3 000000000000004D "Vivify" "1360980"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Vivify
 END
 VER 3 0000000000000011 "WG Mouseover" "ABILITY_DRUID_FLOURISH"
 #showtooltip Wild Growth

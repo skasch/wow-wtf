@@ -1,0 +1,132 @@
+
+VWQL = {
+	["Asane-LaCroisadeécarlate"] = {
+		["FilterType"] = {
+		},
+		["VERSION"] = 81,
+		["Quests"] = {
+			[49800] = true,
+			[50873] = true,
+			[54166] = true,
+			[52892] = true,
+			[49345] = true,
+			[51048] = true,
+			[50636] = true,
+			[50578] = true,
+			[51501] = true,
+		},
+		["Filter"] = 63,
+	},
+	["Vermily-LaCroisadeécarlate"] = {
+		["VERSION"] = 81,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[54166] = true,
+		},
+		["Filter"] = 63,
+	},
+	["DisableIconsGeneralMap947"] = false,
+	["AnchorQCBTop"] = 1079.99987792969,
+	["Arrow_Point1"] = "CENTER",
+	["Onaka-LaCroisadeécarlate"] = {
+		["VERSION"] = 79,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Skasch-LaCroisadeécarlate"] = {
+		["Filter"] = 63,
+		["VERSION"] = 81,
+		["faction2164Highlight"] = false,
+		["Quests"] = {
+			[49043] = true,
+			[54166] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Sort"] = 5,
+	["VERSION"] = 81,
+	["DisableRibbon"] = true,
+	["Tsuri-LaCroisadeécarlate"] = {
+		["VERSION"] = 79,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_Point2"] = "CENTER",
+	["OppositeContinent"] = false,
+	["Sueki-LaCroisadeécarlate"] = {
+		["VERSION"] = 81,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[51743] = true,
+			[51434] = true,
+			[49800] = true,
+			[52322] = true,
+			[51064] = true,
+			[50499] = true,
+			[52832] = true,
+			[50572] = true,
+			[52779] = true,
+			[51527] = true,
+			[50964] = true,
+			[50287] = true,
+			[51179] = true,
+			[51496] = true,
+			[50874] = true,
+			[52209] = true,
+			[51581] = true,
+			[54166] = true,
+			[51081] = true,
+			[51741] = true,
+			[51843] = true,
+			[51174] = true,
+			[51642] = true,
+			[52430] = true,
+			[51379] = true,
+			[51107] = true,
+			[50847] = true,
+			[51038] = true,
+			[51043] = true,
+			[52756] = true,
+			[52871] = true,
+			[51627] = true,
+			[51615] = true,
+			[52882] = true,
+		},
+		["Filter"] = 63,
+	},
+	["MapIconsScale"] = 1,
+	["Ignore"] = {
+	},
+	["Anchor3PosTop"] = 892.856384277344,
+	["Simetra-LaCroisadeécarlate"] = {
+		["VERSION"] = 81,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_PointX"] = -12.0000238418579,
+	["Arrow_PointY"] = -206.999710083008,
+	["EnableRibbonGeneralMaps"] = false,
+	["ShellGameCenter"] = 44.9999389648438,
+	["ReverseSort"] = false,
+	["AzeriteFormat"] = 20,
+	["Anchor3PosLeft"] = 1317.52685546875,
+	["ShellGameSize"] = 284.999755859375,
+	["AnchorQCBLeft"] = 196.00016784668,
+	["DisableShellGame"] = false,
+	["HideLegion"] = true,
+}

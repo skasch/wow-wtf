@@ -1,8 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0223,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Sueki-La Croisade écarlate",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["Artifacts"] = {
 		[128832] = {

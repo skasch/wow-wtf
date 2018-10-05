@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0223,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Vermily-La Croisade écarlate",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128292] = {
 			["Relics"] = {
@@ -15,6 +16,9 @@ PawnOptions = {
 					["ItemLevel"] = 4,
 					["Type"] = "Shadow",
 				}, -- [2]
+				{
+					["Type"] = "Frost",
+				}, -- [3]
 			},
 			["Name"] = "Blades of the Fallen Prince",
 		},
@@ -45,11 +49,13 @@ PawnOptions = {
 					["ItemLevel"] = 5,
 					["Type"] = "Shadow",
 				}, -- [2]
+				{
+					["Type"] = "Blood",
+				}, -- [3]
 			},
 			["Name"] = "Apocalypse",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEATHKNIGHT",

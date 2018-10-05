@@ -8,6 +8,7 @@ HandyNotes_ArgusDB = {
 		["Skasch - La Croisade écarlate"] = "Skasch - La Croisade écarlate",
 		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
 		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
+		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
 		["Seina - La Croisade écarlate"] = "Seina - La Croisade écarlate",
 		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
@@ -26,6 +27,8 @@ HandyNotes_ArgusDB = {
 		["Sueki - La Croisade écarlate"] = {
 		},
 		["Vermily - La Croisade écarlate"] = {
+		},
+		["Simetra - La Croisade écarlate"] = {
 		},
 		["Seina - La Croisade écarlate"] = {
 		},

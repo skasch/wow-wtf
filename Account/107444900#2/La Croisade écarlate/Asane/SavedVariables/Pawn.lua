@@ -1,8 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0224,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Asane-La Croisade écarlate",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
@@ -16,8 +16,39 @@ PawnOptions = {
 					["ItemLevel"] = 7,
 					["Type"] = "Iron",
 				}, -- [2]
+				{
+					["Type"] = "Wind",
+				}, -- [3]
 			},
 			["Name"] = "Fists of the Heavens",
+		},
+		[128938] = {
+			["Relics"] = {
+				{
+					["Type"] = "Life",
+				}, -- [1]
+				{
+					["Type"] = "Wind",
+				}, -- [2]
+				{
+					["Type"] = "Iron",
+				}, -- [3]
+			},
+			["Name"] = "Fu Zan, the Wanderer's Companion",
+		},
+		[128937] = {
+			["Relics"] = {
+				{
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["Type"] = "Life",
+				}, -- [2]
+				{
+					["Type"] = "Wind",
+				}, -- [3]
+			},
+			["Name"] = "Sheilun, Staff of the Mists",
 		},
 	},
 }

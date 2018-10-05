@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0226,
+	["LastVersion"] = 2.0227,
 	["LastPlayerFullName"] = "Onaka-La Croisade écarlate",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

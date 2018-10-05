@@ -1,15 +1,15 @@
 TomTom: disabled
 AethysRotation_Priest: enabled
 AethysRotation_Shaman: enabled
-WorldQuestTracker: enabled
-TinyTooltip: enabled
-TinyInspect: enabled
+WorldQuestTracker: disabled
+TinyTooltip: disabled
+TinyInspect: disabled
 DBM-StatusBarTimers: disabled
 AethysRotation: enabled
 Oilvl: enabled
-TipTac: disabled
-TipTacItemRef: disabled
-TipTacTalents: disabled
+TipTac: enabled
+TipTacItemRef: enabled
+TipTacTalents: enabled
 BigWigs: enabled
 AethysRotation_DeathKnight: enabled
 AethysRotation_Mage: enabled
@@ -130,7 +130,7 @@ RaiderIO_DB_EU_A: enabled
 RaiderIO_DB_EU_H: enabled
 SavedInstances: enabled
 TheUndermineJournal: disabled
-TipTacOptions: disabled
+TipTacOptions: enabled
 WIM: enabled
 xp_timer: enabled
 TradeSkillMaster_AppHelper: enabled
@@ -141,3 +141,7 @@ ChocolateBar: disabled
 BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
+Azeroth Auto Pilot: disabled
+Immersion: disabled
+DBM-Interrupts: disabled
+SexyMap: disabled

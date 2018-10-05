@@ -1,8 +1,11 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Skasch - Elune"] = "Default",
+		["Sueki - La Croisade écarlate"] = "Default",
 		["Kanpa - Elune"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
+		["Skasch - La Croisade écarlate"] = "Default",
 		["Tsuma - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
@@ -14,18 +17,18 @@ TomTomDB = {
 	},
 }
 TomTomWaypoints = nil
-TomTomWaypointsMF = {
+TomTomWaypointsM = {
 	["profileKeys"] = {
-		["Skasch - Elune"] = "Skasch - Elune",
-		["Kanpa - Elune"] = "Kanpa - Elune",
-		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
+		["Skasch - La Croisade écarlate"] = "Skasch - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 	},
 	["profiles"] = {
-		["Skasch - Elune"] = {
+		["Sueki - La Croisade écarlate"] = {
 		},
-		["Kanpa - Elune"] = {
+		["Skasch - La Croisade écarlate"] = {
 		},
-		["Tsuma - La Croisade écarlate"] = {
+		["Asane - La Croisade écarlate"] = {
 		},
 	},
 }
