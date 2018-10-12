@@ -13,21 +13,24 @@ DominosDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Tenga - La Croisade écarlate"] = "Skasch",
-		["Suzui - La Croisade écarlate"] = "Skasch",
-		["Tsuri - La Croisade écarlate"] = "Skasch",
-		["Tsuma - La Croisade écarlate"] = "Skasch",
+		["Higi - La Croisade écarlate"] = "Skasch",
+		["Asane - La Croisade écarlate"] = "Skasch",
 		["Onaka - La Croisade écarlate"] = "Skasch",
 		["Skasch - La Croisade écarlate"] = "Skasch",
-		["Asane - La Croisade écarlate"] = "Skasch",
 		["Sueki - La Croisade écarlate"] = "Skasch",
-		["Vermily - La Croisade écarlate"] = "Skasch",
-		["Skasch - Elune"] = "Skasch",
-		["Simetra - La Croisade écarlate"] = "Skasch",
-		["Higi - La Croisade écarlate"] = "Skasch",
-		["Seina - La Croisade écarlate"] = "Skasch",
 		["Kanpa - Elune"] = "Skasch",
+		["Seina - La Croisade écarlate"] = "Skasch",
 		["Kanpa - La Croisade écarlate"] = "Skasch",
+		["Tenga - La Croisade écarlate"] = "Skasch",
+		["Tsuri - La Croisade écarlate"] = "Skasch",
+		["Vermily - La Croisade écarlate"] = "Skasch",
+		["Fayth - La Croisade écarlate"] = "Paladin",
+		["Skasch - Elune"] = "Skasch",
+		["Isabael - La Croisade écarlate"] = "Skasch",
+		["Suzui - La Croisade écarlate"] = "Skasch",
+		["Simetra - La Croisade écarlate"] = "Skasch",
+		["Nephily - La Croisade écarlate"] = "Warlock",
+		["Tsuma - La Croisade écarlate"] = "Skasch",
 	},
 	["profiles"] = {
 		["Paladin"] = {
@@ -40,6 +43,7 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 0,
 					["pages"] = {
 						["PALADIN"] = {
 							["page2"] = 1,
@@ -50,7 +54,6 @@ DominosDB = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -60,12 +63,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 40,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -75,12 +78,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 80,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -90,12 +93,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 120,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -105,12 +108,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 160,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -120,12 +123,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 200,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -135,12 +138,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 240,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -150,12 +153,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 280,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -165,12 +168,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 320,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -180,12 +183,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 360,
 					["pages"] = {
 						["PALADIN"] = {
 						},
 					},
 					["numButtons"] = 12,
-					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
@@ -196,9 +199,9 @@ DominosDB = {
 					["lockMode"] = true,
 					["display"] = {
 						["value"] = true,
-						["label"] = true,
-						["max"] = true,
 						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
 					},
 					["x"] = 0,
 					["padW"] = 2,
@@ -219,9 +222,9 @@ DominosDB = {
 					["lockMode"] = true,
 					["display"] = {
 						["value"] = true,
-						["label"] = true,
-						["max"] = true,
 						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
 					},
 					["x"] = 0,
 					["padW"] = 2,
@@ -266,12 +269,21 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["padW"] = 1,
+					["font"] = "Friz Quadrata TT",
+					["y"] = 30,
+					["padH"] = 1,
+					["x"] = 0,
+					["display"] = {
+						["border"] = true,
+						["icon"] = false,
+						["time"] = true,
+					},
+					["texture"] = "blizzard",
 				},
 				["vehicle"] = {
 					["y"] = 0,
@@ -287,28 +299,17 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["cast"] = {
-					["showInPetBattleUI"] = false,
-					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["padW"] = 1,
-					["font"] = "Friz Quadrata TT",
-					["y"] = 30,
-					["padH"] = 1,
-					["display"] = {
-						["time"] = true,
-						["border"] = true,
-						["icon"] = false,
-					},
-					["x"] = 0,
-					["texture"] = "blizzard",
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
 				},
 			},
 		},
 		["Shaman"] = {
-			["minimap"] = {
-				["minimapPos"] = 317.614052073631,
-			},
+			["showgrid"] = false,
 			["frames"] = {
 				{
 					["showInPetBattleUI"] = false,
@@ -317,12 +318,11 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
 					["showstates"] = "",
-					["y"] = 27,
+					["spacing"] = 4,
 					["clickThrough"] = false,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 							["page2"] = 1,
 							["page5"] = 4,
 							["page4"] = 3,
@@ -342,7 +342,7 @@ DominosDB = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 							["page2"] = 1,
 							["page5"] = 4,
 							["page4"] = 3,
@@ -350,7 +350,8 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
-					["spacing"] = 4,
+					["numButtons"] = 12,
+					["y"] = 27,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -358,22 +359,22 @@ DominosDB = {
 					["scale"] = 0.75,
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
-					["y"] = 232,
+					["columns"] = 1,
+					["numButtons"] = 12,
+					["spacing"] = 4,
+					["anchor"] = "7LC",
+					["padH"] = 2,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["spacing"] = 4,
-					["anchor"] = "7LC",
-					["padH"] = 2,
-					["numButtons"] = 12,
-					["columns"] = 1,
+					["y"] = 232,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -381,46 +382,46 @@ DominosDB = {
 					["scale"] = 0.75,
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
-					["y"] = -240,
+					["columns"] = 1,
+					["numButtons"] = 12,
+					["spacing"] = 4,
+					["anchor"] = "4RC",
+					["padH"] = 2,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["spacing"] = 4,
-					["anchor"] = "4RC",
-					["padH"] = 2,
-					["numButtons"] = 12,
-					["columns"] = 1,
+					["y"] = -240,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "RIGHT",
 					["scale"] = 0.75,
 					["showInOverrideUI"] = false,
-					["columns"] = 1,
+					["padW"] = 2,
 					["y"] = -205,
 					["x"] = -40,
-					["numButtons"] = 12,
-					["spacing"] = 4,
-					["padH"] = 2,
-					["showstates"] = "",
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["padW"] = 2,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["showstates"] = "",
+					["numButtons"] = 12,
+					["columns"] = 1,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -429,21 +430,21 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["y"] = 27,
 					["x"] = -456,
-					["padW"] = 2,
+					["padH"] = 2,
 					["spacing"] = 4,
 					["anchor"] = "1LC",
-					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["padH"] = 2,
+					["numButtons"] = 12,
+					["padW"] = 2,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -452,21 +453,21 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["y"] = 27,
 					["x"] = 504,
-					["padW"] = 2,
+					["padH"] = 2,
 					["spacing"] = 4,
 					["anchor"] = "1RT",
-					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["padH"] = 2,
+					["numButtons"] = 12,
+					["padW"] = 2,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -475,45 +476,45 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
 					["x"] = 40,
-					["y"] = -209,
+					["columns"] = 1,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["numButtons"] = 12,
-					["columns"] = 1,
+					["y"] = -209,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "TOPRIGHT",
 					["scale"] = 0.75,
 					["showInOverrideUI"] = false,
-					["columns"] = 1,
+					["padW"] = 2,
 					["y"] = -212,
 					["x"] = -43,
+					["numButtons"] = 12,
+					["spacing"] = 4,
+					["anchor"] = "4TC",
+					["padH"] = 2,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["spacing"] = 4,
-					["anchor"] = "4TC",
-					["padH"] = 2,
-					["numButtons"] = 12,
-					["padW"] = 2,
+					["columns"] = 1,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -521,46 +522,46 @@ DominosDB = {
 					["scale"] = 0.75,
 					["showInOverrideUI"] = false,
 					["y"] = 111,
-					["columns"] = 2,
+					["padW"] = 2,
+					["numButtons"] = 12,
+					["spacing"] = 4,
+					["anchor"] = "2TL",
+					["padH"] = 2,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["spacing"] = 4,
-					["anchor"] = "2TL",
-					["padH"] = 2,
-					["numButtons"] = 12,
-					["padW"] = 2,
+					["columns"] = 2,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
 					["columns"] = 1,
 					["scale"] = 0.75,
 					["showInOverrideUI"] = false,
-					["point"] = "TOPRIGHT",
+					["padW"] = 2,
 					["y"] = -212,
 					["x"] = -3,
-					["numButtons"] = 12,
-					["spacing"] = 4,
-					["anchor"] = "3TC",
-					["padH"] = 2,
 					["pages"] = {
-						["PRIEST"] = {
+						["PALADIN"] = {
 						},
 						["DRUID"] = {
 						},
 						["SHAMAN"] = {
 						},
-						["PALADIN"] = {
+						["PRIEST"] = {
 						},
 					},
-					["padW"] = 2,
+					["spacing"] = 4,
+					["anchor"] = "3TC",
+					["padH"] = 2,
+					["numButtons"] = 12,
+					["point"] = "TOPRIGHT",
 				}, -- [10]
 				["artifact"] = {
 					["point"] = "TOP",
@@ -577,14 +578,14 @@ DominosDB = {
 					["y"] = -127,
 					["font"] = "Friz Quadrata TT",
 					["padH"] = 2,
-					["alwaysShowText"] = true,
+					["x"] = -14,
 					["display"] = {
 						["value"] = true,
-						["label"] = true,
-						["max"] = true,
 						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
 					},
-					["x"] = -14,
+					["alwaysShowText"] = true,
 				},
 				["exp"] = {
 					["compressValues"] = true,
@@ -604,8 +605,6 @@ DominosDB = {
 					["y"] = 50,
 					["font"] = "Friz Quadrata TT",
 					["height"] = 8,
-					["x"] = 18,
-					["alwaysShowText"] = true,
 					["display"] = {
 						["label"] = true,
 						["max"] = true,
@@ -613,6 +612,8 @@ DominosDB = {
 						["percent"] = true,
 						["bonus"] = true,
 					},
+					["alwaysShowText"] = true,
+					["x"] = 18,
 				},
 				["encounter"] = {
 					["y"] = -179,
@@ -620,8 +621,8 @@ DominosDB = {
 					["clickThrough"] = true,
 					["anchor"] = "castBC",
 					["showInOverrideUI"] = true,
-					["scale"] = 1,
 					["showInPetBattleUI"] = true,
+					["scale"] = 1,
 				},
 				["bags"] = {
 					["showInPetBattleUI"] = false,
@@ -633,8 +634,8 @@ DominosDB = {
 					["x"] = -462,
 					["spacing"] = 2,
 					["anchor"] = "menuRB",
-					["showstates"] = "",
 					["showInOverrideUI"] = false,
+					["showstates"] = "",
 				},
 				["pet"] = {
 					["showInPetBattleUI"] = false,
@@ -652,8 +653,8 @@ DominosDB = {
 					["spacing"] = 2,
 					["scale"] = 1,
 					["showInOverrideUI"] = true,
-					["y"] = -8,
 					["columns"] = 1,
+					["y"] = -8,
 				},
 				["menu"] = {
 					["showInPetBattleUI"] = false,
@@ -666,6 +667,49 @@ DominosDB = {
 					["spacing"] = 0,
 					["anchor"] = "6TL",
 				},
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
+					["y"] = -97,
+					["font"] = "Roboto Condensed Bold",
+					["alpha"] = 0.3,
+					["h"] = 20,
+					["display"] = {
+						["icon"] = true,
+						["time"] = true,
+						["border"] = false,
+					},
+					["latencyPadding"] = 0,
+					["w"] = 290,
+					["texture"] = "Details Serenity",
+				},
+				["extra"] = {
+					["showInPetBattleUI"] = false,
+					["showstates"] = "[extrabar]show;hide",
+					["scale"] = 1,
+					["hideBlizzardTeture"] = false,
+					["anchor"] = "encounterBC",
+					["showInOverrideUI"] = false,
+					["spacing"] = 0,
+					["y"] = -189,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["x"] = -176,
+					["point"] = "TOPRIGHT",
+					["showInOverrideUI"] = false,
+				},
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["x"] = -341,
+					["columns"] = 1,
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["point"] = "TOP",
+					["y"] = -8,
+				},
 				["class"] = {
 					["showInPetBattleUI"] = false,
 					["x"] = -422,
@@ -676,51 +720,10 @@ DominosDB = {
 					["hidden"] = true,
 					["y"] = 50,
 				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["x"] = -341,
-					["columns"] = 1,
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["y"] = -8,
-					["point"] = "TOP",
-				},
-				["vehicle"] = {
-					["showInPetBattleUI"] = false,
-					["x"] = -176,
-					["point"] = "TOPRIGHT",
-					["showInOverrideUI"] = false,
-				},
-				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showstates"] = "[extrabar]show;hide",
-					["y"] = -189,
-					["hideBlizzardTeture"] = false,
-					["anchor"] = "encounterBC",
-					["showInOverrideUI"] = false,
-					["spacing"] = 0,
-					["scale"] = 1,
-				},
-				["cast"] = {
-					["showInPetBattleUI"] = false,
-					["scale"] = 1,
-					["showInOverrideUI"] = false,
-					["hidden"] = true,
-					["y"] = -97,
-					["font"] = "Roboto Condensed Bold",
-					["alpha"] = 0.3,
-					["w"] = 290,
-					["display"] = {
-						["border"] = false,
-						["icon"] = true,
-						["time"] = true,
-					},
-					["latencyPadding"] = 0,
-					["h"] = 20,
-					["texture"] = "Details Serenity",
-				},
 			},
-			["showgrid"] = false,
+			["minimap"] = {
+				["minimapPos"] = 317.614052073631,
+			},
 		},
 		["Monk"] = {
 			["frames"] = {
@@ -732,8 +735,6 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 0,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 							["page2"] = 1,
@@ -743,6 +744,8 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -752,12 +755,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 40,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -767,12 +770,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 80,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -782,12 +785,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 120,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -797,12 +800,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 160,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -812,12 +815,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 200,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -827,12 +830,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 240,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -842,12 +845,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 280,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -857,12 +860,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 320,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -872,57 +875,57 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 360,
-					["numButtons"] = 12,
 					["pages"] = {
 						["MONK"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
-					["columns"] = 20,
 					["point"] = "TOP",
-					["numButtons"] = 20,
-					["padW"] = 2,
-					["lockMode"] = true,
-					["padH"] = 2,
-					["font"] = "Friz Quadrata TT",
+					["columns"] = 20,
+					["alwaysShowText"] = true,
 					["y"] = -16,
-					["x"] = 0,
-					["showInOverrideUI"] = false,
-					["spacing"] = 1,
+					["lockMode"] = true,
 					["display"] = {
 						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
 						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
 					},
+					["x"] = 0,
+					["padW"] = 2,
+					["font"] = "Friz Quadrata TT",
+					["showInOverrideUI"] = false,
+					["spacing"] = 1,
+					["padH"] = 2,
 					["mode"] = "artifact",
-					["alwaysShowText"] = true,
+					["numButtons"] = 20,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
-					["columns"] = 20,
 					["point"] = "TOP",
-					["numButtons"] = 20,
-					["padW"] = 2,
-					["lockMode"] = true,
-					["padH"] = 2,
-					["font"] = "Friz Quadrata TT",
+					["columns"] = 20,
+					["alwaysShowText"] = true,
 					["y"] = 0,
-					["x"] = 0,
-					["showInOverrideUI"] = false,
-					["spacing"] = 1,
+					["lockMode"] = true,
 					["display"] = {
 						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
 						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
 					},
+					["x"] = 0,
+					["padW"] = 2,
+					["font"] = "Friz Quadrata TT",
+					["showInOverrideUI"] = false,
+					["spacing"] = 1,
+					["padH"] = 2,
 					["mode"] = "xp",
-					["alwaysShowText"] = true,
+					["numButtons"] = 20,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -958,21 +961,12 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["cast"] = {
-					["showInPetBattleUI"] = false,
-					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["padW"] = 1,
-					["font"] = "Friz Quadrata TT",
-					["y"] = 30,
-					["padH"] = 1,
-					["x"] = 0,
-					["display"] = {
-						["border"] = true,
-						["icon"] = false,
-						["time"] = true,
-					},
-					["texture"] = "blizzard",
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
 				},
 				["vehicle"] = {
 					["y"] = 0,
@@ -988,12 +982,21 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["padW"] = 1,
+					["font"] = "Friz Quadrata TT",
+					["y"] = 30,
+					["padH"] = 1,
+					["display"] = {
+						["icon"] = false,
+						["time"] = true,
+						["border"] = true,
+					},
+					["x"] = 0,
+					["texture"] = "blizzard",
 				},
 			},
 		},
@@ -1007,6 +1010,7 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 0,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
@@ -1019,7 +1023,6 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
-					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -1029,12 +1032,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 40,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -1044,12 +1047,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 80,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -1059,12 +1062,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 120,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -1074,12 +1077,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 160,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -1089,12 +1092,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 200,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -1104,12 +1107,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 240,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -1119,12 +1122,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 280,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -1134,12 +1137,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 320,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -1149,57 +1152,57 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 360,
 					["numButtons"] = 12,
 					["pages"] = {
 						["ROGUE"] = {
 						},
 					},
-					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = -16,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["label"] = true,
-						["max"] = true,
-						["bonus"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = -16,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
+					},
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = 0,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["label"] = true,
-						["max"] = true,
-						["bonus"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = 0,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
+					},
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -1229,12 +1232,12 @@ DominosDB = {
 					["font"] = "Friz Quadrata TT",
 					["y"] = 30,
 					["padH"] = 1,
+					["x"] = 0,
 					["display"] = {
-						["time"] = true,
 						["border"] = true,
 						["icon"] = false,
+						["time"] = true,
 					},
-					["x"] = 0,
 					["texture"] = "blizzard",
 				},
 				["roll"] = {
@@ -1244,21 +1247,7 @@ DominosDB = {
 					["showInOverrideUI"] = true,
 					["columns"] = 1,
 				},
-				["menu"] = {
-					["y"] = 0,
-					["x"] = -244,
-					["point"] = "BOTTOMRIGHT",
-					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
-				},
-				["alerts"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
-				},
-				["vehicle"] = {
+				["extra"] = {
 					["y"] = 0,
 					["x"] = -244,
 					["point"] = "CENTER",
@@ -1271,10 +1260,24 @@ DominosDB = {
 					["point"] = "CENTER",
 					["spacing"] = 2,
 				},
-				["extra"] = {
+				["vehicle"] = {
 					["y"] = 0,
 					["x"] = -244,
 					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["alerts"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
+				},
+				["menu"] = {
+					["y"] = 0,
+					["x"] = -244,
+					["point"] = "BOTTOMRIGHT",
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
@@ -1290,7 +1293,7 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 0,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 							["page2"] = 1,
@@ -1300,7 +1303,7 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -1310,12 +1313,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 40,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -1325,12 +1328,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 80,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -1340,12 +1343,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 120,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -1355,12 +1358,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 160,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -1370,12 +1373,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 200,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -1385,12 +1388,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 240,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -1400,12 +1403,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 280,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -1415,12 +1418,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 320,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -1430,57 +1433,57 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 360,
+					["numButtons"] = 12,
 					["pages"] = {
 						["MAGE"] = {
 						},
 					},
-					["numButtons"] = 12,
+					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = -16,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
-						["label"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = -16,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
+					},
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = 0,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
-						["label"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = 0,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
+					},
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -1516,21 +1519,12 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["cast"] = {
-					["showInPetBattleUI"] = false,
-					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["padW"] = 1,
-					["font"] = "Friz Quadrata TT",
-					["y"] = 30,
-					["padH"] = 1,
-					["x"] = 0,
-					["display"] = {
-						["border"] = true,
-						["icon"] = false,
-						["time"] = true,
-					},
-					["texture"] = "blizzard",
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
 				},
 				["vehicle"] = {
 					["y"] = 0,
@@ -1546,12 +1540,21 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["padW"] = 1,
+					["font"] = "Friz Quadrata TT",
+					["y"] = 30,
+					["padH"] = 1,
+					["display"] = {
+						["icon"] = false,
+						["time"] = true,
+						["border"] = true,
+					},
+					["x"] = 0,
+					["texture"] = "blizzard",
 				},
 			},
 		},
@@ -1565,6 +1568,7 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 0,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
@@ -1575,7 +1579,6 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
-					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -1585,12 +1588,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 40,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -1600,12 +1603,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 80,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -1615,12 +1618,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 120,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -1630,12 +1633,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 160,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -1645,12 +1648,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 200,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -1660,12 +1663,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 240,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -1675,12 +1678,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 280,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -1690,12 +1693,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 320,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -1705,57 +1708,57 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 360,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEMONHUNTER"] = {
 						},
 					},
-					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = -16,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["label"] = true,
-						["max"] = true,
-						["bonus"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = -16,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
+					},
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = 0,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["label"] = true,
-						["max"] = true,
-						["bonus"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = 0,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
+					},
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -1791,12 +1794,21 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["padW"] = 1,
+					["font"] = "Friz Quadrata TT",
+					["y"] = 30,
+					["padH"] = 1,
+					["x"] = 0,
+					["display"] = {
+						["time"] = true,
+						["border"] = true,
+						["icon"] = false,
+					},
+					["texture"] = "blizzard",
 				},
 				["vehicle"] = {
 					["y"] = 0,
@@ -1812,21 +1824,12 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["cast"] = {
-					["showInPetBattleUI"] = false,
-					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["padW"] = 1,
-					["font"] = "Friz Quadrata TT",
-					["y"] = 30,
-					["padH"] = 1,
-					["display"] = {
-						["icon"] = false,
-						["time"] = true,
-						["border"] = true,
-					},
-					["x"] = 0,
-					["texture"] = "blizzard",
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
 				},
 			},
 		},
@@ -1840,6 +1843,7 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 0,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
@@ -1854,7 +1858,6 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
-					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -1864,12 +1867,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 40,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -1879,12 +1882,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 80,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -1894,12 +1897,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 120,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -1909,12 +1912,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 160,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -1924,12 +1927,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 200,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -1939,12 +1942,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 240,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -1954,12 +1957,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 280,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -1969,12 +1972,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 320,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -1984,57 +1987,57 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["y"] = 360,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DRUID"] = {
 						},
 					},
-					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
-					["columns"] = 20,
 					["point"] = "TOP",
-					["alwaysShowText"] = true,
-					["padW"] = 2,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["label"] = true,
-						["max"] = true,
-						["bonus"] = true,
-					},
-					["x"] = 0,
+					["columns"] = 20,
+					["numButtons"] = 20,
 					["y"] = -16,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["padW"] = 2,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
+					},
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
-					["columns"] = 20,
 					["point"] = "TOP",
-					["alwaysShowText"] = true,
-					["padW"] = 2,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["label"] = true,
-						["max"] = true,
-						["bonus"] = true,
-					},
-					["x"] = 0,
+					["columns"] = 20,
+					["numButtons"] = 20,
 					["y"] = 0,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["padW"] = 2,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
+					},
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -2064,15 +2067,42 @@ DominosDB = {
 					["font"] = "Friz Quadrata TT",
 					["y"] = 30,
 					["padH"] = 1,
+					["x"] = 0,
 					["display"] = {
-						["time"] = true,
 						["border"] = true,
 						["icon"] = false,
+						["time"] = true,
 					},
-					["x"] = 0,
 					["texture"] = "blizzard",
 				},
 				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
+				},
+				["extra"] = {
+					["y"] = 0,
+					["x"] = -244,
+					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["class"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["point"] = "CENTER",
+					["spacing"] = 2,
+				},
+				["vehicle"] = {
+					["y"] = 0,
+					["x"] = -244,
+					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["alerts"] = {
 					["showInPetBattleUI"] = true,
 					["point"] = "LEFT",
 					["spacing"] = 2,
@@ -2086,36 +2116,9 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["alerts"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
-				},
-				["vehicle"] = {
-					["y"] = 0,
-					["x"] = -244,
-					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
-				},
-				["class"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["point"] = "CENTER",
-					["spacing"] = 2,
-				},
-				["extra"] = {
-					["y"] = 0,
-					["x"] = -244,
-					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
-				},
 			},
 		},
-		["Warlock"] = {
+		["Death Knight"] = {
 			["frames"] = {
 				{
 					["showInPetBattleUI"] = false,
@@ -2127,7 +2130,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 0,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 							["page2"] = 1,
 							["page5"] = 4,
 							["page4"] = 3,
@@ -2147,7 +2150,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 40,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2162,7 +2165,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 80,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2177,7 +2180,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 120,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2192,7 +2195,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 160,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2207,7 +2210,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 200,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2222,7 +2225,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 240,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2237,7 +2240,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 280,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2252,7 +2255,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 320,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2267,7 +2270,7 @@ DominosDB = {
 					["padH"] = 2,
 					["y"] = 360,
 					["pages"] = {
-						["WARLOCK"] = {
+						["DEATHKNIGHT"] = {
 						},
 					},
 					["numButtons"] = 12,
@@ -2276,46 +2279,46 @@ DominosDB = {
 					["showInPetBattleUI"] = false,
 					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
+					["numButtons"] = 20,
 					["y"] = -16,
 					["lockMode"] = true,
+					["padH"] = 2,
+					["font"] = "Friz Quadrata TT",
+					["padW"] = 2,
+					["x"] = 0,
+					["showInOverrideUI"] = false,
+					["spacing"] = 1,
 					["display"] = {
 						["value"] = true,
 						["bonus"] = true,
 						["max"] = true,
 						["label"] = true,
 					},
-					["x"] = 0,
-					["padW"] = 2,
-					["font"] = "Friz Quadrata TT",
-					["showInOverrideUI"] = false,
-					["spacing"] = 1,
-					["padH"] = 2,
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
 					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
+					["numButtons"] = 20,
 					["y"] = 0,
 					["lockMode"] = true,
+					["padH"] = 2,
+					["font"] = "Friz Quadrata TT",
+					["padW"] = 2,
+					["x"] = 0,
+					["showInOverrideUI"] = false,
+					["spacing"] = 1,
 					["display"] = {
 						["value"] = true,
 						["bonus"] = true,
 						["max"] = true,
 						["label"] = true,
 					},
-					["x"] = 0,
-					["padW"] = 2,
-					["font"] = "Friz Quadrata TT",
-					["showInOverrideUI"] = false,
-					["spacing"] = 1,
-					["padH"] = 2,
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -2400,15 +2403,8 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 0,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
 						["DRUID"] = {
 							["bear"] = 8,
 							["tree"] = 7,
@@ -2420,8 +2416,15 @@ DominosDB = {
 							["page3"] = 2,
 							["page6"] = 5,
 						},
+						["PRIEST"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -2431,14 +2434,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 40,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -2448,14 +2451,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 80,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -2465,14 +2468,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 120,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -2482,14 +2485,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 160,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -2499,14 +2502,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 200,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -2516,14 +2519,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 240,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -2533,14 +2536,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 280,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -2550,14 +2553,14 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 320,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -2567,59 +2570,59 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 360,
+					["numButtons"] = 12,
 					["pages"] = {
-						["PRIEST"] = {
-						},
 						["DRUID"] = {
 						},
+						["PRIEST"] = {
+						},
 					},
-					["numButtons"] = 12,
+					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = -16,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
-						["label"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = -16,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
+					},
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "TOP",
 					["columns"] = 20,
-					["alwaysShowText"] = true,
-					["y"] = 0,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
-						["label"] = true,
-					},
-					["x"] = 0,
+					["point"] = "TOP",
+					["numButtons"] = 20,
 					["padW"] = 2,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["y"] = 0,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
+					},
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -2649,12 +2652,12 @@ DominosDB = {
 					["font"] = "Friz Quadrata TT",
 					["y"] = 30,
 					["padH"] = 1,
-					["x"] = 0,
 					["display"] = {
-						["icon"] = false,
 						["time"] = true,
 						["border"] = true,
+						["icon"] = false,
 					},
+					["x"] = 0,
 					["texture"] = "blizzard",
 				},
 				["roll"] = {
@@ -2664,7 +2667,21 @@ DominosDB = {
 					["showInOverrideUI"] = true,
 					["columns"] = 1,
 				},
-				["extra"] = {
+				["menu"] = {
+					["y"] = 0,
+					["x"] = -244,
+					["point"] = "BOTTOMRIGHT",
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["alerts"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
+				},
+				["vehicle"] = {
 					["y"] = 0,
 					["x"] = -244,
 					["point"] = "CENTER",
@@ -2677,24 +2694,10 @@ DominosDB = {
 					["point"] = "CENTER",
 					["spacing"] = 2,
 				},
-				["vehicle"] = {
+				["extra"] = {
 					["y"] = 0,
 					["x"] = -244,
 					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
-				},
-				["alerts"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
-				},
-				["menu"] = {
-					["y"] = 0,
-					["x"] = -244,
-					["point"] = "BOTTOMRIGHT",
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
@@ -2710,8 +2713,6 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 0,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 							["page2"] = 1,
@@ -2721,6 +2722,8 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 0,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -2730,12 +2733,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 40,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 40,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -2745,12 +2748,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 80,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 80,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
@@ -2760,12 +2763,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 120,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 120,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -2775,12 +2778,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 160,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 160,
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -2790,12 +2793,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 200,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 200,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -2805,12 +2808,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 240,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 240,
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -2820,12 +2823,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 280,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 280,
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
@@ -2835,12 +2838,12 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 320,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 320,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -2850,57 +2853,57 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 360,
-					["numButtons"] = 12,
 					["pages"] = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
+					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
-					["columns"] = 20,
 					["point"] = "TOP",
-					["alwaysShowText"] = true,
-					["padW"] = 2,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
-						["label"] = true,
-					},
-					["x"] = 0,
+					["columns"] = 20,
+					["numButtons"] = 20,
 					["y"] = -16,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["padW"] = 2,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
+					},
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
-					["columns"] = 20,
 					["point"] = "TOP",
-					["alwaysShowText"] = true,
-					["padW"] = 2,
-					["lockMode"] = true,
-					["display"] = {
-						["value"] = true,
-						["bonus"] = true,
-						["max"] = true,
-						["label"] = true,
-					},
-					["x"] = 0,
+					["columns"] = 20,
+					["numButtons"] = 20,
 					["y"] = 0,
+					["lockMode"] = true,
+					["padH"] = 2,
 					["font"] = "Friz Quadrata TT",
+					["padW"] = 2,
+					["x"] = 0,
 					["showInOverrideUI"] = false,
 					["spacing"] = 1,
-					["padH"] = 2,
+					["display"] = {
+						["value"] = true,
+						["label"] = true,
+						["max"] = true,
+						["bonus"] = true,
+					},
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -2936,21 +2939,12 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["cast"] = {
-					["showInPetBattleUI"] = false,
-					["point"] = "CENTER",
-					["showInOverrideUI"] = false,
-					["padW"] = 1,
-					["font"] = "Friz Quadrata TT",
-					["y"] = 30,
-					["padH"] = 1,
-					["x"] = 0,
-					["display"] = {
-						["time"] = true,
-						["border"] = true,
-						["icon"] = false,
-					},
-					["texture"] = "blizzard",
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
 				},
 				["vehicle"] = {
 					["y"] = 0,
@@ -2966,12 +2960,21 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["point"] = "CENTER",
+					["showInOverrideUI"] = false,
+					["padW"] = 1,
+					["font"] = "Friz Quadrata TT",
+					["y"] = 30,
+					["padH"] = 1,
+					["display"] = {
+						["border"] = true,
+						["icon"] = false,
+						["time"] = true,
+					},
+					["x"] = 0,
+					["texture"] = "blizzard",
 				},
 			},
 		},
@@ -2982,89 +2985,88 @@ DominosDB = {
 					["point"] = "BOTTOM",
 					["scale"] = 0.65,
 					["showInOverrideUI"] = false,
+					["spacing"] = 1,
 					["padW"] = 1,
-					["y"] = 31,
 					["showstates"] = "",
-					["numButtons"] = 12,
+					["pages"] = {
+						["DEATHKNIGHT"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+						["SHAMAN"] = {
+						},
+						["MAGE"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+						["PRIEST"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+						["PALADIN"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+						["WARLOCK"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+						["DEMONHUNTER"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+						["ROGUE"] = {
+						},
+						["DRUID"] = {
+						},
+						["MONK"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+						["HUNTER"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+					},
 					["clickThrough"] = false,
 					["padH"] = 1,
 					["x"] = -185,
-					["pages"] = {
-						["DEATHKNIGHT"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-						["SHAMAN"] = {
-						},
-						["MAGE"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-						["PRIEST"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-						["HUNTER"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-						["WARLOCK"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-						["DEMONHUNTER"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-						["ROGUE"] = {
-						},
-						["DRUID"] = {
-						},
-						["MONK"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-						["PALADIN"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-					},
-					["spacing"] = 1,
+					["numButtons"] = 12,
+					["y"] = 31,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
-					["point"] = "LEFT",
+					["point"] = "BOTTOMLEFT",
 					["scale"] = 0.65,
 					["showInOverrideUI"] = false,
-					["y"] = -274,
-					["columns"] = 1,
+					["y"] = 322,
+					["padW"] = 1,
 					["spacing"] = 1,
 					["padH"] = 1,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3074,7 +3076,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3086,21 +3088,21 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
-					["padW"] = 1,
+					["numButtons"] = 12,
+					["columns"] = 2,
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "RIGHT",
 					["scale"] = 0.65,
 					["showInOverrideUI"] = false,
-					["y"] = -274,
-					["columns"] = 1,
+					["y"] = -283,
+					["padW"] = 1,
 					["spacing"] = 1,
 					["padH"] = 1,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3110,7 +3112,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3122,17 +3124,25 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
-					["padW"] = 1,
+					["numButtons"] = 12,
+					["columns"] = 1,
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "RIGHT",
-					["columns"] = 1,
+					["padW"] = 1,
 					["scale"] = 0.65,
 					["showInOverrideUI"] = false,
+					["numButtons"] = 12,
+					["y"] = -138,
+					["x"] = -184,
+					["showstates"] = "",
+					["spacing"] = 1,
+					["anchor"] = "3LB",
+					["padH"] = 1,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3142,7 +3152,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3154,17 +3164,10 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
-					["y"] = -138,
-					["x"] = -184,
-					["anchor"] = "3LB",
-					["spacing"] = 1,
-					["padH"] = 1,
-					["showstates"] = "",
-					["numButtons"] = 12,
-					["padW"] = 1,
+					["columns"] = 1,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -3173,9 +3176,10 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["y"] = 27,
 					["x"] = -456,
-					["padH"] = 1,
+					["padW"] = 1,
 					["spacing"] = 1,
-					["anchor"] = "1LC",
+					["padH"] = 1,
+					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3185,7 +3189,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3197,11 +3201,10 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
-					["numButtons"] = 12,
-					["padW"] = 1,
+					["anchor"] = "1LC",
 				}, -- [5]
 				{
 					["showInPetBattleUI"] = false,
@@ -3210,9 +3213,10 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["y"] = 27,
 					["x"] = 504,
-					["padH"] = 1,
+					["padW"] = 1,
 					["spacing"] = 1,
-					["anchor"] = "1RT",
+					["padH"] = 1,
+					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3222,7 +3226,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3234,24 +3238,19 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
-					["numButtons"] = 12,
-					["padW"] = 1,
+					["anchor"] = "1RT",
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
-					["columns"] = 1,
+					["columns"] = 2,
 					["scale"] = 0.65,
 					["showInOverrideUI"] = false,
-					["point"] = "LEFT",
-					["y"] = -195,
-					["x"] = 33,
-					["numButtons"] = 12,
-					["spacing"] = 1,
-					["anchor"] = "2RC",
-					["padH"] = 1,
+					["padW"] = 1,
+					["y"] = -286,
+					["x"] = 75,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3261,7 +3260,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3273,61 +3272,23 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
-					["padW"] = 1,
+					["spacing"] = 1,
+					["anchor"] = "2RB",
+					["padH"] = 1,
+					["numButtons"] = 12,
+					["point"] = "LEFT",
 				}, -- [7]
-				{
-					["showInPetBattleUI"] = false,
-					["point"] = "LEFT",
-					["scale"] = 0.65,
-					["showInOverrideUI"] = false,
-					["padW"] = 1,
-					["y"] = 165,
-					["x"] = 38,
-					["numButtons"] = 12,
-					["spacing"] = 1,
-					["anchor"] = "7TL",
-					["padH"] = 1,
-					["pages"] = {
-						["DEATHKNIGHT"] = {
-						},
-						["SHAMAN"] = {
-						},
-						["MAGE"] = {
-						},
-						["PRIEST"] = {
-						},
-						["HUNTER"] = {
-						},
-						["WARLOCK"] = {
-						},
-						["DEMONHUNTER"] = {
-						},
-						["ROGUE"] = {
-						},
-						["DRUID"] = {
-						},
-						["MONK"] = {
-						},
-						["PALADIN"] = {
-						},
-					},
-					["columns"] = 1,
-				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "RIGHT",
 					["scale"] = 0.65,
 					["showInOverrideUI"] = false,
-					["hidden"] = true,
+					["columns"] = 1,
 					["padW"] = 1,
-					["y"] = 52,
-					["numButtons"] = 12,
-					["spacing"] = 1,
-					["anchor"] = "3TR",
-					["padH"] = 1,
+					["x"] = -38,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3337,7 +3298,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3349,19 +3310,66 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
+					["spacing"] = 1,
+					["anchor"] = "4TC",
+					["padH"] = 1,
+					["numButtons"] = 12,
+					["y"] = 171,
+				}, -- [8]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "TOPRIGHT",
+					["scale"] = 0.65,
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
 					["columns"] = 2,
+					["padW"] = 1,
+					["x"] = -1,
+					["pages"] = {
+						["DEATHKNIGHT"] = {
+						},
+						["SHAMAN"] = {
+						},
+						["MAGE"] = {
+						},
+						["PRIEST"] = {
+						},
+						["PALADIN"] = {
+						},
+						["WARLOCK"] = {
+						},
+						["DEMONHUNTER"] = {
+						},
+						["ROGUE"] = {
+						},
+						["DRUID"] = {
+						},
+						["MONK"] = {
+						},
+						["HUNTER"] = {
+						},
+					},
+					["spacing"] = 1,
+					["anchor"] = "8TL",
+					["padH"] = 1,
+					["numButtons"] = 12,
+					["y"] = -214,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
 					["columns"] = 1,
 					["scale"] = 0.65,
 					["showInOverrideUI"] = false,
+					["point"] = "RIGHT",
 					["padW"] = 1,
-					["y"] = 165,
 					["showstates"] = "",
+					["numButtons"] = 12,
+					["spacing"] = 1,
+					["anchor"] = "3TC",
+					["padH"] = 1,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -3371,7 +3379,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -3383,14 +3391,10 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 					},
-					["spacing"] = 1,
-					["anchor"] = "2TL",
-					["padH"] = 1,
-					["numButtons"] = 12,
-					["point"] = "LEFT",
+					["y"] = 171,
 				}, -- [10]
 				["artifact"] = {
 					["compressValues"] = true,
@@ -3409,6 +3413,7 @@ DominosDB = {
 					["y"] = 20,
 					["font"] = "Friz Quadrata TT",
 					["height"] = 10,
+					["alwaysShowText"] = true,
 					["display"] = {
 						["label"] = true,
 						["max"] = true,
@@ -3416,7 +3421,6 @@ DominosDB = {
 						["percent"] = true,
 						["bonus"] = true,
 					},
-					["alwaysShowText"] = true,
 				},
 				["exp"] = {
 					["compressValues"] = true,
@@ -3424,7 +3428,7 @@ DominosDB = {
 					["scale"] = 1,
 					["lockMode"] = false,
 					["spacing"] = 0,
-					["mode"] = "reputation",
+					["mode"] = "xp",
 					["numButtons"] = 1,
 					["texture"] = "Minimalist",
 					["showInPetBattleUI"] = false,
@@ -3435,6 +3439,7 @@ DominosDB = {
 					["y"] = 20,
 					["font"] = "Friz Quadrata TT",
 					["height"] = 10,
+					["alwaysShowText"] = true,
 					["display"] = {
 						["label"] = true,
 						["value"] = true,
@@ -3442,7 +3447,6 @@ DominosDB = {
 						["percent"] = true,
 						["bonus"] = true,
 					},
-					["alwaysShowText"] = true,
 				},
 				["encounter"] = {
 					["showInPetBattleUI"] = true,
@@ -3456,16 +3460,16 @@ DominosDB = {
 				},
 				["bags"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "BOTTOMRIGHT",
+					["point"] = "BOTTOM",
 					["scale"] = 1,
 					["oneBag"] = true,
 					["hidden"] = true,
-					["y"] = 186,
-					["x"] = -462,
+					["y"] = 45,
+					["x"] = 296,
 					["spacing"] = 2,
-					["anchor"] = "menuRB",
-					["showInOverrideUI"] = false,
+					["anchor"] = "6TR",
 					["showstates"] = "",
+					["showInOverrideUI"] = false,
 				},
 				["pet"] = {
 					["showInPetBattleUI"] = false,
@@ -3476,8 +3480,8 @@ DominosDB = {
 					["x"] = -530,
 					["spacing"] = 1,
 					["anchor"] = "6RB",
-					["padH"] = 1,
 					["padW"] = 1,
+					["padH"] = 1,
 				},
 				["alerts"] = {
 					["showInPetBattleUI"] = true,
@@ -3501,23 +3505,31 @@ DominosDB = {
 					["spacing"] = 0,
 					["anchor"] = "6TL",
 				},
-				["cast"] = {
+				["class"] = {
 					["showInPetBattleUI"] = false,
-					["scale"] = 1,
+					["x"] = -422,
+					["point"] = "BOTTOMRIGHT",
+					["spacing"] = 2,
+					["anchor"] = "6TR",
 					["showInOverrideUI"] = false,
-					["w"] = 290,
-					["latencyPadding"] = 0,
-					["font"] = "Roboto Condensed Bold",
 					["hidden"] = true,
-					["y"] = -57,
-					["display"] = {
-						["time"] = true,
-						["icon"] = true,
-						["border"] = false,
-					},
-					["h"] = 20,
-					["alpha"] = 0.3,
-					["texture"] = "Details Serenity",
+					["y"] = 50,
+				},
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["scale"] = 1,
+					["showInOverrideUI"] = true,
+					["y"] = -233,
+					["x"] = 49,
+					["spacing"] = 2,
+					["anchor"] = "7RB",
+					["columns"] = 1,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["point"] = "TOPRIGHT",
 				},
 				["extra"] = {
 					["showInPetBattleUI"] = false,
@@ -3531,32 +3543,23 @@ DominosDB = {
 					["anchor"] = "encounterTR",
 					["x"] = -405,
 				},
-				["vehicle"] = {
+				["cast"] = {
 					["showInPetBattleUI"] = false,
-					["x"] = -176,
-					["point"] = "TOPRIGHT",
-					["showInOverrideUI"] = false,
-				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["columns"] = 1,
 					["scale"] = 1,
-					["showInOverrideUI"] = true,
-					["y"] = 204,
-					["x"] = 60,
-					["spacing"] = 2,
-					["anchor"] = "7RB",
-					["point"] = "BOTTOMLEFT",
-				},
-				["class"] = {
-					["showInPetBattleUI"] = false,
-					["x"] = -422,
-					["point"] = "BOTTOMRIGHT",
-					["spacing"] = 2,
-					["anchor"] = "6TR",
 					["showInOverrideUI"] = false,
+					["w"] = 290,
+					["latencyPadding"] = 0,
+					["font"] = "Roboto Condensed Bold",
 					["hidden"] = true,
-					["y"] = 50,
+					["alpha"] = 0.3,
+					["display"] = {
+						["icon"] = true,
+						["border"] = false,
+						["time"] = true,
+					},
+					["h"] = 20,
+					["y"] = -57,
+					["texture"] = "Details Serenity",
 				},
 			},
 			["minimap"] = {
@@ -3566,7 +3569,7 @@ DominosDB = {
 			["showgrid"] = false,
 			["useOverrideUI"] = false,
 		},
-		["Death Knight"] = {
+		["Warlock"] = {
 			["frames"] = {
 				{
 					["showInPetBattleUI"] = false,
@@ -3576,8 +3579,9 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 							["page2"] = 1,
 							["page5"] = 4,
 							["page4"] = 3,
@@ -3585,7 +3589,6 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 0,
 				}, -- [1]
 				{
@@ -3596,11 +3599,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 40,
 				}, -- [2]
 				{
@@ -3611,11 +3614,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 80,
 				}, -- [3]
 				{
@@ -3626,11 +3629,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 120,
 				}, -- [4]
 				{
@@ -3641,11 +3644,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 160,
 				}, -- [5]
 				{
@@ -3656,11 +3659,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 200,
 				}, -- [6]
 				{
@@ -3671,11 +3674,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 240,
 				}, -- [7]
 				{
@@ -3686,11 +3689,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 280,
 				}, -- [8]
 				{
@@ -3701,11 +3704,11 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 320,
 				}, -- [9]
 				{
@@ -3716,57 +3719,57 @@ DominosDB = {
 					["x"] = 0,
 					["spacing"] = 4,
 					["padH"] = 2,
+					["numButtons"] = 12,
 					["pages"] = {
-						["DEATHKNIGHT"] = {
+						["WARLOCK"] = {
 						},
 					},
-					["numButtons"] = 12,
 					["y"] = 360,
 				}, -- [10]
 				["artifact"] = {
 					["showInPetBattleUI"] = false,
 					["columns"] = 20,
 					["point"] = "TOP",
-					["alwaysShowText"] = true,
+					["numButtons"] = 20,
 					["padW"] = 2,
 					["lockMode"] = true,
+					["padH"] = 2,
+					["font"] = "Friz Quadrata TT",
+					["y"] = -16,
+					["x"] = 0,
+					["showInOverrideUI"] = false,
+					["spacing"] = 1,
 					["display"] = {
 						["value"] = true,
 						["label"] = true,
 						["max"] = true,
 						["bonus"] = true,
 					},
-					["x"] = 0,
-					["y"] = -16,
-					["font"] = "Friz Quadrata TT",
-					["showInOverrideUI"] = false,
-					["spacing"] = 1,
-					["padH"] = 2,
 					["mode"] = "artifact",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["exp"] = {
 					["showInPetBattleUI"] = false,
 					["columns"] = 20,
 					["point"] = "TOP",
-					["alwaysShowText"] = true,
+					["numButtons"] = 20,
 					["padW"] = 2,
 					["lockMode"] = true,
+					["padH"] = 2,
+					["font"] = "Friz Quadrata TT",
+					["y"] = 0,
+					["x"] = 0,
+					["showInOverrideUI"] = false,
+					["spacing"] = 1,
 					["display"] = {
 						["value"] = true,
 						["label"] = true,
 						["max"] = true,
 						["bonus"] = true,
 					},
-					["x"] = 0,
-					["y"] = 0,
-					["font"] = "Friz Quadrata TT",
-					["showInOverrideUI"] = false,
-					["spacing"] = 1,
-					["padH"] = 2,
 					["mode"] = "xp",
-					["numButtons"] = 20,
+					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
 				},
 				["encounter"] = {
@@ -3832,9 +3835,9 @@ DominosDB = {
 					["y"] = 30,
 					["padH"] = 1,
 					["display"] = {
+						["border"] = true,
 						["icon"] = false,
 						["time"] = true,
-						["border"] = true,
 					},
 					["x"] = 0,
 					["texture"] = "blizzard",

@@ -171,4 +171,5 @@ bind SHIFT-` NONE
 bind \ TOGGLEAUTORUN
 bind ALT-MOUSEWHEELDOWN CLICK DominosActionButton37:LeftButton
 bind CTRL-SHIFT-SPACE NONE
+bind ALT-SHIFT-1 CLICK DejaMark:LeftButton
 modifiedclick NONE SELFCAST

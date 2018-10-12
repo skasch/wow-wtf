@@ -180,6 +180,11 @@ VER 3 0000000000000005 "Shadow Blades" "ABILITY_ROGUE_SHADOWDANCE"
 /cast Shadow Reflection
 /cast Shadow Dance
 END
+VER 3 0000000000000023 "Shadow Dance" "ABILITY_ROGUE_SHADOWDANCE"
+#showtooltip Shadow Dance
+/cast Shadow Dance
+/cast Shadowstrike
+END
 VER 3 0000000000000022 "Shadow Dance" "INV_MISC_QUESTIONMARK"
 #showtooltip Marked for Death
 /focus target
@@ -187,11 +192,6 @@ VER 3 0000000000000022 "Shadow Dance" "INV_MISC_QUESTIONMARK"
 /cast Marked for Death
 /target focus
 /clearfocus
-END
-VER 3 0000000000000023 "Shadow Dance" "ABILITY_ROGUE_SHADOWDANCE"
-#showtooltip Shadow Dance
-/cast Shadow Dance
-/cast Shadowstrike
 END
 VER 3 0000000000000028 "ShD ShStorm" "INV_MISC_QUESTIONMARK"
 #showtooltip Shuriken Storm
@@ -213,6 +213,9 @@ END
 VER 3 000000000000003E "Sigil of Silence" "1418288"
 #showtooltip
 /cast [@mouseover, harm, nodead][@player] Sigil of Silence
+END
+VER 3 000000000000004F "SilverDragon" "ABILITY_HUNTER_SNIPERTRAINING"
+/click SilverDragonMacroButton
 END
 VER 3 000000000000004B "Soothing Mist" "606550"
 #showtooltip
@@ -247,6 +250,9 @@ END
 VER 3 000000000000004C "Tiger's Lust" "651727"
 #showtooltip
 /cast [@mouseover,help,nodead][help,nodead][@player] Tiger's Lust
+END
+VER 3 0000000000000050 "Toggle Nameplate" "413580"
+/run SetCVar("NameplateOtherAtBase", 2 - GetCVar("NameplateOtherAtBase"))
 END
 VER 3 0000000000000040 "Torment" "1344654"
 #showtooltip

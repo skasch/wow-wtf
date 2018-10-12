@@ -5,6 +5,7 @@ Chinchilla2DB = {
 			["profiles"] = {
 				["Default"] = {
 					["chat"] = true,
+					["positionY"] = 0,
 				},
 			},
 		},
@@ -18,6 +19,7 @@ Chinchilla2DB = {
 		["Appearance"] = {
 			["profiles"] = {
 				["Default"] = {
+					["buttonBorderAlpha"] = 0.3,
 					["combatAlpha"] = 0.3,
 					["borderStyle"] = "Thin",
 					["borderColor"] = {
@@ -26,24 +28,28 @@ Chinchilla2DB = {
 						0, -- [3]
 					},
 					["shape"] = "SQUARE",
-					["buttonBorderAlpha"] = 0.3,
+					["scale"] = 1.2,
 				},
 			},
 		},
-		["Zoom"] = {
+		["Expander"] = {
 			["profiles"] = {
 				["Default"] = {
-					["autoZoomTime"] = 10,
+					["enabled"] = false,
 				},
 			},
 		},
 		["TrackingDots"] = {
+			["profiles"] = {
+				["Default"] = {
+					["trackingDotStyle"] = "Nandini",
+				},
+			},
 		},
 		["QuestTracker"] = {
 			["profiles"] = {
 				["Default"] = {
-					["showTitle"] = false,
-					["frameHeight"] = 480,
+					["frameHeight"] = 750,
 				},
 			},
 		},
@@ -60,11 +66,11 @@ Chinchilla2DB = {
 		["ShowHide"] = {
 			["profiles"] = {
 				["Default"] = {
-					["map"] = false,
+					["track"] = false,
 					["zoom"] = false,
 					["dayNight"] = false,
 					["clock"] = false,
-					["track"] = false,
+					["map"] = false,
 				},
 			},
 		},
@@ -73,24 +79,24 @@ Chinchilla2DB = {
 				["Default"] = {
 					["vehicleSeats"] = {
 						nil, -- [1]
-						-145.999984741211, -- [2]
-						-10.9999580383301, -- [3]
+						-170.999984741211, -- [2]
+						-0.999923706054688, -- [3]
 					},
 					["ticketStatus"] = {
-						"TOPLEFT", -- [1]
-						191.000007629395, -- [2]
-						0.000225067138671875, -- [3]
+						"BOTTOMRIGHT", -- [1]
+						-56.0000152587891, -- [2]
+						212.499912261963, -- [3]
 					},
 					["questWatch"] = {
-						nil, -- [1]
-						-0.000112056734348344, -- [2]
-						-156.666393634341, -- [3]
+						"TOPLEFT", -- [1]
+						27.4999771118164, -- [2]
+						0.000133213591654981, -- [3]
 					},
 					["minimapLock"] = true,
 					["durability"] = {
-						"BOTTOMRIGHT", -- [1]
-						-56.9994926452637, -- [2]
-						219.999862670898, -- [3]
+						"BOTTOMLEFT", -- [1]
+						50.9999771118164, -- [2]
+						212.499931335449, -- [3]
 					},
 				},
 			},
@@ -116,16 +122,16 @@ Chinchilla2DB = {
 					},
 					["lock"] = true,
 					["mail"] = 175,
-					["radius"] = 72,
-					["garrison"] = 218,
 					["lfg"] = 195,
+					["garrison"] = 218,
+					["radius"] = 72,
 				},
 			},
 		},
-		["Expander"] = {
+		["Zoom"] = {
 			["profiles"] = {
 				["Default"] = {
-					["enabled"] = false,
+					["autoZoomTime"] = 10,
 				},
 			},
 		},
@@ -133,14 +139,17 @@ Chinchilla2DB = {
 	["profileKeys"] = {
 		["Sueki - La Croisade écarlate"] = "Default",
 		["Vermily - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "Default",
 		["Asane - La Croisade écarlate"] = "Default",
-		["Skasch - La Croisade écarlate"] = "Default",
+		["Isabael - La Croisade écarlate"] = "Default",
 		["Simetra - La Croisade écarlate"] = "Default",
+		["Skasch - La Croisade écarlate"] = "Default",
+		["Fayth - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["mouseButton"] = "MiddleButton",
 			["trackButton"] = "RightButton",
+			["mouseButton"] = "MiddleButton",
 		},
 	},
 }

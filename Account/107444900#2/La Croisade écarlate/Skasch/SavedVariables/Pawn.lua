@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0228,
+	["LastVersion"] = 2.0229,
 	["LastPlayerFullName"] = "Skasch-La Croisade écarlate",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,

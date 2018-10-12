@@ -95,21 +95,21 @@ Broker_Everything_DataDB = {
 	["Gold"] = {
 		["profit"] = {
 			["weekly"] = {
-				[39] = {
-					321618932, -- [1]
-					150944, -- [2]
+				[41] = {
+					402636769, -- [1]
 				},
 				[40] = {
 					150944, -- [1]
+					402636769, -- [2]
 				},
 			},
 			["daily"] = {
-				[278] = {
-					195454634, -- [1]
+				[284] = {
+					10000, -- [1]
 				},
-				[277] = {
-					252360954, -- [1]
-					195454634, -- [2]
+				[283] = {
+					181227455, -- [1]
+					10000, -- [2]
 				},
 			},
 		},
@@ -155,6 +155,9 @@ Broker_Everything_CharacterDB = {
 		"Skasch-La Croisade écarlate", -- [14]
 		"Asane-La Croisade écarlate", -- [15]
 		"Kanpa-Elune", -- [16]
+		"Isabael-La Croisade écarlate", -- [17]
+		"Nephily-La Croisade écarlate", -- [18]
+		"Fayth-La Croisade écarlate", -- [19]
 	},
 	["Tsuri-La Croisade écarlate"] = {
 		["Durability"] = {
@@ -353,8 +356,8 @@ Broker_Everything_CharacterDB = {
 				"Engineering", -- [1]
 				"Engineering", -- [2]
 				136243, -- [3]
-				13, -- [4]
-				300, -- [5]
+				1, -- [4]
+				75, -- [5]
 				7, -- [6]
 				4036, -- [7]
 			},
@@ -362,8 +365,8 @@ Broker_Everything_CharacterDB = {
 				"Mining", -- [1]
 				"Mining", -- [2]
 				134708, -- [3]
-				41, -- [4]
-				315, -- [5]
+				16, -- [4]
+				90, -- [5]
 				6, -- [6]
 				2575, -- [7]
 			},
@@ -371,12 +374,12 @@ Broker_Everything_CharacterDB = {
 		},
 		["race"] = "HighmountainTauren",
 		["name"] = "Simetra",
-		["gold"] = 165363,
+		["gold"] = 1233159,
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
 		},
-		["level"] = 30,
+		["level"] = 60,
 		["faction"] = "Horde",
 		["orderId"] = 12,
 	},
@@ -609,6 +612,28 @@ Broker_Everything_CharacterDB = {
 		["faction"] = "Horde",
 		["orderId"] = 11,
 	},
+	["Nephily-La Croisade écarlate"] = {
+		["Durability"] = {
+		},
+		["class"] = "WARLOCK",
+		["professions"] = {
+			["cooldowns"] = {
+			},
+			["cooldown_locks"] = {
+			},
+			["hasCooldowns"] = false,
+		},
+		["race"] = "VoidElf",
+		["name"] = "Nephily",
+		["gold"] = 10000,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["level"] = 20,
+		["faction"] = "Alliance",
+		["orderId"] = 18,
+	},
 	["Sueki-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
@@ -616,7 +641,7 @@ Broker_Everything_CharacterDB = {
 		["orderId"] = 9,
 		["race"] = "BloodElf",
 		["name"] = "Sueki",
-		["gold"] = 252360954,
+		["gold"] = 262531619,
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
@@ -649,67 +674,44 @@ Broker_Everything_CharacterDB = {
 			["hasCooldowns"] = false,
 		},
 	},
-	["Suzui-La Croisade écarlate"] = {
+	["Seina-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
-		["class"] = "DEATHKNIGHT",
-		["orderId"] = 10,
-		["race"] = "Troll",
-		["name"] = "Suzui",
-		["gold"] = 2000,
-		["professions"] = {
-			["cooldown_locks"] = {
-			},
-			["cooldowns"] = {
-			},
-			["profession2"] = false,
-			["profession1"] = false,
-			["hasCooldowns"] = false,
-		},
-		["level"] = 55,
-		["faction"] = "Horde",
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
-	},
-	["Skasch-La Croisade écarlate"] = {
-		["Durability"] = {
-		},
-		["class"] = "ROGUE",
-		["orderId"] = 14,
-		["race"] = "Nightborne",
-		["name"] = "Skasch",
-		["gold"] = 379875077,
-		["Professions"] = {
-			["learnedRecipes"] = {
-			},
-		},
-		["level"] = 120,
-		["faction"] = "Horde",
+		["class"] = "PALADIN",
+		["orderId"] = 6,
+		["race"] = "Human",
+		["name"] = "Seina",
+		["gold"] = 181811699,
 		["professions"] = {
 			["cooldown_locks"] = {
 			},
 			["cooldowns"] = {
 			},
 			["profession2"] = {
-				"Inscription", -- [1]
-				"Inscription", -- [2]
-				237171, -- [3]
-				16, -- [4]
-				165, -- [5]
-				8, -- [6]
-				45357, -- [7]
+				"Mining", -- [1]
+				"Mining", -- [2]
+				134708, -- [3]
+				32, -- [4]
+				150, -- [5]
+				7, -- [6]
+				2575, -- [7]
 			},
 			["profession1"] = {
-				"Herb Gathering", -- [1]
-				"Herbalism", -- [2]
-				136246, -- [3]
-				150, -- [4]
+				"Blacksmithing", -- [1]
+				"Blacksmithing", -- [2]
+				136241, -- [3]
+				1, -- [4]
 				150, -- [5]
 				5, -- [6]
+				2018, -- [7]
 			},
 			["hasCooldowns"] = false,
+		},
+		["level"] = 113,
+		["faction"] = "Alliance",
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
 		},
 	},
 	["Sutoka-La Croisade écarlate"] = {
@@ -750,6 +752,91 @@ Broker_Everything_CharacterDB = {
 		["level"] = 9,
 		["faction"] = "Horde",
 		["orderId"] = 4,
+	},
+	["Suzui-La Croisade écarlate"] = {
+		["Durability"] = {
+		},
+		["class"] = "DEATHKNIGHT",
+		["orderId"] = 10,
+		["race"] = "Troll",
+		["name"] = "Suzui",
+		["gold"] = 2000,
+		["professions"] = {
+			["cooldown_locks"] = {
+			},
+			["cooldowns"] = {
+			},
+			["profession2"] = false,
+			["profession1"] = false,
+			["hasCooldowns"] = false,
+		},
+		["level"] = 55,
+		["faction"] = "Horde",
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+	},
+	["Skasch-La Croisade écarlate"] = {
+		["Durability"] = {
+		},
+		["class"] = "ROGUE",
+		["orderId"] = 14,
+		["race"] = "Nightborne",
+		["name"] = "Skasch",
+		["gold"] = 421167170,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["level"] = 120,
+		["faction"] = "Horde",
+		["professions"] = {
+			["cooldown_locks"] = {
+			},
+			["cooldowns"] = {
+			},
+			["profession2"] = {
+				"Inscription", -- [1]
+				"Inscription", -- [2]
+				237171, -- [3]
+				16, -- [4]
+				165, -- [5]
+				8, -- [6]
+				45357, -- [7]
+			},
+			["profession1"] = {
+				"Herb Gathering", -- [1]
+				"Herbalism", -- [2]
+				136246, -- [3]
+				150, -- [4]
+				150, -- [5]
+				5, -- [6]
+			},
+			["hasCooldowns"] = false,
+		},
+	},
+	["Fayth-La Croisade écarlate"] = {
+		["Durability"] = {
+		},
+		["class"] = "PALADIN",
+		["orderId"] = 19,
+		["race"] = "LightforgedDraenei",
+		["name"] = "Fayth",
+		["gold"] = 10000,
+		["Professions"] = {
+			["learnedRecipes"] = {
+			},
+		},
+		["level"] = 20,
+		["faction"] = "Alliance",
+		["professions"] = {
+			["cooldowns"] = {
+			},
+			["cooldown_locks"] = {
+			},
+			["hasCooldowns"] = false,
+		},
 	},
 	["Onaka-La Croisade écarlate"] = {
 		["Durability"] = {
@@ -821,7 +908,7 @@ Broker_Everything_CharacterDB = {
 		},
 		["race"] = "Pandaren",
 		["name"] = "Asane",
-		["gold"] = 197987154,
+		["gold"] = 182128764,
 		["Professions"] = {
 			["learnedRecipes"] = {
 			},
@@ -830,40 +917,22 @@ Broker_Everything_CharacterDB = {
 		["faction"] = "Horde",
 		["orderId"] = 15,
 	},
-	["Seina-La Croisade écarlate"] = {
+	["Isabael-La Croisade écarlate"] = {
 		["Durability"] = {
 		},
-		["class"] = "PALADIN",
-		["orderId"] = 6,
-		["race"] = "Human",
-		["name"] = "Seina",
-		["gold"] = 181811699,
+		["class"] = "WARLOCK",
+		["orderId"] = 17,
+		["race"] = "VoidElf",
+		["name"] = "Isabael",
+		["gold"] = 27690,
 		["professions"] = {
-			["cooldown_locks"] = {
-			},
 			["cooldowns"] = {
 			},
-			["profession2"] = {
-				"Mining", -- [1]
-				"Mining", -- [2]
-				134708, -- [3]
-				32, -- [4]
-				150, -- [5]
-				7, -- [6]
-				2575, -- [7]
-			},
-			["profession1"] = {
-				"Blacksmithing", -- [1]
-				"Blacksmithing", -- [2]
-				136241, -- [3]
-				1, -- [4]
-				150, -- [5]
-				5, -- [6]
-				2018, -- [7]
+			["cooldown_locks"] = {
 			},
 			["hasCooldowns"] = false,
 		},
-		["level"] = 113,
+		["level"] = 21,
 		["faction"] = "Alliance",
 		["Professions"] = {
 			["learnedRecipes"] = {
@@ -913,22 +982,25 @@ Broker_Everything_CharacterDB = {
 }
 Broker_Everything_AceDB = {
 	["profileKeys"] = {
-		["Tenga - La Croisade écarlate"] = "Default",
-		["Higi - La Croisade écarlate"] = "Default",
-		["Tsuma - La Croisade écarlate"] = "Default",
-		["Tsuri - La Croisade écarlate"] = "Default",
+		["Suzui - La Croisade écarlate"] = "Default",
 		["Asane - La Croisade écarlate"] = "Default",
 		["Onaka - La Croisade écarlate"] = "Default",
 		["Skasch - La Croisade écarlate"] = "Default",
-		["Sutoka - La Croisade écarlate"] = "Default",
 		["Sueki - La Croisade écarlate"] = "Default",
-		["Vermily - La Croisade écarlate"] = "Default",
-		["Skasch - Elune"] = "Default",
-		["Simetra - La Croisade écarlate"] = "Default",
-		["Suzui - La Croisade écarlate"] = "Default",
-		["Seina - La Croisade écarlate"] = "Default",
 		["Kanpa - Elune"] = "Default",
+		["Seina - La Croisade écarlate"] = "Default",
 		["Kanpa - La Croisade écarlate"] = "Default",
+		["Tenga - La Croisade écarlate"] = "Default",
+		["Tsuri - La Croisade écarlate"] = "Default",
+		["Sutoka - La Croisade écarlate"] = "Default",
+		["Vermily - La Croisade écarlate"] = "Default",
+		["Fayth - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
+		["Isabael - La Croisade écarlate"] = "Default",
+		["Higi - La Croisade écarlate"] = "Default",
+		["Simetra - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

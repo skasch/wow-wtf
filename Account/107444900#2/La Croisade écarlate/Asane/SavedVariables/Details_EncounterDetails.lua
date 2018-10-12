@@ -1,5 +1,466 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			{
+				39.4029999999912, -- [1]
+				"Ug' crish zul Thraxas!", -- [2]
+				"Zek'voz", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				39.4029999999912, -- [1]
+				"You will be eradicated!", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [2]
+			{
+				47.2679999999818, -- [1]
+				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
+				"Projection of C'thun", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				87.3739999999525, -- [1]
+				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
+				"Projection of C'thun", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				122.604999999981, -- [1]
+				"|TInterface\\Icons\\ABILITY_DEATHKNIGHT_DEATHSIPHON2.BLP:20|t The %s begins casting |cFFFF0000|Hspell:265360|h[Roiling Deceit]|h|r!", -- [2]
+				"Projection of Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				186.273999999976, -- [1]
+				"Ug' crish zul Thraxas!", -- [2]
+				"Zek'voz", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				186.273999999976, -- [1]
+				"You will be eradicated!", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [7]
+			{
+				205.916999999958, -- [1]
+				"Ominous Cloud begins to boil upon touching %s!", -- [2]
+				"Wayther", -- [3]
+				3, -- [4]
+			}, -- [8]
+			{
+				224.430999999982, -- [1]
+				"|TInterface\\Icons\\SPELL_PRIEST_SHADOWORBS.BLP:20|t The %s begins casting |cFFFF0000|Hspell:267334|h[Orb of Corruption]|h|r!", -- [2]
+				"Warped Projection", -- [3]
+				1, -- [4]
+			}, -- [9]
+			{
+				259.31799999997, -- [1]
+				"We have always been in your mind.", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [10]
+			{
+				296.915999999968, -- [1]
+				"Ug' crish zul Thraxas!", -- [2]
+				"Zek'voz", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				296.915999999968, -- [1]
+				"You will be eradicated!", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [12]
+			["boss"] = "Zek'voz",
+		}, -- [1]
+		{
+			{
+				41.4859999999753, -- [1]
+				"Ug' crish zul Thraxas!", -- [2]
+				"Zek'voz", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				41.4859999999753, -- [1]
+				"You will be eradicated!", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [2]
+			{
+				50.1189999999479, -- [1]
+				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
+				"Projection of C'thun", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				90.2379999999539, -- [1]
+				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
+				"Projection of C'thun", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				134.378999999957, -- [1]
+				"|TInterface\\Icons\\ABILITY_DEATHKNIGHT_DEATHSIPHON2.BLP:20|t The %s begins casting |cFFFF0000|Hspell:265360|h[Roiling Deceit]|h|r!", -- [2]
+				"Projection of Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				195.420999999973, -- [1]
+				"Ug' crish zul Thraxas!", -- [2]
+				"Zek'voz", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				195.420999999973, -- [1]
+				"You will be eradicated!", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [7]
+			{
+				232.527999999991, -- [1]
+				"|TInterface\\Icons\\SPELL_PRIEST_SHADOWORBS.BLP:20|t The %s begins casting |cFFFF0000|Hspell:267334|h[Orb of Corruption]|h|r!", -- [2]
+				"Warped Projection", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				267.434999999998, -- [1]
+				"Hunger insatiable, the king feasts.", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [9]
+			{
+				270.993999999948, -- [1]
+				"Ominous Cloud begins to boil upon touching %s!", -- [2]
+				"Ayline", -- [3]
+				3, -- [4]
+			}, -- [10]
+			{
+				304.958999999973, -- [1]
+				"Ug' crish zul Thraxas!", -- [2]
+				"Zek'voz", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				309.793999999994, -- [1]
+				"Naza bul rexil qalic ul'.", -- [2]
+				"Zek'voz", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				309.793999999994, -- [1]
+				"Not a single worthy trait among you.", -- [2]
+				"Zek'voz", -- [3]
+				5, -- [4]
+			}, -- [13]
+			["boss"] = "Zek'voz",
+		}, -- [2]
+		{
+			{
+				6.07999999998719, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				10.9769999999844, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				20.74099999998, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				29.2850000000035, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				34.2170000000042, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				52.4679999999935, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				57.4039999999805, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				63.4929999999877, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				75.6649999999791, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				80.6190000000061, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				98.7519999999786, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				103.625999999989, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				109.733999999997, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				121.878999999986, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				130.435999999987, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				143.804999999993, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				145.038, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				151.111999999994, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				168.141999999993, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				173.002999999997, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				175.085999999981, -- [1]
+				"Infection purged.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				180.366999999998, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [22]
+			{
+				180.366999999998, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				191.304999999993, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				196.195000000007, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				202.250999999989, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				210.790999999997, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				210.790999999997, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				225.391999999993, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				230.309999999998, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				236.36599999998, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				242.459999999992, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [32]
+			{
+				242.459999999992, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				259.530999999988, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				264.430999999982, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				270.473999999987, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				276.563999999984, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [37]
+			{
+				276.563999999984, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				293.61599999998, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				298.5, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				304.570999999996, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				310.649999999994, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [42]
+			{
+				310.649999999994, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [43]
+			{
+				327.668000000005, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				332.567999999999, -- [1]
+				"Testing bacterial resistance to extreme heat.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [45]
+			{
+				338.671000000002, -- [1]
+				"Venting containment chamber.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [46]
+			{
+				344.65399999998, -- [1]
+				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
+				"MOTHER", -- [3]
+				1, -- [4]
+			}, -- [47]
+			{
+				344.65399999998, -- [1]
+				"Surgical field engaged. Preparing samples for study.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [48]
+			{
+				352.065999999992, -- [1]
+				"Contagion level reduced.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [49]
+			{
+				361.75, -- [1]
+				"Dissection protocol initiated.", -- [2]
+				"MOTHER", -- [3]
+				7, -- [4]
+			}, -- [50]
+			["boss"] = "MOTHER",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[269279] = {
 			["school"] = 1,
@@ -645,8 +1106,8 @@ EncounterDetailsDB = {
 		[98021] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Spirit Link Totem",
 		},
@@ -913,12 +1374,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "MOTHER",
 		},
-		[171454] = {
-			["school"] = 16,
+		[69369] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ayline-Kael'thas",
+			["source"] = "Xuercus-Ysondre",
 		},
 		[199552] = {
 			["school"] = 1,
@@ -934,14 +1396,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ayline-Kael'thas",
 		},
-		[5176] = {
-			["school"] = 8,
+		[271729] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Taloc",
 		},
 		[208628] = {
 			["school"] = 1,
@@ -965,22 +1425,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[12888] = {
-			["school"] = 32,
+		[164815] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Avatar of Hakkar",
+			["source"] = "Nastycheat-Suramar",
 		},
-		[273238] = {
-			["school"] = 1,
+		[271194] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Easybiatch-Archimonde",
+			["source"] = "Xeetal-Sargeras",
 		},
 		[12884] = {
 			["school"] = 8,
@@ -993,15 +1454,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreamscythe",
 		},
-		[164815] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[198030] = {
+			["school"] = 124,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Maorgath-KhazModan",
 		},
 		[31884] = {
 			["school"] = 2,
@@ -1045,14 +1503,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kuragari-Ysondre",
 		},
-		[276207] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[194509] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Êdàm-Hyjal",
+			["source"] = "Nissëruivë-Chantséternels",
 		},
 		[198069] = {
 			["school"] = 32,
@@ -1086,44 +1544,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[33763] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Kalmà-KhazModan",
-		},
-		[108853] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wayther-Illidan",
-		},
 		[157982] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Ayyaa-Garona",
-		},
-		[30455] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Zunar-KhazModan",
-		},
-		[132467] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ikkitokken-KhazModan",
 		},
 		[279555] = {
 			["school"] = 1,
@@ -1132,6 +1558,36 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Junshîro-Archimonde",
+		},
+		[265374] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[30455] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Zunar-KhazModan",
+		},
+		[55090] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Pourriture-Varimathras",
+		},
+		[108853] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wayther-Illidan",
 		},
 		[172] = {
 			["school"] = 32,
@@ -1149,11 +1605,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightmare Scalebane",
 		},
-		[275084] = {
-			["school"] = 32,
+		[48438] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
+			["source"] = "Kalmà-KhazModan",
 		},
 		[267803] = {
 			["school"] = 4,
@@ -1161,13 +1622,12 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[268311] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[53385] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ayline-Kael'thas",
+			["source"] = "Almîrø-Archimonde",
 		},
 		[8377] = {
 			["school"] = 1,
@@ -1192,14 +1652,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lortank-KhazModan",
 		},
-		[265954] = {
+		[200685] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Easybiatch-Archimonde",
+			["source"] = "Jrshow-Uldaman",
 		},
 		[274192] = {
 			["school"] = 1,
@@ -1215,12 +1673,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zunar-KhazModan",
 		},
-		[178740] = {
+		[187727] = {
 			["school"] = 4,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
@@ -1242,12 +1698,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[265953] = {
+		[185099] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Easybiatch-Archimonde",
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[162264] = {
 			["school"] = 127,
@@ -1280,13 +1736,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalmà-KhazModan",
 		},
-		[11976] = {
-			["school"] = 1,
+		[63106] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Nightmare Wanderer",
+			["source"] = "Feloux-Archimonde",
 		},
 		[271895] = {
 			["school"] = 32,
@@ -1296,13 +1755,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[269085] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[269031] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Palamétéou-Archimonde",
 		},
 		[227034] = {
 			["school"] = 8,
@@ -1320,12 +1778,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ayline-Kael'thas",
 		},
-		[4987] = {
-			["school"] = 2,
+		[147362] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Muggsy-Illidan",
+			["source"] = "Xeetal-Sargeras",
 		},
 		[203720] = {
 			["school"] = 1,
@@ -1334,13 +1792,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[204197] = {
-			["school"] = 4,
+		[224126] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Nissëruivë-Chantséternels",
+			["source"] = "Spirit Wolf",
 		},
 		[222031] = {
 			["school"] = 127,
@@ -1398,13 +1856,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zunar-KhazModan",
 		},
-		[44614] = {
-			["school"] = 16,
+		[116694] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Zunar-KhazModan",
+			["source"] = "Sunwuheshang",
 		},
 		[225311] = {
 			["school"] = 2,
@@ -1413,28 +1872,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Muggsy-Illidan",
 		},
-		[247455] = {
-			["school"] = 4,
+		[262161] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Êdàm-Hyjal",
+			["source"] = "Lortank-KhazModan",
 		},
-		[247456] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[228358] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Êdàm-Hyjal",
+			["source"] = "Zunar-KhazModan",
 		},
-		[267611] = {
+		[20271] = {
 			["school"] = 2,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Palamétéou-Archimonde",
+			["source"] = "Almîrø-Archimonde",
 		},
 		[94472] = {
 			["school"] = 2,
@@ -1458,25 +1918,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nissëruivë-Chantséternels",
 		},
-		[205179] = {
+		[265454] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[48181] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kuragari-Ysondre",
-		},
-		[276205] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Êdàm-Hyjal",
+			["source"] = "Feloux-Archimonde",
 		},
 		[217200] = {
 			["school"] = 1,
@@ -1488,22 +1945,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xeetal-Sargeras",
 		},
-		[198013] = {
-			["school"] = 124,
-			["type"] = "BUFF",
+		[194311] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Jrshow-Uldaman",
+			["source"] = "Pourriture-Varimathras",
 		},
-		[205473] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[15493] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Zunar-KhazModan",
+			["source"] = "Fineous Darkvire",
 		},
 		[275351] = {
 			["school"] = 1,
@@ -1513,19 +1969,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[280206] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Nissëruivë-Chantséternels",
-		},
 		[271519] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Taloc",
+		},
+		[280206] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Nissëruivë-Chantséternels",
 		},
 		[232893] = {
 			["school"] = 1,
@@ -1543,13 +1999,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pourriture-Varimathras",
 		},
-		[275972] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[205246] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Êdàm-Hyjal",
+			["source"] = "Kuragari-Ysondre",
 		},
 		[127923] = {
 			["school"] = 1,
@@ -1578,20 +2034,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ogom the Wretched",
 		},
-		[26573] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Asilem-Hyjal",
-		},
-		[281844] = {
+		[271636] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kuragari-Ysondre",
+			["source"] = "Cudgel of Gore",
+		},
+		[273310] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Nissëruivë-Chantséternels",
 		},
 		[116841] = {
 			["school"] = 1,
@@ -1602,13 +2060,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ikkitokken-KhazModan",
 		},
-		[273310] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[233490] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Nissëruivë-Chantséternels",
+			["source"] = "Kuragari-Ysondre",
 		},
 		[129250] = {
 			["school"] = 2,
@@ -1721,15 +2180,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Emissary",
 		},
-		[7384] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[24275] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Elfianis-Archimonde",
+			["source"] = "Palamétéou-Archimonde",
 		},
 		[210153] = {
 			["school"] = 1,
@@ -1738,15 +2195,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maorgath-KhazModan",
 		},
-		[11876] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[155777] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Shade of Eranikus",
+			["source"] = "Ayyaa-Garona",
 		},
 		[85256] = {
 			["school"] = 2,
@@ -1785,20 +2241,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[275936] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Tràcer-Illidan",
-		},
-		[12882] = {
-			["school"] = 8,
+		[201427] = {
+			["school"] = 127,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dreamscythe",
+			["source"] = "Maorgath-KhazModan",
+		},
+		[34026] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Xeetal-Sargeras",
 		},
 		[265268] = {
 			["school"] = 32,
@@ -1815,21 +2270,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maorgath-KhazModan",
 		},
-		[214222] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[13900] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Asilem-Hyjal",
-		},
-		[18562] = {
-			["school"] = 8,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Lord Incendius",
+		},
+		[267350] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[205708] = {
 			["school"] = 16,
@@ -1839,13 +2293,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zunar-KhazModan",
 		},
-		[275909] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[145109] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Junshîro-Archimonde",
+			["source"] = "Ayyaa-Garona",
 		},
 		[17253] = {
 			["school"] = 1,
@@ -1870,22 +2323,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ikkitokken-KhazModan",
 		},
-		[102342] = {
-			["school"] = 8,
+		[227518] = {
+			["school"] = 127,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maorgath-KhazModan",
+		},
+		[273992] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
-		},
-		[272970] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Zunar-KhazModan",
+			["source"] = "Easybiatch-Archimonde",
 		},
 		[255723] = {
 			["school"] = 1,
@@ -1895,11 +2346,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sunwuheshang",
 		},
-		[228477] = {
+		[203819] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
@@ -1918,13 +2369,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xuercus-Ysondre",
 		},
-		[272870] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[272807] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Lortank-KhazModan",
+			["source"] = "Nastycheat-Suramar",
 		},
 		[35395] = {
 			["school"] = 1,
@@ -1940,45 +2390,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Taloc",
-		},
-		[15347] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Fineous Darkvire",
-		},
-		[8258] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fineous Darkvire",
-		},
-		[20572] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ðøkers-KhazModan",
-		},
-		[203539] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Palamétéou-Archimonde",
-		},
-		[203794] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Êdàm-Hyjal",
 		},
 		[101546] = {
 			["school"] = 1,
@@ -1997,6 +2408,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lortank-KhazModan",
 		},
+		[20572] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ðøkers-KhazModan",
+		},
+		[265530] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Zek'voz",
+		},
+		[203794] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Êdàm-Hyjal",
+		},
+		[233496] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kuragari-Ysondre",
+		},
+		[585] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Nissëruivë-Chantséternels",
+		},
 		[13899] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -2009,22 +2460,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Incendius",
 		},
-		[265530] = {
-			["school"] = 32,
+		[203539] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Zek'voz",
+			["source"] = "Palamétéou-Archimonde",
 		},
-		[270288] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[228354] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Zunar-KhazModan",
 		},
 		[12889] = {
 			["school"] = 32,
@@ -2043,12 +2491,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Asilem-Hyjal",
 		},
-		[47666] = {
-			["school"] = 2,
+		[276138] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Nissëruivë-Chantséternels",
+			["source"] = "Almîrø-Archimonde",
 		},
 		[100780] = {
 			["school"] = 1,
@@ -2075,32 +2524,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Projection of C'thun",
 		},
-		[190446] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Zunar-KhazModan",
-		},
-		[265662] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Zek'voz",
-		},
-		[19750] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Muggsy-Illidan",
-		},
 		[258920] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -2109,6 +2532,29 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Easybiatch-Archimonde",
+		},
+		[269239] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ðøkers-KhazModan",
+		},
+		[258921] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Easybiatch-Archimonde",
+		},
+		[190446] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Zunar-KhazModan",
 		},
 		[203796] = {
 			["school"] = 32,
@@ -2124,12 +2570,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ðøkers-KhazModan",
 		},
-		[25914] = {
-			["school"] = 2,
+		[276139] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Muggsy-Illidan",
+			["source"] = "Asilem-Hyjal",
 		},
 		[276137] = {
 			["school"] = 1,
@@ -2148,13 +2595,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[269239] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[265662] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Ðøkers-KhazModan",
+			["source"] = "Zek'voz",
 		},
 		[48107] = {
 			["school"] = 4,
@@ -2164,13 +2612,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[276138] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[19750] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Almîrø-Archimonde",
+			["source"] = "Muggsy-Illidan",
 		},
 		[124255] = {
 			["school"] = 1,
@@ -2198,13 +2647,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sunwuheshang",
 		},
-		[276139] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[25914] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Asilem-Hyjal",
+			["source"] = "Muggsy-Illidan",
 		},
 		[268602] = {
 			["school"] = 1,
@@ -2222,14 +2670,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xuercus-Ysondre",
 		},
-		[232670] = {
-			["school"] = 32,
+		[268604] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Feloux-Archimonde",
+			["source"] = "Kuragari-Ysondre",
 		},
 		[258922] = {
 			["school"] = 4,
@@ -2271,13 +2718,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sunwuheshang",
 		},
-		[268604] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[232670] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kuragari-Ysondre",
+			["source"] = "Feloux-Archimonde",
 		},
 		[30283] = {
 			["school"] = 32,
@@ -2311,14 +2759,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Almîrø-Archimonde",
 		},
-		[246851] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ayline-Kael'thas",
-		},
 		[183998] = {
 			["school"] = 2,
 			["token"] = {
@@ -2326,6 +2766,14 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Muggsy-Illidan",
+		},
+		[246851] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ayline-Kael'thas",
 		},
 		[44544] = {
 			["school"] = 16,
@@ -2335,22 +2783,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zunar-KhazModan",
 		},
-		[6795] = {
+		[278497] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Elfianis-Archimonde",
+		},
+		[14099] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Junshîro-Archimonde",
-		},
-		[273974] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Jrshow-Uldaman",
+			["source"] = "Lord Incendius",
 		},
 		[267329] = {
 			["school"] = 32,
@@ -2367,12 +2813,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pillecaillou",
 		},
-		[81269] = {
-			["school"] = 8,
+		[153595] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Zunar-KhazModan",
 		},
 		[980] = {
 			["school"] = 32,
@@ -2392,13 +2838,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ayline-Kael'thas",
 		},
-		[267331] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[276146] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Xuercus-Ysondre",
+			["source"] = "Nastycheat-Suramar",
 		},
 		[853] = {
 			["school"] = 2,
@@ -2409,41 +2854,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Almîrø-Archimonde",
 		},
-		[14099] = {
+		[281000] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Incendius",
+			["source"] = "Elfianis-Archimonde",
 		},
-		[153595] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Zunar-KhazModan",
-		},
-		[276146] = {
-			["school"] = 2,
+		[81269] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Nastycheat-Suramar",
 		},
-		[196608] = {
-			["school"] = 8,
+		[127802] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Sunwuheshang",
+			["source"] = "Pourriture-Varimathras",
 		},
-		[93622] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[164812] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Torel-Dalaran",
+		},
+		[8921] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Junshîro-Archimonde",
 		},
@@ -2462,13 +2908,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Almîrø-Archimonde",
 		},
-		[93402] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Torel-Dalaran",
-		},
 		[6307] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -2476,6 +2915,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Karrin",
+		},
+		[125439] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[162794] = {
 			["school"] = 127,
@@ -2513,12 +2959,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ðøkers-KhazModan",
 		},
-		[271686] = {
-			["school"] = 8,
+		[213771] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ayline-Kael'thas",
+			["source"] = "Junshîro-Archimonde",
+		},
+		[100784] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[273340] = {
 			["school"] = 1,
@@ -2527,14 +2982,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Xuercus-Ysondre",
-		},
-		[271296] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Taloc",
 		},
 		[193455] = {
 			["school"] = 1,
@@ -2560,21 +3007,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kuragari-Ysondre",
 		},
-		[100784] = {
-			["school"] = 1,
+		[271296] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ikkitokken-KhazModan",
+			["source"] = "Taloc",
 		},
-		[197277] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[236060] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Almîrø-Archimonde",
+			["source"] = "Wayther-Illidan",
 		},
 		[12654] = {
 			["school"] = 4,
@@ -2585,27 +3032,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[271685] = {
-			["school"] = 8,
+		[26977] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ayline-Kael'thas",
+			["source"] = "Lord Incendius",
 		},
-		[185123] = {
+		[61684] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Loustik",
+		},
+		[265248] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Maorgath-KhazModan",
-		},
-		[195072] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tràcer-Illidan",
+			["source"] = "Zek'voz",
 		},
 		[279729] = {
 			["school"] = 8,
@@ -2614,12 +3065,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Torel-Dalaran",
 		},
-		[278147] = {
-			["school"] = 2,
+		[153596] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Muggsy-Illidan",
+			["source"] = "Zunar-KhazModan",
 		},
 		[85222] = {
 			["school"] = 2,
@@ -2628,35 +3079,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Muggsy-Illidan",
 		},
-		[272903] = {
+		[275773] = {
 			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Palamétéou-Archimonde",
-		},
-		[201633] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Unknown",
-		},
-		[271682] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Muggsy-Illidan",
-		},
-		[107428] = {
-			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ikkitokken-KhazModan",
+			["source"] = "Asilem-Hyjal",
 		},
 		[210320] = {
 			["school"] = 2,
@@ -2665,6 +3094,29 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Muggsy-Illidan",
+		},
+		[271682] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Muggsy-Illidan",
+		},
+		[271811] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Cudgel of Gore",
+		},
+		[201633] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Unknown",
 		},
 		[276154] = {
 			["school"] = 1,
@@ -2682,13 +3134,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Junshîro-Archimonde",
 		},
-		[271811] = {
-			["school"] = 32,
+		[107428] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Cudgel of Gore",
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[244813] = {
 			["school"] = 4,
@@ -2699,13 +3150,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[275773] = {
+		[272903] = {
 			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Asilem-Hyjal",
+			["source"] = "Palamétéou-Archimonde",
 		},
 		[113656] = {
 			["school"] = 1,
@@ -2716,46 +3167,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ikkitokken-KhazModan",
 		},
-		[153596] = {
-			["school"] = 16,
+		[278147] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Muggsy-Illidan",
+		},
+		[195072] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tràcer-Illidan",
+		},
+		[185123] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maorgath-KhazModan",
+		},
+		[271685] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zunar-KhazModan",
+			["source"] = "Ayline-Kael'thas",
 		},
-		[265248] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Zek'voz",
-		},
-		[61684] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Loustik",
-		},
-		[26977] = {
-			["school"] = 4,
+		[197277] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lord Incendius",
-		},
-		[236060] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Wayther-Illidan",
+			["source"] = "Almîrø-Archimonde",
 		},
 		[84721] = {
 			["school"] = 16,
@@ -2772,13 +3219,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lortank-KhazModan",
 		},
-		[213771] = {
-			["school"] = 1,
+		[271686] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Junshîro-Archimonde",
+			["source"] = "Ayline-Kael'thas",
 		},
 		[81751] = {
 			["school"] = 2,
@@ -2787,12 +3233,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nissëruivë-Chantséternels",
 		},
-		[125439] = {
-			["school"] = 1,
+		[93402] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ikkitokken-KhazModan",
+			["source"] = "Torel-Dalaran",
 		},
 		[82326] = {
 			["school"] = 2,
@@ -2803,30 +3249,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Muggsy-Illidan",
 		},
-		[8921] = {
-			["school"] = 64,
+		[93622] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Junshîro-Archimonde",
 		},
-		[164812] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[196608] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Sunwuheshang",
+		},
+		[267331] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Torel-Dalaran",
-		},
-		[127802] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Pourriture-Varimathras",
+			["source"] = "Xuercus-Ysondre",
 		},
 		[2948] = {
 			["school"] = 4,
@@ -2837,19 +3282,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[281000] = {
+		[273974] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Jrshow-Uldaman",
+		},
+		[6795] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Elfianis-Archimonde",
-		},
-		[278497] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Elfianis-Archimonde",
+			["source"] = "Junshîro-Archimonde",
 		},
 		[273988] = {
 			["school"] = 1,
@@ -2913,19 +3361,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[258921] = {
-			["school"] = 4,
+		[47666] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Easybiatch-Archimonde",
+			["source"] = "Nissëruivë-Chantséternels",
 		},
-		[228354] = {
-			["school"] = 16,
+		[270288] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Zunar-KhazModan",
+			["source"] = "Unknown",
 		},
 		[83381] = {
 			["school"] = 1,
@@ -2934,21 +3384,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Renifle",
 		},
-		[585] = {
+		[8258] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fineous Darkvire",
+		},
+		[15347] = {
 			["school"] = 2,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Nissëruivë-Chantséternels",
-		},
-		[233496] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Kuragari-Ysondre",
+			["source"] = "Fineous Darkvire",
 		},
 		[272586] = {
 			["school"] = 4,
@@ -2959,35 +3409,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volatile Droplet",
 		},
-		[272807] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Nastycheat-Suramar",
-		},
-		[203819] = {
+		[272870] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lortank-KhazModan",
+		},
+		[228477] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[273992] = {
+		[272970] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Easybiatch-Archimonde",
+			["source"] = "Zunar-KhazModan",
 		},
-		[227518] = {
-			["school"] = 127,
+		[102342] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Maorgath-KhazModan",
+			["source"] = "Nastycheat-Suramar",
 		},
 		[275270] = {
 			["school"] = 64,
@@ -2997,41 +3450,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volatile Droplet",
 		},
-		[145109] = {
+		[275909] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Junshîro-Archimonde",
+		},
+		[18562] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Ayyaa-Garona",
+			["source"] = "Nastycheat-Suramar",
 		},
-		[267350] = {
-			["school"] = 32,
+		[214222] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Asilem-Hyjal",
 		},
-		[13900] = {
-			["school"] = 4,
+		[12882] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Incendius",
+			["source"] = "Dreamscythe",
 		},
-		[34026] = {
+		[275936] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Xeetal-Sargeras",
-		},
-		[201427] = {
-			["school"] = 127,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Maorgath-KhazModan",
+			["source"] = "Tràcer-Illidan",
 		},
 		[12890] = {
 			["school"] = 32,
@@ -3051,14 +3507,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tràcer-Illidan",
 		},
-		[155777] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[11876] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ayyaa-Garona",
+			["source"] = "Shade of Eranikus",
 		},
 		[145110] = {
 			["school"] = 8,
@@ -3067,13 +3524,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalmà-KhazModan",
 		},
-		[24275] = {
-			["school"] = 2,
+		[7384] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Palamétéou-Archimonde",
+			["source"] = "Elfianis-Archimonde",
 		},
 		[132463] = {
 			["school"] = 8,
@@ -3091,31 +3550,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nastycheat-Suramar",
 		},
-		[233490] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Kuragari-Ysondre",
-		},
-		[271636] = {
+		[281844] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Cudgel of Gore",
-		},
-		[205246] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Kuragari-Ysondre",
+		},
+		[26573] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Asilem-Hyjal",
+		},
+		[275972] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Êdàm-Hyjal",
 		},
 		[280384] = {
 			["school"] = 8,
@@ -3131,38 +3587,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Muggsy-Illidan",
 		},
-		[15493] = {
-			["school"] = 2,
+		[205473] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Zunar-KhazModan",
+		},
+		[198013] = {
+			["school"] = 124,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Jrshow-Uldaman",
+		},
+		[276205] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Fineous Darkvire",
+			["source"] = "Êdàm-Hyjal",
 		},
-		[194311] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Pourriture-Varimathras",
-		},
-		[48181] = {
+		[205179] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Feloux-Archimonde",
-		},
-		[265454] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
+			["source"] = "Kuragari-Ysondre",
 		},
 		[224125] = {
 			["school"] = 4,
@@ -3179,38 +3639,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[20271] = {
+		[267611] = {
 			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Almîrø-Archimonde",
-		},
-		[228358] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Zunar-KhazModan",
+			["source"] = "Palamétéou-Archimonde",
 		},
-		[262161] = {
-			["school"] = 1,
+		[247456] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Êdàm-Hyjal",
+		},
+		[247455] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lortank-KhazModan",
+			["source"] = "Êdàm-Hyjal",
 		},
-		[116694] = {
-			["school"] = 8,
+		[44614] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Sunwuheshang",
+			["source"] = "Zunar-KhazModan",
 		},
 		[228597] = {
 			["school"] = 16,
@@ -3228,38 +3686,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ogom the Wretched",
 		},
-		[224126] = {
-			["school"] = 16,
+		[204197] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Nissëruivë-Chantséternels",
+		},
+		[4987] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Muggsy-Illidan",
+		},
+		[269085] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Spirit Wolf",
+			["source"] = "Nastycheat-Suramar",
 		},
-		[147362] = {
+		[11976] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Xeetal-Sargeras",
-		},
-		[269031] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Palamétéou-Archimonde",
-		},
-		[63106] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Feloux-Archimonde",
+			["source"] = "Nightmare Wanderer",
 		},
 		[199854] = {
 			["school"] = 1,
@@ -3269,12 +3725,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elfianis-Archimonde",
 		},
-		[185099] = {
+		[265953] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ikkitokken-KhazModan",
+			["source"] = "Easybiatch-Archimonde",
 		},
 		[228598] = {
 			["school"] = 16,
@@ -3283,10 +3739,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zunar-KhazModan",
 		},
-		[187727] = {
+		[178740] = {
 			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
@@ -3298,12 +3756,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spirit Wolf",
 		},
-		[200685] = {
+		[265954] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Jrshow-Uldaman",
+			["source"] = "Easybiatch-Archimonde",
 		},
 		[30108] = {
 			["school"] = 32,
@@ -3313,31 +3773,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Feloux-Archimonde",
 		},
-		[53385] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Almîrø-Archimonde",
-		},
-		[48438] = {
+		[268311] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Kalmà-KhazModan",
+			["source"] = "Ayline-Kael'thas",
 		},
-		[55090] = {
-			["school"] = 1,
+		[275084] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Pourriture-Varimathras",
+		},
+		[132467] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[196917] = {
 			["school"] = 2,
@@ -3346,12 +3801,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Muggsy-Illidan",
 		},
-		[265374] = {
-			["school"] = 32,
+		[33763] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
+			["source"] = "Kalmà-KhazModan",
 		},
 		[16870] = {
 			["school"] = 8,
@@ -3361,29 +3819,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ayyaa-Garona",
 		},
-		[194509] = {
-			["school"] = 2,
+		[276207] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Nissëruivë-Chantséternels",
+			["source"] = "Êdàm-Hyjal",
 		},
-		[271194] = {
-			["school"] = 4,
+		[273238] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Xeetal-Sargeras",
+			["source"] = "Easybiatch-Archimonde",
 		},
-		[198030] = {
-			["school"] = 124,
+		[12888] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Maorgath-KhazModan",
+			["source"] = "Avatar of Hakkar",
 		},
 		[15621] = {
 			["school"] = 1,
@@ -3395,12 +3855,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Warbringer Construct",
 		},
-		[271729] = {
-			["school"] = 1,
+		[5176] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Taloc",
+			["source"] = "Nastycheat-Suramar",
 		},
 		[202028] = {
 			["school"] = 1,
@@ -3410,474 +3872,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xuercus-Ysondre",
 		},
-		[69369] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[171454] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Xuercus-Ysondre",
+			["source"] = "Ayline-Kael'thas",
 		},
-	},
-	["emotes"] = {
-		{
-			{
-				39.4029999999912, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				39.4029999999912, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [2]
-			{
-				47.2679999999818, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				87.3739999999525, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				122.604999999981, -- [1]
-				"|TInterface\\Icons\\ABILITY_DEATHKNIGHT_DEATHSIPHON2.BLP:20|t The %s begins casting |cFFFF0000|Hspell:265360|h[Roiling Deceit]|h|r!", -- [2]
-				"Projection of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				186.273999999976, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				186.273999999976, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [7]
-			{
-				205.916999999958, -- [1]
-				"Ominous Cloud begins to boil upon touching %s!", -- [2]
-				"Wayther", -- [3]
-				3, -- [4]
-			}, -- [8]
-			{
-				224.430999999982, -- [1]
-				"|TInterface\\Icons\\SPELL_PRIEST_SHADOWORBS.BLP:20|t The %s begins casting |cFFFF0000|Hspell:267334|h[Orb of Corruption]|h|r!", -- [2]
-				"Warped Projection", -- [3]
-				1, -- [4]
-			}, -- [9]
-			{
-				259.31799999997, -- [1]
-				"We have always been in your mind.", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [10]
-			{
-				296.915999999968, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				296.915999999968, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [12]
-			["boss"] = "Zek'voz",
-		}, -- [1]
-		{
-			{
-				41.4859999999753, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				41.4859999999753, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [2]
-			{
-				50.1189999999479, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				90.2379999999539, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				134.378999999957, -- [1]
-				"|TInterface\\Icons\\ABILITY_DEATHKNIGHT_DEATHSIPHON2.BLP:20|t The %s begins casting |cFFFF0000|Hspell:265360|h[Roiling Deceit]|h|r!", -- [2]
-				"Projection of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				195.420999999973, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				195.420999999973, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [7]
-			{
-				232.527999999991, -- [1]
-				"|TInterface\\Icons\\SPELL_PRIEST_SHADOWORBS.BLP:20|t The %s begins casting |cFFFF0000|Hspell:267334|h[Orb of Corruption]|h|r!", -- [2]
-				"Warped Projection", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				267.434999999998, -- [1]
-				"Hunger insatiable, the king feasts.", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [9]
-			{
-				270.993999999948, -- [1]
-				"Ominous Cloud begins to boil upon touching %s!", -- [2]
-				"Ayline", -- [3]
-				3, -- [4]
-			}, -- [10]
-			{
-				304.958999999973, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				309.793999999994, -- [1]
-				"Naza bul rexil qalic ul'.", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				309.793999999994, -- [1]
-				"Not a single worthy trait among you.", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [13]
-			["boss"] = "Zek'voz",
-		}, -- [2]
-		{
-			{
-				6.07999999998719, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				10.9769999999844, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				20.74099999998, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				29.2850000000035, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				34.2170000000042, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				52.4679999999935, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				57.4039999999805, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				63.4929999999877, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				75.6649999999791, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				80.6190000000061, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				98.7519999999786, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				103.625999999989, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				109.733999999997, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				121.878999999986, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				130.435999999987, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				143.804999999993, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				145.038, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				151.111999999994, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				168.141999999993, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				173.002999999997, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				175.085999999981, -- [1]
-				"Infection purged.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				180.366999999998, -- [1]
-				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
-				"MOTHER", -- [3]
-				1, -- [4]
-			}, -- [22]
-			{
-				180.366999999998, -- [1]
-				"Surgical field engaged. Preparing samples for study.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [23]
-			{
-				191.304999999993, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				196.195000000007, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [25]
-			{
-				202.250999999989, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				210.790999999997, -- [1]
-				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
-				"MOTHER", -- [3]
-				1, -- [4]
-			}, -- [27]
-			{
-				210.790999999997, -- [1]
-				"Surgical field engaged. Preparing samples for study.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				225.391999999993, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [29]
-			{
-				230.309999999998, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [30]
-			{
-				236.36599999998, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [31]
-			{
-				242.459999999992, -- [1]
-				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
-				"MOTHER", -- [3]
-				1, -- [4]
-			}, -- [32]
-			{
-				242.459999999992, -- [1]
-				"Surgical field engaged. Preparing samples for study.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [33]
-			{
-				259.530999999988, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				264.430999999982, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [35]
-			{
-				270.473999999987, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [36]
-			{
-				276.563999999984, -- [1]
-				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
-				"MOTHER", -- [3]
-				1, -- [4]
-			}, -- [37]
-			{
-				276.563999999984, -- [1]
-				"Surgical field engaged. Preparing samples for study.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				293.61599999998, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [39]
-			{
-				298.5, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [40]
-			{
-				304.570999999996, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [41]
-			{
-				310.649999999994, -- [1]
-				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
-				"MOTHER", -- [3]
-				1, -- [4]
-			}, -- [42]
-			{
-				310.649999999994, -- [1]
-				"Surgical field engaged. Preparing samples for study.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [43]
-			{
-				327.668000000005, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [44]
-			{
-				332.567999999999, -- [1]
-				"Testing bacterial resistance to extreme heat.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [45]
-			{
-				338.671000000002, -- [1]
-				"Venting containment chamber.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [46]
-			{
-				344.65399999998, -- [1]
-				"|TInterface\\Icons\\Ability_Mage_RayofFrost:20|t%s activates the |cFFFF0000|Hspell:268253|h[Uldir Defensive Beams]|h|r!", -- [2]
-				"MOTHER", -- [3]
-				1, -- [4]
-			}, -- [47]
-			{
-				344.65399999998, -- [1]
-				"Surgical field engaged. Preparing samples for study.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [48]
-			{
-				352.065999999992, -- [1]
-				"Contagion level reduced.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [49]
-			{
-				361.75, -- [1]
-				"Dissection protocol initiated.", -- [2]
-				"MOTHER", -- [3]
-				7, -- [4]
-			}, -- [50]
-			["boss"] = "MOTHER",
-		}, -- [3]
 	},
 }

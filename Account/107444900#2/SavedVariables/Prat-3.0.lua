@@ -11,9 +11,40 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["minchatwidthdefault"] = 296,
+					["minchatwidth"] = 343,
 					["maxchatheightdefault"] = 400,
+					["maxchatheight"] = 150,
+					["rememberframepositions"] = true,
 					["maxchatwidthdefault"] = 608.000061035156,
+					["framemetrics"] = {
+						{
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.0260433336098989,
+							["yOffset"] = 0.0537034130750205,
+							["height"] = 120.000007629395,
+							["width"] = 429.999969482422,
+						}, -- [1]
+						{
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.0166683673858643,
+							["yOffset"] = 0.0333329768239313,
+							["height"] = 126.000007629395,
+							["width"] = 343,
+						}, -- [2]
+						{
+							["point"] = "BOTTOMRIGHT",
+							["xOffset"] = 0,
+							["yOffset"] = 0.0351129993796349,
+						}, -- [3]
+						{
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.0010430000256747,
+							["yOffset"] = 0.0351679995656014,
+						}, -- [4]
+					},
+					["maxchatwidth"] = 343,
 					["initialized"] = true,
+					["minchatheight"] = 150,
 				},
 				["Skasch"] = {
 					["minchatwidthdefault"] = 296,
@@ -39,52 +70,10 @@ Prat3DB = {
 						},
 					},
 				},
-				["Default"] = {
-					["colors"] = {
-						["general"] = {
-							["r"] = 0.764705955982208,
-							["g"] = 0.901960849761963,
-							["b"] = 0.909803986549378,
-						},
-						["trade"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
-							["b"] = 0.474509835243225,
-						},
-						["localdefense"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.894117712974548,
-							["b"] = 0.474509835243225,
-						},
-						["lookingforgroup"] = {
-							["b"] = 0.749019622802734,
-							["g"] = 0.749019622802734,
-							["r"] = 1,
-						},
-						["quichonsmelee"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["meaculpa"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
-							["b"] = 0.752941250801086,
-						},
-					},
-				},
 			},
 		},
 		["Prat_Editbox"] = {
 			["profiles"] = {
-				["Default"] = {
-					["edgeSize"] = 10,
-					["editW"] = 400.000022888184,
-					["attach"] = "LOCK",
-					["editX"] = -1.00124359130859,
-					["editY"] = 20.7590885162354,
-					["border"] = "Details BarBorder 3",
-				},
 				["Skasch"] = {
 					["editW"] = 400.000024795532,
 					["attach"] = "FREE",
@@ -92,37 +81,77 @@ Prat3DB = {
 					["border"] = "Details BarBorder 3",
 					["editY"] = 20.0435485839844,
 				},
+				["Default"] = {
+					["editW"] = 404.999978661537,
+					["attach"] = "LOCK",
+					["editX"] = -1.99674379825592,
+					["font"] = "Roboto Condensed Bold",
+					["tileSize"] = 24,
+					["editY"] = 21.9995079040527,
+					["background"] = "Blizzard Dialog Background Dark",
+					["border"] = "Details BarBorder 3",
+				},
 			},
 		},
 		["Prat_Fading"] = {
 		},
 		["Prat_UrlCopy"] = {
 		},
+		["Prat_ChannelNames"] = {
+		},
 		["Prat_Bubbles"] = {
 		},
 		["Prat_Font"] = {
+			["profiles"] = {
+				["Default"] = {
+					["fontface"] = "Arial Narrow",
+					["rememberfont"] = true,
+					["size"] = {
+						["ChatFrame2"] = 11,
+						["ChatFrame3"] = 11,
+						["ChatFrame1"] = 11,
+					},
+				},
+			},
 		},
 		["Prat_KeyBindings"] = {
 		},
-		["Prat_ChannelNames"] = {
-		},
 		["Prat_Scroll"] = {
 		},
-		["Prat_Achievements"] = {
+		["Prat_Sounds"] = {
+		},
+		["Prat_ChatLog"] = {
 		},
 		["Prat_Paragraph"] = {
 		},
-		["Prat_ChatLog"] = {
+		["Prat_Achievements"] = {
+			["profiles"] = {
+				["Default"] = {
+					["showGratsLink"] = true,
+					["customGratsText"] = "Félicitations %s !",
+				},
+			},
 		},
 		["Prat_Alias"] = {
 		},
 		["Prat_OriginalButtons"] = {
 		},
-		["Prat_Sounds"] = {
+		["Prat_Highlight"] = {
 		},
 		["Prat_ChannelSticky"] = {
 		},
 		["Prat_History"] = {
+			["profiles"] = {
+				["Default"] = {
+					["chatlinesframes"] = {
+						["ChatFrame3"] = true,
+						["ChatFrame1"] = true,
+					},
+					["chatlines"] = 1000,
+					["savehistory"] = true,
+					["maxlines"] = 100,
+				},
+			},
 		},
 		["Prat_Invites"] = {
 		},
@@ -131,10 +160,21 @@ Prat3DB = {
 		["Prat_CopyChat"] = {
 		},
 		["Prat_Timestamps"] = {
+			["profiles"] = {
+				["Default"] = {
+					["formatcode"] = "%H:%M",
+				},
+			},
 		},
 		["Prat_Search"] = {
 		},
 		["Prat_Buttons"] = {
+			["profiles"] = {
+				["Default"] = {
+					["showBnet"] = false,
+					["scrollReminder"] = false,
+				},
+			},
 		},
 		["Prat_ServerNames"] = {
 		},
@@ -143,11 +183,18 @@ Prat3DB = {
 	},
 	["profileKeys"] = {
 		["Tenga - La Croisade écarlate"] = "Default",
-		["Skasch - Elune"] = "Default",
 		["Tsuri - La Croisade écarlate"] = "Default",
-		["Tsuma - La Croisade écarlate"] = "Skasch",
-		["Kanpa - Elune"] = "Default",
+		["Sueki - La Croisade écarlate"] = "Default",
+		["Skasch - La Croisade écarlate"] = "Default",
 		["Sutoka - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "Default",
+		["Fayth - La Croisade écarlate"] = "Default",
+		["Kanpa - Elune"] = "Default",
+		["Isabael - La Croisade écarlate"] = "Default",
+		["Simetra - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Tsuma - La Croisade écarlate"] = "Skasch",
 	},
 	["profiles"] = {
 		["Skasch"] = {

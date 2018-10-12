@@ -1,22 +1,25 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["Tenga - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Higi - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Tsuri - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Suzui - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Simetra - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Onaka - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Skasch - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Sutoka - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Sueki - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Vermily - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Skasch - Elune"] = "Tsuma - La Croisade écarlate",
-		["Simetra - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Suzui - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
-		["Seina - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Kanpa - Elune"] = "Tsuma - La Croisade écarlate",
+		["Seina - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 		["Kanpa - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Tenga - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Tsuri - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Sutoka - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Vermily - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Fayth - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Skasch - Elune"] = "Tsuma - La Croisade écarlate",
+		["Isabael - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Higi - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Nephily - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
+		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 	},
 	["profiles"] = {
 		["Tsuma - La Croisade écarlate"] = {
@@ -59,11 +62,6 @@ Details_StreamerDB = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["y"] = 4.577636718750e-005,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -75,6 +73,11 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["font_size"] = 10,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["y"] = 4.577636718750e-005,
+			["use_spark"] = true,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]

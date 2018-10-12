@@ -1,6 +1,6 @@
 VER 3 000000000000003B "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use Dalaran Hearthstone
+/use Restorative Balm
 END
 VER 3 000000000000001F "Archimonde Targe" "INV_SWORD_04"
 /cleartarget
@@ -213,6 +213,9 @@ END
 VER 3 000000000000003E "Sigil of Silence" "1418288"
 #showtooltip
 /cast [@mouseover, harm, nodead][@player] Sigil of Silence
+END
+VER 3 000000000000004F "SilverDragon" "ABILITY_HUNTER_SNIPERTRAINING"
+/click SilverDragonMacroButton
 END
 VER 3 000000000000004B "Soothing Mist" "606550"
 #showtooltip

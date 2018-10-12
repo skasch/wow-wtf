@@ -15,4 +15,4 @@ RaiderIO_Config = {
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
-RaiderIO_LastCharacter = "eu-Asane-la-croisade-ecarlate"
+RaiderIO_LastCharacter = "eu-Simetra-la-croisade-ecarlate"

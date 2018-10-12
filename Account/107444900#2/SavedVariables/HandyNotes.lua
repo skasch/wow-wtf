@@ -1,53 +1,65 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
-		["Higi - La Croisade écarlate"] = "Higi - La Croisade écarlate",
-		["Kanpa - La Croisade écarlate"] = "Kanpa - La Croisade écarlate",
-		["Tsuri - La Croisade écarlate"] = "Tsuri - La Croisade écarlate",
-		["Skasch - Elune"] = "Skasch - Elune",
+		["Suzui - La Croisade écarlate"] = "Suzui - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 		["Onaka - La Croisade écarlate"] = "Onaka - La Croisade écarlate",
 		["Skasch - La Croisade écarlate"] = "Skasch - La Croisade écarlate",
-		["Sutoka - La Croisade écarlate"] = "Sutoka - La Croisade écarlate",
 		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
-		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
 		["Kanpa - Elune"] = "Kanpa - Elune",
-		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
-		["Suzui - La Croisade écarlate"] = "Suzui - La Croisade écarlate",
 		["Seina - La Croisade écarlate"] = "Seina - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
+		["Kanpa - La Croisade écarlate"] = "Kanpa - La Croisade écarlate",
+		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
+		["Tsuri - La Croisade écarlate"] = "Tsuri - La Croisade écarlate",
+		["Sutoka - La Croisade écarlate"] = "Sutoka - La Croisade écarlate",
+		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
+		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
+		["Skasch - Elune"] = "Skasch - Elune",
+		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
+		["Higi - La Croisade écarlate"] = "Higi - La Croisade écarlate",
+		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
+		["Nephily - La Croisade écarlate"] = "Nephily - La Croisade écarlate",
 		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 	},
 	["profiles"] = {
-		["Tenga - La Croisade écarlate"] = {
+		["Suzui - La Croisade écarlate"] = {
 		},
-		["Higi - La Croisade écarlate"] = {
-		},
-		["Kanpa - La Croisade écarlate"] = {
-		},
-		["Tsuri - La Croisade écarlate"] = {
-		},
-		["Skasch - Elune"] = {
+		["Asane - La Croisade écarlate"] = {
+			["icon_alpha_minimap"] = 0.6,
+			["icon_scale"] = 0.8,
+			["icon_alpha"] = 0.6,
 		},
 		["Onaka - La Croisade écarlate"] = {
 		},
 		["Skasch - La Croisade écarlate"] = {
 		},
-		["Sutoka - La Croisade écarlate"] = {
-		},
 		["Sueki - La Croisade écarlate"] = {
-		},
-		["Vermily - La Croisade écarlate"] = {
 		},
 		["Kanpa - Elune"] = {
 		},
-		["Simetra - La Croisade écarlate"] = {
-		},
-		["Suzui - La Croisade écarlate"] = {
-		},
 		["Seina - La Croisade écarlate"] = {
 		},
-		["Asane - La Croisade écarlate"] = {
+		["Kanpa - La Croisade écarlate"] = {
+		},
+		["Tenga - La Croisade écarlate"] = {
+		},
+		["Tsuri - La Croisade écarlate"] = {
+		},
+		["Sutoka - La Croisade écarlate"] = {
+		},
+		["Vermily - La Croisade écarlate"] = {
+		},
+		["Fayth - La Croisade écarlate"] = {
+		},
+		["Skasch - Elune"] = {
+		},
+		["Isabael - La Croisade écarlate"] = {
+		},
+		["Higi - La Croisade écarlate"] = {
+		},
+		["Simetra - La Croisade écarlate"] = {
+		},
+		["Nephily - La Croisade écarlate"] = {
 		},
 		["Tsuma - La Croisade écarlate"] = {
 		},
@@ -55,53 +67,62 @@ HandyNotesDB = {
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
-		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
-		["Higi - La Croisade écarlate"] = "Higi - La Croisade écarlate",
-		["Kanpa - La Croisade écarlate"] = "Kanpa - La Croisade écarlate",
-		["Tsuri - La Croisade écarlate"] = "Tsuri - La Croisade écarlate",
-		["Skasch - Elune"] = "Skasch - Elune",
+		["Suzui - La Croisade écarlate"] = "Suzui - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 		["Onaka - La Croisade écarlate"] = "Onaka - La Croisade écarlate",
 		["Skasch - La Croisade écarlate"] = "Skasch - La Croisade écarlate",
-		["Sutoka - La Croisade écarlate"] = "Sutoka - La Croisade écarlate",
 		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
-		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
 		["Kanpa - Elune"] = "Kanpa - Elune",
-		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
-		["Suzui - La Croisade écarlate"] = "Suzui - La Croisade écarlate",
 		["Seina - La Croisade écarlate"] = "Seina - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
+		["Kanpa - La Croisade écarlate"] = "Kanpa - La Croisade écarlate",
+		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
+		["Tsuri - La Croisade écarlate"] = "Tsuri - La Croisade écarlate",
+		["Sutoka - La Croisade écarlate"] = "Sutoka - La Croisade écarlate",
+		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
+		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
+		["Skasch - Elune"] = "Skasch - Elune",
+		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
+		["Higi - La Croisade écarlate"] = "Higi - La Croisade écarlate",
+		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
+		["Nephily - La Croisade écarlate"] = "Nephily - La Croisade écarlate",
 		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 	},
 	["profiles"] = {
-		["Tenga - La Croisade écarlate"] = {
+		["Suzui - La Croisade écarlate"] = {
 		},
-		["Higi - La Croisade écarlate"] = {
-		},
-		["Kanpa - La Croisade écarlate"] = {
-		},
-		["Tsuri - La Croisade écarlate"] = {
-		},
-		["Skasch - Elune"] = {
+		["Asane - La Croisade écarlate"] = {
 		},
 		["Onaka - La Croisade écarlate"] = {
 		},
 		["Skasch - La Croisade écarlate"] = {
 		},
-		["Sutoka - La Croisade écarlate"] = {
-		},
 		["Sueki - La Croisade écarlate"] = {
-		},
-		["Vermily - La Croisade écarlate"] = {
 		},
 		["Kanpa - Elune"] = {
 		},
-		["Simetra - La Croisade écarlate"] = {
-		},
-		["Suzui - La Croisade écarlate"] = {
-		},
 		["Seina - La Croisade écarlate"] = {
 		},
-		["Asane - La Croisade écarlate"] = {
+		["Kanpa - La Croisade écarlate"] = {
+		},
+		["Tenga - La Croisade écarlate"] = {
+		},
+		["Tsuri - La Croisade écarlate"] = {
+		},
+		["Sutoka - La Croisade écarlate"] = {
+		},
+		["Vermily - La Croisade écarlate"] = {
+		},
+		["Fayth - La Croisade écarlate"] = {
+		},
+		["Skasch - Elune"] = {
+		},
+		["Isabael - La Croisade écarlate"] = {
+		},
+		["Higi - La Croisade écarlate"] = {
+		},
+		["Simetra - La Croisade écarlate"] = {
+		},
+		["Nephily - La Croisade écarlate"] = {
 		},
 		["Tsuma - La Croisade écarlate"] = {
 		},
