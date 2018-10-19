@@ -14,9 +14,9 @@ TimelessIsleChestsDB = {
 		["Vermily - La Croisade écarlate"] = "Default",
 		["Skasch - Elune"] = "Default",
 		["Fayth - La Croisade écarlate"] = "Default",
-		["Suzui - La Croisade écarlate"] = "Default",
-		["Nephily - La Croisade écarlate"] = "Default",
 		["Asane - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "Default",
+		["Suzui - La Croisade écarlate"] = "Default",
 		["Tsuma - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {

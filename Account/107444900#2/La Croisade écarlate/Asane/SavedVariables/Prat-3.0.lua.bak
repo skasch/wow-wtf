@@ -15,31 +15,32 @@ Prat3CharDB = {
 			["ChatFrame6EditBox"] = {
 			},
 			["ChatFrame1EditBox"] = {
-				"/s /wa", -- [1]
-				"/s /run SetCVar(\"NameplateOtherAtBase\", 2)", -- [2]
-				"/s /run SetCVar(\"NameplateOtherAtBase\", 0)", -- [3]
+				"/s /wave", -- [1]
+				"/s /wa", -- [2]
+				"/s /run SetCVar(\"NameplateOtherAtBase\", 2)", -- [3]
 				"/s /run SetCVar(\"NameplateOtherAtBase\", 0)", -- [4]
-				"/s /run SetCVar(\"NameplateOtherAtBase\", 2)", -- [5]
-				"/s /wa", -- [6]
-				"/s /macro", -- [7]
-				"/s /run SetCVar(\"NameplateOtherAtBase\", 2)", -- [8]
-				"/s /run SetCVar(\"NameplateOtherAtBase\", 0)", -- [9]
-				"/s /run NameplateOtherAtBase = 0", -- [10]
-				"/s /run NameplateOtherAtBase = 2", -- [11]
-				"/s /thank", -- [12]
-				"/s /played", -- [13]
-				"/s /knp", -- [14]
+				"/s /run SetCVar(\"NameplateOtherAtBase\", 0)", -- [5]
+				"/s /run SetCVar(\"NameplateOtherAtBase\", 2)", -- [6]
+				"/s /wa", -- [7]
+				"/s /macro", -- [8]
+				"/s /run SetCVar(\"NameplateOtherAtBase\", 2)", -- [9]
+				"/s /run SetCVar(\"NameplateOtherAtBase\", 0)", -- [10]
+				"/s /run NameplateOtherAtBase = 0", -- [11]
+				"/s /run NameplateOtherAtBase = 2", -- [12]
+				"/s /thank", -- [13]
+				"/s /played", -- [14]
 				"/s /knp", -- [15]
-				"/s /addonusage", -- [16]
-				"/s /npcscan", -- [17]
-				"/s /prat", -- [18]
-				"/s /reload", -- [19]
-				"/s /een load", -- [20]
-				"/s /prat", -- [21]
-				"/s /dominos", -- [22]
-				"/s /reload", -- [23]
-				"/s /een load", -- [24]
+				"/s /knp", -- [16]
+				"/s /addonusage", -- [17]
+				"/s /npcscan", -- [18]
+				"/s /prat", -- [19]
+				"/s /reload", -- [20]
+				"/s /een load", -- [21]
+				"/s /prat", -- [22]
+				"/s /dominos", -- [23]
+				"/s /reload", -- [24]
 				"/s /een load", -- [25]
+				"/s /een load", -- [26]
 			},
 			["ChatFrame3EditBox"] = {
 			},
@@ -51,39 +52,29 @@ Prat3CharDB = {
 	},
 }
 Prat3HighCPUPerCharDB = {
-	["time"] = 1539656035,
+	["time"] = 1539935434,
 	["scrollback"] = {
-		["ChatFrame1"] = {
+		["ChatFrame3"] = {
 			{
-				"|cff979797[19:13]|r|c00000000|r Seal of Wartorn Fate: Gold completed.", -- [1]
-				1, -- [2]
-				1, -- [3]
+				"|cff979797[00:49]|r|c00000000|r You receive loot: |cffffffff|Hitem:152576::::::::120:269::::::|h[Tidespray Linen]|h|rx2.", -- [1]
+				0, -- [2]
+				0.666666686534882, -- [3]
 				0, -- [4]
-				1, -- [5]
+				28, -- [5]
 				false, -- [6]
-				1, -- [7]
-				2, -- [8]
+				3, -- [7]
+				4, -- [8]
 			}, -- [1]
 			{
-				"|cff979797[19:13]|r|c00000000|r Seal of Wartorn Fate: War Resources completed.", -- [1]
-				1, -- [2]
-				1, -- [3]
+				"|cff979797[00:50]|r|c00000000|r You receive item: |cffa335ee|Hitem:158151::::::::120:269::27:3:4803:1537:4784:::|h[Zandalari Band]|h|r.", -- [1]
+				0, -- [2]
+				0.666666686534882, -- [3]
 				0, -- [4]
-				1, -- [5]
+				28, -- [5]
 				false, -- [6]
-				1, -- [7]
-				2, -- [8]
+				3, -- [7]
+				4, -- [8]
 			}, -- [2]
-			{
-				"|cff979797[19:13]|r|c00000000|r Highmountain Warbraves has been exhausted.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [3]
 		},
 	},
 }

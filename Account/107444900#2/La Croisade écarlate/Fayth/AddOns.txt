@@ -3,3 +3,5 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 HeroLib: enabled
 Kui_Nameplates: enabled
+BigWigs_CommonAuras: enabled
+BigWigs_Countdown_HeroesOfTheStorm: enabled

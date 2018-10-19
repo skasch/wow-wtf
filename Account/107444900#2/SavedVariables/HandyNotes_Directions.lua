@@ -1,5 +1,16 @@
 
 HandyNotes_DirectionsDB = {
+	["profileKeys"] = {
+		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
+		["Skasch - La Croisade écarlate"] = "Skasch - La Croisade écarlate",
+		["Nephily - La Croisade écarlate"] = "Nephily - La Croisade écarlate",
+		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
+		["Kanpa - Elune"] = "Kanpa - Elune",
+		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
+		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
+		["Skasch - Elune"] = "Skasch - Elune",
+	},
 	["global"] = {
 		["landmarks"] = {
 			[87] = {
@@ -11,17 +22,6 @@ HandyNotes_DirectionsDB = {
 				[63663701] = "Trainer: Blacksmithing",
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
-		["Skasch - La Croisade écarlate"] = "Skasch - La Croisade écarlate",
-		["Nephily - La Croisade écarlate"] = "Nephily - La Croisade écarlate",
-		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
-		["Kanpa - Elune"] = "Kanpa - Elune",
-		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
-		["Skasch - Elune"] = "Skasch - Elune",
-		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 	},
 	["profiles"] = {
 		["Simetra - La Croisade écarlate"] = {
@@ -36,11 +36,11 @@ HandyNotes_DirectionsDB = {
 		},
 		["Isabael - La Croisade écarlate"] = {
 		},
-		["Skasch - Elune"] = {
+		["Asane - La Croisade écarlate"] = {
 		},
 		["Sueki - La Croisade écarlate"] = {
 		},
-		["Asane - La Croisade écarlate"] = {
+		["Skasch - Elune"] = {
 		},
 	},
 }

@@ -32,15 +32,21 @@ VExRT = {
 			[72] = 10,
 			[104] = 10,
 			[73] = 10,
-			[252] = 10,
-			[105] = 10,
-			[254] = 10,
-			[256] = 10,
-			[577] = 10,
 			[581] = 10,
+			[105] = 10,
+			[577] = 10,
+			[256] = 10,
+			[254] = 10,
+			[252] = 10,
 		},
 		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
+		["Left"] = 921.500061035156,
+		["Top"] = 1079.49987792969,
+		["Lock"] = true,
+		["timeToKill"] = true,
+		["enabled"] = true,
+		["OnlyInCombat"] = true,
 	},
 	["ProfileKeys"] = {
 		["Sueki-LaCroisadeécarlate"] = "default",
@@ -52,28 +58,19 @@ VExRT = {
 		["Isabael-LaCroisadeécarlate"] = "default",
 	},
 	["Encounter"] = {
-		["names"] = {
-			[2126] = "Galvazzt",
-			[2124] = "Adderis and Aspix",
-			[2123] = "Unbound Abomination",
-			[1839] = "Shade of Xavius",
-			[2118] = "Cragmaw the Infested",
-			[2111] = "Elder Leaxa",
-			[1836] = "Archdruid Glaidalis",
-			[2127] = "Avatar of Sethraliss",
-			[2112] = "Sporecaller Zancha",
-			[2068] = "L'ura",
-			[1837] = "Oakheart",
-			[2065] = "Zuraal the Ascended",
-			[2066] = "Saprish",
-			[2067] = "Viceroy Nezhar",
-			[1838] = "Dresaron",
-			[2125] = "Merektha",
-		},
 		["list"] = {
 			["Isabael"] = {
 			},
-			["Fayth"] = {
+			["Sueki"] = {
+				"^2111^2^1536028679^44^1^5^323.07^", -- [1]
+				"^2118^2^1536028821^83^0^5^323.07^Tchupo-Hyjal", -- [2]
+				"^2118^2^1536029135^77^1^5^323.07^", -- [3]
+				"^2112^2^1536029420^78^1^5^319.94^", -- [4]
+				"^2123^2^1536030185^139^1^5^321.42^Nadea-Archimonde", -- [5]
+				"^2124^2^1536030582^54^1^5^326.48^", -- [6]
+				"^2125^2^1536030975^109^1^5^320.59^", -- [7]
+				"^2126^2^1536031407^57^1^5^320.85^", -- [8]
+				"^2127^2^1536031946^277^1^5^320.85^Kxf-Draenor", -- [9]
 			},
 			["Nephily"] = {
 			},
@@ -91,17 +88,26 @@ VExRT = {
 			},
 			["Asane"] = {
 			},
-			["Sueki"] = {
-				"^2111^2^1536028679^44^1^5^323.07^", -- [1]
-				"^2118^2^1536028821^83^0^5^323.07^Tchupo-Hyjal", -- [2]
-				"^2118^2^1536029135^77^1^5^323.07^", -- [3]
-				"^2112^2^1536029420^78^1^5^319.94^", -- [4]
-				"^2123^2^1536030185^139^1^5^321.42^Nadea-Archimonde", -- [5]
-				"^2124^2^1536030582^54^1^5^326.48^", -- [6]
-				"^2125^2^1536030975^109^1^5^320.59^", -- [7]
-				"^2126^2^1536031407^57^1^5^320.85^", -- [8]
-				"^2127^2^1536031946^277^1^5^320.85^Kxf-Draenor", -- [9]
+			["Fayth"] = {
 			},
+		},
+		["names"] = {
+			[1839] = "Shade of Xavius",
+			[2124] = "Adderis and Aspix",
+			[1838] = "Dresaron",
+			[2125] = "Merektha",
+			[2118] = "Cragmaw the Infested",
+			[2111] = "Elder Leaxa",
+			[1836] = "Archdruid Glaidalis",
+			[2127] = "Avatar of Sethraliss",
+			[2067] = "Viceroy Nezhar",
+			[2068] = "L'ura",
+			[1837] = "Oakheart",
+			[2066] = "Saprish",
+			[2065] = "Zuraal the Ascended",
+			[2112] = "Sporecaller Zancha",
+			[2123] = "Unbound Abomination",
+			[2126] = "Galvazzt",
 		},
 	},
 	["Marks"] = {
@@ -153,261 +159,1468 @@ VExRT = {
 			"!5161351Safiye-Blackhand1539764027:3:4798:1477:4786", -- [41]
 			"!8161349Prutos-Thrall1539764029:3:4822:1477:4786", -- [42]
 			"!B161353Larwab-BurningLegion1539764030:3:4798:1477:4786", -- [43]
+			"!7161458Popiett-Archimonde1539846251:3:5120:1492:4786", -- [44]
+			"!6161459Täki-Hyjal1539846251:3:5120:1492:4786", -- [45]
+			"!5161351Valà-Ysondre1539846806:4:4798:1808:1482:4783", -- [46]
+			"!C161353Меладру-СвежевательДуш1539846806:3:4798:1477:4786", -- [47]
+			"!4161354Macøû-Hyjal1539846806:4:4798:1808:1477:4786", -- [48]
+			"!2161376Alexodus-Perenolde1539846807:3:4798:1482:4783", -- [49]
+			"!3161359Футыныта-Борейскаятундра1539846809:3:4798:1477:4786", -- [50]
+			"!4161359Skasch1539846809:3:4798:1477:4786", -- [51]
+			"!A161353Бэлран-Ревущийфьорд1539846809:3:4798:1477:4786", -- [52]
 		},
 	},
 	["ExCD2"] = {
+		["enabled"] = true,
 		["default_userDuration"] = {
 		},
 		["gnGUIDs"] = {
-			["Kormak-Pozzodell'Eternità"] = 258,
+			["Zucros-Boulderfist"] = 263,
+			["Moriaa-Garrosh"] = 256,
 			["Шамандет-Дракономор"] = 262,
-			["Rehci-Thrall"] = 70,
-			["Krishnas-Blackhand"] = 257,
-			["Brewmcloset-Blackhand"] = 270,
-			["Valethrias-DieAldor"] = 62,
+			["Xantar-Alexstrasza"] = 66,
 			["Hantyss-Hyjal"] = 269,
-			["Диролка-СтражСмерти"] = 70,
-			["Skasch"] = 261,
+			["Hornhauer-Anetheron"] = 72,
 			["Водолазка-СвежевательДуш"] = 102,
-			["Roxxôr-Thrall"] = 104,
-			["Бьерна-СвежевательДуш"] = 258,
+			["Néméthia-Varimathras"] = 256,
 			["Iridiane-Shattrath"] = 577,
 			["Gpower-Nagrand"] = 64,
 			["Suchy-LesSentinelles"] = 269,
+			["Misskab-KirinTor"] = 253,
+			["Трупич-Ревущийфьорд"] = 267,
+			["Garandora-Shattrath"] = 253,
+			["Painstorm-Garona"] = 251,
+			["Izçi-KhazModan"] = 64,
+			["Реаниматорр-Ревущийфьорд"] = 70,
+			["Дроккташ-СвежевательДуш"] = 265,
+			["Мерин-СвежевательДуш"] = 102,
+			["Gobot-Area52"] = 70,
+			["Roxxôr-Thrall"] = 104,
+			["Caligos-Taerar"] = 265,
+			["Rathalor-Blackhand"] = 262,
+			["Valentìne-ArgentDawn"] = 70,
+			["Alexodus-Perenolde"] = 66,
+			["Täki-Hyjal"] = 250,
+			["Дельфиненка-Ясеневыйлес"] = 269,
+			["Mazzän-ArgentDawn"] = 255,
+			["Tapisko-Dalaran"] = 72,
+			["Güilleemet-Sanguino"] = 64,
+			["Rabies-Nera'thor"] = 63,
+			["Greenslushie-Stormrage"] = 577,
+			["Patriot-Aegwynn"] = 64,
+			["Сатин-Голдринн"] = 251,
+			["Азамагаз-Голдринн"] = 265,
+			["Møgraine-Tyrande"] = 66,
+			["Barwuka-TwistingNether"] = 263,
+			["Твойдиплом-СтражСмерти"] = 267,
+			["Réalx-Stormrage"] = 259,
+			["Nephily"] = 267,
+			["Choisi-TheSha'tar"] = 70,
+			["Valíara-ArgentDawn"] = 577,
+			["Dradak-Shattrath"] = 70,
+			["Хаундд-СвежевательДуш"] = 263,
+			["Tärhn-KirinTor"] = 258,
+			["Drownie-Blackhand"] = 253,
+			["Новолс-СвежевательДуш"] = 267,
+			["Chimblut-Blackhand"] = 270,
+			["Silversand-Kael'thas"] = 104,
+			["Саготка-СвежевательДуш"] = 264,
+			["Mixtaflex-Naxxramas"] = 66,
+			["Coldhoof-Dalaran"] = 252,
+			["Zinwulf-AzjolNerub"] = 253,
+			["Kormak-Pozzodell'Eternità"] = 258,
+			["Bharba-CultedelaRivenoire"] = 73,
+			["Rehci-Thrall"] = 70,
+			["Krishnas-Blackhand"] = 257,
+			["Faúlks-AeriePeak"] = 254,
+			["Klerik-Shadowsong"] = 64,
+			["Brewmcloset-Blackhand"] = 270,
+			["Valethrias-DieAldor"] = 62,
+			["Бьерна-СвежевательДуш"] = 258,
+			["Диролка-СтражСмерти"] = 70,
+			["Yinyang-Malorne"] = 269,
+			["Skasch"] = 261,
+			["Бурбулька-Ревущийфьорд"] = 255,
+			["Giannaros-Stormscale"] = 72,
+			["Fayth"] = 70,
+			["Старгвард-Ревущийфьорд"] = 63,
+			["Asane"] = 269,
+			["Johnta-Boulderfist"] = 252,
+			["Комбэк-СвежевательДуш"] = 250,
 			["Bellciia-Wildhammer"] = 102,
 			["Sergia-Norgannon"] = 265,
-			["Garandora-Shattrath"] = 253,
-			["Izçi-KhazModan"] = 64,
-			["Prutos-Thrall"] = 63,
-			["Frogprince-Frostwolf"] = 251,
-			["Valentìne-ArgentDawn"] = 70,
-			["Teuer-Frostwolf"] = 251,
-			["Rathalor-Blackhand"] = 262,
-			["Takimage-Kazzak"] = 64,
-			["Patriot-Aegwynn"] = 64,
-			["Fayth"] = 70,
-			["Silversand-Kael'thas"] = 104,
-			["Møgraine-Tyrande"] = 66,
-			["Misskab-KirinTor"] = 253,
+			["Shinduh-ArgentDawn"] = 577,
+			["Олимпикс-Ревущийфьорд"] = 250,
+			["Димира-СвежевательДуш"] = 256,
+			["Мистред-Ясеневыйлес"] = 251,
+			["Mynestia-Sargeras"] = 577,
 			["Naomì-DieewigeWacht"] = 64,
-			["Cervisiam-Onyxia"] = 71,
+			["Macøû-Hyjal"] = 259,
+			["Хадрем-ВечнаяПесня"] = 265,
+			["Frogprince-Frostwolf"] = 251,
+			["Футыныта-Борейскаятундра"] = 253,
+			["Teuer-Frostwolf"] = 251,
+			["Prutos-Thrall"] = 63,
+			["Suîfeng-Blackrock"] = 259,
+			["Hummgustaf-TarrenMill"] = 268,
+			["Popiett-Archimonde"] = 263,
+			["Moeesee-Ragnaros"] = 263,
+			["Ридза-Дракономор"] = 270,
+			["Dandelune-TwistingNether"] = 102,
+			["Сындуротана-Ревущийфьорд"] = 253,
+			["Razmael-Alleria"] = 62,
+			["Takimage-Kazzak"] = 64,
+			["Майпыч-Ясеневыйлес"] = 105,
 			["Drhack-Thrall"] = 257,
-			["Asane"] = 269,
-			["Dradak-Shattrath"] = 70,
 			["Miñerve-KirinTor"] = 104,
-			["Rabies-Nera'thor"] = 63,
-			["Хаундд-СвежевательДуш"] = 263,
-			["Joshka-Nozdormu"] = 253,
-			["Hornhauer-Anetheron"] = 72,
-			["Chimblut-Blackhand"] = 270,
 			["Tithieu-LesClairvoyants"] = 62,
+			["Ators-KhazModan"] = 250,
+			["Labrys-Hyjal"] = 70,
+			["Valà-Ysondre"] = 258,
+			["Cervisiam-Onyxia"] = 71,
+			["Кровопийца-Ревущийфьорд"] = 251,
+			["Клыкусс-СвежевательДуш"] = 103,
+			["Imbs-Drak'thul"] = 266,
+			["Sueki"] = 581,
+			["Меладру-СвежевательДуш"] = 577,
+			["Apheena-Ragnaros"] = 259,
+			["Joshka-Nozdormu"] = 253,
+			["Бэлран-Ревущийфьорд"] = 268,
+			["Toutenbois-KirinTor"] = 104,
+			["Maithi-KirinTor"] = 70,
 			["Baktosh-Antonidas"] = 253,
 			["Safiye-Blackhand"] = 257,
-			["Xantar-Alexstrasza"] = 66,
+			["Shohoy-Silvermoon"] = 263,
 		},
-		["NoRaid"] = true,
+		["SplitOpt"] = true,
+		["Save"] = {
+		},
 		["CDECol"] = {
+			["179057;2"] = 5,
+			["183752;1"] = 6,
+			["186265;1"] = 4,
+			["192077;1"] = 3,
+			["47536;2"] = 2,
+			["204263;3"] = 5,
+			["29166;2"] = 3,
+			["108199;2"] = 5,
+			["204150;3"] = 2,
+			["31884;4"] = 2,
+			["185245;3"] = 9,
+			["62124;1"] = 9,
+			["204018;3"] = 1,
+			["15286;4"] = 2,
+			["29166;5"] = 3,
+			["198304;4"] = 2,
+			["853;1"] = 7,
+			["207399;4"] = 2,
+			["31821;2"] = 2,
+			["192058;1"] = 5,
+			["408;4"] = 7,
+			["33891;5"] = 2,
+			["51886;2"] = 8,
+			["49576;2"] = 5,
+			["265202;3"] = 2,
+			["1766;1"] = 6,
+			["49576;4"] = 5,
+			["2782;3"] = 8,
+			["51886;3"] = 8,
+			["77761;4"] = 3,
+			["56222;1"] = 9,
+			["187707;4"] = 6,
+			["80353;1"] = 10,
+			["216331;2"] = 2,
+			["197721;5"] = 2,
+			["271466;2"] = 2,
+			["15487;4"] = 6,
+			["255654;1"] = 5,
+			["6940;3"] = 1,
+			["5211;1"] = 7,
+			["108281;2"] = 2,
+			["527;2"] = 8,
+			["115310;4"] = 2,
+			["64843;3"] = 2,
+			["2782;4"] = 8,
+			["114018;1"] = 3,
+			["355;1"] = 9,
+			["49576;3"] = 5,
+			["19647;1"] = 6,
+			["2139;1"] = 6,
+			["196718;2"] = 2,
+			["4987;2"] = 8,
+			["78675;2"] = 6,
+			["61391;1"] = 5,
+			["196555;2"] = 4,
+			["200183;3"] = 2,
+			["527;3"] = 8,
+			["115276;1"] = 8,
+			["51490;2"] = 5,
+			["642;1"] = 4,
+			["97462;1"] = 2,
+			["202137;3"] = 6,
+			["115781;1"] = 6,
+			["20484;1"] = 10,
+			["115546;1"] = 9,
+			["106839;4"] = 6,
+			["34477;3"] = 3,
+			["96231;3"] = 6,
+			["98008;4"] = 2,
+			["204263;2"] = 5,
+			["20707;1"] = 10,
+			["408;2"] = 7,
+			["202138;3"] = 5,
+			["2782;2"] = 8,
+			["1044;1"] = 3,
+			["109248;1"] = 5,
+			["62618;2"] = 2,
+			["31224;1"] = 4,
+			["114052;4"] = 2,
+			["1022;1"] = 1,
+			["108194;3"] = 7,
+			["77764;3"] = 3,
+			["116705;2"] = 6,
+			["89808;1"] = 8,
+			["28730;1"] = 8,
+			["31884;3"] = 2,
+			["91802;1"] = 6,
+			["32375;1"] = 8,
+			["30283;1"] = 5,
+			["6940;2"] = 1,
+			["46968;4"] = 5,
+			["20549;1"] = 5,
+			["96231;4"] = 6,
+			["6795;1"] = 9,
+			["116844;1"] = 5,
+			["161642;1"] = 10,
+			["116849;4"] = 1,
+			["116705;4"] = 6,
+			["61999;1"] = 10,
+			["47788;3"] = 1,
+			["108194;4"] = 7,
+			["1122;4"] = 5,
+			["57934;1"] = 3,
+			["57994;1"] = 6,
+			["147362;2"] = 6,
+			["102342;5"] = 1,
+			["34477;1"] = 3,
+			["102793;5"] = 5,
+			["633;1"] = 1,
+			["47528;1"] = 6,
+			["34477;2"] = 3,
+			["205636;2"] = 3,
+			["32182;1"] = 10,
+			["6552;1"] = 6,
+			["73325;1"] = 3,
+			["740;5"] = 2,
+			["2825;1"] = 2,
+			["45438;1"] = 4,
+			["475;1"] = 8,
+			["106839;3"] = 6,
+			["31884;2"] = 2,
+			["64901;3"] = 3,
+			["147362;3"] = 6,
+			["221562;2"] = 7,
+			["119381;1"] = 5,
+			["115450;3"] = 8,
+			["108280;4"] = 2,
+			["33206;2"] = 1,
+			["205369;4"] = 5,
+			["21169;1"] = 10,
 		},
 		["default_userCD"] = {
 		},
-		["Save"] = {
-		},
+		["Top"] = 1059.99975585938,
+		["Left"] = 3.00237226486206,
 		["colSet"] = {
 			{
-				["enabled"] = true,
+				["fontSize"] = 12,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
-				["textGeneral"] = true,
 				["methodsGeneral"] = true,
-				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
-				["iconGeneral"] = true,
+				["frameBetweenLines"] = 0,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
-				["fontGeneral"] = true,
-				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+				["frameLines"] = 15,
+				["posY"] = 1079.99987792969,
+				["textGeneral"] = true,
+				["posX"] = 0.999987363815308,
+				["frameWidth"] = 130,
+				["blacklistGeneral"] = true,
 				["fontShadow"] = false,
+				["enabled"] = true,
+				["iconGeneral"] = true,
+				["frameAlpha"] = 100,
+				["iconSize"] = 16,
+				["textureAlphaBackground"] = 0.3,
+				["textureAnimation"] = true,
+				["fontGeneral"] = true,
 			}, -- [1]
 			{
-				["enabled"] = true,
+				["fontSize"] = 12,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
-				["textGeneral"] = true,
 				["methodsGeneral"] = true,
-				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
-				["iconGeneral"] = true,
+				["frameBetweenLines"] = 0,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
-				["fontGeneral"] = true,
-				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+				["frameLines"] = 15,
+				["posY"] = 840.000122070313,
+				["textGeneral"] = true,
+				["posX"] = 1.0001118183136,
+				["blacklistGeneral"] = true,
+				["frameWidth"] = 130,
+				["iconSize"] = 16,
+				["iconGeneral"] = true,
+				["enabled"] = true,
 				["fontShadow"] = false,
+				["textureAlphaBackground"] = 0.3,
+				["textureAnimation"] = true,
+				["fontGeneral"] = true,
 			}, -- [2]
 			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["methodsGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["textureGeneral"] = true,
+				["enabled"] = true,
+				["posY"] = 600.000122070313,
+				["textGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["frameLines"] = 15,
+				["iconGeneral"] = true,
+				["frameWidth"] = 130,
+				["fontShadow"] = false,
+				["posX"] = 0.999978482723236,
+				["textureAnimation"] = true,
+				["fontGeneral"] = true,
+			}, -- [3]
+			{
 				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
+				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["posY"] = 1080.00012207031,
+				["posX"] = 151.000091552734,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
-			}, -- [3]
-			{
-				["frameGeneral"] = true,
-				["iconGray"] = true,
-				["textGeneral"] = true,
-				["methodsGeneral"] = true,
-				["blacklistGeneral"] = true,
 				["textureGeneral"] = true,
-				["iconGeneral"] = true,
-				["fontOutline"] = true,
-				["visibilityGeneral"] = true,
-				["fontGeneral"] = true,
-				["textureAnimation"] = true,
-				["fontShadow"] = false,
 			}, -- [4]
 			{
+				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
+				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["posY"] = 840,
+				["posX"] = 150.999938964844,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [5]
 			{
+				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
+				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["posY"] = 569.999755859375,
+				["posX"] = 451.000091552734,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [6]
 			{
+				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
+				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["posY"] = 600,
+				["posX"] = 150.99983215332,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [7]
 			{
+				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
+				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["posY"] = 1079.99987792969,
+				["posX"] = 301,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [8]
 			{
+				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
+				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["posY"] = 839.999938964844,
+				["posX"] = 301.000183105469,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [9]
 			{
+				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
+				["fontShadow"] = false,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["posY"] = 599.999694824219,
+				["posX"] = 301.000213623047,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [10]
 			{
-				["frameGeneral"] = true,
-				["iconGray"] = true,
-				["textGeneral"] = true,
-				["methodsGeneral"] = true,
-				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
-				["iconGeneral"] = true,
+				["fontLeftSize"] = 10,
+				["textureColorTextCastR"] = 1,
+				["fontLeftName"] = "Fonts\\FRIZQT__.TTF",
+				["fontRightOutline"] = true,
+				["iconPosition"] = 1,
+				["frameBetweenLines"] = 1,
+				["fontRightSize"] = 9,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
-				["fontGeneral"] = true,
+				["textureColorTextCastB"] = 1,
+				["fontRightName"] = "Fonts\\FRIZQT__.TTF",
+				["frameLines"] = 13,
+				["textureFile"] = "Interface\\AddOns\\ExRT\\media\\bar17.tga",
+				["textureColorBackgroundCastR"] = 1,
+				["textureClassText"] = true,
+				["frameBlackBack"] = 0,
+				["fontName"] = "Fonts\\FRIZQT__.TTF",
+				["blacklistGeneral"] = true,
+				["fontCenterSize"] = 9,
+				["textureAlphaBackground"] = 0.2,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureClassTimeLine"] = false,
+				["textureColorTextCastG"] = 1,
+				["fontSize"] = 11,
+				["iconGray"] = true,
+				["textureColorTimeLineCastB"] = 0,
+				["textureColorBackgroundDefaultB"] = 0,
+				["textureColorBackgroundDefaultG"] = 1,
+				["methodsStyleAnimation"] = 1,
+				["textureColorBackgroundDefaultR"] = 0,
+				["iconSize"] = 16,
+				["textureAlphaTimeLine"] = 0.8,
+				["textureColorTimeLineCastR"] = 1,
+				["fontLeftOutline"] = true,
+				["frameAlpha"] = 100,
+				["methodsTimeLineAnimation"] = 1,
+				["frameWidth"] = 120,
+				["methodsAlphaNotInRangeNum"] = 90,
+				["frameScale"] = 100,
+				["textureBorderSize"] = 0,
+				["textureColorTimeLineCastG"] = 1,
+				["textureColorBackgroundCastB"] = 0,
+				["fontCenterName"] = "Fonts\\FRIZQT___CYR.TTF",
+				["textureSmoothAnimationDuration"] = 50,
+				["textureColorBackgroundCastG"] = 1,
+				["frameColumns"] = 1,
+				["textTemplateCenter"] = "",
+				["methodsIconTooltip"] = true,
+				["fontCenterOutline"] = true,
+				["textureAlphaCooldown"] = 1,
 			}, -- [11]
 		},
+		["lock"] = true,
+		["SortByAvailability"] = true,
 		["Priority"] = {
+			[196555] = 4,
+			[853] = 7,
+			[205636] = 3,
+			[33891] = 2,
+			[115546] = 9,
+			[116705] = 6,
+			[132469] = 5,
+			[20707] = 10,
+			[204018] = 1,
+			[57934] = 3,
+			[5211] = 7,
+			[47528] = 6,
+			[47536] = 2,
+			[49576] = 5,
+			[198304] = 1,
+			[2782] = 8,
+			[271466] = 2,
+			[119381] = 5,
+			[116849] = 1,
+			[147362] = 6,
+			[57994] = 6,
+			[6552] = 6,
+			[196718] = 2,
+			[633] = 1,
+			[1022] = 1,
+			[115310] = 2,
+			[62618] = 2,
+			[6940] = 1,
+			[61999] = 10,
+			[102793] = 5,
+			[28730] = 8,
+			[221562] = 7,
+			[51886] = 8,
+			[197721] = 2,
+			[204150] = 2,
+			[642] = 4,
+			[33206] = 1,
+			[108199] = 5,
+			[207399] = 2,
+			[20549] = 5,
+			[89808] = 8,
+			[204263] = 5,
+			[6795] = 9,
+			[355] = 9,
+			[2139] = 6,
+			[15487] = 6,
+			[45438] = 4,
+			[19647] = 6,
+			[200183] = 2,
+			[106898] = 3,
+			[114018] = 3,
+			[102342] = 1,
+			[46968] = 5,
+			[64901] = 3,
+			[116844] = 5,
+			[20608] = 10,
+			[4987] = 8,
+			[109248] = 5,
+			[185245] = 9,
+			[202137] = 6,
+			[187707] = 6,
+			[91802] = 6,
+			[47788] = 1,
+			[108280] = 2,
+			[115781] = 6,
+			[96231] = 6,
+			[1122] = 5,
+			[202138] = 5,
+			[34477] = 3,
+			[183752] = 6,
+			[408] = 7,
+			[20484] = 10,
+			[192058] = 5,
+			[475] = 8,
+			[97462] = 2,
+			[56222] = 9,
+			[161642] = 10,
+			[179057] = 5,
+			[255654] = 5,
+			[740] = 2,
+			[31884] = 2,
+			[30283] = 5,
+			[1044] = 3,
+			[186265] = 4,
+			[108194] = 7,
+			[51490] = 5,
+			[114052] = 2,
+			[108281] = 2,
+			[31821] = 2,
+			[216331] = 2,
+			[62124] = 9,
+			[73325] = 3,
+			[106839] = 6,
+			[78675] = 6,
+			[29166] = 3,
+			[265202] = 2,
+			[32375] = 8,
+			[192077] = 3,
+			[15286] = 2,
+			[98008] = 2,
+			[527] = 8,
+			[1766] = 6,
+			[115450] = 8,
+			[64843] = 2,
+			[205369] = 5,
+			[115276] = 8,
+			[31224] = 4,
 		},
 		["CDE"] = {
+			[196555] = true,
+			[853] = true,
+			[32375] = true,
+			[115276] = true,
+			[115546] = true,
+			[116705] = true,
+			[207399] = true,
+			[20707] = true,
+			[106839] = true,
+			[57934] = true,
+			[5211] = true,
+			[47528] = true,
+			[47536] = true,
+			[49576] = true,
+			[198304] = true,
+			[2782] = true,
+			[271466] = true,
+			[20608] = true,
+			[116849] = true,
+			[147362] = true,
+			[57994] = true,
+			[6552] = true,
+			[196718] = true,
+			[80353] = true,
+			[633] = true,
+			[1022] = true,
+			[115310] = true,
+			[62618] = true,
+			[6940] = true,
+			[28730] = true,
+			[61999] = true,
+			[102793] = true,
+			[132469] = true,
+			[31224] = true,
+			[204018] = true,
+			[205636] = true,
+			[642] = true,
+			[204150] = true,
+			[51490] = true,
+			[33206] = true,
+			[197721] = true,
+			[33891] = true,
+			[106898] = true,
+			[20549] = true,
+			[15286] = true,
+			[192077] = true,
+			[355] = true,
+			[2825] = true,
+			[15487] = true,
+			[45438] = true,
+			[185245] = true,
+			[200183] = true,
+			[204263] = true,
+			[114018] = true,
+			[102342] = true,
+			[89808] = true,
+			[64901] = true,
+			[116844] = true,
+			[46968] = true,
+			[31884] = true,
+			[109248] = true,
+			[4987] = true,
+			[202137] = true,
+			[187707] = true,
+			[221562] = true,
+			[47788] = true,
+			[108280] = true,
+			[115781] = true,
+			[96231] = true,
+			[408] = true,
+			[202138] = true,
+			[34477] = true,
+			[1122] = true,
+			[97462] = true,
+			[20484] = true,
+			[192058] = true,
+			[216331] = true,
+			[108281] = true,
+			[56222] = true,
+			[161642] = true,
+			[179057] = true,
+			[32182] = true,
+			[740] = true,
+			[1044] = true,
+			[30283] = true,
+			[205369] = true,
+			[186265] = true,
+			[108194] = true,
+			[255654] = true,
+			[114052] = true,
+			[475] = true,
+			[31821] = true,
+			[91802] = true,
+			[62124] = true,
+			[73325] = true,
+			[6795] = true,
+			[78675] = true,
+			[29166] = true,
+			[265202] = true,
+			[98008] = true,
+			[19647] = true,
+			[2139] = true,
+			[183752] = true,
+			[527] = true,
+			[108199] = true,
+			[115450] = true,
+			[64843] = true,
+			[51886] = true,
+			[119381] = true,
+			[1766] = true,
 		},
 		["userDB"] = {
+			{
+				6552, -- [1]
+				"WARRIOR", -- [2]
+				{
+					6552, -- [1]
+					15, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [1]
+			{
+				96231, -- [1]
+				"PALADIN", -- [2]
+				[5] = {
+					96231, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				[6] = {
+					96231, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [2]
+			{
+				147362, -- [1]
+				"HUNTER", -- [2]
+				[5] = {
+					147362, -- [1]
+					24, -- [2]
+					0, -- [3]
+				},
+				[4] = {
+					147362, -- [1]
+					24, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [3]
+			{
+				1766, -- [1]
+				"ROGUE", -- [2]
+				{
+					1766, -- [1]
+					15, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [4]
+			{
+				15487, -- [1]
+				"PRIEST", -- [2]
+				[6] = {
+					15487, -- [1]
+					45, -- [2]
+					4, -- [3]
+				},
+				["user"] = true,
+			}, -- [5]
+			{
+				47528, -- [1]
+				"DEATHKNIGHT", -- [2]
+				{
+					47528, -- [1]
+					15, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [6]
+			{
+				57994, -- [1]
+				"SHAMAN", -- [2]
+				{
+					57994, -- [1]
+					12, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [7]
+			{
+				2139, -- [1]
+				"MAGE", -- [2]
+				{
+					2139, -- [1]
+					24, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [8]
+			{
+				116705, -- [1]
+				"MONK", -- [2]
+				[6] = {
+					116705, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				[4] = {
+					116705, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [9]
+			{
+				106839, -- [1]
+				"DRUID", -- [2]
+				[5] = {
+					106839, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				[6] = {
+					106839, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [10]
+			{
+				19647, -- [1]
+				"WARLOCK", -- [2]
+				{
+					19647, -- [1]
+					24, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [11]
+			{
+				91802, -- [1]
+				"DEATHKNIGHT", -- [2]
+				{
+					91802, -- [1]
+					30, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [12]
+			{
+				115781, -- [1]
+				"WARLOCK", -- [2]
+				{
+					115781, -- [1]
+					24, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [13]
+			{
+				78675, -- [1]
+				"DRUID", -- [2]
+				[4] = {
+					78675, -- [1]
+					60, -- [2]
+					8, -- [3]
+				},
+				["user"] = true,
+			}, -- [14]
+			{
+				183752, -- [1]
+				"DEMONHUNTER", -- [2]
+				{
+					183752, -- [1]
+					15, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [15]
+			{
+				355, -- [1]
+				"WARRIOR", -- [2]
+				{
+					355, -- [1]
+					8, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [16]
+			{
+				62124, -- [1]
+				"PALADIN", -- [2]
+				{
+					62124, -- [1]
+					8, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [17]
+			{
+				56222, -- [1]
+				"DEATHKNIGHT", -- [2]
+				{
+					56222, -- [1]
+					8, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [18]
+			{
+				115546, -- [1]
+				"MONK", -- [2]
+				{
+					115546, -- [1]
+					8, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [19]
+			{
+				6795, -- [1]
+				"DRUID", -- [2]
+				{
+					6795, -- [1]
+					8, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [20]
+			{
+				185245, -- [1]
+				"DEMONHUNTER", -- [2]
+				[5] = {
+					185245, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [21]
+			{
+				4987, -- [1]
+				"PALADIN", -- [2]
+				[4] = {
+					4987, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [22]
+			{
+				527, -- [1]
+				"PRIEST", -- [2]
+				[5] = {
+					527, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				[4] = {
+					527, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [23]
+			{
+				51886, -- [1]
+				"SHAMAN", -- [2]
+				[5] = {
+					51886, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				[4] = {
+					51886, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [24]
+			{
+				115450, -- [1]
+				"MONK", -- [2]
+				[5] = {
+					115450, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [25]
+			{
+				2782, -- [1]
+				"DRUID", -- [2]
+				[5] = {
+					2782, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				[6] = {
+					2782, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				[4] = {
+					2782, -- [1]
+					8, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [26]
+			{
+				475, -- [1]
+				"MAGE", -- [2]
+				{
+					475, -- [1]
+					8, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [27]
+			{
+				115276, -- [1]
+				"WARLOCK", -- [2]
+				{
+					115276, -- [1]
+					10, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [28]
+			{
+				89808, -- [1]
+				"WARLOCK", -- [2]
+				{
+					89808, -- [1]
+					10, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [29]
+			{
+				109248, -- [1]
+				"HUNTER", -- [2]
+				{
+					109248, -- [1]
+					45, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [30]
+			{
+				205369, -- [1]
+				"PRIEST", -- [2]
+				[6] = {
+					205369, -- [1]
+					30, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [31]
+			{
+				221562, -- [1]
+				"DEATHKNIGHT", -- [2]
+				[4] = {
+					221562, -- [1]
+					45, -- [2]
+					5, -- [3]
+				},
+				["user"] = true,
+			}, -- [32]
+			{
+				108194, -- [1]
+				"DEATHKNIGHT", -- [2]
+				[5] = {
+					108194, -- [1]
+					45, -- [2]
+					0, -- [3]
+				},
+				[6] = {
+					108194, -- [1]
+					45, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [33]
+			{
+				853, -- [1]
+				"PALADIN", -- [2]
+				{
+					853, -- [1]
+					60, -- [2]
+					6, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [34]
+			{
+				408, -- [1]
+				"ROGUE", -- [2]
+				[6] = {
+					408, -- [1]
+					20, -- [2]
+					0, -- [3]
+				},
+				[4] = {
+					408, -- [1]
+					20, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [35]
+			{
+				5211, -- [1]
+				"DRUID", -- [2]
+				{
+					5211, -- [1]
+					50, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [36]
+			{
+				33891, -- [1]
+				"DRUID", -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				nil, -- [6]
+				{
+					33891, -- [1]
+					180, -- [2]
+					30, -- [3]
+				}, -- [7]
+				["user"] = true,
+			}, -- [37]
+			{
+				198304, -- [1]
+				"WARRIOR", -- [2]
+				[6] = {
+					198304, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [38]
+			{
+				197721, -- [1]
+				"DRUID", -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				nil, -- [6]
+				{
+					197721, -- [1]
+					90, -- [2]
+					8, -- [3]
+				}, -- [7]
+				["user"] = true,
+			}, -- [39]
+			{
+				200183, -- [1]
+				"PRIEST", -- [2]
+				[5] = {
+					200183, -- [1]
+					120, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [40]
+			{
+				47536, -- [1]
+				"PRIEST", -- [2]
+				[4] = {
+					47536, -- [1]
+					90, -- [2]
+					10, -- [3]
+				},
+				["user"] = true,
+			}, -- [41]
+			{
+				108281, -- [1]
+				"SHAMAN", -- [2]
+				[4] = {
+					108281, -- [1]
+					120, -- [2]
+					10, -- [3]
+				},
+				["user"] = true,
+			}, -- [42]
+			{
+				114052, -- [1]
+				"SHAMAN", -- [2]
+				[6] = {
+					114052, -- [1]
+					180, -- [2]
+					15, -- [3]
+				},
+				["user"] = true,
+			}, -- [43]
+			{
+				205636, -- [1]
+				"DRUID", -- [2]
+				[4] = {
+					205636, -- [1]
+					60, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [44]
+			{
+				34477, -- [1]
+				"HUNTER", -- [2]
+				{
+					34477, -- [1]
+					30, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [45]
+			{
+				57934, -- [1]
+				"ROGUE", -- [2]
+				{
+					57934, -- [1]
+					30, -- [2]
+					6, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [46]
+			{
+				196555, -- [1]
+				"DEMONHUNTER", -- [2]
+				[4] = {
+					196555, -- [1]
+					120, -- [2]
+					5, -- [3]
+				},
+				["user"] = true,
+			}, -- [47]
+			{
+				186265, -- [1]
+				"HUNTER", -- [2]
+				{
+					186265, -- [1]
+					180, -- [2]
+					8, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [48]
+			{
+				45438, -- [1]
+				"MAGE", -- [2]
+				{
+					45438, -- [1]
+					240, -- [2]
+					10, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [49]
+			{
+				642, -- [1]
+				"PALADIN", -- [2]
+				{
+					642, -- [1]
+					300, -- [2]
+					8, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [50]
+			{
+				31224, -- [1]
+				"ROGUE", -- [2]
+				{
+					31224, -- [1]
+					120, -- [2]
+					5, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [51]
+			{
+				20549, -- [1]
+				"ALL", -- [2]
+				{
+					20549, -- [1]
+					90, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [52]
+			{
+				255654, -- [1]
+				"ALL", -- [2]
+				{
+					255654, -- [1]
+					120, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [53]
+			{
+				202138, -- [1]
+				"DEMONHUNTER", -- [2]
+				[5] = {
+					202138, -- [1]
+					90, -- [2]
+					2, -- [3]
+				},
+				["user"] = true,
+			}, -- [54]
+			{
+				102793, -- [1]
+				"DRUID", -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				nil, -- [6]
+				{
+					102793, -- [1]
+					60, -- [2]
+					10, -- [3]
+				}, -- [7]
+				["user"] = true,
+			}, -- [55]
+			{
+				132469, -- [1]
+				"DRUID", -- [2]
+				{
+					61391, -- [1]
+					30, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [56]
+			{
+				116844, -- [1]
+				"MONK", -- [2]
+				{
+					116844, -- [1]
+					45, -- [2]
+					5, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [57]
+			{
+				204263, -- [1]
+				"PRIEST", -- [2]
+				[5] = {
+					204263, -- [1]
+					45, -- [2]
+					0, -- [3]
+				},
+				[4] = {
+					204263, -- [1]
+					45, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [58]
+			{
+				51490, -- [1]
+				"SHAMAN", -- [2]
+				[4] = {
+					51490, -- [1]
+					45, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [59]
+			{
+				1122, -- [1]
+				"WARLOCK", -- [2]
+				[6] = {
+					1122, -- [1]
+					180, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [60]
+			{
+				28730, -- [1]
+				"ALL", -- [2]
+				{
+					28730, -- [1]
+					90, -- [2]
+					0, -- [3]
+				}, -- [3]
+				["user"] = true,
+			}, -- [61]
+			{
+				187707, -- [1]
+				"HUNTER", -- [2]
+				[6] = {
+					187707, -- [1]
+					15, -- [2]
+					0, -- [3]
+				},
+				["user"] = true,
+			}, -- [62]
 		},
 	},
 	["Attendance"] = {
 		["enabled"] = 2,
+		["ModuleViewed3580"] = true,
 		["data"] = {
 		},
 		["alts"] = {
 		},
 	},
 	["RaidCheck"] = {
-		["FlaskExp"] = 1,
 		["BuffsCheck"] = true,
+		["ReadyCheckFrame"] = true,
 		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheck"] = true,
+		["FlaskExp"] = 1,
+		["ReadyCheckTop"] = 601,
+		["ReadyCheckLeft"] = 1568.00036621094,
+		["SendSelf"] = true,
+		["disableLFR"] = true,
 	},
-	["BattleRes"] = {
+	["WhoPulled"] = {
 	},
 	["InspectViewer"] = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeLowIlvl"] = true,
+		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeNoValorUpgrade"] = false,
 	},
 	["Addon"] = {
 		["Version"] = 3990,
 		["PreVersion"] = 3990,
-		["IconMiniMapHide"] = true,
-		["Timer"] = 0.1,
 		["Scale"] = 1,
+		["Timer"] = 0.1,
+		["IconMiniMapHide"] = true,
 	},
 	["InviteTool"] = {
+		["AutoInvAccept"] = true,
 		["Words"] = "инв inv byd штм 123",
 		["InvByChat"] = true,
 		["RaidDiff"] = 16,
@@ -419,8 +1632,6 @@ VExRT = {
 		["OnlyGuild"] = true,
 		["Rank"] = 1,
 	},
-	["Profiles"] = {
-	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
 		["fightsNum"] = 2,
@@ -429,45 +1640,61 @@ VExRT = {
 		["trackingDamageSpells"] = {
 		},
 	},
+	["Profiles"] = {
+	},
 	["Profile"] = "default",
 	["LootLink"] = {
 	},
-	["Bossmods"] = {
-		["Mannoroth"] = {
+	["Note"] = {
+		["BlackNames"] = {
 		},
+		["FontSize"] = 10,
+		["AutoLoad"] = {
+		},
+		["Left"] = 1749.99987792969,
+		["OnlyPromoted"] = true,
+		["Fix"] = true,
+		["ScaleBack"] = 20,
+		["Text1"] = "Hello ceci est un test",
+		["OptionsFormatting"] = true,
+		["enabled"] = true,
+		["LastUpdateName"] = "Skasch",
+		["Alpha"] = 100,
+		["Width"] = 168.000076293945,
+		["BlackLastUpdateName"] = {
+		},
+		["LastUpdateTime"] = 1539849141,
+		["Black"] = {
+			"", -- [1]
+			"", -- [2]
+			"", -- [3]
+		},
+		["FontName"] = "Fonts\\FRIZQT__.TTF",
+		["Height"] = 265.999725341797,
+		["Strata"] = "HIGH",
+		["BlackLastUpdateTime"] = {
+		},
+		["Top"] = 912.000061035156,
+	},
+	["Bossmods"] = {
 		["Kormrok"] = {
+		},
+		["Mannoroth"] = {
 		},
 		["Ilgynoth"] = {
 		},
 		["Kromog"] = {
 		},
 	},
-	["Note"] = {
-		["BlackNames"] = {
-		},
-		["Strata"] = "HIGH",
-		["AutoLoad"] = {
-		},
-		["Width"] = 199.999908447266,
-		["BlackLastUpdateName"] = {
-		},
-		["OnlyPromoted"] = true,
-		["BlackLastUpdateTime"] = {
-		},
-		["Height"] = 99.9999313354492,
-		["FontSize"] = 12,
-		["Black"] = {
-			"", -- [1]
-			"", -- [2]
-			"", -- [3]
-		},
-		["OptionsFormatting"] = true,
-	},
 	["Logging"] = {
 	},
 	["MarksBar"] = {
-		["pulltimer"] = 10,
+		["enabled"] = true,
 		["Strata"] = "HIGH",
+		["Top"] = 1079.99987792969,
+		["pulltimer"] = 10,
+		["Alpha"] = 100,
+		["Left"] = 1413.0009765625,
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]
@@ -477,10 +1704,36 @@ VExRT = {
 	},
 	["VisNote"] = {
 		["data"] = {
+			{
+				"108606FC2A1E1539849151", -- [1]
+				1, -- [2]
+				"D", -- [3]
+				135, -- [4]
+				120, -- [5]
+				4, -- [6]
+				6, -- [7]
+				"0,0,", -- [8]
+				"D", -- [9]
+				13, -- [10]
+				82, -- [11]
+				4, -- [12]
+				6, -- [13]
+				"0,0,2,-1,2,-1,", -- [14]
+				"D", -- [15]
+				131, -- [16]
+				124, -- [17]
+				4, -- [18]
+				6, -- [19]
+				"0,0,0,4,2,-2,2,-1,4,-1,2,-1,2,-1,3,-2,4,-1,2,-1,3,-2,2,-1,3,-2,2,-1,3,-2,2,-2,3,-2,2,-1,2,-1,3,-2,3,-3,3,-3,2,-2,2,-2,2,-2,0,-4,-4,0,-2,1,-2,1,-3,2,-2,2,-2,1,-1,2,-3,3,-2,3,-3,3,-2,3,-2,1,-1,2,-10,12,-1,4,-1,4,-1,3,-1,2,-1,4,-1,4,-1,2,0,3,0,4,-1,2,0,4,0,4,-1,4,0,4,0,4,1,2,0,4,1,4,1,3,2,2,3,3,2,2,2,1,4,1,3,2,", -- [20]
+			}, -- [1]
 		},
 		["sync_data"] = {
 		},
 	},
-	["WhoPulled"] = {
+	["BattleRes"] = {
+		["enabled"] = true,
+		["Top"] = 918.000061035156,
+		["Left"] = 927.99951171875,
+		["fix"] = true,
 	},
 }

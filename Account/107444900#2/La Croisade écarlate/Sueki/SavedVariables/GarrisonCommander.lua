@@ -7,15 +7,15 @@ dbGACperChar = {
 		["Default"] = {
 			["history"] = {
 				[1947] = {
+					[1537581777] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1539761673] = {
 						["result"] = 100,
 						["success"] = true,
 					},
 					[1539587118] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1537581777] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -65,11 +65,11 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
-					[1537632089] = {
+					[1539587117] = {
 						["result"] = 100,
 						["success"] = true,
 					},
-					[1539587117] = {
+					[1537632089] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -91,6 +91,10 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1539933855] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1535928401] = {
 						["result"] = 100,
 						["success"] = true,
@@ -107,15 +111,15 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1538447463] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1538807572] = {
 						["result"] = 100,
 						["success"] = true,
 					},
 					[1536849817] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1538447463] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -303,11 +307,11 @@ dbGACperChar = {
 					},
 				},
 				[1927] = {
-					[1536195602] = {
+					[1536849816] = {
 						["result"] = 100,
 						["success"] = true,
 					},
-					[1537385852] = {
+					[1536195602] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -315,13 +319,13 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
-					[1536849816] = {
+					[1537385852] = {
 						["result"] = 100,
 						["success"] = true,
 					},
 				},
-				[1940] = {
-					[1539656152] = {
+				[1945] = {
+					[1537803043] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -337,6 +341,10 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1539933854] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 				},
 				[1880] = {
 					[1537976054] = {
@@ -344,8 +352,8 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1945] = {
-					[1537803043] = {
+				[1940] = {
+					[1539656152] = {
 						["result"] = 100,
 						["success"] = true,
 					},

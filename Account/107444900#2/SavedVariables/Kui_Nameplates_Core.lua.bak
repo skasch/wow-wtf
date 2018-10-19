@@ -93,7 +93,7 @@ KuiNameplatesCoreSaved = {
 				0.196078431372549, -- [3]
 			},
 			["text_vertical_offset"] = 5,
-			["fade_conditional_alpha"] = 0.2,
+			["nameonly_damaged_friends"] = false,
 			["health_text_friend_max"] = 2,
 			["bar_texture"] = "Minimalist",
 			["auras_offset"] = 8,
@@ -103,13 +103,21 @@ KuiNameplatesCoreSaved = {
 				0.196078431372549, -- [2]
 				0.0980392156862745, -- [3]
 			},
-			["castbar_name_vertical_offset"] = 10,
+			["name_colour_npc_friendly"] = {
+				0.294117647058824, -- [1]
+				1, -- [2]
+				0.196078431372549, -- [3]
+			},
 			["colour_enemy_pet"] = {
 				0.686274509803922, -- [1]
 				0.196078431372549, -- [2]
 				0.0980392156862745, -- [3]
 			},
-			["use_blizzard_personal"] = true,
+			["tankmode_other_colour"] = {
+				0.588235294117647, -- [1]
+				0, -- [2]
+				1, -- [3]
+			},
 			["target_glow_colour"] = {
 				1, -- [1]
 				1, -- [2]
@@ -117,12 +125,12 @@ KuiNameplatesCoreSaved = {
 				1, -- [4]
 			},
 			["cvar_personal_show_combat"] = false,
-			["auras_icon_squareness"] = 0.8,
+			["fade_speed"] = 0,
 			["frame_width"] = 120,
-			["fade_avoid_mouseover"] = true,
-			["fade_avoid_nameonly"] = false,
+			["bar_animation"] = 1,
+			["cvar_overlap_v"] = 1.1,
 			["classpowers_size"] = 14,
-			["powerbar_height"] = 4,
+			["health_text_hostile_max"] = 2,
 			["frame_width_minus"] = 100,
 			["colour_player"] = {
 				0.196078431372549, -- [1]
@@ -135,36 +143,28 @@ KuiNameplatesCoreSaved = {
 				1, -- [3]
 			},
 			["frame_height"] = 25,
-			["castbar_height"] = 15,
-			["fade_untracked"] = true,
 			["castbar_unin_colour"] = {
 				0.125490196078431, -- [1]
 				0.125490196078431, -- [2]
 				0.125490196078431, -- [3]
 			},
+			["fade_untracked"] = true,
+			["castbar_height"] = 15,
 			["name_colour_npc_neutral"] = {
 				1, -- [1]
 				1, -- [2]
 				0.196078431372549, -- [3]
 			},
 			["hide_names"] = false,
-			["health_text_hostile_max"] = 2,
-			["cvar_overlap_v"] = 1.1,
-			["bar_animation"] = 1,
-			["fade_speed"] = 0,
-			["tankmode_other_colour"] = {
-				0.588235294117647, -- [1]
-				0, -- [2]
-				1, -- [3]
-			},
+			["powerbar_height"] = 4,
+			["fade_avoid_nameonly"] = false,
+			["fade_avoid_mouseover"] = true,
+			["auras_icon_squareness"] = 0.8,
+			["use_blizzard_personal"] = true,
 			["cvar_enable"] = true,
-			["name_colour_npc_friendly"] = {
-				0.294117647058824, -- [1]
-				1, -- [2]
-				0.196078431372549, -- [3]
-			},
+			["castbar_name_vertical_offset"] = 10,
 			["tankmode_force_enable"] = true,
-			["nameonly_damaged_friends"] = false,
+			["fade_conditional_alpha"] = 0.2,
 		},
 	},
 }

@@ -29,8 +29,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -45,6 +43,8 @@ Quartz3DB = {
 					["texture"] = "Minimalist",
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -89,8 +89,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -99,16 +97,18 @@ Quartz3DB = {
 					["mirrorspacing"] = 0,
 					["mirrory"] = 1000,
 					["mirrorgap"] = 0,
-					["mirroralpha"] = 0.8,
+					["mirrorheight"] = 20,
 					["mirrortexture"] = "Minimalist",
 					["mirrorx"] = 870,
 					["mirrorposition"] = "top",
 					["mirrorwidth"] = 200,
-					["mirrorheight"] = 20,
+					["mirroralpha"] = 0.8,
 					["mirrorfontsize"] = 12,
 					["mirrorgrowdirection"] = "down",
 				},
 			},
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -125,13 +125,13 @@ Quartz3DB = {
 		["Tenga - La Croisade écarlate"] = "Default",
 		["Tsuri - La Croisade écarlate"] = "Default",
 		["Sutoka - La Croisade écarlate"] = "Default",
-		["Fayth - La Croisade écarlate"] = "Default",
 		["Vermily - La Croisade écarlate"] = "Default",
+		["Fayth - La Croisade écarlate"] = "Default",
 		["Skasch - Elune"] = "Default",
 		["Isabael - La Croisade écarlate"] = "Default",
-		["Nephily - La Croisade écarlate"] = "Default",
-		["Asane - La Croisade écarlate"] = "Default",
 		["Higi - La Croisade écarlate"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "Default",
 		["Tsuma - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {

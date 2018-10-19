@@ -1,17 +1,5 @@
 
 BigWigs3DB = {
-	["global"] = {
-		["watchedMovies"] = {
-			[-367] = true,
-			["875:1"] = true,
-			[688] = true,
-			[-917] = true,
-			[682] = true,
-			[686] = true,
-			[-706] = true,
-			[-1152] = true,
-		},
-	},
 	["profileKeys"] = {
 		["Tenga - La Croisade écarlate"] = "Default",
 		["Higi - La Croisade écarlate"] = "Default",
@@ -21,7 +9,20 @@ BigWigs3DB = {
 		["Vermily - La Croisade écarlate"] = "Default",
 		["Skasch - Elune"] = "Default",
 		["Seina - La Croisade écarlate"] = "Default",
+		["Fayth - La Croisade écarlate"] = "skasch-DPS",
 		["Tsuma - La Croisade écarlate"] = "Default",
+	},
+	["global"] = {
+		["watchedMovies"] = {
+			["875:1"] = true,
+			[-1152] = true,
+			[688] = true,
+			[-917] = true,
+			[-706] = true,
+			[686] = true,
+			[682] = true,
+			[-367] = true,
+		},
 	},
 	["namespaces"] = {
 		["BigWigs_Bosses_Lord Stormsong"] = {
@@ -161,8 +162,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_The Lion's Roar"] = {
-		},
 		["BigWigs_Plugins_Victory"] = {
 		},
 		["BigWigs_Bosses_Warbringer Yenajz"] = {
@@ -171,9 +170,9 @@ BigWigs3DB = {
 			["profiles"] = {
 				["skasch-DPS"] = {
 					[250036] = 0,
-					[250096] = 967415,
-					[249923] = 967415,
 					[249919] = 1033463,
+					[249923] = 967415,
+					[250096] = 967415,
 				},
 			},
 		},
@@ -186,13 +185,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Avatar of Sethraliss"] = {
-			["profiles"] = {
-				["skasch-DPS"] = {
-					[269686] = 967415,
-					[273677] = 0,
-				},
-			},
+		["BigWigs_Plugins_HeroesVoices"] = {
 		},
 		["BigWigs_Bosses_Tik'ali"] = {
 			["profiles"] = {
@@ -203,7 +196,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 		["BigWigs_Bosses_Merektha"] = {
 			["profiles"] = {
@@ -220,12 +213,12 @@ BigWigs3DB = {
 			["profiles"] = {
 				["skasch-DPS"] = {
 					[267899] = 968447,
-					[267905] = 967423,
 					[267818] = 967415,
+					[267905] = 967423,
 				},
 			},
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 			["profiles"] = {
@@ -246,8 +239,8 @@ BigWigs3DB = {
 						["BigWigs_Bosses_Tik'ali"] = {
 							[258622] = "AA_Move away!",
 						},
-						["BigWigs_Bosses_Harlan Sweete"] = {
-							[257316] = "BigWigs: Long",
+						["BigWigs_Bosses_Rixxa Fluxflame"] = {
+							[270042] = "AA_Dodge!",
 						},
 						["BigWigs_Bosses_Freehold Trash"] = {
 							[257736] = "AA_Move away!",
@@ -258,8 +251,8 @@ BigWigs3DB = {
 						["BigWigs_Bosses_Aqu'sirr"] = {
 							[264903] = "BigWigs: Long",
 						},
-						["BigWigs_Bosses_Rixxa Fluxflame"] = {
-							[270042] = "AA_Dodge!",
+						["BigWigs_Bosses_Harlan Sweete"] = {
+							[257316] = "BigWigs: Long",
 						},
 					},
 					["Warning"] = {
@@ -278,24 +271,21 @@ BigWigs3DB = {
 						["BigWigs_Bosses_Council o' Captains"] = {
 							[258381] = "AA_Step aside!",
 						},
-						["BigWigs_Bosses_Merektha"] = {
-							[263914] = "AA_Look away!",
-							[263958] = "AA_Focus add!",
-						},
-						["BigWigs_Bosses_Tik'ali"] = {
-							[257582] = "AA_Kite mob!",
+						["BigWigs_Bosses_Aqu'sirr"] = {
+							[264166] = "AA_Come close!",
 						},
 						["BigWigs_Bosses_Yazma"] = {
 							[249923] = "AA_Move far!",
 						},
+						["BigWigs_Bosses_Rezan"] = {
+							[255371] = "AA_Hide for LoS!",
+						},
 						["BigWigs_Bosses_Priestess Alun'za"] = {
 							[255577] = "AA_Soak!",
 						},
-						["BigWigs_Bosses_Freehold Trash"] = {
-							[257908] = "AA_Defense!",
-							[257397] = "AA_Interrupt!",
-							[257732] = "AA_Interrupt!",
-							[257756] = "AA_Move away!",
+						["BigWigs_Bosses_Harlan Sweete"] = {
+							[257305] = "AA_Move away!",
+							[257314] = "AA_Kite mob!",
 						},
 						["BigWigs_Bosses_Mogul Razzdunk"] = {
 							[260829] = "AA_Move far!",
@@ -303,15 +293,18 @@ BigWigs3DB = {
 						["BigWigs_Bosses_Galvazzt"] = {
 							[266512] = "AA_Defense!",
 						},
-						["BigWigs_Bosses_Harlan Sweete"] = {
-							[257305] = "AA_Move away!",
-							[257314] = "AA_Kite mob!",
+						["BigWigs_Bosses_Freehold Trash"] = {
+							[257908] = "AA_Defense!",
+							[257397] = "AA_Interrupt!",
+							[257732] = "AA_Interrupt!",
+							[257756] = "AA_Move away!",
 						},
-						["BigWigs_Bosses_Rezan"] = {
-							[255371] = "AA_Hide for LoS!",
+						["BigWigs_Bosses_Tik'ali"] = {
+							[257582] = "AA_Kite mob!",
 						},
-						["BigWigs_Bosses_Aqu'sirr"] = {
-							[264166] = "AA_Come close!",
+						["BigWigs_Bosses_Merektha"] = {
+							[263914] = "AA_Look away!",
+							[263958] = "AA_Focus add!",
 						},
 						["BigWigs_Bosses_Ring of Booty"] = {
 							[256405] = "AA_Move away!",
@@ -321,17 +314,17 @@ BigWigs3DB = {
 						["BigWigs_Bosses_Priestess Alun'za"] = {
 							[255582] = "AA_Dispel!",
 						},
-						["BigWigs_Bosses_Yazma"] = {
-							[250050] = "AA_Dodge!",
+						["BigWigs_Bosses_Ring of Booty"] = {
+							[256489] = "AA_Step aside!",
 						},
 						["BigWigs_Bosses_Vol'zith the Whisperer"] = {
 							[267037] = "AA_Dispel!",
 						},
-						["BigWigs_Bosses_Freehold Trash"] = {
-							[257397] = "AA_Purge!",
-						},
 						["BigWigs_Bosses_Merektha"] = {
 							[264206] = "AA_Focus add!",
+						},
+						["BigWigs_Bosses_Freehold Trash"] = {
+							[257397] = "AA_Purge!",
 						},
 						["BigWigs_Bosses_Tidesage Coucil"] = {
 							[267891] = "AA_Move adds!",
@@ -339,8 +332,8 @@ BigWigs3DB = {
 						["BigWigs_Bosses_Avatar of Sethraliss"] = {
 							[269688] = "AA_Focus add!",
 						},
-						["BigWigs_Bosses_Ring of Booty"] = {
-							[256489] = "AA_Step aside!",
+						["BigWigs_Bosses_Yazma"] = {
+							[250050] = "AA_Dodge!",
 						},
 					},
 					["Alarm"] = {
@@ -370,16 +363,16 @@ BigWigs3DB = {
 							[257426] = "AA_Step aside!",
 							[258672] = "AA_Dodge!",
 						},
-						["BigWigs_Bosses_Vol'zith the Whisperer"] = {
-							[267385] = "AA_Move away!",
+						["BigWigs_Bosses_Coin-Operated Crowd Pummeler"] = {
+							[257337] = "AA_Step aside!",
+							[256493] = "AA_Defense!",
 						},
 						["BigWigs_Bosses_Aqu'sirr"] = {
 							[265001] = "AA_Come close!",
 							[264560] = "AA_Dispel!",
 						},
-						["BigWigs_Bosses_Coin-Operated Crowd Pummeler"] = {
-							[257337] = "AA_Step aside!",
-							[256493] = "AA_Defense!",
+						["BigWigs_Bosses_Vol'zith the Whisperer"] = {
+							[267385] = "AA_Move away!",
 						},
 					},
 					["Alert"] = {
@@ -430,14 +423,15 @@ BigWigs3DB = {
 						["BigWigs_Bosses_Coin-Operated Crowd Pummeler"] = {
 							[262347] = "AA_Stop Cast!",
 						},
-						["BigWigs_Bosses_Vol'zith the Whisperer"] = {
-							[269399] = "AA_Move away!",
+						["BigWigs_Bosses_Mogul Razzdunk"] = {
+							[271456] = "AA_Kite away!",
+							[260280] = "AA_Move around!",
 						},
-						["BigWigs_Bosses_Merektha"] = {
-							[263912] = "AA_Step aside!",
+						["BigWigs_Bosses_Rixxa Fluxflame"] = {
+							[260669] = "AA_Come close!",
 						},
-						["BigWigs_Bosses_Skycap'n Kragg"] = {
-							[255952] = "AA_Dodge!",
+						["BigWigs_Bosses_Avatar of Sethraliss"] = {
+							[268024] = "AA_Defense!",
 						},
 						["BigWigs_Bosses_Freehold Trash"] = {
 							[274555] = "AA_Defense!",
@@ -450,15 +444,14 @@ BigWigs3DB = {
 							[272402] = "AA_Spread out!",
 							[257870] = "AA_Step aside!",
 						},
-						["BigWigs_Bosses_Avatar of Sethraliss"] = {
-							[268024] = "AA_Defense!",
+						["BigWigs_Bosses_Skycap'n Kragg"] = {
+							[255952] = "AA_Dodge!",
 						},
-						["BigWigs_Bosses_Rixxa Fluxflame"] = {
-							[260669] = "AA_Come close!",
+						["BigWigs_Bosses_Merektha"] = {
+							[263912] = "AA_Step aside!",
 						},
-						["BigWigs_Bosses_Mogul Razzdunk"] = {
-							[271456] = "AA_Kite away!",
-							[260280] = "AA_Move around!",
+						["BigWigs_Bosses_Vol'zith the Whisperer"] = {
+							[269399] = "AA_Move away!",
 						},
 					},
 				},
@@ -472,33 +465,33 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Skycap'n Kragg"] = {
+		["BigWigs_Bosses_Galvazzt"] = {
 			["profiles"] = {
 				["skasch-DPS"] = {
-					[256060] = 967423,
-					[256016] = 0,
-					[255952] = 967415,
+					[266923] = 967415,
+					[266512] = 967423,
 				},
 			},
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Bosses_Freehold Trash"] = {
+		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
+				["skasch-Heal"] = {
+					["posx"] = 599.261603052419,
+					["font"] = "Friz Quadrata TT",
+					["posy"] = 122.355591070404,
+				},
+				["Default"] = {
+					["posx"] = 256.506559630652,
+					["font"] = "Friz Quadrata TT",
+					["posy"] = 274.533187808995,
+				},
 				["skasch-DPS"] = {
-					[257272] = 0,
-					[257739] = 967423,
-					[257426] = 967415,
-					[257908] = 967423,
-					[257732] = 967423,
-					[257899] = 0,
-					[258199] = 967423,
-					[274400] = 967423,
-					[274383] = 967415,
-					[258181] = 967415,
-					[257397] = 967423,
-					[257870] = 967415,
-					[257437] = 0,
+					["posx"] = 955,
+					["font"] = "Friz Quadrata TT",
+					["lock"] = true,
+					["posy"] = 220,
 				},
 			},
 		},
@@ -523,8 +516,8 @@ BigWigs3DB = {
 					["BigWigsAnchor_height"] = 19.9999866485596,
 					["emphasizeGrowup"] = true,
 					["BigWigsAnchor_x"] = 40,
-					["fontSizeEmph"] = 11,
 					["BigWigsEmphasizeAnchor_width"] = 179.999969482422,
+					["fontSizeEmph"] = 11,
 				},
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 490.274745925068,
@@ -535,41 +528,35 @@ BigWigs3DB = {
 					["BigWigsAnchor_height"] = 16.0000534057617,
 					["emphasizeGrowup"] = true,
 					["BigWigsAnchor_x"] = 263.233207071402,
-					["fontSizeEmph"] = 11,
 					["BigWigsEmphasizeAnchor_width"] = 277.934448242188,
+					["fontSizeEmph"] = 11,
 				},
 				["skasch-DPS"] = {
 					["BigWigsEmphasizeAnchor_y"] = 360,
 					["BigWigsAnchor_width"] = 300,
 					["iconPosition"] = "RIGHT",
-					["BigWigsAnchor_x"] = 40,
+					["BigWigsAnchor_x"] = 50,
 					["BigWigsEmphasizeAnchor_height"] = 24.9999885559082,
 					["BigWigsAnchor_height"] = 19.9999866485596,
 					["visibleBarLimitEmph"] = 15,
 					["fontSize"] = 12,
-					["BigWigsAnchor_y"] = 255,
+					["BigWigsAnchor_y"] = 165,
 					["emphasizeGrowup"] = true,
-					["emphasizeTime"] = 9,
-					["fontSizeEmph"] = 15,
-					["BigWigsEmphasizeAnchor_x"] = 415,
 					["texture"] = "Minimalist",
 					["BigWigsEmphasizeAnchor_width"] = 199.999984741211,
+					["BigWigsEmphasizeAnchor_x"] = 410,
+					["emphasizeTime"] = 9,
+					["fontSizeEmph"] = 15,
 				},
 			},
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["skasch-Heal"] = {
-					["posx"] = 264.949659193371,
-					["posy"] = 253.544711000541,
-				},
-				["Default"] = {
-					["posx"] = 312.594087842797,
-					["posy"] = 206.255838798259,
-				},
-				["skasch-DPS"] = {
-					["posx"] = 267.082998214819,
-					["posy"] = 250.344675051252,
+		["LibDualSpec-1.0"] = {
+			["char"] = {
+				["Asane - La Croisade écarlate"] = {
+					"skasch-DPS", -- [1]
+					"skasch-Heal", -- [2]
+					"skasch-DPS", -- [3]
+					["enabled"] = true,
 				},
 			},
 		},
@@ -595,41 +582,47 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
-			["char"] = {
-				["Asane - La Croisade écarlate"] = {
-					"skasch-DPS", -- [1]
-					"skasch-Heal", -- [2]
-					"skasch-DPS", -- [3]
-					["enabled"] = true,
-				},
-			},
-		},
-		["BigWigs_Plugins_Alt Power"] = {
+		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
 				["skasch-Heal"] = {
-					["posx"] = 599.261603052419,
-					["font"] = "Friz Quadrata TT",
-					["posy"] = 122.355591070404,
+					["posx"] = 264.949659193371,
+					["posy"] = 253.544711000541,
 				},
 				["Default"] = {
-					["posx"] = 256.506559630652,
-					["font"] = "Friz Quadrata TT",
-					["posy"] = 274.533187808995,
+					["posx"] = 312.594087842797,
+					["posy"] = 206.255838798259,
 				},
 				["skasch-DPS"] = {
-					["posx"] = 955,
-					["font"] = "Friz Quadrata TT",
-					["lock"] = true,
-					["posy"] = 220,
+					["posx"] = 298.371903926281,
+					["posy"] = 224.744645198998,
 				},
 			},
 		},
-		["BigWigs_Bosses_Galvazzt"] = {
+		["BigWigs_Bosses_Freehold Trash"] = {
 			["profiles"] = {
 				["skasch-DPS"] = {
-					[266923] = 967415,
-					[266512] = 967423,
+					[257272] = 0,
+					[257739] = 967423,
+					[257426] = 967415,
+					[257908] = 967423,
+					[257732] = 967423,
+					[257899] = 0,
+					[257437] = 0,
+					[274400] = 967423,
+					[274383] = 967415,
+					[258181] = 967415,
+					[257397] = 967423,
+					[257870] = 967415,
+					[258199] = 967423,
+				},
+			},
+		},
+		["BigWigs_Bosses_Skycap'n Kragg"] = {
+			["profiles"] = {
+				["skasch-DPS"] = {
+					[256060] = 967423,
+					[256016] = 0,
+					[255952] = 967415,
 				},
 			},
 		},
@@ -647,16 +640,16 @@ BigWigs3DB = {
 				},
 				["Default"] = {
 					["posx"] = 830.211156549922,
-					["font"] = "Friz Quadrata TT",
-					["height"] = 94.1001663208008,
 					["posy"] = 402.422345626048,
+					["height"] = 94.1001663208008,
+					["font"] = "Friz Quadrata TT",
 					["sound"] = true,
 					["width"] = 160.094024658203,
 				},
 				["skasch-DPS"] = {
 					["posx"] = 525,
 					["fontSize"] = 16,
-					["width"] = 176.094009399414,
+					["width"] = 162.094039916992,
 					["font"] = "Friz Quadrata TT",
 					["lock"] = true,
 					["height"] = 66.1001510620117,
@@ -665,11 +658,17 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_HeroesVoices"] = {
+		["BigWigs_Bosses_Avatar of Sethraliss"] = {
+			["profiles"] = {
+				["skasch-DPS"] = {
+					[269686] = 967415,
+					[273677] = 0,
+				},
+			},
 		},
 	},
 	["wipe80"] = true,
@@ -688,17 +687,10 @@ BigWigsIconDB = {
 	["hide"] = true,
 }
 BigWigsStatsDB = {
-	[1712] = {
-		[1984] = {
+	[1520] = {
+		[1726] = {
 			["LFR"] = {
-				["kills"] = 1,
-				["wipes"] = 1,
-				["best"] = 235.279,
-			},
-		},
-		[2031] = {
-			["LFR"] = {
-				["best"] = 592.4,
+				["best"] = 91.4069999999992,
 				["kills"] = 1,
 			},
 		},
@@ -717,10 +709,11 @@ BigWigsStatsDB = {
 				["best"] = 278.142,
 			},
 		},
-		[2146] = {
+		[2167] = {
 			["LFR"] = {
-				["best"] = 120.5,
-				["kills"] = 1,
+				["kills"] = 5,
+				["best"] = 260.927,
+				["wipes"] = 1,
 			},
 		},
 		[2166] = {
@@ -730,6 +723,12 @@ BigWigsStatsDB = {
 				["best"] = 262.743,
 			},
 		},
+		[2146] = {
+			["LFR"] = {
+				["best"] = 120.5,
+				["kills"] = 1,
+			},
+		},
 		[2195] = {
 			["LFR"] = {
 				["kills"] = 2,
@@ -737,11 +736,19 @@ BigWigsStatsDB = {
 				["best"] = 243.682000000001,
 			},
 		},
-		[2167] = {
+	},
+	[1712] = {
+		[1984] = {
 			["LFR"] = {
-				["kills"] = 5,
-				["best"] = 260.927,
+				["kills"] = 1,
 				["wipes"] = 1,
+				["best"] = 235.279,
+			},
+		},
+		[2031] = {
+			["LFR"] = {
+				["best"] = 592.4,
+				["kills"] = 1,
 			},
 		},
 	},
@@ -762,14 +769,6 @@ BigWigsStatsDB = {
 		[1862] = {
 			["LFR"] = {
 				["best"] = 163.103999999999,
-				["kills"] = 1,
-			},
-		},
-	},
-	[1520] = {
-		[1726] = {
-			["LFR"] = {
-				["best"] = 91.4069999999992,
 				["kills"] = 1,
 			},
 		},

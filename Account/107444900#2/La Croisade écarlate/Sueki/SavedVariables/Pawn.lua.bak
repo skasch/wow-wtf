@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Sueki-La Croisade écarlate",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128832] = {
 			["Relics"] = {
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "The Aldrachi Warblades",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",
