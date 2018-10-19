@@ -251,6 +251,9 @@ VER 3 000000000000004C "Tiger's Lust" "651727"
 #showtooltip
 /cast [@mouseover,help,nodead][help,nodead][@player] Tiger's Lust
 END
+VER 3 0000000000000051 "Toggle CPU Hogs" "132317"
+/run t={"TradeSkillMaster","GatherMate","HandyNotes"} for i=1,GetNumAddOns() do for n=1,3 do a=GetAddOnInfo(i) if strfind(a,t[n]) then if IsAddOnLoaded(i) then DisableAddOn(i) else EnableAddOn(i) end end end end ReloadUI()
+END
 VER 3 0000000000000050 "Toggle Nameplate" "413580"
 /run SetCVar("NameplateOtherAtBase", 2 - GetCVar("NameplateOtherAtBase"))
 END

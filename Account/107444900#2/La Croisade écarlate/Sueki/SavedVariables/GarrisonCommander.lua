@@ -7,6 +7,14 @@ dbGACperChar = {
 		["Default"] = {
 			["history"] = {
 				[1947] = {
+					[1539761673] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1539587118] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1537581777] = {
 						["result"] = 100,
 						["success"] = true,
@@ -58,6 +66,10 @@ dbGACperChar = {
 						["success"] = true,
 					},
 					[1537632089] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1539587117] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -155,6 +167,10 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1539761672] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1538542638] = {
 						["result"] = 100,
 						["success"] = true,
@@ -231,6 +247,10 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1539656151] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 				},
 				[1946] = {
 					[1538701709] = {
@@ -273,6 +293,10 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1539674354] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1536124655] = {
 						["result"] = 100,
 						["success"] = true,
@@ -296,8 +320,20 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
+				[1940] = {
+					[1539656152] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
 				[1963] = {
 					[1537853158] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[2082] = {
+					[1539503777] = {
 						["result"] = 100,
 						["success"] = true,
 					},

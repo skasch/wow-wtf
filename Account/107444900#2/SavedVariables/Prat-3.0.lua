@@ -15,14 +15,13 @@ Prat3DB = {
 					["maxchatheightdefault"] = 400,
 					["maxchatheight"] = 150,
 					["rememberframepositions"] = true,
-					["maxchatwidthdefault"] = 608.000061035156,
 					["framemetrics"] = {
 						{
 							["point"] = "BOTTOMLEFT",
-							["xOffset"] = 0.0260433336098989,
-							["yOffset"] = 0.0537034130750205,
-							["height"] = 120.000007629395,
-							["width"] = 429.999969482422,
+							["xOffset"] = 0.0520850300788879,
+							["yOffset"] = 0,
+							["height"] = 150,
+							["width"] = 343,
 						}, -- [1]
 						{
 							["point"] = "BOTTOMLEFT",
@@ -42,9 +41,10 @@ Prat3DB = {
 							["yOffset"] = 0.0351679995656014,
 						}, -- [4]
 					},
-					["maxchatwidth"] = 343,
-					["initialized"] = true,
+					["maxchatwidthdefault"] = 608.000061035156,
 					["minchatheight"] = 150,
+					["initialized"] = true,
+					["maxchatwidth"] = 343,
 				},
 				["Skasch"] = {
 					["minchatwidthdefault"] = 296,
@@ -77,8 +77,8 @@ Prat3DB = {
 				["Skasch"] = {
 					["editW"] = 400.000024795532,
 					["attach"] = "FREE",
-					["editX"] = -1.00124549865723,
 					["border"] = "Details BarBorder 3",
+					["editX"] = -1.00124549865723,
 					["editY"] = 20.0435485839844,
 				},
 				["Default"] = {

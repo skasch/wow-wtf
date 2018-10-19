@@ -6,16 +6,8 @@ dbGACperChar = {
 	["profiles"] = {
 		["Default"] = {
 			["history"] = {
-				[1940] = {
-					[1537579982] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1537032374] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1537153560] = {
+				[2078] = {
+					[1537417558] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -38,8 +30,8 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[2093] = {
-					[1538272760] = {
+				[1928] = {
+					[1538623891] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -54,8 +46,8 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1923] = {
-					[1536676271] = {
+				[1878] = {
+					[1535871010] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -71,9 +63,17 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1539503648] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 				},
-				[1878] = {
-					[1535871010] = {
+				[1923] = {
+					[1536676271] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1539656035] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -88,6 +88,10 @@ dbGACperChar = {
 						["success"] = true,
 					},
 					[1536643721] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1539503647] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -109,15 +113,27 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
-				},
-				[2078] = {
-					[1537417558] = {
+					[1539656036] = {
 						["result"] = 100,
 						["success"] = true,
 					},
 				},
-				[1928] = {
-					[1538623891] = {
+				[2093] = {
+					[1538272760] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1940] = {
+					[1537579982] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1537032374] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1537153560] = {
 						["result"] = 100,
 						["success"] = true,
 					},

@@ -213,3 +213,4 @@ LookingForGroup: disabled
 SilverDragon: disabled
 Kui_Nameplates_Core_Config: enabled
 Prat-3.0: enabled
+HeroLib: enabled

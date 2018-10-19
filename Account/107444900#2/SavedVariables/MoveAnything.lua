@@ -39,7 +39,7 @@ MADB = {
 						"TOPRIGHT", -- [1]
 						"BNToastFrame", -- [2]
 						"BOTTOMRIGHT", -- [3]
-						0.0001220703125, -- [4]
+						0.000244140625, -- [4]
 						0, -- [5]
 					},
 				},
@@ -62,23 +62,6 @@ MADB = {
 					},
 					["orgScale"] = 1,
 				},
-				["AlertFrame"] = {
-					["orgPos"] = {
-						"BOTTOM", -- [1]
-						nil, -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-					["name"] = "AlertFrame",
-					["pos"] = {
-						"BOTTOM", -- [1]
-						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						0.000213623046875, -- [4]
-						70.0000228881836, -- [5]
-					},
-				},
 				["QuickJoinToastMover"] = {
 					["orgPos"] = {
 						"LEFT", -- [1]
@@ -92,7 +75,7 @@ MADB = {
 						"TOPRIGHT", -- [1]
 						"BNToastFrame", -- [2]
 						"BOTTOMRIGHT", -- [3]
-						0.0001220703125, -- [4]
+						0.000244140625, -- [4]
 						0, -- [5]
 					},
 				},
@@ -130,8 +113,25 @@ MADB = {
 						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
 						"TOPRIGHT", -- [3]
-						-160, -- [4]
+						-190, -- [4]
+						-5, -- [5]
+					},
+				},
+				["AlertFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						nil, -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
 						0, -- [5]
+					},
+					["name"] = "AlertFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0.000213623046875, -- [4]
+						70.0000228881836, -- [5]
 					},
 				},
 				["GhostFrame"] = {
@@ -145,27 +145,10 @@ MADB = {
 					["name"] = "GhostFrame",
 					["pos"] = {
 						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
+						"UIWidgetTopCenterContainerFrame", -- [2]
+						"BOTTOM", -- [3]
 						0, -- [4]
-						-80, -- [5]
-					},
-				},
-				["VehicleSeatIndicator"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						-170.999984741211, -- [4]
-						-0.999923765659332, -- [5]
-					},
-					["name"] = "VehicleSeatIndicator",
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						-140, -- [4]
-						0, -- [5]
+						-99.9999389648438, -- [5]
 					},
 				},
 				["TooltipMover"] = {
@@ -201,20 +184,20 @@ MADB = {
 						-171.055595853592, -- [5]
 					},
 				},
-				["MainMenuBar"] = {
+				["VehicleSeatIndicator"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
+						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						13.9999990463257, -- [5]
+						"TOPRIGHT", -- [3]
+						-170.999984741211, -- [4]
+						-0.999923765659332, -- [5]
 					},
-					["name"] = "MainMenuBar",
+					["name"] = "VehicleSeatIndicator",
 					["pos"] = {
-						"BOTTOM", -- [1]
+						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						-9.15527343750e-005, -- [4]
+						"TOPRIGHT", -- [3]
+						-140, -- [4]
 						0, -- [5]
 					},
 				},
@@ -235,10 +218,28 @@ MADB = {
 						0, -- [5]
 					},
 				},
+				["MainMenuBar"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						17, -- [5]
+					},
+					["name"] = "MainMenuBar",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						-9.15527343750e-005, -- [4]
+						0, -- [5]
+					},
+				},
 			},
 		},
 	},
 	["dontSearchFrameNames"] = false,
+	["modifiedFramesOnly"] = true,
 	["tooltips"] = true,
 	["playSound"] = false,
 	["noBags"] = false,

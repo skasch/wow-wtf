@@ -94,7 +94,7 @@ TipTac_Config = {
 		0, -- [3]
 		0.753698885440826, -- [4]
 	},
-	["anchorFrameTipType"] = "mouse",
+	["anchorWorldUnitPoint"] = "TOPRIGHT",
 	["talentOnlyInParty"] = false,
 	["classification_worldboss"] = "%s|r (Boss) ",
 	["classification_rareelite"] = "+%s|r (Rare) ",
@@ -111,7 +111,7 @@ TipTac_Config = {
 		0.301960784313726, -- [3]
 		1, -- [4]
 	},
-	["anchorWorldUnitPoint"] = "TOPRIGHT",
+	["anchorFrameTipType"] = "mouse",
 	["hideUFTipsInCombat"] = false,
 	["healthBarText"] = "full",
 	["fontFlags"] = "",

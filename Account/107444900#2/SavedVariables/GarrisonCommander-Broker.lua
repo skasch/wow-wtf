@@ -4,7 +4,13 @@ dbGACB = {
 		["Sueki - La Croisade écarlate"] = {
 			["firstun"] = false,
 		},
+		["Kanpa - Elune"] = {
+			["firstun"] = false,
+		},
 		["Asane - La Croisade écarlate"] = {
+			["firstun"] = false,
+		},
+		["Skasch - Elune"] = {
 			["firstun"] = false,
 		},
 		["Onaka - La Croisade écarlate"] = {
@@ -42,12 +48,41 @@ dbGACB = {
 	},
 	["profileKeys"] = {
 		["Sueki - La Croisade écarlate"] = "Default",
+		["Kanpa - Elune"] = "Default",
 		["Asane - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
 		["Onaka - La Croisade écarlate"] = "Default",
 		["Skasch - La Croisade écarlate"] = "Default",
 		["Tsuri - La Croisade écarlate"] = "Default",
 	},
 	["realm"] = {
+		["Elune"] = {
+			["cachesize"] = {
+				["Skasch"] = 500,
+				["Kanpa"] = 500,
+			},
+			["farms"] = {
+				["Skasch"] = {
+					["Lunarfall Excavation"] = 0,
+					["Herb Garden"] = 0,
+				},
+				["Kanpa"] = {
+					["Lunarfall Excavation"] = 0,
+					["Herb Garden"] = 0,
+				},
+			},
+			["orders"] = {
+				["Skasch"] = {
+					["Herb Garden"] = 0,
+					["Alchemy Lab"] = 0,
+					["Lunarfall Shipyard"] = 0,
+				},
+				["Kanpa"] = {
+					["Herb Garden"] = 0,
+					["Alchemy Lab"] = 0,
+				},
+			},
+		},
 		["La Croisade écarlate"] = {
 			["cachesize"] = {
 				["Tsuri"] = 500,

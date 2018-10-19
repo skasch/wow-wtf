@@ -11,11 +11,6 @@ dbOHC = {
 			["firstun"] = false,
 		},
 	},
-	["profileKeys"] = {
-		["Sueki - La Croisade écarlate"] = "Default",
-		["Skasch - La Croisade écarlate"] = "Default",
-		["Asane - La Croisade écarlate"] = "Default",
-	},
 	["global"] = {
 		["warn01_seen"] = 0,
 		["warn03_seen"] = 3,
@@ -23,6 +18,11 @@ dbOHC = {
 		},
 		["warn02_seen"] = 0,
 		["firstrun"] = false,
+	},
+	["profileKeys"] = {
+		["Sueki - La Croisade écarlate"] = "Default",
+		["Skasch - La Croisade écarlate"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -46,18 +46,18 @@ dbOHC = {
 				["PREFERHIGH"] = false,
 				["NOTROOPS"] = false,
 				["MAKEITQUICK"] = true,
-				["TROOPALERT"] = true,
 				["MAXCHAMP"] = 3,
+				["TROOPALERT"] = true,
 				["IGNOREBUSY"] = true,
 				["BASECHANCE"] = 0,
 			},
-			["showmenu"] = true,
 			["blacklist"] = {
 				[1792] = false,
 				[1774] = false,
 				[1247] = false,
 				[1771] = false,
 			},
+			["showmenu"] = true,
 		},
 	},
 }

@@ -2,31 +2,15 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
-			["events"] = {
-				["NOTIFICATION_ITEM_COOLDOWN"] = {
-					["disabled"] = true,
-				},
-				["NOTIFICATION_PET_COOLDOWN"] = {
-					["disabled"] = true,
-				},
-				["NOTIFICATION_COOLDOWN"] = {
-					["disabled"] = true,
-				},
-			},
-			["critFontName"] = "Friz Quadrata TT",
 			["enableBlizzardDamage"] = false,
+			["powerThrottleDuration"] = 5,
+			["hotThrottleDuration"] = 5,
+			["critOutlineIndex"] = 2,
+			["normalOutlineIndex"] = 2,
+			["shortenNumbers"] = true,
+			["dotThrottleDuration"] = 5,
+			["creationVersion"] = "5.7.148",
 			["scrollAreas"] = {
-				["Static"] = {
-					["direction"] = "Up",
-					["stickyDirection"] = "Up",
-					["scrollHeight"] = 200,
-					["offsetX"] = 560,
-					["stickyTextAlignIndex"] = 1,
-					["iconAlign"] = "Right",
-					["offsetY"] = -320,
-					["textAlignIndex"] = 3,
-					["scrollWidth"] = 320,
-				},
 				["Incoming"] = {
 					["behavior"] = "MSBT_NORMAL",
 					["stickyBehavior"] = "MSBT_NORMAL",
@@ -37,15 +21,6 @@ MSBTProfiles_SavedVars = {
 					["scrollWidth"] = 200,
 					["offsetY"] = 0,
 					["animationStyle"] = "Straight",
-					["stickyAnimationStyle"] = "Static",
-				},
-				["Notification"] = {
-					["stickyDirection"] = "Up",
-					["scrollWidth"] = 320,
-					["offsetX"] = -880,
-					["stickyTextAlignIndex"] = 3,
-					["offsetY"] = -320,
-					["textAlignIndex"] = 1,
 					["stickyAnimationStyle"] = "Static",
 				},
 				["Outgoing"] = {
@@ -60,10 +35,46 @@ MSBTProfiles_SavedVars = {
 					["textAlignIndex"] = 3,
 					["stickyAnimationStyle"] = "Static",
 				},
+				["Notification"] = {
+					["stickyDirection"] = "Up",
+					["scrollWidth"] = 320,
+					["offsetX"] = -880,
+					["stickyTextAlignIndex"] = 3,
+					["offsetY"] = -320,
+					["textAlignIndex"] = 1,
+					["stickyAnimationStyle"] = "Static",
+				},
+				["Static"] = {
+					["direction"] = "Up",
+					["stickyDirection"] = "Up",
+					["scrollHeight"] = 200,
+					["offsetX"] = 560,
+					["stickyTextAlignIndex"] = 1,
+					["iconAlign"] = "Right",
+					["offsetY"] = -320,
+					["textAlignIndex"] = 3,
+					["scrollWidth"] = 320,
+				},
 			},
-			["normalFontName"] = "Friz Quadrata TT",
+			["events"] = {
+				["NOTIFICATION_ITEM_COOLDOWN"] = {
+					["disabled"] = true,
+				},
+				["NOTIFICATION_PET_COOLDOWN"] = {
+					["disabled"] = true,
+				},
+				["NOTIFICATION_COOLDOWN"] = {
+					["disabled"] = true,
+				},
+			},
+			["hideFullOverheals"] = true,
+			["critFontName"] = "Friz Quadrata TT",
 			["enableBlizzardHealing"] = false,
-			["creationVersion"] = "5.7.148",
+			["normalFontName"] = "Friz Quadrata TT",
+			["throttleList"] = {
+				["Drain Life"] = 5,
+			},
+			["hideNames"] = true,
 		},
 	},
 }

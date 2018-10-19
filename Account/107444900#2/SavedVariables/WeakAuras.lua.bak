@@ -43,12 +43,12 @@ WeakAurasSaved = {
 						["genericShowOn"] = "showAlways",
 						["subeventPrefix"] = "SPELL",
 						["use_showgcd"] = true,
-						["buffShowOn"] = "showOnActive",
 						["spellName"] = 116849,
-						["use_trackcharge"] = false,
 						["debuffType"] = "HELPFUL",
+						["use_trackcharge"] = false,
+						["buffShowOn"] = "showOnActive",
 						["charges_operator"] = ">",
-						["type"] = "status",
+						["charges"] = "0",
 						["unit"] = "player",
 						["unevent"] = "auto",
 						["names"] = {
@@ -63,7 +63,7 @@ WeakAurasSaved = {
 						["trackcharge"] = "1",
 						["use_genericShowOn"] = true,
 						["use_remaining"] = false,
-						["charges"] = "0",
+						["type"] = "status",
 						["use_charges"] = false,
 					},
 					["untrigger"] = {
@@ -99,28 +99,28 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 40,
-			["icon"] = true,
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
 			["parent"] = "Mistweaver",
+			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Friz Quadrata TT",
-			["glow"] = false,
+			["text1Containment"] = "INSIDE",
+			["text1FontFlags"] = "OUTLINE",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["internalVersion"] = 9,
 			["stickyDuration"] = false,
 			["text2FontSize"] = 12,
-			["text2Enabled"] = false,
-			["text1"] = "V",
 			["alpha"] = 1,
-			["text2"] = "%s",
+			["text1"] = "V",
+			["text2Enabled"] = false,
 			["zoom"] = 0.25,
+			["text2"] = "%s",
 			["auto"] = true,
 			["xOffset"] = 165,
 			["id"] = "Life Cocoon",
@@ -170,7 +170,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["text2Font"] = "Friz Quadrata TT",
+			["glow"] = false,
 		},
 		["Revival"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -189,11 +189,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_showgcd"] = true,
 						["use_absorbMode"] = true,
-						["trackcharge"] = "1",
-						["use_trackcharge"] = false,
-						["debuffType"] = "HELPFUL",
-						["charges_operator"] = ">",
 						["type"] = "status",
+						["use_trackcharge"] = false,
+						["buffShowOn"] = "showOnActive",
+						["charges_operator"] = ">",
+						["trackcharge"] = "1",
 						["charges"] = "0",
 						["unevent"] = "auto",
 						["use_charges"] = false,
@@ -208,8 +208,8 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
 						["spellName"] = 115310,
-						["buffShowOn"] = "showOnActive",
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showAlways",
@@ -257,33 +257,38 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["internalVersion"] = 9,
-			["cooldownTextEnabled"] = true,
-			["text2Containment"] = "INSIDE",
 			["glow"] = false,
+			["internalVersion"] = 9,
+			["text2Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["text1FontFlags"] = "OUTLINE",
+			["cooldownTextEnabled"] = true,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
 			["useTooltip"] = false,
 			["stickyDuration"] = false,
 			["text2FontSize"] = 12,
-			["frameStrata"] = 1,
-			["text1"] = "1",
 			["text2Enabled"] = false,
-			["zoom"] = 0.25,
+			["text1"] = "1",
+			["frameStrata"] = 1,
 			["text2"] = "%s",
+			["zoom"] = 0.25,
 			["auto"] = true,
 			["parent"] = "Mistweaver",
 			["id"] = "Revival",
@@ -324,12 +329,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text2Font"] = "Friz Quadrata TT",
 		},
 		["Toggle Friendly Nameplates on Combat"] = {
 			["outline"] = "OUTLINE",
@@ -348,11 +348,11 @@ WeakAurasSaved = {
 			["actions"] = {
 				["start"] = {
 					["do_custom"] = true,
-					["custom"] = "SetCVar(\"nameplateShowFriendlyNPCs\", 0)",
+					["custom"] = "SetCVar(\"nameplateShowFriends\", 0)",
 				},
 				["finish"] = {
 					["do_custom"] = true,
-					["custom"] = "SetCVar(\"nameplateShowFriendlyNPCs\", 1)",
+					["custom"] = "SetCVar(\"nameplateShowFriends\", 1)",
 				},
 				["init"] = {
 				},
@@ -385,9 +385,6 @@ WeakAurasSaved = {
 			["justify"] = "LEFT",
 			["selfPoint"] = "BOTTOM",
 			["id"] = "Toggle Friendly Nameplates on Combat",
-			["wordWrap"] = "WordWrap",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -402,8 +399,11 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["wordWrap"] = "WordWrap",
 			["font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
+			["anchorPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["fixedWidth"] = 200,
@@ -421,7 +421,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["xOffset"] = 0,
 		},
 		["Renewing Mist"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -449,11 +449,11 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["use_showgcd"] = true,
 						["use_charges"] = false,
-						["trackcharge"] = "1",
-						["use_trackcharge"] = false,
-						["debuffType"] = "HELPFUL",
-						["charges_operator"] = ">",
 						["charges"] = "0",
+						["use_trackcharge"] = false,
+						["buffShowOn"] = "showOnActive",
+						["charges_operator"] = ">",
+						["trackcharge"] = "1",
 						["type"] = "status",
 						["unevent"] = "auto",
 						["use_remaining"] = false,
@@ -467,7 +467,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 115151,
 						["subeventPrefix"] = "SPELL",
-						["buffShowOn"] = "showOnActive",
+						["debuffType"] = "HELPFUL",
 						["names"] = {
 						},
 					},
@@ -549,17 +549,17 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["text1Font"] = "Friz Quadrata TT",
-			["icon"] = true,
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
+			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = -205,
+			["text1Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -579,8 +579,8 @@ WeakAurasSaved = {
 			["stickyDuration"] = false,
 			["text1"] = "W",
 			["text2Enabled"] = true,
-			["zoom"] = 0.25,
 			["text2"] = "%s",
+			["zoom"] = 0.25,
 			["auto"] = true,
 			["alpha"] = 1,
 			["id"] = "Renewing Mist",
@@ -681,7 +681,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -205,
+			["glow"] = false,
 		},
 		["Health Bar"] = {
 			["textFlags"] = "None",
@@ -799,8 +799,8 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["custom_hide"] = "timed",
 						["type"] = "custom",
-						["subeventSuffix"] = "_CAST_START",
 						["custom_type"] = "status",
+						["subeventSuffix"] = "_CAST_START",
 						["debuffType"] = "HELPFUL",
 						["unevent"] = "auto",
 						["event"] = "Conditions",
@@ -854,7 +854,7 @@ WeakAurasSaved = {
 			["border"] = false,
 			["borderEdge"] = "None",
 			["timer"] = true,
-			["borderInFront"] = true,
+			["borderSize"] = 16,
 			["actions"] = {
 				["start"] = {
 				},
@@ -869,7 +869,7 @@ WeakAurasSaved = {
 			["width"] = 280,
 			["customTextUpdate"] = "event",
 			["sparkHeight"] = 30,
-			["timerSize"] = 10,
+			["displayTextRight"] = "%n",
 			["id"] = "Health Bar",
 			["stacksColor"] = {
 				1, -- [1]
@@ -877,7 +877,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["displayTextRight"] = "%n",
+			["timerSize"] = 10,
 			["sparkOffsetX"] = 0,
 			["sparkHidden"] = "NEVER",
 			["borderOffset"] = 5,
@@ -889,7 +889,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["borderSize"] = 16,
+			["borderInFront"] = true,
 			["inverse"] = true,
 			["backdropColor"] = {
 				1, -- [1]
@@ -961,12 +961,12 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["hostility"] = "hostile",
 						["use_hostility"] = false,
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 115151,
-						["use_attackable"] = true,
 						["buffShowOn"] = "showOnActive",
+						["use_trackcharge"] = false,
+						["debuffType"] = "HELPFUL",
 						["charges_operator"] = ">",
-						["charges"] = "0",
+						["trackcharge"] = "1",
 						["unevent"] = "auto",
 						["subeventSuffix"] = "_CAST_START",
 						["use_remaining"] = false,
@@ -977,9 +977,9 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
+						["charges"] = "0",
+						["use_attackable"] = true,
 						["type"] = "status",
-						["use_trackcharge"] = false,
-						["trackcharge"] = "1",
 						["use_absorbMode"] = true,
 						["names"] = {
 						},
@@ -994,8 +994,8 @@ WeakAurasSaved = {
 						["type"] = "aura",
 						["subeventSuffix"] = "_CAST_START",
 						["buffShowOn"] = "showOnActive",
-						["event"] = "Health",
 						["countOperator"] = ">=",
+						["event"] = "Health",
 						["names"] = {
 							"Teachings of the Monastery", -- [1]
 						},
@@ -1074,18 +1074,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
 			["xOffset"] = 0,
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["do_sound"] = false,
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
 			["conditions"] = {
 				{
@@ -1140,7 +1131,16 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["displayIcon"] = 606551,
 			["cooldown"] = true,
-			["text1Containment"] = "INSIDE",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["do_sound"] = false,
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["Details! Boss Mods Group"] = {
 			["grow"] = "DOWN",
@@ -1187,7 +1187,7 @@ WeakAurasSaved = {
 			},
 			["constantFactor"] = "RADIUS",
 			["borderOffset"] = 16,
-			["id"] = "Details! Boss Mods Group",
+			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1202,11 +1202,11 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["align"] = "CENTER",
-			["stagger"] = 0,
+			["id"] = "Details! Boss Mods Group",
+			["rotation"] = 0,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["rotation"] = 0,
+			["stagger"] = 0,
 			["internalVersion"] = 9,
 			["selfPoint"] = "TOP",
 			["radius"] = 200,
@@ -1260,6 +1260,103 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "dynamicgroup",
 		},
+		["Mistweaver DPS"] = {
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["controlledChildren"] = {
+				"Tiger Palm", -- [1]
+				"Blackout Kick", -- [2]
+				"Spinning Crane Kick 3", -- [3]
+				"Rising Sun Kick", -- [4]
+				"Blackout Kick Falloff", -- [5]
+				"Spinning Crane Kick 4", -- [6]
+			},
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["xOffset"] = 215,
+			["border"] = false,
+			["borderEdge"] = "None",
+			["regionType"] = "group",
+			["borderSize"] = 16,
+			["borderColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["names"] = {
+						},
+						["type"] = "aura",
+						["spellIds"] = {
+						},
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["event"] = "Health",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["internalVersion"] = 9,
+			["yOffset"] = -60,
+			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Mistweaver DPS",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["borderOffset"] = 5,
+			["borderInset"] = 11,
+			["anchorPoint"] = "CENTER",
+			["scale"] = 1,
+			["conditions"] = {
+			},
+			["load"] = {
+				["use_class"] = "true",
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "MONK",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["expanded"] = false,
+		},
 		["Spinning Crane Kick 3"] = {
 			["text2Point"] = "BOTTOMRIGHT",
 			["text1FontSize"] = 12,
@@ -1308,12 +1405,12 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "target",
 						["use_alwaystrue"] = true,
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 115151,
-						["use_attackable"] = true,
 						["buffShowOn"] = "showOnActive",
+						["use_trackcharge"] = false,
+						["debuffType"] = "HELPFUL",
 						["charges_operator"] = ">",
-						["charges"] = "0",
+						["trackcharge"] = "1",
 						["unevent"] = "auto",
 						["subeventSuffix"] = "_CAST_START",
 						["use_remaining"] = false,
@@ -1324,9 +1421,9 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
+						["charges"] = "0",
+						["use_attackable"] = true,
 						["type"] = "status",
-						["use_trackcharge"] = false,
-						["trackcharge"] = "1",
 						["use_charges"] = false,
 						["hostility"] = "hostile",
 					},
@@ -1341,19 +1438,19 @@ WeakAurasSaved = {
 						["buffShowOn"] = "showOnActive",
 						["subeventSuffix"] = "_CAST_START",
 						["custom_type"] = "status",
+						["custom"] = "function()\n    HeroLib.GetEnemies(8)\n    return HeroCache.EnemiesCount[8] >= 3\nend\n\n\n\n\n\n\n",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
-						["event"] = "Health",
-						["names"] = {
-							"Teachings of the Monastery", -- [1]
-						},
-						["custom"] = "function()\n    HeroLib.GetEnemies(8)\n    return HeroCache.EnemiesCount[8] >= 3\nend\n\n\n\n\n\n\n",
 						["useCount"] = true,
 						["count"] = "3",
 						["countOperator"] = ">=",
 						["check"] = "update",
+						["names"] = {
+							"Teachings of the Monastery", -- [1]
+						},
 						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -1401,14 +1498,23 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["do_sound"] = false,
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["text2Containment"] = "INSIDE",
 			["conditions"] = {
 				{
@@ -1463,16 +1569,7 @@ WeakAurasSaved = {
 			["text1Font"] = "Friz Quadrata TT",
 			["displayIcon"] = 606551,
 			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["do_sound"] = false,
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["text1Containment"] = "INSIDE",
 		},
 		["Tiger Palm"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -1530,13 +1627,13 @@ WeakAurasSaved = {
 						["use_showgcd"] = true,
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "target",
-						["buffShowOn"] = "showOnActive",
 						["debuffType"] = "HELPFUL",
-						["trackcharge"] = "1",
-						["use_trackcharge"] = false,
 						["spellName"] = 115151,
-						["charges_operator"] = ">",
 						["charges"] = "0",
+						["use_attackable"] = true,
+						["buffShowOn"] = "showOnActive",
+						["charges_operator"] = ">",
+						["type"] = "status",
 						["unevent"] = "auto",
 						["subeventSuffix"] = "_CAST_START",
 						["use_remaining"] = false,
@@ -1547,8 +1644,8 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["type"] = "status",
-						["use_attackable"] = true,
+						["trackcharge"] = "1",
+						["use_trackcharge"] = false,
 						["use_charges"] = false,
 						["use_hostility"] = false,
 						["hostility"] = "hostile",
@@ -1599,14 +1696,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
 			["conditions"] = {
 				{
@@ -1661,7 +1758,7 @@ WeakAurasSaved = {
 			["text1Enabled"] = true,
 			["displayIcon"] = 606551,
 			["cooldown"] = true,
-			["text1Containment"] = "INSIDE",
+			["icon"] = true,
 		},
 		["Invoke Chi-Ji, the Red Crane"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -1690,11 +1787,11 @@ WeakAurasSaved = {
 						},
 						["use_showgcd"] = true,
 						["subeventPrefix"] = "SPELL",
-						["debuffType"] = "HELPFUL",
-						["use_trackcharge"] = false,
 						["buffShowOn"] = "showOnActive",
+						["use_trackcharge"] = false,
+						["debuffType"] = "HELPFUL",
 						["charges_operator"] = ">",
-						["type"] = "status",
+						["trackcharge"] = "1",
 						["spellName"] = 198664,
 						["subeventSuffix"] = "_CAST_START",
 						["unit"] = "player",
@@ -1708,7 +1805,7 @@ WeakAurasSaved = {
 						["use_remaining"] = false,
 						["use_charges"] = false,
 						["charges"] = "0",
-						["trackcharge"] = "1",
+						["type"] = "status",
 						["use_absorbMode"] = true,
 					},
 					["untrigger"] = {
@@ -1744,12 +1841,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 30,
-			["cooldownTextEnabled"] = true,
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
 			["icon"] = true,
+			["cooldownTextEnabled"] = true,
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text1Font"] = "Friz Quadrata TT",
-			["glow"] = false,
+			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -1769,11 +1866,11 @@ WeakAurasSaved = {
 			["useTooltip"] = false,
 			["stickyDuration"] = false,
 			["text2FontSize"] = 12,
-			["alpha"] = 1,
-			["text1"] = "A",
 			["frameStrata"] = 1,
-			["text2"] = "%s",
+			["text1"] = "A",
+			["alpha"] = 1,
 			["zoom"] = 0.25,
+			["text2"] = "%s",
 			["auto"] = true,
 			["color"] = {
 				1, -- [1]
@@ -1820,37 +1917,24 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["text1Enabled"] = true,
+			["glow"] = false,
 		},
-		["Mistweaver DPS"] = {
-			["backdropColor"] = {
+		["Thunder Focus Tea"] = {
+			["text2Point"] = "BOTTOMRIGHT",
+			["text1FontSize"] = 12,
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				0.5, -- [4]
+				1, -- [4]
 			},
-			["controlledChildren"] = {
-				"Tiger Palm", -- [1]
-				"Blackout Kick", -- [2]
-				"Spinning Crane Kick 3", -- [3]
-				"Rising Sun Kick", -- [4]
-				"Blackout Kick Falloff", -- [5]
-				"Spinning Crane Kick 4", -- [6]
-			},
-			["borderBackdrop"] = "Blizzard Tooltip",
-			["xOffset"] = 215,
-			["border"] = false,
-			["borderEdge"] = "None",
-			["regionType"] = "group",
-			["borderSize"] = 16,
-			["borderColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
+			["yOffset"] = -70,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
+					["do_glow"] = false,
+					["do_sound"] = false,
 				},
 				["init"] = {
 				},
@@ -1860,23 +1944,69 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
+						["use_alwaystrue"] = true,
+						["use_charges"] = false,
+						["genericShowOn"] = "showAlways",
 						["names"] = {
 						},
-						["type"] = "aura",
+						["use_showgcd"] = true,
+						["use_remaining"] = false,
+						["trackcharge"] = "1",
+						["use_trackcharge"] = false,
+						["debuffType"] = "HELPFUL",
+						["charges_operator"] = ">",
+						["type"] = "status",
+						["use_genericShowOn"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["use_absorbMode"] = true,
+						["charges"] = "0",
+						["event"] = "Cooldown Progress (Spell)",
+						["use_unit"] = true,
+						["realSpellName"] = "Thunder Focus Tea",
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["unit"] = "player",
+						["spellName"] = 116680,
+						["buffShowOn"] = "showOnActive",
 						["subeventPrefix"] = "SPELL",
-						["event"] = "Health",
+					},
+					["untrigger"] = {
+						["genericShowOn"] = "showAlways",
+					},
+				}, -- [1]
+				{
+					["trigger"] = {
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showOnCooldown",
+						["use_unit"] = true,
+						["spellName"] = 0,
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["ownOnly"] = true,
+						["buffShowOn"] = "showAlways",
+						["event"] = "Cooldown Progress (Spell)",
 						["debuffType"] = "HELPFUL",
+						["realSpellName"] = 0,
+						["use_spellName"] = true,
+						["spellIds"] = {
+						},
+						["unevent"] = "auto",
+						["names"] = {
+							"Thunder Focus Tea", -- [1]
+						},
+						["use_absorbMode"] = true,
+						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
 					},
 					["untrigger"] = {
 					},
-				}, -- [1]
+				}, -- [2]
+				["activeTriggerMode"] = -10,
 			},
-			["internalVersion"] = 9,
-			["selfPoint"] = "BOTTOMLEFT",
+			["text1Enabled"] = true,
+			["keepAspectRatio"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -1891,24 +2021,21 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Mistweaver DPS",
-			["anchorPoint"] = "CENTER",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["yOffset"] = -60,
-			["borderInset"] = 11,
-			["expanded"] = false,
-			["scale"] = 1,
-			["conditions"] = {
-			},
+			["text1Containment"] = "INSIDE",
+			["text1Point"] = "TOPRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 30,
 			["load"] = {
-				["use_class"] = "true",
-				["spec"] = {
+				["use_class"] = true,
+				["use_spec"] = true,
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["use_combat"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
@@ -1917,7 +2044,66 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["borderOffset"] = 5,
+			["anchorFrameType"] = "SCREEN",
+			["internalVersion"] = 9,
+			["useTooltip"] = false,
+			["text2Containment"] = "INSIDE",
+			["glow"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["xOffset"] = -310,
+			["icon"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 12,
+			["stickyDuration"] = false,
+			["text1"] = "Z",
+			["text2Enabled"] = false,
+			["text2"] = "%s",
+			["zoom"] = 0.25,
+			["auto"] = true,
+			["frameStrata"] = 1,
+			["id"] = "Thunder Focus Tea",
+			["parent"] = "Mistweaver",
+			["alpha"] = 1,
+			["width"] = 30,
+			["text1FontFlags"] = "OUTLINE",
+			["desaturate"] = false,
+			["inverse"] = false,
+			["text1Font"] = "Friz Quadrata TT",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 1,
+						["variable"] = "onCooldown",
+						["value"] = 1,
+						["op"] = "==",
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+						{
+							["value"] = 0.5,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+			["cooldown"] = true,
+			["cooldownTextEnabled"] = true,
 		},
 		["Tank Nameplate on Top"] = {
 			["outline"] = "OUTLINE",
@@ -1975,25 +2161,12 @@ WeakAurasSaved = {
 			["justify"] = "LEFT",
 			["selfPoint"] = "BOTTOM",
 			["id"] = "Tank Nameplate on Top",
-			["xOffset"] = 0,
+			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["anchorPoint"] = "CENTER",
+			["xOffset"] = 0,
 			["font"] = "Friz Quadrata TT",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["wordWrap"] = "WordWrap",
 			["fixedWidth"] = 200,
 			["conditions"] = {
 			},
@@ -2001,6 +2174,7 @@ WeakAurasSaved = {
 				["role"] = {
 					["single"] = "TANK",
 				},
+				["use_never"] = true,
 				["use_role"] = true,
 				["class"] = {
 					["multi"] = {
@@ -2019,7 +2193,20 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["wordWrap"] = "WordWrap",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Mistweaver"] = {
 			["backdropColor"] = {
@@ -2075,7 +2262,9 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["internalVersion"] = 9,
+			["yOffset"] = 0,
 			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Mistweaver",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2090,13 +2279,11 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Mistweaver",
-			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["yOffset"] = 0,
+			["borderOffset"] = 5,
 			["borderInset"] = 11,
-			["expanded"] = false,
+			["anchorPoint"] = "CENTER",
 			["scale"] = 1,
 			["conditions"] = {
 			},
@@ -2116,7 +2303,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["borderOffset"] = 5,
+			["expanded"] = false,
 		},
 		["Details! Aura Group"] = {
 			["grow"] = "RIGHT",
@@ -2166,10 +2353,10 @@ WeakAurasSaved = {
 			["backgroundInset"] = 0,
 			["selfPoint"] = "LEFT",
 			["align"] = "CENTER",
-			["stagger"] = 0,
+			["rotation"] = 0,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["rotation"] = 0,
+			["stagger"] = 0,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -2217,7 +2404,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -2226,7 +2413,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_combat"] = true,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -2237,15 +2424,10 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "dynamicgroup",
 		},
-		["Spinning Crane Kick 4"] = {
-			["glow"] = false,
+		["Blackout Kick"] = {
+			["text2Point"] = "BOTTOMRIGHT",
 			["text1FontSize"] = 12,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = 0,
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
@@ -2262,26 +2444,26 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["use_absorbMode"] = true,
+						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnReady",
-						["names"] = {
-						},
+						["use_unit"] = true,
 						["use_showgcd"] = true,
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
-						["unevent"] = "auto",
-						["use_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
 						["event"] = "Cooldown Progress (Spell)",
-						["use_genericShowOn"] = true,
-						["realSpellName"] = "Spinning Crane Kick",
+						["use_absorbMode"] = true,
+						["realSpellName"] = "Blackout Kick",
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["subeventSuffix"] = "_CAST_START",
-						["spellName"] = 101546,
+						["unevent"] = "auto",
+						["spellName"] = 100784,
 						["subeventPrefix"] = "SPELL",
-						["unit"] = "player",
 						["buffShowOn"] = "showOnActive",
+						["names"] = {
+						},
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showOnReady",
@@ -2290,13 +2472,14 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["use_unitisunit"] = false,
-						["use_alwaystrue"] = true,
-						["use_absorbMode"] = true,
-						["genericShowOn"] = "showAlways",
-						["unit"] = "target",
-						["use_showgcd"] = true,
-						["hostility"] = "hostile",
+						["use_hostility"] = false,
 						["use_charges"] = false,
+						["genericShowOn"] = "showAlways",
+						["hostility"] = "hostile",
+						["use_showgcd"] = true,
+						["names"] = {
+						},
+						["use_absorbMode"] = true,
 						["trackcharge"] = "1",
 						["use_trackcharge"] = false,
 						["type"] = "status",
@@ -2316,9 +2499,8 @@ WeakAurasSaved = {
 						},
 						["buffShowOn"] = "showOnActive",
 						["spellName"] = 115151,
-						["use_hostility"] = false,
-						["names"] = {
-						},
+						["use_alwaystrue"] = true,
+						["unit"] = "target",
 						["subeventPrefix"] = "SPELL",
 					},
 					["untrigger"] = {
@@ -2328,48 +2510,31 @@ WeakAurasSaved = {
 				}, -- [2]
 				{
 					["trigger"] = {
-						["type"] = "custom",
-						["debuffType"] = "HELPFUL",
-						["custom_type"] = "status",
-						["subeventPrefix"] = "SPELL",
-						["unit"] = "player",
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+						["useCount"] = true,
+						["count"] = "3",
+						["unit"] = "player",
 						["names"] = {
 							"Teachings of the Monastery", -- [1]
 						},
-						["count"] = "3",
-						["useCount"] = true,
-						["custom"] = "function()\n    HeroLib.GetEnemies(8)\n    return HeroCache.EnemiesCount[8] >= 4\nend\n\n\n\n\n\n\n",
-						["countOperator"] = ">=",
-						["check"] = "update",
 						["spellIds"] = {
 						},
-						["subeventSuffix"] = "_CAST_START",
+						["countOperator"] = ">=",
 						["buffShowOn"] = "showOnActive",
 					},
 					["untrigger"] = {
-						["custom"] = "function()\n    HeroLib.GetEnemies(8)\n    return HeroCache.EnemiesCount[8] < 4\nend\n\n\n\n\n\n\n\n\n",
 					},
 				}, -- [3]
 				["activeTriggerMode"] = -10,
 			},
-			["text1Enabled"] = true,
+			["useTooltip"] = false,
 			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["text1Point"] = "TOPRIGHT",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 50,
@@ -2392,14 +2557,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["internalVersion"] = 9,
-			["parent"] = "Mistweaver DPS",
+			["text1Enabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["icon"] = true,
 			["text2Containment"] = "INSIDE",
 			["displayIcon"] = 606551,
 			["text1Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
-			["text1FontFlags"] = "OUTLINE",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2411,25 +2599,20 @@ WeakAurasSaved = {
 			["text2Font"] = "Friz Quadrata TT",
 			["text2FontSize"] = 12,
 			["anchorFrameType"] = "SCREEN",
-			["text1"] = "S:W",
+			["text1"] = "S:T",
 			["text2Enabled"] = false,
-			["selfPoint"] = "CENTER",
-			["zoom"] = 0.25,
-			["auto"] = true,
+			["glow"] = false,
 			["text2"] = "%s",
-			["id"] = "Spinning Crane Kick 4",
-			["text2Point"] = "BOTTOMRIGHT",
+			["auto"] = true,
+			["zoom"] = 0.25,
+			["id"] = "Blackout Kick",
+			["cooldownTextEnabled"] = true,
 			["frameStrata"] = 1,
 			["width"] = 50,
-			["cooldownTextEnabled"] = true,
-			["xOffset"] = 0,
+			["text1FontFlags"] = "OUTLINE",
+			["parent"] = "Mistweaver DPS",
 			["inverse"] = false,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["internalVersion"] = 9,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2449,7 +2632,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["useTooltip"] = false,
+			["text1Containment"] = "INSIDE",
 		},
 		["Mana Bar"] = {
 			["sparkWidth"] = 10,
@@ -2677,10 +2860,15 @@ WeakAurasSaved = {
 			},
 			["zoom"] = 0,
 		},
-		["Blackout Kick"] = {
-			["text2Point"] = "BOTTOMRIGHT",
+		["Spinning Crane Kick 4"] = {
+			["glow"] = false,
 			["text1FontSize"] = 12,
-			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
@@ -2697,26 +2885,26 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["use_genericShowOn"] = true,
+						["use_absorbMode"] = true,
 						["genericShowOn"] = "showOnReady",
-						["use_unit"] = true,
+						["names"] = {
+						},
 						["use_showgcd"] = true,
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
-						["subeventSuffix"] = "_CAST_START",
-						["unit"] = "player",
+						["unevent"] = "auto",
+						["use_unit"] = true,
 						["event"] = "Cooldown Progress (Spell)",
-						["use_absorbMode"] = true,
-						["realSpellName"] = "Blackout Kick",
+						["use_genericShowOn"] = true,
+						["realSpellName"] = "Spinning Crane Kick",
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["unevent"] = "auto",
-						["spellName"] = 100784,
+						["subeventSuffix"] = "_CAST_START",
+						["spellName"] = 101546,
 						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
 						["buffShowOn"] = "showOnActive",
-						["names"] = {
-						},
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showOnReady",
@@ -2725,21 +2913,20 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["use_unitisunit"] = false,
-						["use_hostility"] = false,
-						["use_charges"] = false,
-						["genericShowOn"] = "showAlways",
-						["hostility"] = "hostile",
-						["use_showgcd"] = true,
-						["names"] = {
-						},
+						["use_alwaystrue"] = true,
 						["use_absorbMode"] = true,
-						["charges"] = "0",
-						["use_attackable"] = true,
-						["trackcharge"] = "1",
-						["use_trackcharge"] = false,
-						["buffShowOn"] = "showOnActive",
-						["charges_operator"] = ">",
+						["genericShowOn"] = "showAlways",
+						["unit"] = "target",
+						["use_showgcd"] = true,
+						["hostility"] = "hostile",
+						["use_charges"] = false,
 						["type"] = "status",
+						["use_attackable"] = true,
+						["charges"] = "0",
+						["use_trackcharge"] = false,
+						["spellName"] = 115151,
+						["charges_operator"] = ">",
+						["trackcharge"] = "1",
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
 						["use_remaining"] = false,
@@ -2750,10 +2937,11 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["spellName"] = 115151,
 						["debuffType"] = "HELPFUL",
-						["use_alwaystrue"] = true,
-						["unit"] = "target",
+						["buffShowOn"] = "showOnActive",
+						["use_hostility"] = false,
+						["names"] = {
+						},
 						["subeventPrefix"] = "SPELL",
 					},
 					["untrigger"] = {
@@ -2763,31 +2951,48 @@ WeakAurasSaved = {
 				}, -- [2]
 				{
 					["trigger"] = {
-						["type"] = "aura",
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
+						["type"] = "custom",
 						["debuffType"] = "HELPFUL",
-						["useCount"] = true,
-						["count"] = "3",
+						["custom_type"] = "status",
 						["unit"] = "player",
 						["names"] = {
 							"Teachings of the Monastery", -- [1]
 						},
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["count"] = "3",
+						["useCount"] = true,
 						["spellIds"] = {
 						},
 						["countOperator"] = ">=",
+						["check"] = "update",
+						["custom"] = "function()\n    HeroLib.GetEnemies(8)\n    return HeroCache.EnemiesCount[8] >= 4\nend\n\n\n\n\n\n\n",
+						["subeventSuffix"] = "_CAST_START",
 						["buffShowOn"] = "showOnActive",
 					},
 					["untrigger"] = {
+						["custom"] = "function()\n    HeroLib.GetEnemies(8)\n    return HeroCache.EnemiesCount[8] < 4\nend\n\n\n\n\n\n\n\n\n",
 					},
 				}, -- [3]
 				["activeTriggerMode"] = -10,
 			},
-			["useTooltip"] = false,
+			["text1Enabled"] = true,
 			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["text1Containment"] = "INSIDE",
 			["text1Point"] = "TOPRIGHT",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 50,
@@ -2810,37 +3015,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["text1Enabled"] = true,
-			["text1Containment"] = "INSIDE",
+			["parent"] = "Mistweaver DPS",
+			["internalVersion"] = 9,
+			["useTooltip"] = false,
 			["text2Containment"] = "INSIDE",
 			["displayIcon"] = 606551,
 			["text1Font"] = "Friz Quadrata TT",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
+			["text1FontFlags"] = "OUTLINE",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2852,20 +3034,25 @@ WeakAurasSaved = {
 			["text2Font"] = "Friz Quadrata TT",
 			["text2FontSize"] = 12,
 			["anchorFrameType"] = "SCREEN",
-			["text1"] = "S:T",
+			["text1"] = "S:W",
 			["text2Enabled"] = false,
-			["glow"] = false,
-			["text2"] = "%s",
-			["auto"] = true,
+			["selfPoint"] = "CENTER",
 			["zoom"] = 0.25,
-			["id"] = "Blackout Kick",
-			["cooldownTextEnabled"] = true,
+			["auto"] = true,
+			["text2"] = "%s",
+			["id"] = "Spinning Crane Kick 4",
+			["text2Point"] = "BOTTOMRIGHT",
 			["frameStrata"] = 1,
 			["width"] = 50,
-			["text1FontFlags"] = "OUTLINE",
-			["parent"] = "Mistweaver DPS",
+			["cooldownTextEnabled"] = true,
+			["xOffset"] = 0,
 			["inverse"] = false,
-			["internalVersion"] = 9,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2935,12 +3122,12 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "target",
 						["use_alwaystrue"] = true,
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 115151,
-						["use_attackable"] = true,
 						["buffShowOn"] = "showOnActive",
+						["use_trackcharge"] = false,
+						["debuffType"] = "HELPFUL",
 						["charges_operator"] = ">",
-						["charges"] = "0",
+						["trackcharge"] = "1",
 						["unevent"] = "auto",
 						["subeventSuffix"] = "_CAST_START",
 						["use_remaining"] = false,
@@ -2951,9 +3138,9 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
+						["charges"] = "0",
+						["use_attackable"] = true,
 						["type"] = "status",
-						["use_trackcharge"] = false,
-						["trackcharge"] = "1",
 						["use_charges"] = false,
 						["hostility"] = "hostile",
 					},
@@ -3003,14 +3190,23 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["do_sound"] = false,
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["text2Containment"] = "INSIDE",
 			["conditions"] = {
 				{
@@ -3065,105 +3261,55 @@ WeakAurasSaved = {
 			["text1Font"] = "Friz Quadrata TT",
 			["displayIcon"] = 606551,
 			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["do_sound"] = false,
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["text1Containment"] = "INSIDE",
 		},
-		["Thunder Focus Tea"] = {
-			["text2Point"] = "BOTTOMRIGHT",
-			["text1FontSize"] = 12,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["yOffset"] = -70,
-			["anchorPoint"] = "CENTER",
+		["Toggle TipTac Anchor"] = {
+			["outline"] = "OUTLINE",
+			["fontSize"] = 12,
+			["xOffset"] = 0,
+			["displayText"] = "",
+			["yOffset"] = 0,
+			["regionType"] = "text",
 			["customTextUpdate"] = "update",
+			["automaticWidth"] = "Auto",
 			["actions"] = {
 				["start"] = {
-					["do_glow"] = false,
-					["do_sound"] = false,
+					["do_custom"] = true,
+					["custom"] = "TipTac_Config.anchorWorldUnitType = \"normal\"",
 				},
 				["init"] = {
 				},
 				["finish"] = {
+					["do_custom"] = true,
+					["custom"] = "TipTac_Config.anchorWorldUnitType = \"mouse\"",
 				},
 			},
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["use_alwaystrue"] = true,
-						["use_charges"] = false,
-						["genericShowOn"] = "showAlways",
-						["names"] = {
-						},
-						["use_showgcd"] = true,
 						["type"] = "status",
-						["use_remaining"] = false,
-						["use_trackcharge"] = false,
-						["buffShowOn"] = "showOnActive",
-						["charges_operator"] = ">",
-						["trackcharge"] = "1",
-						["use_genericShowOn"] = true,
+						["use_incombat"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["use_absorbMode"] = true,
-						["charges"] = "0",
-						["event"] = "Cooldown Progress (Spell)",
-						["use_unit"] = true,
-						["realSpellName"] = "Thunder Focus Tea",
-						["use_spellName"] = true,
+						["event"] = "Conditions",
+						["subeventPrefix"] = "SPELL",
+						["buffShowOn"] = "showOnActive",
 						["spellIds"] = {
 						},
 						["unevent"] = "auto",
+						["use_unit"] = true,
+						["names"] = {
+						},
 						["unit"] = "player",
-						["spellName"] = 116680,
 						["debuffType"] = "HELPFUL",
-						["subeventPrefix"] = "SPELL",
 					},
 					["untrigger"] = {
-						["genericShowOn"] = "showAlways",
 					},
 				}, -- [1]
-				{
-					["trigger"] = {
-						["use_genericShowOn"] = true,
-						["genericShowOn"] = "showOnCooldown",
-						["use_unit"] = true,
-						["spellName"] = 0,
-						["type"] = "aura",
-						["subeventSuffix"] = "_CAST_START",
-						["ownOnly"] = true,
-						["buffShowOn"] = "showAlways",
-						["event"] = "Cooldown Progress (Spell)",
-						["debuffType"] = "HELPFUL",
-						["realSpellName"] = 0,
-						["use_spellName"] = true,
-						["spellIds"] = {
-						},
-						["unevent"] = "auto",
-						["names"] = {
-							"Thunder Focus Tea", -- [1]
-						},
-						["use_absorbMode"] = true,
-						["subeventPrefix"] = "SPELL",
-						["unit"] = "player",
-					},
-					["untrigger"] = {
-					},
-				}, -- [2]
 				["activeTriggerMode"] = -10,
 			},
-			["text1Enabled"] = true,
-			["keepAspectRatio"] = false,
+			["internalVersion"] = 9,
+			["justify"] = "LEFT",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3178,21 +3324,27 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["text1Point"] = "TOPRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 30,
+			["id"] = "Toggle TipTac Anchor",
+			["anchorPoint"] = "CENTER",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["font"] = "Friz Quadrata TT",
+			["wordWrap"] = "WordWrap",
+			["fixedWidth"] = 200,
+			["conditions"] = {
+			},
 			["load"] = {
-				["use_class"] = true,
-				["use_spec"] = true,
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
-				["spec"] = {
-					["single"] = 2,
+				["class"] = {
 					["multi"] = {
 					},
 				},
@@ -3201,66 +3353,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorFrameType"] = "SCREEN",
-			["useTooltip"] = false,
-			["xOffset"] = -310,
-			["text2Containment"] = "INSIDE",
-			["internalVersion"] = 9,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextEnabled"] = true,
-			["icon"] = true,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["text2Font"] = "Friz Quadrata TT",
-			["text2FontSize"] = 12,
-			["stickyDuration"] = false,
-			["text1"] = "Z",
-			["text2Enabled"] = false,
-			["zoom"] = 0.25,
-			["text2"] = "%s",
-			["auto"] = true,
-			["frameStrata"] = 1,
-			["id"] = "Thunder Focus Tea",
-			["parent"] = "Mistweaver",
-			["alpha"] = 1,
-			["width"] = 30,
-			["text1FontFlags"] = "OUTLINE",
-			["desaturate"] = false,
-			["inverse"] = false,
-			["text1Font"] = "Friz Quadrata TT",
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 1,
-						["variable"] = "onCooldown",
-						["value"] = 1,
-						["op"] = "==",
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-						{
-							["value"] = 0.5,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [1]
-			},
-			["cooldown"] = true,
-			["glow"] = true,
+			["selfPoint"] = "BOTTOM",
 		},
 		["Essence Font"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -3280,11 +3373,11 @@ WeakAurasSaved = {
 						["use_showgcd"] = true,
 						["names"] = {
 						},
-						["buffShowOn"] = "showOnActive",
-						["use_trackcharge"] = false,
 						["debuffType"] = "HELPFUL",
+						["use_trackcharge"] = false,
+						["buffShowOn"] = "showOnActive",
 						["charges_operator"] = ">",
-						["trackcharge"] = "1",
+						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
 						["unevent"] = "auto",
 						["spellName"] = 191837,
@@ -3298,8 +3391,8 @@ WeakAurasSaved = {
 						["charges"] = "0",
 						["use_absorbMode"] = true,
 						["use_genericShowOn"] = true,
+						["trackcharge"] = "1",
 						["use_remaining"] = false,
-						["type"] = "status",
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showAlways",
@@ -3334,6 +3427,12 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 30,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -3344,16 +3443,10 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -240,
 			["text1Font"] = "Friz Quadrata TT",
-			["glow"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -3373,11 +3466,11 @@ WeakAurasSaved = {
 			["text1Containment"] = "INSIDE",
 			["stickyDuration"] = false,
 			["text2FontSize"] = 12,
-			["frameStrata"] = 1,
-			["text1"] = "Q",
 			["alpha"] = 1,
-			["text2"] = "%s",
+			["text1"] = "Q",
+			["frameStrata"] = 1,
 			["zoom"] = 0.25,
+			["text2"] = "%s",
 			["auto"] = true,
 			["cooldownTextEnabled"] = true,
 			["id"] = "Essence Font",
@@ -3419,14 +3512,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -240,
+			["glow"] = false,
 		},
 	},
 	["frame"] = {
-		["xOffset"] = -1291.13348388672,
+		["xOffset"] = -168.000122070313,
 		["width"] = 629.999938964844,
 		["height"] = 492,
-		["yOffset"] = -12,
+		["yOffset"] = -127.999755859375,
 	},
 	["editor_theme"] = "Monokai",
 }

@@ -60,6 +60,11 @@ HandyNotesDB = {
 		["Simetra - La Croisade écarlate"] = {
 		},
 		["Nephily - La Croisade écarlate"] = {
+			["enabled"] = false,
+			["icon_scale"] = 0.8,
+			["icon_alpha_minimap"] = 0.5,
+			["icon_alpha"] = 0.5,
+			["icon_scale_minimap"] = 0.8,
 		},
 		["Tsuma - La Croisade écarlate"] = {
 		},

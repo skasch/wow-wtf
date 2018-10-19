@@ -251,3 +251,4 @@ RareScanner: disabled
 LookingForGroup: disabled
 SilverDragon: disabled
 Kui_Nameplates_Core_Config: enabled
+HeroLib: enabled

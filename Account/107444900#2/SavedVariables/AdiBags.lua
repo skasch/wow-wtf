@@ -30,36 +30,36 @@ AdiBagsDB = {
 					["version"] = 3,
 					["overrides"] = {
 						[141389] = "Consumable#Artifact",
-						[141401] = "Consumable#Artifact",
 						[140192] = "New#Important",
+						[141401] = "Consumable#Artifact",
 						[138782] = "Consumable#Artifact",
 						[139611] = "Consumable#Artifact",
-						[140519] = "Consumable#Artifact",
-						[141386] = "Consumable#Artifact",
-						[6948] = "New#Important",
-						[138783] = "Consumable#Artifact",
-						[139507] = "Consumable#Artifact",
-						[140310] = "Consumable#Artifact",
-						[139608] = "Consumable#Artifact",
-						[141384] = "Consumable#Artifact",
-						[141383] = "Consumable#Artifact",
 						[141387] = "Consumable#Artifact",
+						[140518] = "Consumable#Artifact",
+						[139608] = "Consumable#Artifact",
+						[140519] = "Consumable#Artifact",
+						[141863] = "Consumable#Artifact",
+						[140310] = "Consumable#Artifact",
+						[6948] = "New#Important",
+						[130152] = "Consumable#Artifact",
+						[141383] = "Consumable#Artifact",
+						[138783] = "Consumable#Artifact",
 						[141391] = "Consumable#Artifact",
 						[141023] = "Consumable#Artifact",
 						[141399] = "Consumable#Artifact",
 						[141403] = "Consumable#Artifact",
-						[110560] = "New#Important",
+						[141384] = "Consumable#Artifact",
 						[141388] = "Consumable#Artifact",
-						[130152] = "Consumable#Artifact",
+						[110560] = "New#Important",
 						[141605] = "New#Important",
 						[141392] = "Consumable#Artifact",
 						[138885] = "Consumable#Artifact",
 						[141896] = "Consumable#Artifact",
 						[141652] = "New#Important",
-						[141863] = "Consumable#Artifact",
+						[139507] = "Consumable#Artifact",
 						[138839] = "Consumable#Artifact",
 						[138781] = "Consumable#Artifact",
-						[140518] = "Consumable#Artifact",
+						[141386] = "Consumable#Artifact",
 					},
 				},
 			},
@@ -106,6 +106,8 @@ AdiBagsDB = {
 		},
 		["Equipment"] = {
 		},
+		["ItemSets"] = {
+		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -148,8 +150,6 @@ AdiBagsDB = {
 		},
 		["DataSource"] = {
 		},
-		["ItemSets"] = {
-		},
 		["Junk"] = {
 		},
 		["MoneyFrame"] = {
@@ -191,6 +191,9 @@ AdiBagsDB = {
 				["others"] = true,
 			},
 			["scale"] = 0.9,
+			["bags"] = {
+				["Bank"] = false,
+			},
 			["modules"] = {
 				["Artifact Power Currency"] = false,
 			},

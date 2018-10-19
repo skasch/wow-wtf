@@ -214,3 +214,4 @@ Kui_Nameplates_Core_Config: enabled
 Prat-3.0: enabled
 BigWigs_CommonAuras: enabled
 BigWigs_Countdown_HeroesOfTheStorm: enabled
+HeroLib: enabled

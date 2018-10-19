@@ -1,0 +1,2 @@
+
+MoreItemInfoVars = nil

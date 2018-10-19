@@ -54,3 +54,6 @@ Simulationcraft: enabled
 ShadowedUnitFrames: enabled
 TipTac: disabled
 TomTom: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

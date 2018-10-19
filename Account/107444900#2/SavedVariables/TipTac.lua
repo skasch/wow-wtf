@@ -87,14 +87,14 @@ TipTac_Config = {
 	["barTexture"] = "Interface\\AddOns\\Details\\images\\bar_serenity",
 	["manaBarText"] = "percent",
 	["showStatus"] = true,
-	["anchorWorldUnitPoint"] = "TOPRIGHT",
+	["anchorFrameTipType"] = "mouse",
 	["healthBarColor"] = {
 		0.301960784313726, -- [1]
 		0.901960784313726, -- [2]
 		0.301960784313726, -- [3]
 		1, -- [4]
 	},
-	["anchorFrameTipType"] = "mouse",
+	["anchorWorldUnitPoint"] = "TOPRIGHT",
 	["talentOnlyInParty"] = false,
 	["classification_worldboss"] = "%s|r (Boss) ",
 	["classColoredBorder"] = false,

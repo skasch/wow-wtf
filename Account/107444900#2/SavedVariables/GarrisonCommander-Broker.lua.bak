@@ -4,7 +4,13 @@ dbGACB = {
 		["Sueki - La Croisade écarlate"] = {
 			["firstun"] = false,
 		},
+		["Kanpa - Elune"] = {
+			["firstun"] = false,
+		},
 		["Asane - La Croisade écarlate"] = {
+			["firstun"] = false,
+		},
+		["Tsuri - La Croisade écarlate"] = {
 			["firstun"] = false,
 		},
 		["Onaka - La Croisade écarlate"] = {
@@ -13,7 +19,7 @@ dbGACB = {
 		["Skasch - La Croisade écarlate"] = {
 			["firstun"] = false,
 		},
-		["Tsuri - La Croisade écarlate"] = {
+		["Skasch - Elune"] = {
 			["firstun"] = false,
 		},
 	},
@@ -31,6 +37,33 @@ dbGACB = {
 		},
 	},
 	["realm"] = {
+		["Elune"] = {
+			["cachesize"] = {
+				["Skasch"] = 500,
+				["Kanpa"] = 500,
+			},
+			["farms"] = {
+				["Skasch"] = {
+					["Lunarfall Excavation"] = 0,
+					["Herb Garden"] = 0,
+				},
+				["Kanpa"] = {
+					["Lunarfall Excavation"] = 0,
+					["Herb Garden"] = 0,
+				},
+			},
+			["orders"] = {
+				["Skasch"] = {
+					["Alchemy Lab"] = 0,
+					["Herb Garden"] = 0,
+					["Lunarfall Shipyard"] = 0,
+				},
+				["Kanpa"] = {
+					["Herb Garden"] = 0,
+					["Alchemy Lab"] = 0,
+				},
+			},
+		},
 		["La Croisade écarlate"] = {
 			["cachesize"] = {
 				["Tsuri"] = 500,
@@ -38,6 +71,21 @@ dbGACB = {
 				["Sueki"] = 500,
 				["Asane"] = 500,
 				["Onaka"] = 500,
+			},
+			["missions"] = {
+				"000001535916650.1928.Skasch.22", -- [1]
+				"000001535969838.1927.Asane.22", -- [2]
+				"000001536022404.1923.Sueki.22", -- [3]
+				"000001536024440.2084.Sueki.22", -- [4]
+			},
+			["orders"] = {
+				["Asane"] = {
+					["Lumber Mill"] = 0,
+					["Engineering Works"] = 0,
+				},
+				["Skasch"] = {
+					["Scribe's Quarters"] = 0,
+				},
 			},
 			["farms"] = {
 				["Asane"] = {
@@ -49,29 +97,16 @@ dbGACB = {
 					["Frostwall Mines"] = 0,
 				},
 			},
-			["orders"] = {
-				["Asane"] = {
-					["Lumber Mill"] = 0,
-					["Engineering Works"] = 0,
-				},
-				["Skasch"] = {
-					["Scribe's Quarters"] = 0,
-				},
-			},
-			["missions"] = {
-				"000001535916650.1928.Skasch.22", -- [1]
-				"000001535969838.1927.Asane.22", -- [2]
-				"000001536022404.1923.Sueki.22", -- [3]
-				"000001536024440.2084.Sueki.22", -- [4]
-			},
 		},
 	},
 	["profileKeys"] = {
 		["Sueki - La Croisade écarlate"] = "Default",
+		["Kanpa - Elune"] = "Default",
 		["Asane - La Croisade écarlate"] = "Default",
+		["Tsuri - La Croisade écarlate"] = "Default",
 		["Onaka - La Croisade écarlate"] = "Default",
 		["Skasch - La Croisade écarlate"] = "Default",
-		["Tsuri - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

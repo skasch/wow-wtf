@@ -1,11 +1,23 @@
 
 RareScannerDB = {
 	["char"] = {
-		["Skasch - La Croisade écarlate"] = {
+		["Kanpa - Elune"] = {
 			["events_completed"] = {
 			},
 			["containers_opened"] = {
 			},
+			["rares_killed"] = {
+			},
+		},
+		["Skasch - Elune"] = {
+			["containers_opened"] = {
+			},
+			["rares_killed"] = {
+			},
+			["events_completed"] = {
+			},
+		},
+		["Skasch - La Croisade écarlate"] = {
 			["rares_killed"] = {
 				[122815] = -1,
 				[124804] = 1538809199,
@@ -14,8 +26,14 @@ RareScannerDB = {
 				[122835] = -1,
 				[123130] = -1,
 			},
+			["events_completed"] = {
+			},
+			["containers_opened"] = {
+			},
 		},
 		["Asane - La Croisade écarlate"] = {
+			["events_completed"] = {
+			},
 			["containers_opened"] = {
 			},
 			["rares_killed"] = {
@@ -71,61 +89,425 @@ RareScannerDB = {
 				[133190] = -1,
 				[136254] = -1,
 			},
-			["events_completed"] = {
-			},
 		},
 	},
 	["global"] = {
+		["loot_info"] = {
+			[160123] = {
+				"|cff1eff00|Hitem:160123::::::::120:269::::::|h[Direbone Frill Legplates]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				1672320, -- [4]
+				4, -- [5]
+				4, -- [6]
+			},
+			[163856] = {
+				"|cffffffff|Hitem:163856::::::::120:269::::::|h[Ancient Pilgrimage Scrollcasing]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				454060, -- [4]
+				12, -- [5]
+				0, -- [6]
+			},
+			[161407] = {
+				"|cffa335ee|Hitem:161407::::::::120:269::::::|h[Windshear Leggings]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				1991837, -- [4]
+				4, -- [5]
+				3, -- [6]
+			},
+			[153162] = {
+				"|cff9d9d9d|Hitem:153162::::::::120:261::::::|h[Unattuned Portal Stones]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				1385913, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[164384] = {
+				"|cffa335ee|Hitem:164384::::::::120:269::::::|h[Windswept Dinorider's Cape]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_CLOAK", -- [3]
+				2054623, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[163849] = {
+				"|cff9d9d9d|Hitem:163849::::::::120:269::::::|h[Bad Troll Love Poem]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				134332, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[160148] = {
+				"|cff1eff00|Hitem:160148::::::::120:269::::::|h[Saurifeather Pants]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				1762579, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[152856] = {
+				"|cff9d9d9d|Hitem:152856::::::::120:261::::::|h[Fel-Scorched Portal Crystal]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				133451, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[152738] = {
+				"|cff0070dd|Hitem:152738::::::::120:261::::::|h[Unsullied Cloth Cap]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				422805, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[93025] = {
+				"|cffffffff|Hitem:93025::::::::120:269::::::|h[Clock'em]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				134152, -- [4]
+				15, -- [5]
+				2, -- [6]
+			},
+			[155605] = {
+				"|cff9d9d9d|Hitem:155605::::::::120:269::::::|h[Huge Femur]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				133718, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[14951] = {
+				"|cff1eff00|Hitem:14951::::::::120:269::::::|h[Bloodforged Sabatons]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_FEET", -- [3]
+				132536, -- [4]
+				4, -- [5]
+				4, -- [6]
+			},
+			[44168] = {
+				"|cffa335ee|Hitem:44168::::::::120:269::::::|h[Reins of the Time-Lost Proto-Drake]|h|r", -- [1]
+				4, -- [2]
+				"", -- [3]
+				236233, -- [4]
+				15, -- [5]
+				5, -- [6]
+			},
+			[152739] = {
+				"|cff0070dd|Hitem:152739::::::::120:261::::::|h[Unsullied Leather Grips]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				436839, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[163591] = {
+				"|cff9d9d9d|Hitem:163591::::::::120:269::::::|h[Golden Fleet Sea Charts]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				237387, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[163851] = {
+				"|cff9d9d9d|Hitem:163851::::::::120:269::::::|h[Venerated Golden Censer]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				839401, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[44682] = {
+				"|cff0070dd|Hitem:44682::::::::120:269::::::|h[Time-Forward Talisman]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_NECK", -- [3]
+				133320, -- [4]
+				4, -- [5]
+				0, -- [6]
+			},
+			[153139] = {
+				"|cff0070dd|Hitem:153139::::::::120:261::::::|h[Unsullied Leather Headgear]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				436840, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[163590] = {
+				"|cff9d9d9d|Hitem:163590::::::::120:269::::::|h[Careworn Loa Statuette]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				134452, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[153142] = {
+				"|cff0070dd|Hitem:153142::::::::120:261::::::|h[Unsullied Leather Armbands]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				436837, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[161371] = {
+				"|cffa335ee|Hitem:161371::::::::120:269::::::|h[Galebreaker's Sabatons]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_FEET", -- [3]
+				2054625, -- [4]
+				4, -- [5]
+				4, -- [6]
+			},
+			[160119] = {
+				"|cff1eff00|Hitem:160119::::::::120:269::::::|h[Direbone Frill Chestplate]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				1672317, -- [4]
+				4, -- [5]
+				4, -- [6]
+			},
+			[163592] = {
+				"|cff9d9d9d|Hitem:163592::::::::120:269::::::|h[Ceremonial Nose Ring]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				1408444, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[163852] = {
+				"|cffffffff|Hitem:163852::::::::120:269::::::|h[Tortollan Pilgrimage Scroll]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				1500871, -- [4]
+				12, -- [5]
+				0, -- [6]
+			},
+			[162978] = {
+				"|cff9d9d9d|Hitem:162978::::::::120:269::::::|h[Blood Magic Ritual Dish]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				133748, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[153158] = {
+				"|cff0070dd|Hitem:153158::::::::120:261::::::|h[Unsullied Mail Bracers]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				430971, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[153151] = {
+				"|cff0070dd|Hitem:153151::::::::120:261::::::|h[Unsullied Leather Tunic]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				436838, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[161049] = {
+				"|cff0070dd|Hitem:161049::::::::120:269::::::|h[Ferocious Devilsaur Legwraps]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				1762579, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[152741] = {
+				"|cff0070dd|Hitem:152741::::::::120:261::::::|h[Unsullied Mail Chestguard]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				430972, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[153263] = {
+				"|cff0070dd|Hitem:153263::::::::120:261::::::|h[Enclave Aspirant's Cleaver]|h|r", -- [1]
+				3, -- [2]
+				"INVTYPE_WEAPON", -- [3]
+				917337, -- [4]
+				2, -- [5]
+				0, -- [6]
+			},
+			[154899] = {
+				"|cffffffff|Hitem:154899::::::::120:269::::::|h[Thick Paleo Steak]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				2066022, -- [4]
+				7, -- [5]
+				8, -- [6]
+			},
+			[163587] = {
+				"|cff9d9d9d|Hitem:163587::::::::120:269::::::|h[Discarded Zandalari Brooch]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				2032601, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[162979] = {
+				"|cff9d9d9d|Hitem:162979::::::::120:269::::::|h[Gral-Adorned Astrolabe]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				254118, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[162672] = {
+				"|cff9d9d9d|Hitem:162672::::::::120:269::::::|h[Witch Doctor's Juju Beads]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				1535057, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[160127] = {
+				"|cff1eff00|Hitem:160127::::::::120:269::::::|h[Pterroleather Cloak]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_CLOAK", -- [3]
+				1672316, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[152734] = {
+				"|cff0070dd|Hitem:152734::::::::120:261::::::|h[Unsullied Cloth Mantle]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				422809, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[153136] = {
+				"|cff0070dd|Hitem:153136::::::::120:261::::::|h[Unsullied Leather Treads]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				436836, -- [4]
+				0, -- [5]
+				8, -- [6]
+			},
+			[41133] = {
+				"|cff0070dd|Hitem:41133::::::::120:269::::::|h[Unhatched Mr. Chilly]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				327502, -- [4]
+				15, -- [5]
+				2, -- [6]
+			},
+			[44663] = {
+				"|cffffffff|Hitem:44663::::::::120:269::::::|h[Abandoned Adventurer's Satchel]|h|r", -- [1]
+				1, -- [2]
+				"", -- [3]
+				133648, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[160137] = {
+				"|cff1eff00|Hitem:160137::::::::120:269::::::|h[Ravascale Belt]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				1690118, -- [4]
+				4, -- [5]
+				3, -- [6]
+			},
+			[162980] = {
+				"|cff9d9d9d|Hitem:162980::::::::120:269::::::|h[Spindle of Golden Sailthread]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				348562, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[162673] = {
+				"|cff9d9d9d|Hitem:162673::::::::120:269::::::|h[Knotted Bowline]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				1119938, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[161388] = {
+				"|cffa335ee|Hitem:161388::::::::120:269::::::|h[Gloves of Enveloping Winds]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_HAND", -- [3]
+				2059676, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[160139] = {
+				"|cff1eff00|Hitem:160139::::::::120:269::::::|h[Ravascale Gloves]|h|r", -- [1]
+				2, -- [2]
+				"INVTYPE_HAND", -- [3]
+				1690122, -- [4]
+				4, -- [5]
+				3, -- [6]
+			},
+			[162634] = {
+				"|cff9d9d9d|Hitem:162634::::::::120:269::::::|h[Ancient Nazmani Coins]|h|r", -- [1]
+				0, -- [2]
+				"", -- [3]
+				1416740, -- [4]
+				15, -- [5]
+				0, -- [6]
+			},
+			[116113] = {
+				"|cff0070dd|Hitem:116113::::::::120:269::::::|h[Breath of Talador]|h|r", -- [1]
+				3, -- [2]
+				"", -- [3]
+				236154, -- [4]
+				15, -- [5]
+				4, -- [6]
+			},
+			[161390] = {
+				"|cffa335ee|Hitem:161390::::::::120:269::::::|h[Savage Terrorwing Leggings]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_LEGS", -- [3]
+				2021686, -- [4]
+				4, -- [5]
+				2, -- [6]
+			},
+			[161394] = {
+				"|cffa335ee|Hitem:161394::::::::120:269::::::|h[Hurricane Cinch]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				1991830, -- [4]
+				4, -- [5]
+				3, -- [6]
+			},
+			[161403] = {
+				"|cffa335ee|Hitem:161403::::::::120:269::::::|h[Avian Clutch Belt]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_WAIST", -- [3]
+				2021681, -- [4]
+				4, -- [5]
+				2, -- [6]
+			},
+			[161401] = {
+				"|cffa335ee|Hitem:161401::::::::120:269::::::|h[Matriarch's Shadowveil]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_HEAD", -- [3]
+				2059677, -- [4]
+				4, -- [5]
+				1, -- [6]
+			},
+			[161409] = {
+				"|cffa335ee|Hitem:161409::::::::120:269::::::|h[Stormcrash Chestguard]|h|r", -- [1]
+				4, -- [2]
+				"INVTYPE_CHEST", -- [3]
+				2054627, -- [4]
+				4, -- [5]
+				4, -- [6]
+			},
+		},
 		["object_names"] = {
 			["enUS"] = {
 				[272455] = "Treasure Chest",
 				[277343] = "Long-Lost Augari Treasure",
 				[273222] = "Treasure Chest",
 				[277344] = "Precious Augari Keepsakes",
-			},
-		},
-		["rares_found"] = {
-			[142312] = {
-				["mapID"] = 943,
-				["coordY"] = 0.507222533226013,
-				["coordX"] = 0.658357262611389,
-				["atlasName"] = "VignetteKill",
-				["foundTime"] = 1538802459,
-			},
-			[273222] = {
-				["mapID"] = 830,
-				["coordY"] = 0.605114221572876,
-				["coordX"] = 0.685524821281433,
-				["foundTime"] = 1538804117,
-				["atlasName"] = "VignetteLoot",
-			},
-			[124804] = {
-				["mapID"] = 830,
-				["coordY"] = 0.564444899559021,
-				["coordX"] = 0.695529937744141,
-				["foundTime"] = 1538803973,
-				["atlasName"] = "VignetteKill",
-			},
-			[277344] = {
-				["mapID"] = 830,
-				["coordY"] = 0.742984175682068,
-				["coordX"] = 0.559185862541199,
-				["foundTime"] = 1538803852,
-				["atlasName"] = "VignetteLoot",
-			},
-			[272455] = {
-				["mapID"] = 830,
-				["coordY"] = 0.586546123027802,
-				["coordX"] = 0.566077768802643,
-				["foundTime"] = 1538804124,
-				["atlasName"] = "VignetteLoot",
-			},
-			[277343] = {
-				["mapID"] = 830,
-				["coordY"] = 0.697440981864929,
-				["coordX"] = 0.75170624256134,
-				["foundTime"] = 1538803917,
-				["atlasName"] = "VignetteLoot",
 			},
 		},
 		["addonVersion"] = 500,
@@ -1641,11 +2023,11 @@ RareScannerDB = {
 				[139694] = "Mordshell",
 				[111069] = "Saepher",
 				[127705] = "Mother Rosula",
-				[84196] = "Web-wrapped Soldier",
+				[119629] = "Lord Hel'Nurath",
 				[109054] = "Shal'an",
 				[83428] = "Windcaller Korast",
 				[91874] = "Bladesquall",
-				[119629] = "Lord Hel'Nurath",
+				[84196] = "Web-wrapped Soldier",
 				[121051] = "Unstable Abyssal",
 				[138477] = "Talonguard Vrykiss",
 				[139815] = "Vice President Rax Blastem",
@@ -1767,8 +2149,8 @@ RareScannerDB = {
 				[98024] = "Luggut the Eggeater",
 				[77776] = "Wandering Vindicator",
 				[131520] = "Kulett the Ornery",
-				[87019] = "Gluttonous Giant",
 				[139038] = "Kaihu",
+				[87019] = "Gluttonous Giant",
 				[91114] = "Tide Behemoth",
 				[69843] = "Zao'cho",
 				[126815] = "Soultwisted Monstrosity",
@@ -1792,20 +2174,20 @@ RareScannerDB = {
 				[108822] = "Huntress Estrid",
 				[117136] = "Doombringer Zar'thoz",
 				[79692] = "Silverleaf Ancient",
-				[96235] = "Xemirkol",
 				[138388] = "Kung",
 				[90438] = "Lady Oran",
 				[90164] = "Warbringer Mox'na",
-				[126691] = "Tyrannosaurus Rekt",
 				[96323] = "Arachnis",
+				[126691] = "Tyrannosaurus Rekt",
 				[50992] = "Gorok",
 				[138647] = "Hjana Fogbringer",
 				[142684] = "Kovork",
 				[92611] = "Ambusher Daggerfang",
 				[139027] = "Crescent Oracle",
 				[135933] = "Lord Gazzran",
+				[138851] = "Soul Hunter",
 				[92140] = "Rampant Mandragora",
-				[71665] = "Giant-Slayer Kul",
+				[96235] = "Xemirkol",
 				[82247] = "Nas Dunberlin",
 				[138307] = "Smashface",
 				[81406] = "Bahameye",
@@ -1886,8 +2268,8 @@ RareScannerDB = {
 				[50339] = "Sulik'shor",
 				[50347] = "Karr the Darkener",
 				[139213] = "Bramblestomp",
-				[87356] = "Vrok the Ancient",
 				[80372] = "Echidna",
+				[132047] = "Reinforced Hullbreaker",
 				[139529] = "Muklai",
 				[92408] = "Xanzith the Everlasting",
 				[122090] = "Sarashas the Pillager",
@@ -1954,9 +2336,9 @@ RareScannerDB = {
 				[127906] = "Twilight-Harbinger Tharuul",
 				[140757] = "Fozruk",
 				[103214] = "Har'kess the Insatiable",
-				[77561] = "Dr. Gloom",
 				[122606] = "Azurewing",
 				[89846] = "Captain Volo'ren",
+				[77561] = "Dr. Gloom",
 				[110577] = "Oreth the Vile",
 				[86582] = "Morgo Kain",
 				[140092] = "Longstrider",
@@ -2001,8 +2383,8 @@ RareScannerDB = {
 				[135644] = "Dawnstalker",
 				[121073] = "Deranged Succubus",
 				[140763] = "Frosthill Giant",
-				[132047] = "Reinforced Hullbreaker",
 				[92657] = "Bleeding Hollow Horror",
+				[87356] = "Vrok the Ancient",
 				[134109] = "Dominated Hydra",
 				[122609] = "Xavinox",
 				[127289] = "Saurolisk Tamer Mugg",
@@ -2054,7 +2436,7 @@ RareScannerDB = {
 				[126451] = "Crushclaw",
 				[110486] = "Huk'roth the Huntmaster",
 				[87666] = "Mu'gra",
-				[138851] = "Soul Hunter",
+				[71665] = "Giant-Slayer Kul",
 				[132068] = "Bashmu",
 				[132580] = "Ssinkrix",
 				[82942] = "Lady Demlash",
@@ -2220,428 +2602,59 @@ RareScannerDB = {
 			},
 		},
 		["lootdbversion"] = 2,
-		["loot_info"] = {
-			[160123] = {
-				"|cff1eff00|Hitem:160123::::::::120:269::::::|h[Direbone Frill Legplates]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				1672320, -- [4]
-				4, -- [5]
-				4, -- [6]
+		["rares_found"] = {
+			[142312] = {
+				["mapID"] = 943,
+				["coordY"] = 0.507222533226013,
+				["coordX"] = 0.658357262611389,
+				["atlasName"] = "VignetteKill",
+				["foundTime"] = 1538802459,
 			},
-			[163856] = {
-				"|cffffffff|Hitem:163856::::::::120:269::::::|h[Ancient Pilgrimage Scrollcasing]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				454060, -- [4]
-				12, -- [5]
-				0, -- [6]
+			[273222] = {
+				["mapID"] = 830,
+				["coordY"] = 0.605114221572876,
+				["coordX"] = 0.685524821281433,
+				["foundTime"] = 1538804117,
+				["atlasName"] = "VignetteLoot",
 			},
-			[161407] = {
-				"|cffa335ee|Hitem:161407::::::::120:269::::::|h[Windshear Leggings]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				1991837, -- [4]
-				4, -- [5]
-				3, -- [6]
+			[124804] = {
+				["mapID"] = 830,
+				["coordY"] = 0.564444899559021,
+				["coordX"] = 0.695529937744141,
+				["foundTime"] = 1538803973,
+				["atlasName"] = "VignetteKill",
 			},
-			[153162] = {
-				"|cff9d9d9d|Hitem:153162::::::::120:261::::::|h[Unattuned Portal Stones]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				1385913, -- [4]
-				0, -- [5]
-				8, -- [6]
+			[277344] = {
+				["mapID"] = 830,
+				["coordY"] = 0.742984175682068,
+				["coordX"] = 0.559185862541199,
+				["foundTime"] = 1538803852,
+				["atlasName"] = "VignetteLoot",
 			},
-			[164384] = {
-				"|cffa335ee|Hitem:164384::::::::120:269::::::|h[Windswept Dinorider's Cape]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_CLOAK", -- [3]
-				2054623, -- [4]
-				4, -- [5]
-				1, -- [6]
+			[272455] = {
+				["mapID"] = 830,
+				["coordY"] = 0.586546123027802,
+				["coordX"] = 0.566077768802643,
+				["foundTime"] = 1538804124,
+				["atlasName"] = "VignetteLoot",
 			},
-			[163849] = {
-				"|cff9d9d9d|Hitem:163849::::::::120:269::::::|h[Bad Troll Love Poem]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				134332, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[160148] = {
-				"|cff1eff00|Hitem:160148::::::::120:269::::::|h[Saurifeather Pants]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				1762579, -- [4]
-				4, -- [5]
-				1, -- [6]
-			},
-			[152856] = {
-				"|cff9d9d9d|Hitem:152856::::::::120:261::::::|h[Fel-Scorched Portal Crystal]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				133451, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[152738] = {
-				"|cff0070dd|Hitem:152738::::::::120:261::::::|h[Unsullied Cloth Cap]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				422805, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[93025] = {
-				"|cffffffff|Hitem:93025::::::::120:269::::::|h[Clock'em]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				134152, -- [4]
-				15, -- [5]
-				2, -- [6]
-			},
-			[155605] = {
-				"|cff9d9d9d|Hitem:155605::::::::120:269::::::|h[Huge Femur]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				133718, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[14951] = {
-				"|cff1eff00|Hitem:14951::::::::120:269::::::|h[Bloodforged Sabatons]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_FEET", -- [3]
-				132536, -- [4]
-				4, -- [5]
-				4, -- [6]
-			},
-			[44168] = {
-				"|cffa335ee|Hitem:44168::::::::120:269::::::|h[Reins of the Time-Lost Proto-Drake]|h|r", -- [1]
-				4, -- [2]
-				"", -- [3]
-				236233, -- [4]
-				15, -- [5]
-				5, -- [6]
-			},
-			[152739] = {
-				"|cff0070dd|Hitem:152739::::::::120:261::::::|h[Unsullied Leather Grips]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				436839, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[163591] = {
-				"|cff9d9d9d|Hitem:163591::::::::120:269::::::|h[Golden Fleet Sea Charts]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				237387, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[163851] = {
-				"|cff9d9d9d|Hitem:163851::::::::120:269::::::|h[Venerated Golden Censer]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				839401, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[44682] = {
-				"|cff0070dd|Hitem:44682::::::::120:269::::::|h[Time-Forward Talisman]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_NECK", -- [3]
-				133320, -- [4]
-				4, -- [5]
-				0, -- [6]
-			},
-			[153142] = {
-				"|cff0070dd|Hitem:153142::::::::120:261::::::|h[Unsullied Leather Armbands]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				436837, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[153136] = {
-				"|cff0070dd|Hitem:153136::::::::120:261::::::|h[Unsullied Leather Treads]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				436836, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[153139] = {
-				"|cff0070dd|Hitem:153139::::::::120:261::::::|h[Unsullied Leather Headgear]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				436840, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[161371] = {
-				"|cffa335ee|Hitem:161371::::::::120:269::::::|h[Galebreaker's Sabatons]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_FEET", -- [3]
-				2054625, -- [4]
-				4, -- [5]
-				4, -- [6]
-			},
-			[160119] = {
-				"|cff1eff00|Hitem:160119::::::::120:269::::::|h[Direbone Frill Chestplate]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				1672317, -- [4]
-				4, -- [5]
-				4, -- [6]
-			},
-			[163592] = {
-				"|cff9d9d9d|Hitem:163592::::::::120:269::::::|h[Ceremonial Nose Ring]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				1408444, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[163852] = {
-				"|cffffffff|Hitem:163852::::::::120:269::::::|h[Tortollan Pilgrimage Scroll]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				1500871, -- [4]
-				12, -- [5]
-				0, -- [6]
-			},
-			[162978] = {
-				"|cff9d9d9d|Hitem:162978::::::::120:269::::::|h[Blood Magic Ritual Dish]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				133748, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[153158] = {
-				"|cff0070dd|Hitem:153158::::::::120:261::::::|h[Unsullied Mail Bracers]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				430971, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[153263] = {
-				"|cff0070dd|Hitem:153263::::::::120:261::::::|h[Enclave Aspirant's Cleaver]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_WEAPON", -- [3]
-				917337, -- [4]
-				2, -- [5]
-				0, -- [6]
-			},
-			[161049] = {
-				"|cff0070dd|Hitem:161049::::::::120:269::::::|h[Ferocious Devilsaur Legwraps]|h|r", -- [1]
-				3, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				1762579, -- [4]
-				4, -- [5]
-				1, -- [6]
-			},
-			[152741] = {
-				"|cff0070dd|Hitem:152741::::::::120:261::::::|h[Unsullied Mail Chestguard]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				430972, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[163590] = {
-				"|cff9d9d9d|Hitem:163590::::::::120:269::::::|h[Careworn Loa Statuette]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				134452, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[154899] = {
-				"|cffffffff|Hitem:154899::::::::120:269::::::|h[Thick Paleo Steak]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				2066022, -- [4]
-				7, -- [5]
-				8, -- [6]
-			},
-			[153151] = {
-				"|cff0070dd|Hitem:153151::::::::120:261::::::|h[Unsullied Leather Tunic]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				436838, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[162979] = {
-				"|cff9d9d9d|Hitem:162979::::::::120:269::::::|h[Gral-Adorned Astrolabe]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				254118, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[162672] = {
-				"|cff9d9d9d|Hitem:162672::::::::120:269::::::|h[Witch Doctor's Juju Beads]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				1535057, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[160139] = {
-				"|cff1eff00|Hitem:160139::::::::120:269::::::|h[Ravascale Gloves]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_HAND", -- [3]
-				1690122, -- [4]
-				4, -- [5]
-				3, -- [6]
-			},
-			[152734] = {
-				"|cff0070dd|Hitem:152734::::::::120:261::::::|h[Unsullied Cloth Mantle]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				422809, -- [4]
-				0, -- [5]
-				8, -- [6]
-			},
-			[160127] = {
-				"|cff1eff00|Hitem:160127::::::::120:269::::::|h[Pterroleather Cloak]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_CLOAK", -- [3]
-				1672316, -- [4]
-				4, -- [5]
-				1, -- [6]
-			},
-			[41133] = {
-				"|cff0070dd|Hitem:41133::::::::120:269::::::|h[Unhatched Mr. Chilly]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				327502, -- [4]
-				15, -- [5]
-				2, -- [6]
-			},
-			[44663] = {
-				"|cffffffff|Hitem:44663::::::::120:269::::::|h[Abandoned Adventurer's Satchel]|h|r", -- [1]
-				1, -- [2]
-				"", -- [3]
-				133648, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[160137] = {
-				"|cff1eff00|Hitem:160137::::::::120:269::::::|h[Ravascale Belt]|h|r", -- [1]
-				2, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				1690118, -- [4]
-				4, -- [5]
-				3, -- [6]
-			},
-			[162980] = {
-				"|cff9d9d9d|Hitem:162980::::::::120:269::::::|h[Spindle of Golden Sailthread]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				348562, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[162673] = {
-				"|cff9d9d9d|Hitem:162673::::::::120:269::::::|h[Knotted Bowline]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				1119938, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[161388] = {
-				"|cffa335ee|Hitem:161388::::::::120:269::::::|h[Gloves of Enveloping Winds]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_HAND", -- [3]
-				2059676, -- [4]
-				4, -- [5]
-				1, -- [6]
-			},
-			[163587] = {
-				"|cff9d9d9d|Hitem:163587::::::::120:269::::::|h[Discarded Zandalari Brooch]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				2032601, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[162634] = {
-				"|cff9d9d9d|Hitem:162634::::::::120:269::::::|h[Ancient Nazmani Coins]|h|r", -- [1]
-				0, -- [2]
-				"", -- [3]
-				1416740, -- [4]
-				15, -- [5]
-				0, -- [6]
-			},
-			[116113] = {
-				"|cff0070dd|Hitem:116113::::::::120:269::::::|h[Breath of Talador]|h|r", -- [1]
-				3, -- [2]
-				"", -- [3]
-				236154, -- [4]
-				15, -- [5]
-				4, -- [6]
-			},
-			[161390] = {
-				"|cffa335ee|Hitem:161390::::::::120:269::::::|h[Savage Terrorwing Leggings]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_LEGS", -- [3]
-				2021686, -- [4]
-				4, -- [5]
-				2, -- [6]
-			},
-			[161394] = {
-				"|cffa335ee|Hitem:161394::::::::120:269::::::|h[Hurricane Cinch]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				1991830, -- [4]
-				4, -- [5]
-				3, -- [6]
-			},
-			[161401] = {
-				"|cffa335ee|Hitem:161401::::::::120:269::::::|h[Matriarch's Shadowveil]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_HEAD", -- [3]
-				2059677, -- [4]
-				4, -- [5]
-				1, -- [6]
-			},
-			[161403] = {
-				"|cffa335ee|Hitem:161403::::::::120:269::::::|h[Avian Clutch Belt]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_WAIST", -- [3]
-				2021681, -- [4]
-				4, -- [5]
-				2, -- [6]
-			},
-			[161409] = {
-				"|cffa335ee|Hitem:161409::::::::120:269::::::|h[Stormcrash Chestguard]|h|r", -- [1]
-				4, -- [2]
-				"INVTYPE_CHEST", -- [3]
-				2054627, -- [4]
-				4, -- [5]
-				4, -- [6]
+			[277343] = {
+				["mapID"] = 830,
+				["coordY"] = 0.697440981864929,
+				["coordX"] = 0.75170624256134,
+				["foundTime"] = 1538803917,
+				["atlasName"] = "VignetteLoot",
 			},
 		},
 	},
 	["profileKeys"] = {
+		["Kanpa - Elune"] = "Kanpa - Elune",
+		["Skasch - Elune"] = "Skasch - Elune",
 		["Skasch - La Croisade écarlate"] = "Default",
 		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 	},
 	["profiles"] = {
-		["Default"] = {
-		},
-		["Skasch - La Croisade écarlate"] = {
-			["display"] = {
-				["autoHideButton"] = 30,
-			},
+		["Kanpa - Elune"] = {
 		},
 		["Asane - La Croisade écarlate"] = {
 			["loot"] = {
@@ -2650,6 +2663,15 @@ RareScannerDB = {
 			["map"] = {
 				["displayMapIcons"] = false,
 			},
+		},
+		["Skasch - Elune"] = {
+		},
+		["Skasch - La Croisade écarlate"] = {
+			["display"] = {
+				["autoHideButton"] = 30,
+			},
+		},
+		["Default"] = {
 		},
 	},
 }

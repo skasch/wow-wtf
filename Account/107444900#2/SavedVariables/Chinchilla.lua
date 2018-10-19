@@ -35,7 +35,9 @@ Chinchilla2DB = {
 		["Expander"] = {
 			["profiles"] = {
 				["Default"] = {
-					["enabled"] = false,
+					["scale"] = 4,
+					["alpha"] = 0.5,
+					["key"] = "ALT-SHIFT-V",
 				},
 			},
 		},
@@ -123,7 +125,7 @@ Chinchilla2DB = {
 					["lock"] = true,
 					["mail"] = 175,
 					["lfg"] = 195,
-					["garrison"] = 218,
+					["garrison"] = 210,
 					["radius"] = 72,
 				},
 			},
@@ -137,14 +139,16 @@ Chinchilla2DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Sueki - La Croisade écarlate"] = "Default",
-		["Vermily - La Croisade écarlate"] = "Default",
-		["Nephily - La Croisade écarlate"] = "Default",
-		["Asane - La Croisade écarlate"] = "Default",
-		["Isabael - La Croisade écarlate"] = "Default",
 		["Simetra - La Croisade écarlate"] = "Default",
 		["Skasch - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "Default",
 		["Fayth - La Croisade écarlate"] = "Default",
+		["Kanpa - Elune"] = "Default",
+		["Isabael - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Vermily - La Croisade écarlate"] = "Default",
+		["Sueki - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

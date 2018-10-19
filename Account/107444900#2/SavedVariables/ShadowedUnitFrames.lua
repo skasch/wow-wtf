@@ -9,6 +9,12 @@ ShadowedUFDB = {
 					"skasch-DPS", -- [3]
 					["enabled"] = true,
 				},
+				["Fayth - La Croisade écarlate"] = {
+					"skasch-Heal", -- [1]
+					"skasch-DPS", -- [2]
+					"skasch-DPS", -- [3]
+					["enabled"] = true,
+				},
 				["Asane - La Croisade écarlate"] = {
 					"skasch-DPS", -- [1]
 					"skasch-Heal", -- [2]
@@ -43,12 +49,12 @@ ShadowedUFDB = {
 		["Tsuri - La Croisade écarlate"] = "skasch-DPS",
 		["Sutoka - La Croisade écarlate"] = "Default",
 		["Vermily - La Croisade écarlate"] = "skasch-DPS",
-		["Fayth - La Croisade écarlate"] = "Default",
+		["Fayth - La Croisade écarlate"] = "skasch-DPS",
 		["Skasch - Elune"] = "skasch-DPS",
 		["Isabael - La Croisade écarlate"] = "skasch-DPS",
 		["Higi - La Croisade écarlate"] = "skasch-DPS",
 		["Asane - La Croisade écarlate"] = "skasch-DPS",
-		["Nephily - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "skasch-DPS",
 		["Tsuma - La Croisade écarlate"] = "skasch-DPS",
 	},
 	["global"] = {
@@ -147,11 +153,6 @@ ShadowedUFDB = {
 					["g"] = 0.259,
 					["b"] = 0.992,
 				},
-				["LUNAR_POWER"] = {
-					["r"] = 0.3,
-					["g"] = 0.52,
-					["b"] = 0.9,
-				},
 				["AMMOSLOT"] = {
 					["r"] = 0.85,
 					["g"] = 0.6,
@@ -161,6 +162,11 @@ ShadowedUFDB = {
 					["b"] = 0.6,
 					["g"] = 0.45,
 					["r"] = 0.35,
+				},
+				["LUNAR_POWER"] = {
+					["r"] = 0.3,
+					["g"] = 0.52,
+					["b"] = 0.9,
 				},
 				["STATUE"] = {
 					["r"] = 0.35,
@@ -203,10 +209,10 @@ ShadowedUFDB = {
 					["g"] = 0.93,
 					["b"] = 0,
 				},
-				["healAbsorb"] = {
-					["r"] = 0.68,
-					["g"] = 0.47,
-					["b"] = 1,
+				["offline"] = {
+					["r"] = 0.5,
+					["g"] = 0.5,
+					["b"] = 0.5,
 				},
 				["aggro"] = {
 					["a"] = 1,
@@ -225,15 +231,16 @@ ShadowedUFDB = {
 					["g"] = 0.9,
 					["b"] = 0.2,
 				},
-				["yellow"] = {
-					["r"] = 0.93,
-					["g"] = 0.93,
-					["b"] = 0,
+				["healAbsorb"] = {
+					["r"] = 0.68,
+					["g"] = 0.47,
+					["b"] = 1,
 				},
 				["incAbsorb"] = {
-					["r"] = 0.93,
-					["g"] = 0.75,
-					["b"] = 0.09,
+					["a"] = 1,
+					["r"] = 1,
+					["g"] = 0.972549019607843,
+					["b"] = 0,
 				},
 				["tapped"] = {
 					["r"] = 0.5,
@@ -256,10 +263,10 @@ ShadowedUFDB = {
 					["g"] = 0.2,
 					["b"] = 0.2,
 				},
-				["offline"] = {
-					["r"] = 0.5,
-					["g"] = 0.5,
-					["b"] = 0.5,
+				["yellow"] = {
+					["r"] = 0.93,
+					["g"] = 0.93,
+					["b"] = 0,
 				},
 				["inc"] = {
 					["r"] = 0,
@@ -385,25 +392,25 @@ ShadowedUFDB = {
 					["anchorTo"] = "$parent",
 					["y"] = -25,
 				},
-				["targettarget"] = {
-					["anchorPoint"] = "RT",
-					["x"] = 50,
-					["anchorTo"] = "#SUFUnittarget",
+				["pettarget"] = {
+					["anchorPoint"] = "RC",
+					["x"] = 5,
+					["anchorTo"] = "#SUFUnitpet",
 				},
 				["bosstarget"] = {
 					["anchorPoint"] = "BC",
 					["anchorTo"] = "$parent",
 					["y"] = -25,
 				},
-				["focustarget"] = {
-					["anchorPoint"] = "LT",
-					["x"] = -50,
-					["anchorTo"] = "#SUFUnitfocus",
+				["battlegroundpet"] = {
+					["anchorPoint"] = "RB",
+					["anchorTo"] = "$parent",
 				},
-				["pettarget"] = {
-					["anchorPoint"] = "RC",
-					["x"] = 5,
-					["anchorTo"] = "#SUFUnitpet",
+				["pet"] = {
+					["y"] = 74.6666684746742,
+					["x"] = -330.666674673557,
+					["point"] = "BOTTOMRIGHT",
+					["relativePoint"] = "BOTTOMRIGHT",
 				},
 				["partypet"] = {
 					["x"] = 16,
@@ -426,15 +433,15 @@ ShadowedUFDB = {
 					["top"] = 649.955527891052,
 					["relativePoint"] = "BOTTOMLEFT",
 				},
-				["pet"] = {
-					["y"] = 74.6666684746742,
-					["x"] = -330.666674673557,
-					["point"] = "BOTTOMRIGHT",
-					["relativePoint"] = "BOTTOMRIGHT",
+				["targettarget"] = {
+					["anchorPoint"] = "RT",
+					["x"] = 50,
+					["anchorTo"] = "#SUFUnittarget",
 				},
-				["battlegroundpet"] = {
-					["anchorPoint"] = "RB",
-					["anchorTo"] = "$parent",
+				["focustarget"] = {
+					["anchorPoint"] = "LT",
+					["x"] = -50,
+					["anchorTo"] = "#SUFUnitfocus",
 				},
 				["arena"] = {
 					["anchorPoint"] = "C",
@@ -477,23 +484,12 @@ ShadowedUFDB = {
 					["b"] = 0,
 				},
 			},
-			["hidden"] = {
-				["cast"] = true,
-				["raid"] = true,
-				["buffs"] = true,
-			},
-			["loadedLayout"] = true,
 			["backdrop"] = {
-				["inset"] = 0,
+				["clip"] = 0,
 				["edgeSize"] = 0,
 				["tileSize"] = 0,
-				["borderColor"] = {
-					["a"] = 0,
-					["r"] = 0.301960784313726,
-					["g"] = 0.301960784313726,
-					["b"] = 0.501960784313726,
-				},
-				["clip"] = 0,
+				["borderTexture"] = "Details BarBorder 3",
+				["inset"] = 0,
 				["backgroundTexture"] = "Solid",
 				["backgroundColor"] = {
 					["a"] = 0.161911368370056,
@@ -501,7 +497,18 @@ ShadowedUFDB = {
 					["g"] = 0,
 					["b"] = 0,
 				},
-				["borderTexture"] = "Details BarBorder 3",
+				["borderColor"] = {
+					["a"] = 0,
+					["r"] = 0.301960784313726,
+					["g"] = 0.301960784313726,
+					["b"] = 0.501960784313726,
+				},
+			},
+			["loadedLayout"] = true,
+			["hidden"] = {
+				["cast"] = true,
+				["raid"] = true,
+				["buffs"] = true,
 			},
 			["units"] = {
 				["arenatarget"] = {
@@ -555,8 +562,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -622,6 +629,28 @@ ShadowedUFDB = {
 					},
 				},
 				["mainassisttarget"] = {
+					["width"] = 150,
+					["highlight"] = {
+						["size"] = 10,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["height"] = 1.2,
+						["reactionType"] = "npc",
+					},
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [1]
+						[3] = {
+							["text"] = "[level( )][classification( )][perpp]",
+						},
+						[5] = {
+							["text"] = "[(()afk() )][name]",
+						},
+					},
 					["auras"] = {
 						["buffs"] = {
 							["anchorPoint"] = "BL",
@@ -636,23 +665,6 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["highlight"] = {
-						["size"] = 10,
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["height"] = 1.2,
-						["reactionType"] = "npc",
-					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["width"] = 150,
 					["castBar"] = {
 						["time"] = {
 							["y"] = 0,
@@ -662,8 +674,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -676,16 +688,11 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [1]
-						[3] = {
-							["text"] = "[level( )][classification( )][perpp]",
-						},
-						[5] = {
-							["text"] = "[(()afk() )][name]",
-						},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -738,13 +745,13 @@ ShadowedUFDB = {
 					},
 					["healthBar"] = {
 						["order"] = 10,
-						["colorType"] = "static",
-						["height"] = 2,
-						["reverse"] = false,
+						["vertical"] = true,
 						["reactionType"] = "none",
+						["reverse"] = false,
+						["height"] = 2,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["emptyBar"] = {
 						["order"] = 0,
@@ -784,8 +791,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -855,8 +862,8 @@ ShadowedUFDB = {
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
-						["order"] = 20,
 						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["vertical"] = false,
@@ -909,8 +916,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -936,10 +943,10 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["vertical"] = false,
 						["colorType"] = "static",
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 3,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["emptyBar"] = {
 						["order"] = 0,
@@ -948,16 +955,11 @@ ShadowedUFDB = {
 						["reactionType"] = "none",
 					},
 					["width"] = 55,
-					["altPowerBar"] = {
-						["order"] = 100,
-						["background"] = true,
-						["height"] = 0.4,
-					},
-					["highlight"] = {
+					["fader"] = {
 						["height"] = 0.5,
-						["size"] = 10,
+						["combatAlpha"] = 0.8,
+						["inactiveAlpha"] = 0.3,
 					},
-					["height"] = 25,
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = -6,
@@ -974,6 +976,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 						["height"] = 0.5,
+					},
+					["height"] = 25,
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
 					},
 					["text"] = {
 						{
@@ -1005,27 +1012,14 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
-					["fader"] = {
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-						["inactiveAlpha"] = 0.3,
+					["altPowerBar"] = {
+						["order"] = 100,
+						["background"] = true,
+						["height"] = 0.4,
 					},
 				},
 				["arenatargettarget"] = {
-					["auras"] = {
-						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["y"] = 0,
-							["x"] = 0,
-							["size"] = 16,
-						},
-						["debuffs"] = {
-							["y"] = 0,
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["size"] = 16,
-						},
-					},
+					["width"] = 90,
 					["highlight"] = {
 						["size"] = 10,
 					},
@@ -1035,36 +1029,6 @@ ShadowedUFDB = {
 						["background"] = true,
 						["height"] = 1.2,
 						["reactionType"] = "npc",
-					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["width"] = 90,
-					["castBar"] = {
-						["time"] = {
-							["y"] = 0,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["size"] = 0,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = true,
-						},
 					},
 					["text"] = {
 						nil, -- [1]
@@ -1080,6 +1044,49 @@ ShadowedUFDB = {
 						{
 							["text"] = "[name]",
 						}, -- [5]
+					},
+					["auras"] = {
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["y"] = 0,
+							["x"] = 0,
+							["size"] = 16,
+						},
+						["debuffs"] = {
+							["y"] = 0,
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["y"] = 0,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["size"] = 0,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = true,
+						},
+					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -1138,30 +1145,18 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 						["buffs"] = {
-							["anchorPoint"] = "BL",
 							["show"] = {
 								["relevant"] = false,
 							},
-							["x"] = 0,
 							["y"] = 0,
+							["x"] = 0,
+							["anchorPoint"] = "BL",
 							["size"] = 16,
 						},
 					},
 					["castBar"] = {
 						["enabled"] = true,
-						["order"] = 5,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = false,
 						["height"] = 0.7,
-						["background"] = true,
-						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -1170,6 +1165,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
+						},
+						["autoHide"] = false,
+						["order"] = 5,
+						["background"] = true,
+						["icon"] = "LEFT",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
 						},
 					},
 					["frameSplit"] = false,
@@ -1180,23 +1187,52 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["offset"] = 10,
+					["groupsPerRow"] = 4,
 					["healthBar"] = {
 						["colorAggro"] = true,
 						["order"] = 10,
 						["colorType"] = "static",
 						["background"] = true,
-						["height"] = 3,
+						["reactionType"] = "none",
 						["colorDispel"] = true,
 						["vertical"] = true,
-						["reactionType"] = "none",
+						["height"] = 3,
 					},
 					["hideSemiRaid"] = false,
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][( )classcolor][name]",
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = -15,
+							["size"] = -1,
+						}, -- [1]
+						{
+							["text"] = "[perhp]",
+							["width"] = 0.5,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 15,
+							["size"] = -1,
+						}, -- [2]
+						{
+							["text"] = "[afk][( )status]",
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 27,
+							["size"] = -2,
+						}, -- [3]
+						{
+							["text"] = "[perpp]",
+							["width"] = 0.5,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 1,
+							["size"] = -1,
+						}, -- [4]
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [5]
 					},
 					["maxColumns"] = 4,
 					["altPowerBar"] = {
@@ -1287,53 +1323,30 @@ ShadowedUFDB = {
 						["oorAlpha"] = 0.3,
 						["height"] = 0.5,
 					},
-					["incAbsorb"] = {
+					["auraIndicators"] = {
 						["height"] = 0.5,
-						["cap"] = 1.5,
+						["enabled"] = true,
 					},
-					["groupsPerRow"] = 4,
-					["groupBy"] = "ASSIGNEDROLE",
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][( )classcolor][name]",
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = -15,
-							["size"] = -1,
-						}, -- [1]
-						{
-							["text"] = "[perhp]",
-							["width"] = 0.5,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 15,
-							["size"] = -1,
-						}, -- [2]
-						{
-							["text"] = "[afk][( )status]",
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 27,
-							["size"] = -2,
-						}, -- [3]
-						{
-							["text"] = "[perpp]",
-							["width"] = 0.5,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 1,
-							["size"] = -1,
-						}, -- [4]
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [5]
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["unitsPerColumn"] = 10,
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
 					},
 					["incHeal"] = {
 						["height"] = 0.5,
 						["cap"] = 1.5,
 					},
 					["attribAnchorPoint"] = "BOTTOM",
-					["unitsPerColumn"] = 10,
+					["incAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1.5,
+					},
 					["width"] = 65,
 					["showParty"] = false,
 					["enabled"] = true,
@@ -1350,24 +1363,13 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["cap"] = 1.5,
 					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-						["enabled"] = true,
-					},
+					["groupBy"] = "ASSIGNEDROLE",
+					["offset"] = 10,
+				},
+				["arenapet"] = {
 					["highlight"] = {
 						["height"] = 0.5,
 						["size"] = 10,
-					},
-				},
-				["arenapet"] = {
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -1396,8 +1398,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -1457,6 +1459,15 @@ ShadowedUFDB = {
 						["height"] = 1,
 						["reactionType"] = "none",
 					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 0,
@@ -1467,12 +1478,30 @@ ShadowedUFDB = {
 						},
 						["height"] = 0.5,
 					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
 				},
 				["mainassisttargettarget"] = {
+					["width"] = 150,
+					["highlight"] = {
+						["size"] = 10,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["height"] = 1.2,
+						["reactionType"] = "npc",
+					},
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [1]
+						[3] = {
+							["text"] = "[level( )][classification( )][perpp]",
+						},
+						[5] = {
+							["text"] = "[(()afk() )][name]",
+						},
+					},
 					["auras"] = {
 						["buffs"] = {
 							["anchorPoint"] = "BL",
@@ -1487,23 +1516,6 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["highlight"] = {
-						["size"] = 10,
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["height"] = 1.2,
-						["reactionType"] = "npc",
-					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["width"] = 150,
 					["castBar"] = {
 						["time"] = {
 							["y"] = 0,
@@ -1513,8 +1525,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -1527,16 +1539,11 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [1]
-						[3] = {
-							["text"] = "[level( )][classification( )][perpp]",
-						},
-						[5] = {
-							["text"] = "[(()afk() )][name]",
-						},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -1577,6 +1584,14 @@ ShadowedUFDB = {
 					},
 				},
 				["party"] = {
+					["highlight"] = {
+						["debuff"] = true,
+						["height"] = 0.5,
+						["aggro"] = true,
+						["attention"] = true,
+						["mouseover"] = true,
+						["size"] = 10,
+					},
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 8,
@@ -1627,6 +1642,7 @@ ShadowedUFDB = {
 							["enabled"] = false,
 							["size"] = 22,
 						},
+						["height"] = 0.5,
 						["status"] = {
 							["y"] = -20,
 							["x"] = 0,
@@ -1635,7 +1651,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = 24,
 						},
-						["height"] = 0.5,
 						["class"] = {
 							["y"] = 0,
 							["x"] = 13,
@@ -1667,14 +1682,6 @@ ShadowedUFDB = {
 						["alignment"] = "LEFT",
 						["height"] = 0.5,
 						["fullBefore"] = 0,
-					},
-					["highlight"] = {
-						["debuff"] = true,
-						["height"] = 0.5,
-						["aggro"] = true,
-						["attention"] = true,
-						["mouseover"] = true,
-						["size"] = 10,
 					},
 					["showPlayer"] = true,
 					["range"] = {
@@ -1719,21 +1726,9 @@ ShadowedUFDB = {
 					["castBar"] = {
 						["enabled"] = true,
 						["order"] = 5,
-						["autoHide"] = false,
+						["reverse"] = false,
 						["invert"] = false,
 						["vertical"] = false,
-						["time"] = {
-							["y"] = 0,
-							["x"] = -2,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["reverse"] = false,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "RIGHT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -1742,6 +1737,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
+						},
+						["autoHide"] = false,
+						["height"] = 0.6,
+						["background"] = true,
+						["icon"] = "RIGHT",
+						["time"] = {
+							["y"] = 0,
+							["x"] = -2,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
 						},
 					},
 					["incAbsorb"] = {
@@ -1776,21 +1783,18 @@ ShadowedUFDB = {
 						["order"] = 10,
 						["vertical"] = true,
 						["colorDispel"] = true,
-						["reactionType"] = "none",
+						["height"] = 3,
 						["background"] = true,
 						["colorType"] = "static",
-						["height"] = 3,
+						["reactionType"] = "none",
 					},
 					["hideSemiRaid"] = false,
-					["attribAnchorPoint"] = "BOTTOM",
 					["emptyBar"] = {
 						["order"] = 0,
 						["background"] = true,
 						["height"] = 1,
 						["reactionType"] = "none",
 					},
-					["unitsPerColumn"] = 5,
-					["width"] = 70,
 					["text"] = {
 						{
 							["text"] = "[( )perhp]",
@@ -1825,6 +1829,9 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
+					["unitsPerColumn"] = 5,
+					["width"] = 70,
+					["attribAnchorPoint"] = "BOTTOM",
 					["sortOrder"] = "ASC",
 					["fader"] = {
 						["height"] = 0.5,
@@ -1834,18 +1841,40 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 100,
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
 					["incHeal"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["height"] = 100,
 					["attribPoint"] = "LEFT",
 				},
 				["maintanktargettarget"] = {
+					["width"] = 150,
+					["highlight"] = {
+						["size"] = 10,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["height"] = 1.2,
+						["reactionType"] = "npc",
+					},
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [1]
+						[3] = {
+							["text"] = "[classification( )][perpp]",
+						},
+						[5] = {
+							["text"] = "[(()afk() )][name]",
+						},
+					},
 					["auras"] = {
 						["buffs"] = {
 							["anchorPoint"] = "BL",
@@ -1860,23 +1889,6 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["highlight"] = {
-						["size"] = 10,
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["height"] = 1.2,
-						["reactionType"] = "npc",
-					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["width"] = 150,
 					["castBar"] = {
 						["time"] = {
 							["y"] = 0,
@@ -1886,8 +1898,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -1900,16 +1912,11 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [1]
-						[3] = {
-							["text"] = "[classification( )][perpp]",
-						},
-						[5] = {
-							["text"] = "[(()afk() )][name]",
-						},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -2063,19 +2070,7 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
-						["order"] = 0,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -2085,14 +2080,26 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
+						["autoHide"] = true,
+						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
-						["order"] = 20,
 						["height"] = 1,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["vertical"] = false,
@@ -2100,14 +2107,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 5,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 5,
+						["reactionType"] = "none",
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -2318,19 +2325,7 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
-						["order"] = 0,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -2340,14 +2335,26 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
+						["autoHide"] = true,
+						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
-						["order"] = 20,
 						["height"] = 1,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["vertical"] = false,
@@ -2355,14 +2362,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 5,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 5,
+						["reactionType"] = "none",
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -2506,8 +2513,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -2625,19 +2632,7 @@ ShadowedUFDB = {
 					},
 					["castBar"] = {
 						["enabled"] = true,
-						["order"] = 5,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = false,
 						["height"] = 1,
-						["background"] = true,
-						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -2647,14 +2642,26 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
+						["autoHide"] = false,
+						["order"] = 5,
+						["background"] = true,
+						["icon"] = "LEFT",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
-						["order"] = 20,
 						["height"] = 1,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["vertical"] = false,
@@ -2663,14 +2670,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 4,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 4,
+						["reactionType"] = "none",
 					},
 					["text"] = {
 						{
@@ -2762,7 +2769,10 @@ ShadowedUFDB = {
 						["order"] = 15,
 						["width"] = 0.22,
 					},
-					["height"] = 60,
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["highlight"] = {
 						["height"] = 0.5,
 						["size"] = 10,
@@ -2800,8 +2810,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -2895,28 +2905,25 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["attribAnchorPoint"] = "LEFT",
-					["offset"] = 5,
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["vertical"] = true,
-						["colorType"] = "percent",
-						["colorDispel"] = true,
-						["reverse"] = false,
-						["reactionType"] = "npc",
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 3,
-					},
 					["incAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
+					["offset"] = 5,
+					["height"] = 60,
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["colorType"] = "percent",
+						["vertical"] = true,
+						["colorDispel"] = true,
+						["reverse"] = false,
+						["height"] = 3,
+						["background"] = true,
+						["invert"] = false,
+						["reactionType"] = "npc",
+					},
+					["attribAnchorPoint"] = "LEFT",
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -2997,8 +3004,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -3018,7 +3025,7 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["groupsPerRow"] = 8,
+					["offset"] = 5,
 					["healthBar"] = {
 						["colorType"] = "class",
 						["order"] = 10,
@@ -3047,43 +3054,10 @@ ShadowedUFDB = {
 					["range"] = {
 						["height"] = 0.5,
 					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["unitsPerColumn"] = 20,
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["height"] = 0.5,
-					},
-					["attribAnchorPoint"] = "BOTTOM",
 					["incAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["width"] = 20,
-					["groupBy"] = "ASSIGNEDROLE",
-					["columnSpacing"] = 5,
-					["fader"] = {
-						["height"] = 0.5,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["offset"] = 5,
 					["text"] = {
 						nil, -- [1]
 						{
@@ -3099,22 +3073,42 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
+					["groupBy"] = "ASSIGNEDROLE",
+					["attribAnchorPoint"] = "BOTTOM",
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["width"] = 20,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["height"] = 0.5,
+					},
+					["columnSpacing"] = 5,
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["groupsPerRow"] = 8,
+					["unitsPerColumn"] = 20,
 				},
 				["battlegroundtargettarget"] = {
-					["auras"] = {
-						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["y"] = 0,
-							["x"] = 0,
-							["size"] = 16,
-						},
-						["debuffs"] = {
-							["y"] = 0,
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["size"] = 16,
-						},
-					},
+					["width"] = 90,
 					["highlight"] = {
 						["size"] = 10,
 					},
@@ -3124,36 +3118,6 @@ ShadowedUFDB = {
 						["background"] = true,
 						["height"] = 1.2,
 						["reactionType"] = "npc",
-					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["width"] = 90,
-					["castBar"] = {
-						["time"] = {
-							["y"] = 0,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["size"] = 0,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = true,
-						},
 					},
 					["text"] = {
 						nil, -- [1]
@@ -3169,6 +3133,49 @@ ShadowedUFDB = {
 						{
 							["text"] = "[name]",
 						}, -- [5]
+					},
+					["auras"] = {
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["y"] = 0,
+							["x"] = 0,
+							["size"] = 16,
+						},
+						["debuffs"] = {
+							["y"] = 0,
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["y"] = 0,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["size"] = 0,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = true,
+						},
+					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -3221,13 +3228,13 @@ ShadowedUFDB = {
 					},
 					["healthBar"] = {
 						["order"] = 10,
-						["colorType"] = "percent",
-						["height"] = 1.5,
-						["reverse"] = false,
+						["vertical"] = true,
 						["reactionType"] = "npc",
+						["reverse"] = false,
+						["height"] = 1.5,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "percent",
 					},
 					["emptyBar"] = {
 						["order"] = 0,
@@ -3262,8 +3269,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -3340,11 +3347,12 @@ ShadowedUFDB = {
 						["size"] = 10,
 					},
 				},
-				["targettarget"] = {
-					["width"] = 40,
+				["pettarget"] = {
+					["enabled"] = true,
+					["width"] = 55,
 					["portrait"] = {
 						["type"] = "3D",
-						["alignment"] = "RIGHT",
+						["alignment"] = "LEFT",
 						["fullAfter"] = 100,
 						["height"] = 0.5,
 						["fullBefore"] = 0,
@@ -3353,13 +3361,13 @@ ShadowedUFDB = {
 					},
 					["healthBar"] = {
 						["order"] = 10,
-						["colorType"] = "static",
-						["height"] = 3,
-						["reverse"] = false,
+						["vertical"] = true,
 						["reactionType"] = "none",
+						["reverse"] = false,
+						["height"] = 2,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["emptyBar"] = {
 						["order"] = 0,
@@ -3399,8 +3407,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -3419,7 +3427,7 @@ ShadowedUFDB = {
 							["width"] = 1,
 							["anchorPoint"] = "C",
 							["x"] = 0,
-							["y"] = 15,
+							["y"] = 25,
 							["size"] = -1,
 						}, -- [1]
 						{
@@ -3427,20 +3435,26 @@ ShadowedUFDB = {
 							["width"] = 1,
 							["anchorPoint"] = "C",
 							["x"] = 0,
-							["y"] = -7,
-							["size"] = -4,
+							["y"] = -29,
+							["size"] = -1,
 						}, -- [2]
 						{
 							["text"] = "[level]",
 							["width"] = 0,
 							["anchorPoint"] = "C",
 							["x"] = 0,
-							["y"] = 2,
-							["size"] = -4,
+							["y"] = 25,
+							["size"] = -2,
 						}, -- [3]
 						{
-							["text"] = "",
+							["text"] = "[perpp]",
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["size"] = -1,
 						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -3449,39 +3463,30 @@ ShadowedUFDB = {
 					},
 					["indicators"] = {
 						["raidTarget"] = {
-							["y"] = 4,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
 							["y"] = 0,
 							["x"] = 0,
 							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
+							["anchorPoint"] = "C",
+							["size"] = 24,
 						},
 						["height"] = 0.5,
 					},
-					["height"] = 40,
+					["height"] = 85,
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
-						["order"] = 20,
 						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["vertical"] = false,
 					},
 					["highlight"] = {
-						["debuff"] = true,
-						["rareMob"] = false,
 						["height"] = 0.5,
-						["attention"] = true,
-						["mouseover"] = true,
+						["debuff"] = true,
+						["mouseover"] = false,
 						["size"] = 10,
 					},
 				},
@@ -3524,8 +3529,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -3543,8 +3548,8 @@ ShadowedUFDB = {
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
-						["order"] = 20,
 						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["vertical"] = false,
@@ -3552,13 +3557,13 @@ ShadowedUFDB = {
 					["enabled"] = true,
 					["healthBar"] = {
 						["order"] = 10,
-						["colorType"] = "static",
-						["height"] = 3,
-						["reverse"] = false,
+						["vertical"] = false,
 						["reactionType"] = "none",
+						["reverse"] = false,
+						["height"] = 3,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = false,
+						["colorType"] = "static",
 					},
 					["text"] = {
 						{
@@ -3634,33 +3639,26 @@ ShadowedUFDB = {
 					},
 					["attribPoint"] = "BOTTOM",
 				},
-				["focustarget"] = {
+				["battlegroundpet"] = {
 					["highlight"] = {
 						["height"] = 0.5,
-						["debuff"] = true,
-						["mouseover"] = false,
 						["size"] = 10,
 					},
 					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
 						["height"] = 0.5,
 					},
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
 							["y"] = 0,
-							["x"] = 0,
 							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
+							["x"] = 0,
 							["size"] = 16,
 						},
 						["buffs"] = {
 							["anchorPoint"] = "BL",
-							["x"] = 0,
 							["y"] = 0,
-							["selfScale"] = 1,
+							["x"] = 0,
 							["size"] = 16,
 						},
 					},
@@ -3673,8 +3671,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -3691,104 +3689,49 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
-						["colorType"] = "class",
-						["order"] = 20,
-						["height"] = 0.2,
+						["colorType"] = "type",
+						["height"] = 0.6,
 						["background"] = true,
-						["invert"] = false,
-						["vertical"] = false,
+						["order"] = 20,
 					},
 					["healthBar"] = {
+						["colorType"] = "class",
 						["order"] = 10,
-						["colorType"] = "static",
-						["height"] = 3,
-						["reverse"] = false,
-						["reactionType"] = "none",
 						["background"] = true,
-						["invert"] = false,
-						["vertical"] = true,
+						["height"] = 1.2,
+						["reactionType"] = "npc",
 					},
 					["text"] = {
+						nil, -- [1]
 						{
-							["text"] = "[( )perhp]",
-							["width"] = 1,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 15,
-							["size"] = -1,
-						}, -- [1]
-						{
-							["text"] = "[colorname]",
-							["width"] = 1,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = -7,
-							["size"] = -4,
+							["text"] = "[curhp]",
 						}, -- [2]
 						{
-							["text"] = "[level]",
-							["width"] = 0,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 2,
-							["size"] = -4,
+							["text"] = "",
 						}, -- [3]
 						{
 							["text"] = "",
 						}, -- [4]
 						{
-							["text"] = "[(()afk() )][name]",
+							["text"] = "[name]",
 						}, -- [5]
 					},
-					["width"] = 40,
+					["width"] = 90,
 					["altPowerBar"] = {
 						["order"] = 100,
 						["background"] = true,
 						["height"] = 0.4,
 					},
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
+					["combatText"] = {
 						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-						["enabled"] = true,
 					},
-					["height"] = 40,
+					["height"] = 25,
 					["emptyBar"] = {
 						["order"] = 0,
 						["background"] = true,
 						["height"] = 1,
 						["reactionType"] = "none",
 					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 4,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["height"] = 0.5,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "RIGHT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-				},
-				["pettarget"] = {
-					["enabled"] = true,
-					["width"] = 55,
 					["portrait"] = {
 						["type"] = "3D",
 						["alignment"] = "LEFT",
@@ -3798,107 +3741,22 @@ ShadowedUFDB = {
 						["order"] = 15,
 						["width"] = 0.22,
 					},
-					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "static",
-						["height"] = 2,
-						["reverse"] = false,
-						["reactionType"] = "none",
-						["background"] = true,
-						["invert"] = false,
-						["vertical"] = true,
-					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
 						["height"] = 0.5,
 					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
-							["size"] = 16,
-						},
-						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
-							["selfScale"] = 1,
-							["size"] = 16,
-						},
-					},
-					["castBar"] = {
-						["time"] = {
-							["y"] = 0,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
+				},
+				["pet"] = {
+					["xpBar"] = {
+						["order"] = 55,
 						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["size"] = 0,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = true,
-						},
-					},
-					["text"] = {
-						{
-							["text"] = "[( )perhp]",
-							["width"] = 1,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 25,
-							["size"] = -1,
-						}, -- [1]
-						{
-							["text"] = "[colorname]",
-							["width"] = 1,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = -29,
-							["size"] = -1,
-						}, -- [2]
-						{
-							["text"] = "[level]",
-							["width"] = 0,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 25,
-							["size"] = -2,
-						}, -- [3]
-						{
-							["text"] = "[perpp]",
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["size"] = -1,
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["altPowerBar"] = {
-						["order"] = 100,
-						["background"] = true,
-						["height"] = 0.4,
+						["height"] = 0.25,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -3910,23 +3768,163 @@ ShadowedUFDB = {
 						},
 						["height"] = 0.5,
 					},
-					["height"] = 85,
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["enabled"] = true,
+							["selfScale"] = 1,
+							["anchorOn"] = false,
+							["y"] = 1,
+							["maxRows"] = 1,
+							["perRow"] = 5,
+							["x"] = 0,
+							["anchorPoint"] = "TL",
+							["size"] = 20,
+						},
+						["buffs"] = {
+							["perRow"] = 5,
+							["selfScale"] = 1,
+							["anchorOn"] = false,
+							["enlarge"] = {
+								["SELF"] = true,
+							},
+							["enabled"] = true,
+							["y"] = -1,
+							["x"] = 0,
+							["anchorPoint"] = "BL",
+							["maxRows"] = 2,
+							["size"] = 20,
+						},
+					},
+					["castBar"] = {
+						["height"] = 1,
+						["name"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["size"] = -3,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = false,
+						},
+						["autoHide"] = true,
+						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
+						["height"] = 1,
 						["order"] = 20,
-						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["vertical"] = false,
 					},
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["colorType"] = "static",
+						["vertical"] = true,
+						["colorDispel"] = true,
+						["reverse"] = false,
+						["height"] = 5,
+						["background"] = true,
+						["invert"] = false,
+						["reactionType"] = "none",
+					},
 					["highlight"] = {
-						["height"] = 0.5,
 						["debuff"] = true,
-						["mouseover"] = false,
+						["height"] = 0.5,
+						["aggro"] = true,
+						["attention"] = true,
+						["mouseover"] = true,
 						["size"] = 10,
+					},
+					["text"] = {
+						{
+							["text"] = "[( )perhp]",
+							["width"] = 0,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 25,
+						}, -- [1]
+						{
+							["text"] = "[smartlevel] [colorname]",
+							["width"] = 0,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = -28,
+						}, -- [2]
+						{
+							["text"] = "[perpp]",
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["size"] = -1,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["width"] = 110,
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+						["enabled"] = false,
+					},
+					["height"] = 85,
+					["fader"] = {
+						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+						["inactiveAlpha"] = 0.3,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["incAbsorb"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 				},
 				["partypet"] = {
@@ -3962,19 +3960,7 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
-						["order"] = 0,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -3983,6 +3969,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
+						},
+						["autoHide"] = true,
+						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
 						},
 					},
 					["auraIndicators"] = {
@@ -3998,10 +3996,10 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["vertical"] = true,
 						["colorType"] = "static",
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 3,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["highlight"] = {
 						["height"] = 0.5,
@@ -4088,13 +4086,13 @@ ShadowedUFDB = {
 					},
 					["healthBar"] = {
 						["order"] = 10,
-						["colorType"] = "percent",
-						["height"] = 1.5,
-						["reverse"] = false,
+						["vertical"] = true,
 						["reactionType"] = "npc",
+						["reverse"] = false,
+						["height"] = 1.5,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "percent",
 					},
 					["emptyBar"] = {
 						["order"] = 0,
@@ -4129,8 +4127,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -4242,32 +4240,20 @@ ShadowedUFDB = {
 							["enlarge"] = {
 								["SELF"] = false,
 							},
+							["temporary"] = false,
+							["y"] = -1,
 							["x"] = 0,
 							["show"] = {
 								["relevant"] = false,
 							},
-							["maxRows"] = 2,
 							["anchorPoint"] = "BL",
-							["temporary"] = false,
-							["y"] = -1,
 							["perRow"] = 7,
+							["maxRows"] = 2,
 							["size"] = 22,
 						},
 					},
 					["castBar"] = {
-						["order"] = 0,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["height"] = 1,
-						["background"] = false,
-						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -4277,26 +4263,38 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
+						["autoHide"] = true,
+						["order"] = 0,
+						["background"] = false,
+						["icon"] = "LEFT",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
 					},
 					["powerBar"] = {
 						["vertical"] = false,
 						["colorType"] = "type",
-						["height"] = 1,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 1,
 					},
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = false,
 						["colorType"] = "static",
+						["vertical"] = false,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["height"] = 5,
+						["reactionType"] = "none",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "none",
+						["height"] = 5,
 					},
 					["druidBar"] = {
 						["enabled"] = true,
@@ -4304,48 +4302,11 @@ ShadowedUFDB = {
 						["order"] = 70,
 						["height"] = 0.4,
 					},
-					["text"] = {
-						{
-							["text"] = "[()classcolor][()smartlevel] [(()afk())][()name]",
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = -25,
-						}, -- [1]
-						{
-							["text"] = "[()classcolor][()curmaxhp]",
-							["width"] = 0.5,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 23,
-						}, -- [2]
-						{
-							["text"] = "[perpp]",
-						}, -- [3]
-						nil, -- [4]
-						{
-							["text"] = "[(()afk() )][name][( ()group())]",
-						}, -- [5]
-						nil, -- [6]
-						{
-							["anchorTo"] = "$totemBar",
-							["text"] = "[totem:timer]",
-							["width"] = 1,
-							["name"] = "Timer Text",
-							["block"] = true,
-						}, -- [7]
-						{
-							["anchorTo"] = "$runeBar",
-							["text"] = "[rune:timer]",
-							["width"] = 1,
-							["name"] = "Timer Text",
-							["block"] = true,
-						}, -- [8]
-						{
-							["anchorTo"] = "$staggerBar",
-							["text"] = "[monk:abs:stagger]",
-							["width"] = 1,
-							["name"] = "Text",
-						}, -- [9]
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["altPowerBar"] = {
 						["order"] = 90,
@@ -4402,10 +4363,10 @@ ShadowedUFDB = {
 						["y"] = 8,
 						["size"] = 14,
 					},
-					["priestBar"] = {
+					["staggerBar"] = {
 						["order"] = 70,
 						["background"] = true,
-						["height"] = 0.4,
+						["height"] = 1,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -4477,12 +4438,7 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["cap"] = 1.5,
 					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
+					["width"] = 165,
 					["holyPower"] = {
 						["anchorTo"] = "$parent",
 						["order"] = 60,
@@ -4491,7 +4447,7 @@ ShadowedUFDB = {
 						["anchorPoint"] = "BR",
 						["x"] = -3,
 						["spacing"] = -4,
-						["height"] = 0.4,
+						["height"] = 1,
 						["y"] = 6,
 						["size"] = 14,
 					},
@@ -4514,11 +4470,60 @@ ShadowedUFDB = {
 						["order"] = 70,
 						["height"] = 1,
 					},
-					["width"] = 165,
-					["staggerBar"] = {
-						["order"] = 70,
-						["background"] = true,
+					["chi"] = {
+						["anchorTo"] = "$parent",
+						["order"] = 60,
+						["showAlways"] = true,
+						["growth"] = "RIGHT",
+						["anchorPoint"] = "BR",
+						["x"] = -3,
+						["spacing"] = -4,
 						["height"] = 1,
+						["y"] = 6,
+						["size"] = 14,
+					},
+					["text"] = {
+						{
+							["text"] = "[()classcolor][()smartlevel] [(()afk())][()name]",
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = -21,
+						}, -- [1]
+						{
+							["text"] = "[()classcolor][()curmaxhp]",
+							["width"] = 0.5,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 23,
+						}, -- [2]
+						{
+							["text"] = "[perpp]",
+						}, -- [3]
+						nil, -- [4]
+						{
+							["text"] = "[(()afk() )][name][( ()group())]",
+						}, -- [5]
+						nil, -- [6]
+						{
+							["anchorTo"] = "$totemBar",
+							["text"] = "[totem:timer]",
+							["width"] = 1,
+							["name"] = "Timer Text",
+							["block"] = true,
+						}, -- [7]
+						{
+							["anchorTo"] = "$runeBar",
+							["text"] = "[rune:timer]",
+							["width"] = 1,
+							["name"] = "Timer Text",
+							["block"] = true,
+						}, -- [8]
+						{
+							["anchorTo"] = "$staggerBar",
+							["text"] = "[monk:abs:stagger]",
+							["width"] = 1,
+							["name"] = "Text",
+						}, -- [9]
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
@@ -4556,17 +4561,10 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 12,
 					},
-					["chi"] = {
-						["anchorTo"] = "$parent",
-						["order"] = 60,
-						["showAlways"] = true,
-						["growth"] = "RIGHT",
-						["anchorPoint"] = "BR",
-						["x"] = -3,
-						["spacing"] = -4,
-						["height"] = 1,
-						["y"] = 6,
-						["size"] = 14,
+					["priestBar"] = {
+						["order"] = 70,
+						["background"] = true,
+						["height"] = 0.4,
 					},
 				},
 				["mainassist"] = {
@@ -4645,7 +4643,10 @@ ShadowedUFDB = {
 						["order"] = 15,
 						["width"] = 0.22,
 					},
-					["columnSpacing"] = 5,
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["unitsPerColumn"] = 5,
 					["range"] = {
 						["height"] = 0.5,
@@ -4674,8 +4675,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -4701,17 +4702,12 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["offset"] = 5,
-					["incHeal"] = {
+					["incAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
+					["offset"] = 5,
+					["columnSpacing"] = 5,
 					["healthBar"] = {
 						["colorType"] = "class",
 						["order"] = 10,
@@ -4719,9 +4715,11 @@ ShadowedUFDB = {
 						["height"] = 1.2,
 						["reactionType"] = "npc",
 					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -4754,21 +4752,32 @@ ShadowedUFDB = {
 						},
 					},
 				},
-				["pet"] = {
-					["xpBar"] = {
-						["order"] = 55,
-						["background"] = true,
-						["height"] = 0.25,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 24,
-						},
+				["targettarget"] = {
+					["width"] = 40,
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
 						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["healthBar"] = {
+						["order"] = 10,
+						["vertical"] = true,
+						["reactionType"] = "none",
+						["reverse"] = false,
+						["height"] = 3,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "static",
+					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -4779,181 +4788,17 @@ ShadowedUFDB = {
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["y"] = 1,
-							["maxRows"] = 1,
-							["perRow"] = 5,
-							["x"] = 0,
-							["anchorPoint"] = "TL",
-							["size"] = 20,
-						},
-						["buffs"] = {
-							["perRow"] = 5,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["enlarge"] = {
-								["SELF"] = true,
-							},
-							["enabled"] = true,
-							["y"] = -1,
+							["y"] = 0,
 							["x"] = 0,
 							["anchorPoint"] = "BL",
-							["maxRows"] = 2,
-							["size"] = 20,
-						},
-					},
-					["castBar"] = {
-						["order"] = 0,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["size"] = -3,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = false,
-						},
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["order"] = 20,
-						["height"] = 1,
-						["background"] = true,
-						["invert"] = false,
-						["vertical"] = false,
-					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["vertical"] = true,
-						["colorType"] = "static",
-						["colorDispel"] = true,
-						["reverse"] = false,
-						["reactionType"] = "none",
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 5,
-					},
-					["highlight"] = {
-						["debuff"] = true,
-						["height"] = 0.5,
-						["aggro"] = true,
-						["attention"] = true,
-						["mouseover"] = true,
-						["size"] = 10,
-					},
-					["text"] = {
-						{
-							["text"] = "[( )perhp]",
-							["width"] = 0,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = 25,
-						}, -- [1]
-						{
-							["text"] = "[smartlevel] [colorname]",
-							["width"] = 0,
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["y"] = -28,
-						}, -- [2]
-						{
-							["text"] = "[perpp]",
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["size"] = -1,
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["order"] = 0,
-						["background"] = true,
-						["height"] = 1,
-						["reactionType"] = "none",
-					},
-					["width"] = 110,
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-						["enabled"] = false,
-					},
-					["height"] = 85,
-					["fader"] = {
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-						["inactiveAlpha"] = 0.3,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-					},
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-				},
-				["battlegroundpet"] = {
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["range"] = {
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["y"] = 0,
-							["anchorPoint"] = "BL",
-							["x"] = 0,
+							["selfScale"] = 1,
 							["size"] = 16,
 						},
 						["buffs"] = {
 							["anchorPoint"] = "BL",
-							["y"] = 0,
 							["x"] = 0,
+							["y"] = 0,
+							["selfScale"] = 1,
 							["size"] = 16,
 						},
 					},
@@ -4966,8 +4811,144 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["size"] = 0,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = true,
+						},
+					},
+					["text"] = {
+						{
+							["text"] = "[( )perhp]",
+							["width"] = 1,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 15,
+							["size"] = -1,
+						}, -- [1]
+						{
+							["text"] = "[colorname]",
+							["width"] = 1,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = -7,
+							["size"] = -4,
+						}, -- [2]
+						{
+							["text"] = "[level]",
+							["width"] = 0,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 2,
+							["size"] = -4,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+					},
+					["altPowerBar"] = {
+						["order"] = 100,
+						["background"] = true,
+						["height"] = 0.4,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 4,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
+					},
+					["height"] = 40,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["colorType"] = "class",
+						["height"] = 0.2,
+						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["vertical"] = false,
+					},
+					["highlight"] = {
+						["debuff"] = true,
+						["rareMob"] = false,
+						["height"] = 0.5,
+						["attention"] = true,
+						["mouseover"] = true,
+						["size"] = 10,
+					},
+				},
+				["focustarget"] = {
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 4,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
+					},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["selfScale"] = 1,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["y"] = 0,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -4984,93 +4965,94 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
-						["colorType"] = "type",
-						["height"] = 0.6,
-						["background"] = true,
+						["colorType"] = "class",
+						["height"] = 0.2,
 						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["vertical"] = false,
 					},
 					["healthBar"] = {
-						["colorType"] = "class",
 						["order"] = 10,
+						["vertical"] = true,
+						["reactionType"] = "none",
+						["reverse"] = false,
+						["height"] = 3,
 						["background"] = true,
-						["height"] = 1.2,
-						["reactionType"] = "npc",
+						["invert"] = false,
+						["colorType"] = "static",
 					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["width"] = 90,
-					["altPowerBar"] = {
-						["order"] = 100,
-						["background"] = true,
-						["height"] = 0.4,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["height"] = 25,
 					["emptyBar"] = {
 						["order"] = 0,
 						["background"] = true,
 						["height"] = 1,
 						["reactionType"] = "none",
 					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
+					["width"] = 40,
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
 						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+						["enabled"] = true,
 					},
 					["highlight"] = {
 						["height"] = 0.5,
+						["debuff"] = true,
+						["mouseover"] = false,
 						["size"] = 10,
+					},
+					["height"] = 40,
+					["altPowerBar"] = {
+						["order"] = 100,
+						["background"] = true,
+						["height"] = 0.4,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["text"] = {
+						{
+							["text"] = "[( )perhp]",
+							["width"] = 1,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 15,
+							["size"] = -1,
+						}, -- [1]
+						{
+							["text"] = "[colorname]",
+							["width"] = 1,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = -7,
+							["size"] = -4,
+						}, -- [2]
+						{
+							["text"] = "[level]",
+							["width"] = 0,
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["y"] = 2,
+							["size"] = -4,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [5]
 					},
 				},
 				["arena"] = {
-					["indicators"] = {
-						["arenaSpec"] = {
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "LC",
-							["size"] = 28,
-						},
-						["lfdRole"] = {
-							["y"] = 14,
-							["x"] = 3,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BR",
-							["size"] = 14,
-						},
+					["highlight"] = {
 						["height"] = 0.5,
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
+						["size"] = 10,
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -5103,8 +5085,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -5158,6 +5140,35 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 					},
 					["height"] = 45,
+					["indicators"] = {
+						["arenaSpec"] = {
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "LC",
+							["size"] = 28,
+						},
+						["lfdRole"] = {
+							["y"] = 14,
+							["x"] = 3,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BR",
+							["size"] = 14,
+						},
+						["height"] = 0.5,
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
+					},
 					["portrait"] = {
 						["enabled"] = true,
 						["type"] = "class",
@@ -5167,10 +5178,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
 					},
 				},
 				["partytargettarget"] = {
@@ -5188,10 +5195,10 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["vertical"] = false,
 						["colorType"] = "static",
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 2,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["emptyBar"] = {
 						["order"] = 0,
@@ -5229,8 +5236,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -5312,14 +5319,9 @@ ShadowedUFDB = {
 					},
 				},
 				["battleground"] = {
-					["portrait"] = {
-						["type"] = "class",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
+					["highlight"] = {
 						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
+						["size"] = 10,
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -5350,8 +5352,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -5393,9 +5395,14 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
-					["highlight"] = {
+					["portrait"] = {
+						["type"] = "class",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
 						["height"] = 0.5,
-						["size"] = 10,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 					["width"] = 140,
 					["altPowerBar"] = {
@@ -5440,22 +5447,22 @@ ShadowedUFDB = {
 				},
 			},
 			["font"] = {
-				["color"] = {
-					["a"] = 1,
-					["r"] = 1,
-					["g"] = 1,
-					["b"] = 1,
-				},
+				["extra"] = "OUTLINE",
 				["name"] = "Friz Quadrata TT",
-				["shadowX"] = 0.8,
 				["shadowColor"] = {
 					["a"] = 1,
 					["r"] = 0,
 					["g"] = 0,
 					["b"] = 0,
 				},
+				["shadowX"] = 0.8,
 				["shadowY"] = -0.8,
-				["extra"] = "OUTLINE",
+				["color"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["b"] = 1,
+				},
 				["size"] = 12,
 			},
 			["wowBuild"] = 80000,
@@ -5565,10 +5572,10 @@ ShadowedUFDB = {
 					["g"] = 0.93,
 					["b"] = 0,
 				},
-				["yellow"] = {
-					["r"] = 0.93,
-					["g"] = 0.93,
-					["b"] = 0,
+				["healAbsorb"] = {
+					["r"] = 0.68,
+					["g"] = 0.47,
+					["b"] = 1,
 				},
 				["aggro"] = {
 					["a"] = 1,
@@ -5587,10 +5594,10 @@ ShadowedUFDB = {
 					["g"] = 0.9,
 					["b"] = 0.2,
 				},
-				["offline"] = {
-					["r"] = 0.5,
-					["g"] = 0.5,
-					["b"] = 0.5,
+				["yellow"] = {
+					["r"] = 0.93,
+					["g"] = 0.93,
+					["b"] = 0,
 				},
 				["incAbsorb"] = {
 					["r"] = 0.93,
@@ -5618,10 +5625,10 @@ ShadowedUFDB = {
 					["g"] = 0.2,
 					["b"] = 0.2,
 				},
-				["healAbsorb"] = {
-					["r"] = 0.68,
-					["g"] = 0.47,
-					["b"] = 1,
+				["offline"] = {
+					["r"] = 0.5,
+					["g"] = 0.5,
+					["b"] = 0.5,
 				},
 				["inc"] = {
 					["r"] = 0,
@@ -5748,25 +5755,24 @@ ShadowedUFDB = {
 					["anchorPoint"] = "RT",
 					["anchorTo"] = "$parent",
 				},
-				["targettarget"] = {
-					["anchorPoint"] = "RT",
-					["x"] = 42,
-					["anchorTo"] = "#SUFUnittarget",
+				["pettarget"] = {
+					["anchorPoint"] = "RC",
+					["x"] = 5,
+					["anchorTo"] = "#SUFUnitpet",
 				},
 				["bosstarget"] = {
 					["anchorPoint"] = "RT",
 					["x"] = 2,
 					["anchorTo"] = "$parent",
 				},
-				["focustarget"] = {
-					["anchorPoint"] = "LT",
-					["x"] = -42,
-					["anchorTo"] = "#SUFUnitfocus",
+				["battlegroundpet"] = {
+					["anchorPoint"] = "RB",
+					["anchorTo"] = "$parent",
 				},
-				["pettarget"] = {
-					["anchorPoint"] = "RC",
-					["x"] = 5,
-					["anchorTo"] = "#SUFUnitpet",
+				["pet"] = {
+					["y"] = 163.555559515953,
+					["x"] = 24.8888894915581,
+					["anchorPoint"] = "BL",
 				},
 				["partypet"] = {
 					["anchorPoint"] = "BR",
@@ -5789,14 +5795,15 @@ ShadowedUFDB = {
 					["bottom"] = 493.511079658401,
 					["y"] = 649.955527891052,
 				},
-				["pet"] = {
-					["y"] = 163.555559515953,
-					["x"] = 24.8888894915581,
-					["anchorPoint"] = "BL",
+				["targettarget"] = {
+					["anchorPoint"] = "RT",
+					["x"] = 42,
+					["anchorTo"] = "#SUFUnittarget",
 				},
-				["battlegroundpet"] = {
-					["anchorPoint"] = "RB",
-					["anchorTo"] = "$parent",
+				["focustarget"] = {
+					["anchorPoint"] = "LT",
+					["x"] = -42,
+					["anchorTo"] = "#SUFUnitfocus",
 				},
 				["arena"] = {
 					["anchorPoint"] = "C",
@@ -5840,11 +5847,16 @@ ShadowedUFDB = {
 			},
 			["loadedLayout"] = true,
 			["backdrop"] = {
-				["clip"] = 0,
+				["inset"] = 0,
 				["edgeSize"] = 0,
 				["tileSize"] = 0,
-				["borderTexture"] = "Details BarBorder 3",
-				["inset"] = 0,
+				["borderColor"] = {
+					["a"] = 0,
+					["r"] = 0.301960784313726,
+					["g"] = 0.301960784313726,
+					["b"] = 0.501960784313726,
+				},
+				["clip"] = 0,
 				["backgroundTexture"] = "Solid",
 				["backgroundColor"] = {
 					["a"] = 0,
@@ -5852,12 +5864,7 @@ ShadowedUFDB = {
 					["g"] = 0.0196078431372549,
 					["b"] = 0,
 				},
-				["borderColor"] = {
-					["a"] = 0,
-					["r"] = 0.301960784313726,
-					["g"] = 0.301960784313726,
-					["b"] = 0.501960784313726,
-				},
+				["borderTexture"] = "Details BarBorder 3",
 			},
 			["units"] = {
 				["arenatarget"] = {
@@ -5924,8 +5931,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -6028,8 +6035,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -6083,14 +6090,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["colorType"] = "static",
 						["vertical"] = true,
+						["colorType"] = "static",
 						["height"] = 2,
 						["reverse"] = false,
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -6131,8 +6138,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -6201,8 +6208,8 @@ ShadowedUFDB = {
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["height"] = 0.2,
 						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -6217,17 +6224,30 @@ ShadowedUFDB = {
 				},
 				["partytarget"] = {
 					["enabled"] = true,
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
 					["healthBar"] = {
 						["colorType"] = "static",
 						["vertical"] = true,
-						["reactionType"] = "none",
+						["order"] = 10,
 						["background"] = true,
 						["height"] = 3,
-						["order"] = 10,
+						["reactionType"] = "none",
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
 					},
 					["emptyBar"] = {
 						["reactionType"] = "none",
@@ -6297,8 +6317,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -6341,22 +6361,9 @@ ShadowedUFDB = {
 						["height"] = 0.2,
 						["background"] = true,
 					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
+					["highlight"] = {
 						["height"] = 0.5,
+						["size"] = 10,
 					},
 				},
 				["arenatargettarget"] = {
@@ -6423,8 +6430,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -6476,10 +6483,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -6556,6 +6559,10 @@ ShadowedUFDB = {
 							["size"] = 18,
 						},
 					},
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
+					},
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
@@ -6575,8 +6582,9 @@ ShadowedUFDB = {
 						},
 					},
 					["columnSpacing"] = 30,
-					["auraIndicators"] = {
+					["incAbsorb"] = {
 						["height"] = 0.5,
+						["cap"] = 1.5,
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -6586,7 +6594,19 @@ ShadowedUFDB = {
 					["showParty"] = false,
 					["castBar"] = {
 						["enabled"] = true,
+						["order"] = 0,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["autoHide"] = true,
 						["height"] = 0.4,
+						["background"] = true,
+						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -6595,18 +6615,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
-						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = true,
-						["icon"] = "LEFT",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
 						},
 					},
 					["fader"] = {
@@ -6617,7 +6625,7 @@ ShadowedUFDB = {
 					},
 					["frameSplit"] = false,
 					["groupSpacing"] = 0,
-					["groupsPerRow"] = 2,
+					["offset"] = 20,
 					["groupBy"] = "ASSIGNEDROLE",
 					["powerBar"] = {
 						["order"] = 20,
@@ -6625,26 +6633,20 @@ ShadowedUFDB = {
 						["height"] = 0.2,
 						["background"] = true,
 					},
-					["offset"] = 20,
+					["groupsPerRow"] = 2,
 					["enabled"] = true,
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
+					["unitsPerColumn"] = 20,
 					["healthBar"] = {
-						["colorType"] = "static",
 						["vertical"] = true,
+						["colorType"] = "static",
 						["colorAggro"] = true,
+						["background"] = true,
+						["reactionType"] = "none",
 						["colorDispel"] = true,
 						["height"] = 3,
-						["background"] = true,
 						["order"] = 10,
-						["reactionType"] = "none",
 					},
 					["hideSemiRaid"] = false,
-					["attribAnchorPoint"] = "TOP",
 					["text"] = {
 						{
 							["text"] = "[(()afk() )][name]",
@@ -6662,12 +6664,17 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["unitsPerColumn"] = 20,
+					["attribAnchorPoint"] = "TOP",
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
 					["width"] = 30,
 					["maxColumns"] = 2,
-					["incAbsorb"] = {
+					["auraIndicators"] = {
 						["height"] = 0.5,
-						["cap"] = 1.5,
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
@@ -6677,15 +6684,15 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 70,
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1.5,
-					},
 					["incHeal"] = {
 						["height"] = 0.5,
 						["cap"] = 1.5,
 					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1.5,
+					},
+					["height"] = 70,
 					["attribPoint"] = "LEFT",
 				},
 				["arenapet"] = {
@@ -6742,8 +6749,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -6849,8 +6856,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -6945,6 +6952,7 @@ ShadowedUFDB = {
 							["enabled"] = false,
 							["size"] = 22,
 						},
+						["height"] = 0.5,
 						["status"] = {
 							["y"] = -8,
 							["x"] = -6,
@@ -6953,7 +6961,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = 16,
 						},
-						["height"] = 0.5,
 						["class"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -7021,21 +7028,9 @@ ShadowedUFDB = {
 					["castBar"] = {
 						["enabled"] = true,
 						["order"] = 0,
-						["autoHide"] = true,
+						["reverse"] = false,
 						["invert"] = false,
 						["vertical"] = false,
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["reverse"] = false,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "RIGHT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -7044,6 +7039,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
+						},
+						["autoHide"] = true,
+						["height"] = 1,
+						["background"] = true,
+						["icon"] = "RIGHT",
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
 						},
 					},
 					["portrait"] = {
@@ -7056,11 +7063,12 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["width"] = 0.22,
 					},
-					["height"] = 80,
-					["hideAnyRaid"] = true,
 					["columnSpacing"] = 0,
-					["auraIndicators"] = {
+					["hideAnyRaid"] = true,
+					["height"] = 80,
+					["incAbsorb"] = {
 						["height"] = 0.5,
+						["cap"] = 1,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
@@ -7080,16 +7088,33 @@ ShadowedUFDB = {
 						["enabled"] = false,
 					},
 					["healthBar"] = {
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["colorAggro"] = true,
+						["colorDispel"] = true,
+						["height"] = 3,
 						["background"] = true,
 						["reactionType"] = "none",
-						["colorDispel"] = true,
 						["order"] = 10,
-						["height"] = 3,
 					},
 					["hideSemiRaid"] = false,
+					["attribAnchorPoint"] = "BOTTOM",
+					["unitsPerColumn"] = 5,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["width"] = 60,
+					["highlight"] = {
+						["debuff"] = true,
+						["height"] = 0.5,
+						["aggro"] = true,
+						["attention"] = true,
+						["mouseover"] = true,
+						["size"] = 10,
+					},
 					["text"] = {
 						{
 							["y"] = 20,
@@ -7119,23 +7144,6 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["attribAnchorPoint"] = "BOTTOM",
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["width"] = 60,
-					["highlight"] = {
-						["debuff"] = true,
-						["height"] = 0.5,
-						["aggro"] = true,
-						["attention"] = true,
-						["mouseover"] = true,
-						["size"] = 10,
-					},
-					["unitsPerColumn"] = 5,
 					["fader"] = {
 						["inactiveAlpha"] = 0.3,
 						["height"] = 0.5,
@@ -7153,9 +7161,8 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["incAbsorb"] = {
+					["auraIndicators"] = {
 						["height"] = 0.5,
-						["cap"] = 1,
 					},
 					["attribPoint"] = "LEFT",
 				},
@@ -7219,8 +7226,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -7377,7 +7384,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["order"] = 0,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["height"] = 1,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -7387,26 +7406,14 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["height"] = 0.2,
 						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -7414,14 +7421,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -7630,7 +7637,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["order"] = 0,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["height"] = 1,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -7640,26 +7659,14 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["height"] = 0.2,
 						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -7667,14 +7674,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -7827,8 +7834,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -7925,7 +7932,19 @@ ShadowedUFDB = {
 					},
 					["castBar"] = {
 						["enabled"] = true,
+						["order"] = 0,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["height"] = 1,
+						["background"] = true,
+						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -7935,26 +7954,14 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = true,
-						["icon"] = "LEFT",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["height"] = 0.2,
 						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -7963,14 +7970,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 					},
 					["text"] = {
 						{
@@ -8085,8 +8092,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -8099,12 +8106,12 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
 					["incAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["order"] = 20,
@@ -8112,29 +8119,30 @@ ShadowedUFDB = {
 						["height"] = 0.1,
 						["background"] = true,
 					},
-					["columnSpacing"] = 5,
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["offset"] = 5,
+					["unitsPerColumn"] = 5,
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["colorType"] = "percent",
+						["vertical"] = true,
+						["colorDispel"] = true,
+						["reverse"] = false,
+						["reactionType"] = "npc",
+						["background"] = true,
+						["invert"] = false,
+						["height"] = 3,
+					},
+					["columnSpacing"] = 5,
 					["emptyBar"] = {
 						["reactionType"] = "none",
 						["background"] = true,
 						["order"] = 0,
 						["height"] = 1,
-					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["vertical"] = true,
-						["colorType"] = "percent",
-						["colorDispel"] = true,
-						["reverse"] = false,
-						["height"] = 3,
-						["background"] = true,
-						["invert"] = false,
-						["reactionType"] = "npc",
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
 					},
 					["text"] = {
 						{
@@ -8161,7 +8169,6 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["unitsPerColumn"] = 5,
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -8300,8 +8307,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -8351,6 +8358,7 @@ ShadowedUFDB = {
 						["height"] = 1.2,
 						["reactionType"] = "none",
 					},
+					["unitsPerColumn"] = 20,
 					["text"] = {
 						nil, -- [1]
 						{
@@ -8366,20 +8374,19 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
-					["unitsPerColumn"] = 20,
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
+					["attribAnchorPoint"] = "BOTTOM",
 					["incAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
 					["width"] = 20,
 					["maxColumns"] = 8,
-					["attribAnchorPoint"] = "BOTTOM",
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -8388,12 +8395,12 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 20,
+					["columnSpacing"] = 5,
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["columnSpacing"] = 5,
+					["height"] = 20,
 					["attribPoint"] = "RIGHT",
 				},
 				["battlegroundtargettarget"] = {
@@ -8460,8 +8467,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -8515,14 +8522,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["colorType"] = "percent",
 						["vertical"] = true,
+						["colorType"] = "percent",
 						["height"] = 1.5,
 						["reverse"] = false,
-						["order"] = 10,
+						["reactionType"] = "npc",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "npc",
+						["order"] = 10,
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -8558,8 +8565,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -8636,10 +8643,11 @@ ShadowedUFDB = {
 						["size"] = 10,
 					},
 				},
-				["targettarget"] = {
+				["pettarget"] = {
+					["enabled"] = true,
 					["portrait"] = {
 						["type"] = "3D",
-						["alignment"] = "RIGHT",
+						["alignment"] = "LEFT",
 						["fullAfter"] = 100,
 						["height"] = 0.5,
 						["fullBefore"] = 0,
@@ -8647,14 +8655,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["colorType"] = "static",
 						["vertical"] = true,
-						["height"] = 3,
+						["colorType"] = "static",
+						["height"] = 2,
 						["reverse"] = false,
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -8695,8 +8703,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -8711,7 +8719,7 @@ ShadowedUFDB = {
 					},
 					["text"] = {
 						{
-							["y"] = 15,
+							["y"] = 10,
 							["x"] = 0,
 							["size"] = -3,
 							["text"] = "[( )perhp]",
@@ -8719,7 +8727,7 @@ ShadowedUFDB = {
 							["width"] = 1,
 						}, -- [1]
 						{
-							["y"] = -15,
+							["y"] = -10,
 							["x"] = 0,
 							["size"] = -3,
 							["text"] = "[colorname]",
@@ -8736,6 +8744,9 @@ ShadowedUFDB = {
 						{
 							["text"] = "",
 						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
@@ -8750,33 +8761,24 @@ ShadowedUFDB = {
 							["anchorPoint"] = "C",
 							["size"] = 12,
 						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
 						["height"] = 0.5,
 					},
-					["height"] = 45,
+					["height"] = 30,
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["height"] = 0.2,
 						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
 					},
 					["highlight"] = {
-						["debuff"] = true,
-						["rareMob"] = false,
 						["height"] = 0.5,
-						["attention"] = true,
-						["mouseover"] = true,
+						["debuff"] = true,
+						["mouseover"] = false,
 						["size"] = 10,
 					},
 				},
@@ -8819,8 +8821,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -8838,22 +8840,22 @@ ShadowedUFDB = {
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["height"] = 0.2,
 						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
 					},
 					["enabled"] = true,
 					["healthBar"] = {
-						["colorType"] = "static",
 						["vertical"] = true,
+						["colorType"] = "static",
 						["height"] = 3,
 						["reverse"] = false,
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["text"] = {
 						{
@@ -8929,22 +8931,30 @@ ShadowedUFDB = {
 					},
 					["attribPoint"] = "BOTTOM",
 				},
-				["focustarget"] = {
-					["highlight"] = {
-						["height"] = 0.5,
-						["debuff"] = true,
-						["mouseover"] = false,
-						["size"] = 10,
+				["battlegroundpet"] = {
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
 					},
-					["healthBar"] = {
-						["colorType"] = "static",
-						["vertical"] = true,
-						["height"] = 3,
-						["reverse"] = false,
-						["order"] = 10,
-						["background"] = true,
-						["invert"] = false,
-						["reactionType"] = "none",
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
 					},
 					["emptyBar"] = {
 						["reactionType"] = "none",
@@ -8953,60 +8963,19 @@ ShadowedUFDB = {
 						["height"] = 1,
 					},
 					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
-							["size"] = 16,
-						},
 						["buffs"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["debuffs"] = {
 							["anchorPoint"] = "BL",
 							["x"] = 0,
 							["y"] = 0,
-							["selfScale"] = 1,
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						{
-							["y"] = 15,
-							["x"] = 0,
-							["size"] = -3,
-							["text"] = "[( )perhp]",
-							["anchorPoint"] = "C",
-							["width"] = 1,
-						}, -- [1]
-						{
-							["y"] = -15,
-							["x"] = 0,
-							["size"] = -3,
-							["text"] = "[colorname]",
-							["anchorPoint"] = "C",
-							["width"] = 1,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[level]",
-							["size"] = -3,
-							["width"] = 0,
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [5]
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["width"] = 30,
 					["castBar"] = {
 						["time"] = {
 							["y"] = 0,
@@ -9016,8 +8985,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -9030,58 +8999,14 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
+					["highlight"] = {
+						["size"] = 10,
+					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
 					},
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-						["enabled"] = true,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "RIGHT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["height"] = 45,
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["vertical"] = false,
-						["height"] = 0.2,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["colorType"] = "class",
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["height"] = 0.5,
-					},
-				},
-				["pettarget"] = {
-					["enabled"] = true,
 					["portrait"] = {
 						["type"] = "3D",
 						["alignment"] = "LEFT",
@@ -9091,22 +9016,37 @@ ShadowedUFDB = {
 						["order"] = 15,
 						["width"] = 0.22,
 					},
+					["height"] = 25,
+					["width"] = 90,
+					["powerBar"] = {
+						["order"] = 20,
+						["colorType"] = "type",
+						["height"] = 0.6,
+						["background"] = true,
+					},
 					["healthBar"] = {
-						["colorType"] = "static",
-						["vertical"] = true,
-						["height"] = 2,
-						["reverse"] = false,
+						["colorType"] = "class",
 						["order"] = 10,
 						["background"] = true,
-						["invert"] = false,
-						["reactionType"] = "none",
+						["height"] = 1.2,
+						["reactionType"] = "npc",
 					},
-					["width"] = 30,
-					["emptyBar"] = {
-						["reactionType"] = "none",
+				},
+				["pet"] = {
+					["xpBar"] = {
+						["height"] = 0.25,
 						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
+						["order"] = 55,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
+						["height"] = 0.5,
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -9117,66 +9057,99 @@ ShadowedUFDB = {
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorPoint"] = "BL",
+							["enabled"] = true,
 							["selfScale"] = 1,
-							["size"] = 16,
+							["anchorOn"] = false,
+							["y"] = 0,
+							["maxRows"] = 2,
+							["perRow"] = 4,
+							["x"] = -2,
+							["anchorPoint"] = "TR",
+							["size"] = 22,
 						},
 						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
+							["enabled"] = true,
 							["selfScale"] = 1,
-							["size"] = 16,
+							["anchorOn"] = false,
+							["enlarge"] = {
+								["SELF"] = true,
+							},
+							["anchorPoint"] = "TL",
+							["maxRows"] = 2,
+							["perRow"] = 4,
+							["y"] = 0,
+							["x"] = 0,
+							["size"] = 22,
 						},
 					},
 					["castBar"] = {
+						["order"] = 0,
 						["time"] = {
 							["y"] = 0,
-							["x"] = -1,
+							["x"] = 0,
 							["anchorTo"] = "$parent",
 							["enabled"] = true,
 							["anchorPoint"] = "CRI",
-							["size"] = 0,
+							["size"] = -3,
 						},
-						["height"] = 0.6,
-						["order"] = 40,
+						["autoHide"] = true,
+						["height"] = 1,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
-							["x"] = 1,
+							["x"] = 0,
 							["anchorTo"] = "$parent",
-							["size"] = 0,
+							["size"] = -3,
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
-							["rank"] = true,
+							["rank"] = false,
 						},
+					},
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["vertical"] = false,
+						["order"] = 20,
+						["height"] = 0.2,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "class",
+					},
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["colorType"] = "static",
+						["vertical"] = false,
+						["colorDispel"] = true,
+						["reverse"] = false,
+						["reactionType"] = "none",
+						["background"] = true,
+						["invert"] = false,
+						["height"] = 2,
+					},
+					["highlight"] = {
+						["debuff"] = true,
+						["height"] = 0.5,
+						["aggro"] = true,
+						["attention"] = true,
+						["mouseover"] = true,
+						["size"] = 10,
 					},
 					["text"] = {
 						{
-							["y"] = 10,
+							["text"] = "[smartlevel] [( )perhp]",
 							["x"] = 0,
-							["size"] = -3,
-							["text"] = "[( )perhp]",
-							["anchorPoint"] = "C",
-							["width"] = 1,
+							["width"] = 0,
 						}, -- [1]
 						{
-							["y"] = -10,
-							["x"] = 0,
-							["size"] = -3,
 							["text"] = "[colorname]",
-							["anchorPoint"] = "C",
-							["width"] = 1,
+							["x"] = 0,
+							["width"] = 0,
 						}, -- [2]
 						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[level]",
-							["size"] = -3,
-							["width"] = 0,
+							["text"] = "",
 						}, -- [3]
 						{
 							["text"] = "",
@@ -9185,38 +9158,47 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["width"] = 200,
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["height"] = 0.5,
+						["enabled"] = false,
 					},
 					["height"] = 30,
-					["auraIndicators"] = {
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+						["enabled"] = true,
+					},
+					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["powerBar"] = {
-						["vertical"] = false,
-						["height"] = 0.2,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["colorType"] = "class",
-					},
-					["highlight"] = {
+					["incHeal"] = {
 						["height"] = 0.5,
-						["debuff"] = true,
-						["mouseover"] = false,
-						["size"] = 10,
+					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["incAbsorb"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 				},
 				["partypet"] = {
@@ -9252,7 +9234,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["order"] = 0,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["height"] = 1,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -9261,18 +9255,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
-						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
 						},
 					},
 					["auraIndicators"] = {
@@ -9288,10 +9270,10 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorType"] = "static",
 						["vertical"] = false,
-						["reactionType"] = "none",
+						["order"] = 10,
 						["background"] = true,
 						["height"] = 1,
-						["order"] = 10,
+						["reactionType"] = "none",
 					},
 					["highlight"] = {
 						["height"] = 0.5,
@@ -9365,14 +9347,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["colorType"] = "percent",
 						["vertical"] = true,
+						["colorType"] = "percent",
 						["height"] = 1.5,
 						["reverse"] = false,
-						["order"] = 10,
+						["reactionType"] = "npc",
 						["background"] = true,
 						["invert"] = false,
-						["reactionType"] = "npc",
+						["order"] = 10,
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -9408,8 +9390,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -9598,7 +9580,19 @@ ShadowedUFDB = {
 						["height"] = 0.4,
 					},
 					["castBar"] = {
+						["order"] = 0,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["height"] = 1,
+						["background"] = false,
+						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -9608,29 +9602,16 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = false,
-						["icon"] = "LEFT",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
+					},
+					["priestBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 70,
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 90,
-					},
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
-						["combatAlpha"] = 0.8,
-						["height"] = 0.5,
-						["enabled"] = true,
 					},
 					["auras"] = {
 						["height"] = 0.5,
@@ -9668,20 +9649,25 @@ ShadowedUFDB = {
 							["size"] = 22,
 						},
 					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
 					["incAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1.5,
 					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["height"] = 1,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["vertical"] = false,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["comboPoints"] = {
+						["enabled"] = false,
+						["anchorTo"] = "$parent",
+						["order"] = 5,
+						["showAlways"] = false,
+						["growth"] = "LEFT",
+						["anchorPoint"] = "BR",
+						["x"] = -3,
+						["spacing"] = -4,
+						["height"] = 0.5,
+						["y"] = 8,
+						["size"] = 14,
 					},
 					["chi"] = {
 						["anchorTo"] = "$parent",
@@ -9695,25 +9681,6 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 14,
 					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["disableVehicle"] = false,
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["colorType"] = "class",
-						["vertical"] = false,
-						["colorDispel"] = true,
-						["reverse"] = false,
-						["height"] = 1,
-						["background"] = true,
-						["invert"] = false,
-						["reactionType"] = "none",
-					},
 					["soulShards"] = {
 						["anchorTo"] = "$parent",
 						["order"] = 60,
@@ -9726,10 +9693,36 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 12,
 					},
-					["druidBar"] = {
-						["order"] = 70,
+					["disableVehicle"] = false,
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["vertical"] = false,
+						["colorType"] = "class",
+						["colorDispel"] = true,
+						["reverse"] = false,
+						["reactionType"] = "none",
 						["background"] = true,
+						["invert"] = false,
+						["height"] = 1,
+					},
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["holyPower"] = {
+						["anchorTo"] = "$parent",
+						["order"] = 60,
+						["showAlways"] = true,
+						["growth"] = "LEFT",
+						["anchorPoint"] = "BR",
+						["x"] = -3,
+						["spacing"] = -4,
 						["height"] = 0.4,
+						["y"] = 6,
+						["size"] = 14,
 					},
 					["text"] = {
 						{
@@ -9767,37 +9760,26 @@ ShadowedUFDB = {
 							["anchorTo"] = "$staggerBar",
 						}, -- [9]
 					},
-					["holyPower"] = {
-						["anchorTo"] = "$parent",
-						["order"] = 60,
-						["showAlways"] = true,
-						["growth"] = "LEFT",
-						["anchorPoint"] = "BR",
-						["x"] = -3,
-						["spacing"] = -4,
+					["druidBar"] = {
+						["order"] = 70,
+						["background"] = true,
 						["height"] = 0.4,
-						["y"] = 6,
-						["size"] = 14,
 					},
 					["width"] = 300,
-					["comboPoints"] = {
-						["enabled"] = false,
-						["anchorTo"] = "$parent",
-						["order"] = 5,
-						["showAlways"] = false,
-						["growth"] = "LEFT",
-						["anchorPoint"] = "BR",
-						["x"] = -3,
-						["spacing"] = -4,
-						["height"] = 0.5,
-						["y"] = 8,
-						["size"] = 14,
+					["powerBar"] = {
+						["colorType"] = "class",
+						["order"] = 20,
+						["height"] = 1,
+						["background"] = true,
+						["invert"] = false,
+						["vertical"] = false,
 					},
 					["height"] = 30,
-					["priestBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 70,
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
+						["combatAlpha"] = 0.8,
+						["height"] = 0.5,
+						["enabled"] = true,
 					},
 					["combatText"] = {
 						["height"] = 0.5,
@@ -9934,8 +9916,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -9948,12 +9930,12 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
 					["incAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["order"] = 20,
@@ -9961,9 +9943,17 @@ ShadowedUFDB = {
 						["height"] = 1,
 						["background"] = true,
 					},
-					["columnSpacing"] = 5,
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["offset"] = 5,
-					["unitsPerColumn"] = 5,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
 					["healthBar"] = {
 						["colorType"] = "class",
 						["order"] = 10,
@@ -9971,17 +9961,9 @@ ShadowedUFDB = {
 						["height"] = 1.2,
 						["reactionType"] = "npc",
 					},
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
+					["columnSpacing"] = 5,
+					["unitsPerColumn"] = 5,
 					["attribAnchorPoint"] = "LEFT",
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -10025,21 +10007,32 @@ ShadowedUFDB = {
 						["size"] = 10,
 					},
 				},
-				["pet"] = {
-					["xpBar"] = {
-						["height"] = 0.25,
-						["background"] = true,
-						["order"] = 55,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
+				["targettarget"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
 						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["healthBar"] = {
+						["vertical"] = true,
+						["colorType"] = "static",
+						["height"] = 3,
+						["reverse"] = false,
+						["reactionType"] = "none",
+						["background"] = true,
+						["invert"] = false,
+						["order"] = 10,
+					},
+					["width"] = 30,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -10050,192 +10043,17 @@ ShadowedUFDB = {
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["y"] = 0,
-							["maxRows"] = 2,
-							["perRow"] = 4,
-							["x"] = -2,
-							["anchorPoint"] = "TR",
-							["size"] = 22,
-						},
-						["buffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["enlarge"] = {
-								["SELF"] = true,
-							},
-							["anchorPoint"] = "TL",
-							["maxRows"] = 2,
-							["perRow"] = 4,
-							["y"] = 0,
-							["x"] = 0,
-							["size"] = 22,
-						},
-					},
-					["castBar"] = {
-						["height"] = 1,
-						["name"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["size"] = -3,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = false,
-						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["vertical"] = false,
-						["height"] = 0.2,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["colorType"] = "class",
-					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["vertical"] = false,
-						["colorType"] = "static",
-						["colorDispel"] = true,
-						["reverse"] = false,
-						["height"] = 2,
-						["background"] = true,
-						["invert"] = false,
-						["reactionType"] = "none",
-					},
-					["highlight"] = {
-						["debuff"] = true,
-						["height"] = 0.5,
-						["aggro"] = true,
-						["attention"] = true,
-						["mouseover"] = true,
-						["size"] = 10,
-					},
-					["text"] = {
-						{
-							["text"] = "[smartlevel] [( )perhp]",
-							["x"] = 0,
-							["width"] = 0,
-						}, -- [1]
-						{
-							["text"] = "[colorname]",
-							["x"] = 0,
-							["width"] = 0,
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["width"] = 200,
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-						["enabled"] = false,
-					},
-					["height"] = 30,
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-						["enabled"] = true,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-					},
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-				},
-				["battlegroundpet"] = {
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
-					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["auras"] = {
-						["buffs"] = {
 							["y"] = 0,
 							["x"] = 0,
 							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
 							["size"] = 16,
 						},
-						["debuffs"] = {
+						["buffs"] = {
 							["anchorPoint"] = "BL",
 							["x"] = 0,
 							["y"] = 0,
+							["selfScale"] = 1,
 							["size"] = 16,
 						},
 					},
@@ -10248,8 +10066,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -10262,51 +10080,265 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
-					["highlight"] = {
-						["size"] = 10,
+					["text"] = {
+						{
+							["y"] = 15,
+							["x"] = 0,
+							["size"] = -3,
+							["text"] = "[( )perhp]",
+							["anchorPoint"] = "C",
+							["width"] = 1,
+						}, -- [1]
+						{
+							["y"] = -15,
+							["x"] = 0,
+							["size"] = -3,
+							["text"] = "[colorname]",
+							["anchorPoint"] = "C",
+							["width"] = 1,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[level]",
+							["size"] = -3,
+							["width"] = 0,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
 					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
+					},
+					["height"] = 45,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["vertical"] = false,
+						["order"] = 20,
+						["height"] = 0.2,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "class",
+					},
+					["highlight"] = {
+						["debuff"] = true,
+						["rareMob"] = false,
+						["height"] = 0.5,
+						["attention"] = true,
+						["mouseover"] = true,
+						["size"] = 10,
+					},
+				},
+				["focustarget"] = {
+					["healthBar"] = {
+						["vertical"] = true,
+						["colorType"] = "static",
+						["height"] = 3,
+						["reverse"] = false,
+						["reactionType"] = "none",
+						["background"] = true,
+						["invert"] = false,
+						["order"] = 10,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
+					},
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["selfScale"] = 1,
+							["size"] = 16,
+						},
+					},
+					["text"] = {
+						{
+							["y"] = 15,
+							["x"] = 0,
+							["size"] = -3,
+							["text"] = "[( )perhp]",
+							["anchorPoint"] = "C",
+							["width"] = 1,
+						}, -- [1]
+						{
+							["y"] = -15,
+							["x"] = 0,
+							["size"] = -3,
+							["text"] = "[colorname]",
+							["anchorPoint"] = "C",
+							["width"] = 1,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[level]",
+							["size"] = -3,
+							["width"] = 0,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [5]
+					},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["width"] = 30,
+					["castBar"] = {
+						["time"] = {
+							["y"] = 0,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["order"] = 40,
+						["height"] = 0.6,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["size"] = 0,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = true,
+						},
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+						["enabled"] = true,
+					},
 					["portrait"] = {
 						["type"] = "3D",
-						["alignment"] = "LEFT",
+						["alignment"] = "RIGHT",
 						["fullAfter"] = 100,
 						["height"] = 0.5,
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
 					},
-					["height"] = 25,
-					["width"] = 90,
-					["powerBar"] = {
-						["order"] = 20,
-						["colorType"] = "type",
-						["height"] = 0.6,
-						["background"] = true,
+					["height"] = 45,
+					["auraIndicators"] = {
+						["height"] = 0.5,
 					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
+					["powerBar"] = {
+						["vertical"] = false,
+						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
-						["height"] = 1.2,
-						["reactionType"] = "npc",
+						["invert"] = false,
+						["colorType"] = "class",
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+						["debuff"] = true,
+						["mouseover"] = false,
+						["size"] = 10,
 					},
 				},
 				["arena"] = {
 					["offset"] = 25,
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
 					["healthBar"] = {
 						["colorType"] = "class",
 						["order"] = 10,
 						["background"] = true,
 						["height"] = 1.2,
 						["reactionType"] = "npc",
+					},
+					["indicators"] = {
+						["arenaSpec"] = {
+							["anchorPoint"] = "LC",
+							["size"] = 28,
+							["anchorTo"] = "$parent",
+						},
+						["lfdRole"] = {
+							["y"] = 14,
+							["x"] = 3,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BR",
+							["size"] = 14,
+						},
+						["height"] = 0.5,
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
 					},
 					["portrait"] = {
 						["enabled"] = true,
@@ -10363,8 +10395,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -10396,34 +10428,9 @@ ShadowedUFDB = {
 						["height"] = 1,
 						["background"] = true,
 					},
-					["indicators"] = {
-						["arenaSpec"] = {
-							["anchorPoint"] = "LC",
-							["size"] = 28,
-							["anchorTo"] = "$parent",
-						},
-						["lfdRole"] = {
-							["y"] = 14,
-							["x"] = 3,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BR",
-							["size"] = 14,
-						},
+					["highlight"] = {
 						["height"] = 0.5,
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
+						["size"] = 10,
 					},
 				},
 				["partytargettarget"] = {
@@ -10440,10 +10447,10 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorType"] = "static",
 						["vertical"] = true,
-						["reactionType"] = "none",
+						["order"] = 10,
 						["background"] = true,
 						["height"] = 2,
-						["order"] = 10,
+						["reactionType"] = "none",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -10482,8 +10489,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -10618,8 +10625,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -10681,22 +10688,22 @@ ShadowedUFDB = {
 				},
 			},
 			["font"] = {
-				["color"] = {
-					["a"] = 1,
-					["r"] = 1,
-					["g"] = 1,
-					["b"] = 1,
-				},
+				["extra"] = "",
 				["name"] = "Roboto Condensed Bold",
-				["shadowX"] = 0.8,
 				["shadowColor"] = {
 					["a"] = 1,
 					["r"] = 0,
 					["g"] = 0,
 					["b"] = 0,
 				},
+				["shadowX"] = 0.8,
 				["shadowY"] = -0.8,
-				["extra"] = "",
+				["color"] = {
+					["a"] = 1,
+					["r"] = 1,
+					["g"] = 1,
+					["b"] = 1,
+				},
 				["size"] = 12,
 			},
 			["auras"] = {
@@ -10882,11 +10889,6 @@ ShadowedUFDB = {
 					["g"] = 0.259,
 					["b"] = 0.992,
 				},
-				["RUNIC_POWER"] = {
-					["b"] = 0.6,
-					["g"] = 0.45,
-					["r"] = 0.35,
-				},
 				["LUNAR_POWER"] = {
 					["r"] = 0.3,
 					["g"] = 0.52,
@@ -10896,6 +10898,11 @@ ShadowedUFDB = {
 					["r"] = 0.85,
 					["g"] = 0.6,
 					["b"] = 0.55,
+				},
+				["RUNIC_POWER"] = {
+					["b"] = 0.6,
+					["g"] = 0.45,
+					["r"] = 0.35,
 				},
 				["STATUE"] = {
 					["r"] = 0.35,
@@ -10946,10 +10953,10 @@ ShadowedUFDB = {
 					["g"] = 0.93,
 					["r"] = 0.93,
 				},
-				["healAbsorb"] = {
-					["b"] = 1,
-					["g"] = 0.47,
-					["r"] = 0.68,
+				["offline"] = {
+					["b"] = 0.5,
+					["g"] = 0.5,
+					["r"] = 0.5,
 				},
 				["aggro"] = {
 					["a"] = 1,
@@ -10968,10 +10975,10 @@ ShadowedUFDB = {
 					["g"] = 0.9,
 					["r"] = 0.2,
 				},
-				["yellow"] = {
-					["b"] = 0,
-					["g"] = 0.93,
-					["r"] = 0.93,
+				["healAbsorb"] = {
+					["b"] = 1,
+					["g"] = 0.47,
+					["r"] = 0.68,
 				},
 				["enemyUnattack"] = {
 					["b"] = 0.2,
@@ -10999,10 +11006,10 @@ ShadowedUFDB = {
 					["g"] = 0.75,
 					["r"] = 0.93,
 				},
-				["offline"] = {
-					["b"] = 0.5,
-					["g"] = 0.5,
-					["r"] = 0.5,
+				["yellow"] = {
+					["b"] = 0,
+					["g"] = 0.93,
+					["r"] = 0.93,
 				},
 				["inc"] = {
 					["b"] = 0.23,
@@ -11103,10 +11110,9 @@ ShadowedUFDB = {
 				["arena"] = {
 					["anchorPoint"] = "C",
 				},
-				["focustarget"] = {
-					["anchorPoint"] = "LT",
-					["x"] = -42,
-					["anchorTo"] = "#SUFUnitfocus",
+				["battlegroundpet"] = {
+					["anchorPoint"] = "RB",
+					["anchorTo"] = "$parent",
 				},
 				["battlegroundtargettarget"] = {
 					["anchorPoint"] = "RT",
@@ -11117,24 +11123,25 @@ ShadowedUFDB = {
 					["anchorPoint"] = "RT",
 					["anchorTo"] = "$parent",
 				},
-				["pettarget"] = {
-					["anchorPoint"] = "RC",
-					["x"] = 5,
-					["anchorTo"] = "#SUFUnitpet",
+				["pet"] = {
+					["y"] = 163.555559515953,
+					["x"] = 24.8888894915581,
+					["anchorPoint"] = "BL",
 				},
 				["bosstarget"] = {
 					["anchorPoint"] = "RT",
 					["x"] = 2,
 					["anchorTo"] = "$parent",
 				},
-				["battlegroundpet"] = {
-					["anchorPoint"] = "RB",
-					["anchorTo"] = "$parent",
+				["focustarget"] = {
+					["anchorPoint"] = "LT",
+					["x"] = -42,
+					["anchorTo"] = "#SUFUnitfocus",
 				},
-				["pet"] = {
-					["y"] = 163.555559515953,
-					["x"] = 24.8888894915581,
-					["anchorPoint"] = "BL",
+				["targettarget"] = {
+					["anchorPoint"] = "RT",
+					["x"] = 42,
+					["anchorTo"] = "#SUFUnittarget",
 				},
 				["partypet"] = {
 					["anchorPoint"] = "BR",
@@ -11158,10 +11165,10 @@ ShadowedUFDB = {
 					["x"] = 150,
 					["anchorTo"] = "$parent",
 				},
-				["targettarget"] = {
-					["anchorPoint"] = "RT",
-					["x"] = 42,
-					["anchorTo"] = "#SUFUnittarget",
+				["pettarget"] = {
+					["anchorPoint"] = "RC",
+					["x"] = 5,
+					["anchorTo"] = "#SUFUnitpet",
 				},
 				["raidpet"] = {
 					["anchorPoint"] = "BR",
@@ -11218,25 +11225,10 @@ ShadowedUFDB = {
 				},
 			},
 			["loadedLayout"] = true,
-			["backdrop"] = {
-				["borderTexture"] = "Details BarBorder 3",
-				["edgeSize"] = 0,
-				["tileSize"] = 0,
-				["borderColor"] = {
-					["a"] = 0,
-					["b"] = 0.501960784313726,
-					["g"] = 0.301960784313726,
-					["r"] = 0.301960784313726,
-				},
-				["backgroundColor"] = {
-					["a"] = 0,
-					["b"] = 0,
-					["g"] = 0.0196078431372549,
-					["r"] = 1,
-				},
-				["backgroundTexture"] = "Solid",
-				["inset"] = 0,
-				["clip"] = 0,
+			["hidden"] = {
+				["cast"] = true,
+				["buffs"] = true,
+				["raid"] = true,
 			},
 			["units"] = {
 				["arenatarget"] = {
@@ -11256,20 +11248,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["portrait"] = {
 						["type"] = "3D",
@@ -11279,42 +11262,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["width"] = 90,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -11330,13 +11277,58 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["height"] = 25,
-					["emptyBar"] = {
-						["height"] = 1,
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
 					},
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["height"] = 25,
+					["width"] = 90,
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
@@ -11364,16 +11356,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [1]
-						[3] = {
-							["text"] = "[level( )][classification( )][perpp]",
-						},
-						[5] = {
-							["text"] = "[(()afk() )][name]",
-						},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["portrait"] = {
 						["type"] = "3D",
@@ -11383,42 +11370,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["width"] = 150,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -11434,13 +11385,54 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["height"] = 40,
-					["emptyBar"] = {
-						["height"] = 1,
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
 					},
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [1]
+						[3] = {
+							["text"] = "[level( )][classification( )][perpp]",
+						},
+						[5] = {
+							["text"] = "[(()afk() )][name]",
+						},
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["height"] = 40,
+					["width"] = 150,
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
@@ -11462,21 +11454,21 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["height"] = 2,
-						["colorType"] = "static",
 						["reactionType"] = "none",
+						["vertical"] = true,
+						["height"] = 2,
 						["reverse"] = false,
 						["order"] = 10,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -11510,8 +11502,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -11581,10 +11573,10 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -11596,17 +11588,31 @@ ShadowedUFDB = {
 				},
 				["partytarget"] = {
 					["enabled"] = true,
-					["highlight"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
 						["height"] = 0.5,
-						["size"] = 10,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
-					["healthBar"] = {
-						["colorType"] = "static",
-						["reactionType"] = "none",
-						["order"] = 10,
-						["background"] = true,
-						["height"] = 3,
-						["vertical"] = true,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
 					},
 					["text"] = {
 						{
@@ -11655,10 +11661,10 @@ ShadowedUFDB = {
 						},
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -11676,8 +11682,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -11701,22 +11707,9 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 100,
 					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
+					["highlight"] = {
 						["height"] = 0.5,
+						["size"] = 10,
 					},
 					["height"] = 45,
 					["auraIndicators"] = {
@@ -11728,14 +11721,13 @@ ShadowedUFDB = {
 						["height"] = 0.2,
 						["background"] = true,
 					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
+					["healthBar"] = {
+						["colorType"] = "static",
+						["order"] = 10,
+						["reactionType"] = "none",
+						["background"] = true,
+						["height"] = 3,
+						["vertical"] = true,
 					},
 				},
 				["arenatargettarget"] = {
@@ -11755,20 +11747,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["portrait"] = {
 						["type"] = "3D",
@@ -11778,42 +11761,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["width"] = 90,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -11829,13 +11776,58 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["height"] = 25,
-					["emptyBar"] = {
-						["height"] = 1,
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
 					},
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["height"] = 25,
+					["width"] = 90,
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
@@ -11855,6 +11847,10 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -11931,10 +11927,6 @@ ShadowedUFDB = {
 							["size"] = 18,
 						},
 					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
@@ -11944,12 +11936,12 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
 							["show"] = {
 								["relevant"] = false,
 							},
-							["x"] = 0,
-							["anchorPoint"] = "BL",
-							["y"] = 0,
 							["size"] = 16,
 						},
 					},
@@ -11966,7 +11958,19 @@ ShadowedUFDB = {
 					["showParty"] = false,
 					["castBar"] = {
 						["enabled"] = true,
+						["height"] = 0.4,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -11974,18 +11978,6 @@ ShadowedUFDB = {
 							["rank"] = false,
 							["anchorPoint"] = "CLI",
 							["enabled"] = true,
-							["size"] = 0,
-						},
-						["autoHide"] = true,
-						["height"] = 0.4,
-						["background"] = true,
-						["icon"] = "LEFT",
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
 					},
@@ -12012,18 +12004,24 @@ ShadowedUFDB = {
 					},
 					["offset"] = 20,
 					["enabled"] = true,
-					["attribAnchorPoint"] = "BOTTOM",
+					["unitsPerColumn"] = 20,
 					["healthBar"] = {
-						["vertical"] = true,
+						["reactionType"] = "none",
 						["colorType"] = "static",
 						["colorAggro"] = true,
-						["background"] = true,
-						["height"] = 3,
 						["colorDispel"] = true,
 						["order"] = 10,
-						["reactionType"] = "none",
+						["background"] = true,
+						["height"] = 3,
+						["vertical"] = true,
 					},
 					["hideSemiRaid"] = false,
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
 					["text"] = {
 						{
 							["text"] = "[(()afk() )][name]",
@@ -12041,13 +12039,7 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["unitsPerColumn"] = 20,
+					["attribAnchorPoint"] = "BOTTOM",
 					["width"] = 30,
 					["maxColumns"] = 2,
 					["groupsPerRow"] = 2,
@@ -12059,12 +12051,12 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 70,
+					["columnSpacing"] = 30,
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1.5,
 					},
-					["columnSpacing"] = 30,
+					["height"] = 70,
 					["attribPoint"] = "LEFT",
 				},
 				["arenapet"] = {
@@ -12078,10 +12070,10 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["text"] = {
 						nil, -- [1]
@@ -12121,8 +12113,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -12185,16 +12177,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [1]
-						[3] = {
-							["text"] = "[level( )][classification( )][perpp]",
-						},
-						[5] = {
-							["text"] = "[(()afk() )][name]",
-						},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["portrait"] = {
 						["type"] = "3D",
@@ -12204,42 +12191,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["width"] = 150,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -12255,13 +12206,54 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["height"] = 40,
-					["emptyBar"] = {
-						["height"] = 1,
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
 					},
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [1]
+						[3] = {
+							["text"] = "[level( )][classification( )][perpp]",
+						},
+						[5] = {
+							["text"] = "[(()afk() )][name]",
+						},
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["height"] = 40,
+					["width"] = 150,
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
@@ -12324,6 +12316,7 @@ ShadowedUFDB = {
 							["anchorPoint"] = "TR",
 							["size"] = 22,
 						},
+						["height"] = 0.5,
 						["status"] = {
 							["y"] = -8,
 							["x"] = -6,
@@ -12332,7 +12325,6 @@ ShadowedUFDB = {
 							["anchorPoint"] = "TL",
 							["size"] = 16,
 						},
-						["height"] = 0.5,
 						["class"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -12386,11 +12378,11 @@ ShadowedUFDB = {
 							["enlarge"] = {
 								["SELF"] = true,
 							},
-							["y"] = 0,
-							["x"] = 0,
 							["show"] = {
 								["misc"] = false,
 							},
+							["x"] = 0,
+							["y"] = 0,
 							["maxRows"] = 2,
 							["anchorPoint"] = "TL",
 							["perRow"] = 3,
@@ -12400,6 +12392,16 @@ ShadowedUFDB = {
 					["castBar"] = {
 						["enabled"] = true,
 						["order"] = 0,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["icon"] = "RIGHT",
+						["vertical"] = false,
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -12409,21 +12411,11 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
-						["icon"] = "RIGHT",
-						["vertical"] = false,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["reverse"] = false,
+						["autoHide"] = true,
 						["height"] = 1,
 						["background"] = true,
 						["invert"] = false,
-						["autoHide"] = true,
+						["reverse"] = false,
 					},
 					["portrait"] = {
 						["fullBefore"] = 0,
@@ -12453,9 +12445,8 @@ ShadowedUFDB = {
 						["onlyMana"] = false,
 					},
 					["columnSpacing"] = 0,
-					["incAbsorb"] = {
+					["auraIndicators"] = {
 						["height"] = 0.5,
-						["cap"] = 1,
 					},
 					["hideAnyRaid"] = true,
 					["sortMethod"] = "INDEX",
@@ -12467,16 +12458,17 @@ ShadowedUFDB = {
 						["order"] = 100,
 					},
 					["healthBar"] = {
-						["colorType"] = "static",
+						["height"] = 3,
 						["vertical"] = true,
 						["colorAggro"] = true,
-						["colorDispel"] = true,
-						["reactionType"] = "none",
 						["background"] = true,
 						["order"] = 10,
-						["height"] = 3,
+						["colorDispel"] = true,
+						["reactionType"] = "none",
+						["colorType"] = "static",
 					},
 					["hideSemiRaid"] = false,
+					["attribAnchorPoint"] = "BOTTOM",
 					["text"] = {
 						{
 							["anchorPoint"] = "C",
@@ -12506,14 +12498,13 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["attribAnchorPoint"] = "BOTTOM",
 					["unitsPerColumn"] = 5,
 					["width"] = 60,
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["height"] = 80,
 					["fader"] = {
@@ -12533,8 +12524,9 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["auraIndicators"] = {
+					["incAbsorb"] = {
 						["height"] = 0.5,
+						["cap"] = 1,
 					},
 					["attribPoint"] = "LEFT",
 				},
@@ -12555,16 +12547,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [1]
-						[3] = {
-							["text"] = "[classification( )][perpp]",
-						},
-						[5] = {
-							["text"] = "[(()afk() )][name]",
-						},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["portrait"] = {
 						["type"] = "3D",
@@ -12574,42 +12561,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["width"] = 150,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -12625,13 +12576,54 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["height"] = 40,
-					["emptyBar"] = {
-						["height"] = 1,
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
 					},
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [1]
+						[3] = {
+							["text"] = "[classification( )][perpp]",
+						},
+						[5] = {
+							["text"] = "[(()afk() )][name]",
+						},
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["height"] = 40,
+					["width"] = 150,
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
@@ -12756,7 +12748,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -12766,18 +12770,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
@@ -12785,22 +12777,22 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 					},
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["height"] = 3,
-						["colorType"] = "static",
+						["reactionType"] = "none",
+						["vertical"] = true,
 						["background"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 						["colorDispel"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -12841,10 +12833,10 @@ ShadowedUFDB = {
 						}, -- [5]
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["width"] = 40,
 					["altPowerBar"] = {
@@ -13006,7 +12998,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -13016,18 +13020,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
@@ -13035,22 +13027,22 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 					},
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["height"] = 3,
-						["colorType"] = "static",
+						["reactionType"] = "none",
+						["vertical"] = true,
 						["background"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 						["colorDispel"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -13090,10 +13082,10 @@ ShadowedUFDB = {
 						}, -- [5]
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["width"] = 40,
 					["portrait"] = {
@@ -13156,20 +13148,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["portrait"] = {
 						["type"] = "3D",
@@ -13179,42 +13162,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["width"] = 90,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -13230,13 +13177,58 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["height"] = 25,
-					["emptyBar"] = {
-						["height"] = 1,
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
 					},
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["height"] = 25,
+					["width"] = 90,
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
@@ -13288,20 +13280,32 @@ ShadowedUFDB = {
 							["enlarge"] = {
 								["SELF"] = true,
 							},
-							["y"] = -2,
-							["x"] = 0,
 							["anchorPoint"] = "BL",
+							["maxRows"] = 2,
+							["y"] = -2,
 							["show"] = {
 								["misc"] = false,
 							},
 							["enabled"] = true,
-							["maxRows"] = 2,
+							["x"] = 0,
 							["size"] = 24,
 						},
 					},
 					["castBar"] = {
 						["enabled"] = true,
+						["height"] = 1,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -13311,18 +13315,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "LEFT",
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
@@ -13330,23 +13322,23 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 					},
 					["offset"] = 50,
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["height"] = 3,
-						["colorType"] = "static",
+						["reactionType"] = "none",
+						["vertical"] = true,
 						["background"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 						["colorDispel"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["text"] = {
 						{
@@ -13378,10 +13370,10 @@ ShadowedUFDB = {
 						}, -- [5]
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["width"] = 50,
 					["attribAnchorPoint"] = "BOTTOM",
@@ -13425,14 +13417,9 @@ ShadowedUFDB = {
 					["attribPoint"] = "LEFT",
 				},
 				["maintank"] = {
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
+					["highlight"] = {
 						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
+						["size"] = 10,
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -13461,8 +13448,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -13488,31 +13475,27 @@ ShadowedUFDB = {
 						["height"] = 0.1,
 						["background"] = true,
 					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
+					["columnSpacing"] = 5,
 					["offset"] = 5,
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["height"] = 3,
-						["colorType"] = "percent",
+						["reactionType"] = "npc",
+						["vertical"] = true,
 						["background"] = true,
 						["reverse"] = false,
-						["reactionType"] = "npc",
+						["height"] = 3,
 						["colorDispel"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "percent",
 					},
-					["columnSpacing"] = 5,
-					["attribAnchorPoint"] = "LEFT",
+					["height"] = 60,
 					["text"] = {
 						{
 							["y"] = 20,
@@ -13538,6 +13521,7 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
+					["unitsPerColumn"] = 5,
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -13546,22 +13530,21 @@ ShadowedUFDB = {
 					},
 					["width"] = 40,
 					["maxColumns"] = 1,
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
+					["attribAnchorPoint"] = "LEFT",
 					["fader"] = {
 						["height"] = 0.5,
 					},
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 60,
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["unitsPerColumn"] = 5,
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 0,
@@ -13634,6 +13617,15 @@ ShadowedUFDB = {
 							["size"] = 24,
 						},
 					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
 				},
 				["raidpet"] = {
 					["portrait"] = {
@@ -13682,8 +13674,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -13700,26 +13692,23 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["size"] = 10,
 					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["groupSpacing"] = 0,
-					["columnSpacing"] = 5,
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
+					["groupSpacing"] = 0,
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["groupBy"] = "ASSIGNEDROLE",
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
 						["height"] = 0.3,
 						["background"] = true,
 					},
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
 					["groupsPerRow"] = 8,
+					["offset"] = 5,
 					["fader"] = {
 						["height"] = 0.5,
 					},
@@ -13730,14 +13719,7 @@ ShadowedUFDB = {
 						["reactionType"] = "none",
 						["height"] = 1.2,
 					},
-					["offset"] = 5,
 					["attribAnchorPoint"] = "BOTTOM",
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
 					["text"] = {
 						nil, -- [1]
 						{
@@ -13753,9 +13735,19 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
+					["unitsPerColumn"] = 20,
+					["incAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["width"] = 20,
 					["maxColumns"] = 8,
-					["unitsPerColumn"] = 20,
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -13764,12 +13756,12 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 20,
+					["columnSpacing"] = 5,
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["groupBy"] = "ASSIGNEDROLE",
+					["height"] = 20,
 					["attribPoint"] = "RIGHT",
 				},
 				["battlegroundtargettarget"] = {
@@ -13789,20 +13781,11 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["portrait"] = {
 						["type"] = "3D",
@@ -13812,42 +13795,6 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
-					},
-					["width"] = 90,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -13863,13 +13810,58 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["height"] = 25,
-					["emptyBar"] = {
-						["height"] = 1,
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
 					},
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["height"] = 25,
+					["width"] = 90,
 					["powerBar"] = {
 						["order"] = 20,
 						["colorType"] = "type",
@@ -13891,21 +13883,21 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["height"] = 1.5,
-						["colorType"] = "percent",
 						["reactionType"] = "npc",
+						["vertical"] = true,
+						["height"] = 1.5,
 						["reverse"] = false,
 						["order"] = 10,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "percent",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -13934,8 +13926,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -14012,33 +14004,21 @@ ShadowedUFDB = {
 						["size"] = 10,
 					},
 				},
-				["pettarget"] = {
-					["enabled"] = true,
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
+				["pet"] = {
+					["xpBar"] = {
+						["height"] = 0.25,
+						["background"] = true,
+						["order"] = 55,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
 						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["healthBar"] = {
-						["height"] = 2,
-						["colorType"] = "static",
-						["reactionType"] = "none",
-						["reverse"] = false,
-						["order"] = 10,
-						["background"] = true,
-						["invert"] = false,
-						["vertical"] = true,
-					},
-					["width"] = 30,
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -14049,66 +14029,99 @@ ShadowedUFDB = {
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorPoint"] = "BL",
+							["enabled"] = true,
 							["selfScale"] = 1,
-							["size"] = 16,
+							["anchorOn"] = false,
+							["anchorPoint"] = "TR",
+							["maxRows"] = 2,
+							["perRow"] = 4,
+							["y"] = 0,
+							["x"] = -2,
+							["size"] = 22,
 						},
 						["buffs"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorPoint"] = "BL",
+							["perRow"] = 4,
 							["selfScale"] = 1,
-							["size"] = 16,
+							["anchorOn"] = false,
+							["enlarge"] = {
+								["SELF"] = true,
+							},
+							["y"] = 0,
+							["maxRows"] = 2,
+							["x"] = 0,
+							["anchorPoint"] = "TL",
+							["enabled"] = true,
+							["size"] = 22,
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
 						["time"] = {
 							["enabled"] = true,
-							["x"] = -1,
+							["x"] = 0,
 							["anchorTo"] = "$parent",
 							["y"] = 0,
 							["anchorPoint"] = "CRI",
-							["size"] = 0,
+							["size"] = -3,
 						},
-						["order"] = 40,
-						["height"] = 0.6,
+						["autoHide"] = true,
+						["order"] = 0,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
-							["x"] = 1,
+							["x"] = 0,
 							["anchorTo"] = "$parent",
-							["rank"] = true,
+							["rank"] = false,
 							["anchorPoint"] = "CLI",
 							["enabled"] = true,
-							["size"] = 0,
+							["size"] = -3,
 						},
+					},
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["colorType"] = "class",
+						["vertical"] = false,
+						["height"] = 0.2,
+						["background"] = true,
+						["invert"] = false,
+						["order"] = 20,
+					},
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["reactionType"] = "none",
+						["vertical"] = false,
+						["background"] = true,
+						["reverse"] = false,
+						["height"] = 2,
+						["colorDispel"] = true,
+						["invert"] = false,
+						["colorType"] = "static",
+					},
+					["highlight"] = {
+						["debuff"] = true,
+						["height"] = 0.5,
+						["aggro"] = true,
+						["mouseover"] = true,
+						["attention"] = true,
+						["size"] = 10,
 					},
 					["text"] = {
 						{
-							["y"] = 10,
+							["text"] = "[smartlevel] [( )perhp]",
 							["x"] = 0,
-							["size"] = -3,
-							["text"] = "[( )perhp]",
-							["anchorPoint"] = "C",
-							["width"] = 1,
+							["width"] = 0,
 						}, -- [1]
 						{
-							["y"] = -10,
-							["x"] = 0,
-							["size"] = -3,
 							["text"] = "[colorname]",
-							["anchorPoint"] = "C",
-							["width"] = 1,
+							["x"] = 0,
+							["width"] = 0,
 						}, -- [2]
 						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[level]",
-							["size"] = -3,
-							["width"] = 0,
+							["text"] = "",
 						}, -- [3]
 						{
 							["text"] = "",
@@ -14117,38 +14130,47 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["width"] = 200,
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["height"] = 0.5,
+						["enabled"] = false,
 					},
 					["height"] = 30,
-					["auraIndicators"] = {
+					["fader"] = {
+						["combatAlpha"] = 0.8,
+						["enabled"] = true,
+						["inactiveAlpha"] = 0.3,
 						["height"] = 0.5,
 					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["vertical"] = false,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 0.2,
-					},
-					["highlight"] = {
+					["combatText"] = {
 						["height"] = 0.5,
-						["debuff"] = true,
-						["mouseover"] = false,
-						["size"] = 10,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["incAbsorb"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 				},
 				["bosstarget"] = {
@@ -14190,8 +14212,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -14210,21 +14232,21 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 					},
 					["enabled"] = true,
 					["healthBar"] = {
-						["height"] = 3,
-						["colorType"] = "static",
 						["reactionType"] = "none",
+						["vertical"] = true,
+						["height"] = 3,
 						["reverse"] = false,
 						["order"] = 10,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["text"] = {
 						{
@@ -14293,29 +14315,88 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["attribPoint"] = "BOTTOM",
 				},
-				["focustarget"] = {
-					["highlight"] = {
+				["battlegroundpet"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
 						["height"] = 0.5,
-						["debuff"] = true,
-						["mouseover"] = false,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["auras"] = {
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["size"] = 16,
+						},
+						["debuffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
+					},
+					["highlight"] = {
 						["size"] = 10,
 					},
-					["healthBar"] = {
-						["height"] = 3,
-						["colorType"] = "static",
-						["reactionType"] = "none",
-						["reverse"] = false,
-						["order"] = 10,
+					["altPowerBar"] = {
+						["height"] = 0.4,
 						["background"] = true,
-						["invert"] = false,
-						["vertical"] = true,
+						["order"] = 100,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -14323,15 +14404,56 @@ ShadowedUFDB = {
 							["x"] = 0,
 							["anchorTo"] = "$parent",
 							["anchorPoint"] = "C",
-							["size"] = 12,
+							["size"] = 20,
 						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
+					},
+					["height"] = 25,
+					["width"] = 90,
+					["powerBar"] = {
+						["order"] = 20,
+						["colorType"] = "type",
+						["height"] = 0.6,
+						["background"] = true,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+				},
+				["targettarget"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["healthBar"] = {
+						["reactionType"] = "none",
+						["vertical"] = true,
+						["height"] = 3,
+						["reverse"] = false,
+						["order"] = 10,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "static",
+					},
+					["width"] = 30,
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
 						["height"] = 0.5,
 					},
 					["auras"] = {
@@ -14349,6 +14471,29 @@ ShadowedUFDB = {
 							["anchorPoint"] = "BL",
 							["selfScale"] = 1,
 							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
 						},
 					},
 					["text"] = {
@@ -14378,56 +14523,28 @@ ShadowedUFDB = {
 						{
 							["text"] = "",
 						}, -- [4]
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [5]
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["width"] = 30,
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["fader"] = {
-						["combatAlpha"] = 0.8,
-						["enabled"] = true,
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
 					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
 					},
 					["height"] = 45,
 					["auraIndicators"] = {
@@ -14436,188 +14553,18 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
 						["height"] = 0.2,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "RIGHT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-				},
-				["pet"] = {
-					["xpBar"] = {
-						["height"] = 0.25,
 						["background"] = true,
-						["order"] = 55,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
-						["height"] = 0.5,
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["anchorPoint"] = "TR",
-							["maxRows"] = 2,
-							["perRow"] = 4,
-							["y"] = 0,
-							["x"] = -2,
-							["size"] = 22,
-						},
-						["buffs"] = {
-							["perRow"] = 4,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["enlarge"] = {
-								["SELF"] = true,
-							},
-							["y"] = 0,
-							["maxRows"] = 2,
-							["x"] = 0,
-							["anchorPoint"] = "TL",
-							["enabled"] = true,
-							["size"] = 22,
-						},
-					},
-					["castBar"] = {
-						["order"] = 0,
-						["name"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["rank"] = false,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = -3,
-						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["vertical"] = false,
+						["invert"] = false,
 						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 0.2,
-					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["height"] = 2,
-						["colorType"] = "static",
-						["background"] = true,
-						["reverse"] = false,
-						["reactionType"] = "none",
-						["colorDispel"] = true,
-						["invert"] = false,
-						["vertical"] = false,
 					},
 					["highlight"] = {
 						["debuff"] = true,
+						["rareMob"] = false,
 						["height"] = 0.5,
-						["aggro"] = true,
 						["mouseover"] = true,
 						["attention"] = true,
 						["size"] = 10,
-					},
-					["text"] = {
-						{
-							["text"] = "[smartlevel] [( )perhp]",
-							["x"] = 0,
-							["width"] = 0,
-						}, -- [1]
-						{
-							["text"] = "[colorname]",
-							["x"] = 0,
-							["width"] = 0,
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["width"] = 200,
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-						["enabled"] = false,
-					},
-					["height"] = 30,
-					["fader"] = {
-						["combatAlpha"] = 0.8,
-						["enabled"] = true,
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-					},
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
 					},
 				},
 				["partypet"] = {
@@ -14653,7 +14600,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -14661,18 +14620,6 @@ ShadowedUFDB = {
 							["rank"] = false,
 							["anchorPoint"] = "CLI",
 							["enabled"] = true,
-							["size"] = -3,
-						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
 							["size"] = -3,
 						},
 					},
@@ -14688,8 +14635,8 @@ ShadowedUFDB = {
 					["enabled"] = true,
 					["healthBar"] = {
 						["colorType"] = "static",
-						["reactionType"] = "none",
 						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 1,
 						["vertical"] = false,
@@ -14714,10 +14661,10 @@ ShadowedUFDB = {
 						}, -- [5]
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["width"] = 60,
 					["altPowerBar"] = {
@@ -14766,21 +14713,21 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["height"] = 1.5,
-						["colorType"] = "percent",
 						["reactionType"] = "npc",
+						["vertical"] = true,
+						["height"] = 1.5,
 						["reverse"] = false,
 						["order"] = 10,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "percent",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -14809,8 +14756,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -14911,82 +14858,6 @@ ShadowedUFDB = {
 						["mouseover"] = false,
 						["size"] = 10,
 					},
-					["height"] = 30,
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1.5,
-					},
-					["totemBar"] = {
-						["secure"] = true,
-						["order"] = 70,
-						["background"] = false,
-						["icon"] = false,
-						["height"] = 0.4,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["enlarge"] = {
-								["SELF"] = false,
-								["BOSS"] = false,
-							},
-							["anchorPoint"] = "BL",
-							["maxRows"] = 2,
-							["perRow"] = 6,
-							["y"] = -5,
-							["x"] = 0,
-							["size"] = 22,
-						},
-						["buffs"] = {
-							["enabled"] = true,
-							["temporary"] = false,
-							["anchorOn"] = false,
-							["enlarge"] = {
-								["SELF"] = false,
-							},
-							["y"] = -5,
-							["maxRows"] = 2,
-							["perRow"] = 6,
-							["x"] = 0,
-							["selfScale"] = 1,
-							["show"] = {
-								["relevant"] = false,
-							},
-							["anchorPoint"] = "BR",
-							["size"] = 22,
-						},
-					},
-					["castBar"] = {
-						["order"] = 0,
-						["name"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["rank"] = false,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = -3,
-						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = false,
-						["icon"] = "LEFT",
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-					},
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 0,
@@ -15053,16 +14924,87 @@ ShadowedUFDB = {
 							["size"] = 24,
 						},
 					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1.5,
+					},
+					["totemBar"] = {
+						["secure"] = true,
+						["order"] = 70,
+						["background"] = false,
+						["icon"] = false,
+						["height"] = 0.4,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["enabled"] = true,
+							["selfScale"] = 1,
+							["anchorOn"] = false,
+							["enlarge"] = {
+								["SELF"] = false,
+								["BOSS"] = false,
+							},
+							["anchorPoint"] = "BL",
+							["maxRows"] = 2,
+							["perRow"] = 6,
+							["y"] = -5,
+							["x"] = 0,
+							["size"] = 22,
+						},
+						["buffs"] = {
+							["enabled"] = true,
+							["temporary"] = false,
+							["anchorOn"] = false,
+							["enlarge"] = {
+								["SELF"] = false,
+							},
+							["anchorPoint"] = "BR",
+							["maxRows"] = 2,
+							["show"] = {
+								["relevant"] = false,
+							},
+							["x"] = 0,
+							["selfScale"] = 1,
+							["perRow"] = 6,
+							["y"] = -5,
+							["size"] = 22,
+						},
+					},
+					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
+						["order"] = 0,
+						["background"] = false,
+						["icon"] = "LEFT",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["rank"] = false,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = -3,
+						},
+					},
+					["height"] = 30,
 					["fader"] = {
 						["inactiveAlpha"] = 0.3,
 						["enabled"] = true,
 						["height"] = 0.5,
 						["combatAlpha"] = 0.8,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 90,
 					},
 					["runeBar"] = {
 						["enabled"] = true,
@@ -15070,48 +15012,28 @@ ShadowedUFDB = {
 						["height"] = 0.4,
 						["order"] = 70,
 					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 90,
+					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["vertical"] = false,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 1,
-					},
-					["chi"] = {
+					["comboPoints"] = {
+						["enabled"] = false,
 						["anchorTo"] = "$parent",
-						["order"] = 60,
-						["showAlways"] = true,
+						["order"] = 5,
+						["showAlways"] = false,
 						["growth"] = "LEFT",
 						["anchorPoint"] = "BR",
 						["x"] = -3,
 						["spacing"] = -4,
-						["height"] = 0.4,
-						["y"] = 6,
+						["height"] = 0.5,
+						["y"] = 8,
 						["size"] = 14,
 					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["disableVehicle"] = false,
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["reactionType"] = "none",
-						["vertical"] = false,
-						["background"] = true,
-						["reverse"] = false,
-						["height"] = 1,
-						["colorDispel"] = true,
-						["invert"] = false,
-						["colorType"] = "class",
-					},
+					["width"] = 300,
 					["soulShards"] = {
 						["anchorTo"] = "$parent",
 						["order"] = 60,
@@ -15124,11 +15046,36 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 12,
 					},
-					["druidBar"] = {
-						["enabled"] = true,
+					["disableVehicle"] = false,
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["height"] = 1,
+						["colorType"] = "class",
 						["background"] = true,
+						["reverse"] = false,
+						["reactionType"] = "none",
+						["colorDispel"] = true,
+						["invert"] = false,
+						["vertical"] = false,
+					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["holyPower"] = {
+						["anchorTo"] = "$parent",
+						["order"] = 60,
+						["showAlways"] = true,
+						["growth"] = "LEFT",
+						["anchorPoint"] = "BR",
+						["x"] = -3,
+						["spacing"] = -4,
 						["height"] = 0.4,
-						["order"] = 70,
+						["y"] = 6,
+						["size"] = 14,
 					},
 					["text"] = {
 						{
@@ -15166,7 +15113,13 @@ ShadowedUFDB = {
 							["anchorTo"] = "$staggerBar",
 						}, -- [9]
 					},
-					["holyPower"] = {
+					["druidBar"] = {
+						["enabled"] = true,
+						["background"] = true,
+						["height"] = 0.4,
+						["order"] = 70,
+					},
+					["chi"] = {
 						["anchorTo"] = "$parent",
 						["order"] = 60,
 						["showAlways"] = true,
@@ -15178,19 +15131,13 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 14,
 					},
-					["width"] = 300,
-					["comboPoints"] = {
-						["enabled"] = false,
-						["anchorTo"] = "$parent",
-						["order"] = 5,
-						["showAlways"] = false,
-						["growth"] = "LEFT",
-						["anchorPoint"] = "BR",
-						["x"] = -3,
-						["spacing"] = -4,
-						["height"] = 0.5,
-						["y"] = 8,
-						["size"] = 14,
+					["powerBar"] = {
+						["colorType"] = "class",
+						["vertical"] = false,
+						["height"] = 1,
+						["background"] = true,
+						["invert"] = false,
+						["order"] = 20,
 					},
 					["incAbsorb"] = {
 						["height"] = 0.5,
@@ -15243,6 +15190,123 @@ ShadowedUFDB = {
 					},
 				},
 				["mainassist"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["range"] = {
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 60,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
+					},
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["order"] = 20,
+						["colorType"] = "type",
+						["height"] = 1,
+						["background"] = true,
+					},
+					["height"] = 40,
+					["offset"] = 5,
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+					["columnSpacing"] = 5,
+					["text"] = {
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [1]
+						[3] = {
+							["text"] = "[level( )][perpp]",
+						},
+						[5] = {
+							["text"] = "[(()afk() )][name]",
+						},
+					},
+					["unitsPerColumn"] = 5,
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["width"] = 150,
+					["maxColumns"] = 1,
+					["attribAnchorPoint"] = "LEFT",
+					["fader"] = {
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["incAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 0,
@@ -15309,128 +15373,12 @@ ShadowedUFDB = {
 							["size"] = 24,
 						},
 					},
-					["range"] = {
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
-							["size"] = 16,
-						},
-						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
-							["size"] = 16,
-						},
-					},
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 60,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
+				},
+				["pettarget"] = {
+					["enabled"] = true,
 					["portrait"] = {
 						["type"] = "3D",
 						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["order"] = 20,
-						["colorType"] = "type",
-						["height"] = 1,
-						["background"] = true,
-					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["offset"] = 5,
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["height"] = 40,
-					["attribAnchorPoint"] = "LEFT",
-					["text"] = {
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [1]
-						[3] = {
-							["text"] = "[level( )][perpp]",
-						},
-						[5] = {
-							["text"] = "[(()afk() )][name]",
-						},
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-					},
-					["width"] = 150,
-					["maxColumns"] = 1,
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["fader"] = {
-						["height"] = 0.5,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["columnSpacing"] = 5,
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["unitsPerColumn"] = 5,
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
-				},
-				["targettarget"] = {
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "RIGHT",
 						["fullAfter"] = 100,
 						["height"] = 0.5,
 						["fullBefore"] = 0,
@@ -15438,21 +15386,21 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["height"] = 3,
-						["colorType"] = "static",
 						["reactionType"] = "none",
+						["vertical"] = true,
+						["height"] = 2,
 						["reverse"] = false,
 						["order"] = 10,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -15486,8 +15434,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -15498,6 +15446,121 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["enabled"] = true,
 							["size"] = 0,
+						},
+					},
+					["text"] = {
+						{
+							["y"] = 10,
+							["x"] = 0,
+							["size"] = -3,
+							["text"] = "[( )perhp]",
+							["anchorPoint"] = "C",
+							["width"] = 1,
+						}, -- [1]
+						{
+							["y"] = -10,
+							["x"] = 0,
+							["size"] = -3,
+							["text"] = "[colorname]",
+							["anchorPoint"] = "C",
+							["width"] = 1,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[level]",
+							["size"] = -3,
+							["width"] = 0,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["height"] = 0.5,
+					},
+					["height"] = 30,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["colorType"] = "class",
+						["vertical"] = false,
+						["height"] = 0.2,
+						["background"] = true,
+						["invert"] = false,
+						["order"] = 20,
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+						["debuff"] = true,
+						["mouseover"] = false,
+						["size"] = 10,
+					},
+				},
+				["focustarget"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
+					},
+					["emptyBar"] = {
+						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
+							["size"] = 16,
 						},
 					},
 					["text"] = {
@@ -15527,95 +15590,17 @@ ShadowedUFDB = {
 						{
 							["text"] = "",
 						}, -- [4]
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["height"] = 0.5,
-					},
-					["height"] = 45,
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["vertical"] = false,
-						["order"] = 20,
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 0.2,
-					},
-					["highlight"] = {
-						["debuff"] = true,
-						["rareMob"] = false,
-						["height"] = 0.5,
-						["mouseover"] = true,
-						["attention"] = true,
-						["size"] = 10,
-					},
-				},
-				["battlegroundpet"] = {
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["text"] = {
-						nil, -- [1]
 						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
+							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["auras"] = {
-						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
-							["size"] = 16,
-						},
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
-							["size"] = 16,
-						},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
 					},
+					["width"] = 30,
 					["castBar"] = {
 						["time"] = {
 							["enabled"] = true,
@@ -15625,8 +15610,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -15639,41 +15624,52 @@ ShadowedUFDB = {
 							["size"] = 0,
 						},
 					},
-					["highlight"] = {
-						["size"] = 10,
+					["fader"] = {
+						["combatAlpha"] = 0.8,
+						["enabled"] = true,
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
 					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
+					["highlight"] = {
+						["height"] = 0.5,
+						["debuff"] = true,
+						["mouseover"] = false,
+						["size"] = 10,
 					},
-					["height"] = 25,
-					["width"] = 90,
+					["height"] = 45,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
 					["powerBar"] = {
-						["order"] = 20,
-						["colorType"] = "type",
-						["height"] = 0.6,
+						["colorType"] = "class",
+						["vertical"] = false,
+						["height"] = 0.2,
 						["background"] = true,
+						["invert"] = false,
+						["order"] = 20,
 					},
 					["healthBar"] = {
-						["colorType"] = "class",
+						["reactionType"] = "none",
+						["vertical"] = true,
+						["height"] = 3,
+						["reverse"] = false,
 						["order"] = 10,
 						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
+						["invert"] = false,
+						["colorType"] = "static",
 					},
 				},
 				["arena"] = {
 					["offset"] = 25,
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
+					},
 					["indicators"] = {
 						["arenaSpec"] = {
 							["anchorPoint"] = "LC",
@@ -15703,13 +15699,6 @@ ShadowedUFDB = {
 							["size"] = 20,
 						},
 					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
 					["portrait"] = {
 						["enabled"] = true,
 						["type"] = "class",
@@ -15729,10 +15718,10 @@ ShadowedUFDB = {
 						},
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -15765,8 +15754,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -15798,9 +15787,12 @@ ShadowedUFDB = {
 						["height"] = 1,
 						["background"] = true,
 					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
 					},
 				},
 				["partytargettarget"] = {
@@ -15816,18 +15808,18 @@ ShadowedUFDB = {
 					},
 					["healthBar"] = {
 						["colorType"] = "static",
-						["reactionType"] = "none",
 						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 2,
 						["vertical"] = true,
 					},
 					["width"] = 30,
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
 					["range"] = {
 						["height"] = 0.5,
@@ -15859,8 +15851,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -15942,23 +15934,47 @@ ShadowedUFDB = {
 					},
 				},
 				["battleground"] = {
-					["highlight"] = {
-						["size"] = 10,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["pvp"] = {
+							["anchorPoint"] = "LC",
+							["x"] = 16,
+							["anchorTo"] = "$parent",
+							["y"] = -8,
+							["size"] = 40,
+						},
 					},
 					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
 						["order"] = 0,
+						["background"] = true,
+						["height"] = 1,
+						["reactionType"] = "none",
 					},
-					["portrait"] = {
-						["type"] = "class",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
+					["text"] = {
+						nil, -- [1]
+						nil, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
 					},
 					["auras"] = {
 						["buffs"] = {
@@ -15985,8 +16001,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -15999,18 +16015,14 @@ ShadowedUFDB = {
 							["size"] = 0,
 						},
 					},
-					["text"] = {
-						nil, -- [1]
-						nil, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
+					["portrait"] = {
+						["type"] = "class",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
@@ -16019,28 +16031,8 @@ ShadowedUFDB = {
 					},
 					["width"] = 140,
 					["height"] = 35,
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["pvp"] = {
-							["anchorPoint"] = "LC",
-							["x"] = 16,
-							["anchorTo"] = "$parent",
-							["y"] = -8,
-							["size"] = 40,
-						},
+					["highlight"] = {
+						["size"] = 10,
 					},
 					["powerBar"] = {
 						["order"] = 20,
@@ -16058,23 +16050,96 @@ ShadowedUFDB = {
 				},
 			},
 			["font"] = {
-				["shadowColor"] = {
-					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
-				["name"] = "Roboto Condensed Bold",
-				["extra"] = "",
-				["shadowX"] = 0.8,
-				["shadowY"] = -0.8,
 				["color"] = {
 					["a"] = 1,
 					["b"] = 1,
 					["g"] = 1,
 					["r"] = 1,
 				},
+				["name"] = "Roboto Condensed Bold",
+				["shadowX"] = 0.8,
+				["extra"] = "",
+				["shadowY"] = -0.8,
+				["shadowColor"] = {
+					["a"] = 1,
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
 				["size"] = 12,
+			},
+			["advanced"] = true,
+			["classColors"] = {
+				["HUNTER"] = {
+					["b"] = 0.45,
+					["g"] = 0.83,
+					["r"] = 0.67,
+				},
+				["WARRIOR"] = {
+					["b"] = 0.43,
+					["g"] = 0.61,
+					["r"] = 0.78,
+				},
+				["PALADIN"] = {
+					["b"] = 0.73,
+					["g"] = 0.55,
+					["r"] = 0.96,
+				},
+				["MAGE"] = {
+					["b"] = 0.94,
+					["g"] = 0.8,
+					["r"] = 0.41,
+				},
+				["VEHICLE"] = {
+					["b"] = 0.23,
+					["g"] = 0.41,
+					["r"] = 0.23,
+				},
+				["PRIEST"] = {
+					["b"] = 1,
+					["g"] = 1,
+					["r"] = 1,
+				},
+				["DEATHKNIGHT"] = {
+					["b"] = 0.23,
+					["g"] = 0.12,
+					["r"] = 0.77,
+				},
+				["SHAMAN"] = {
+					["b"] = 1,
+					["g"] = 0.35,
+					["r"] = 0.14,
+				},
+				["WARLOCK"] = {
+					["b"] = 0.79,
+					["g"] = 0.51,
+					["r"] = 0.58,
+				},
+				["DEMONHUNTER"] = {
+					["b"] = 0.79,
+					["g"] = 0.19,
+					["r"] = 0.64,
+				},
+				["PET"] = {
+					["b"] = 0.2,
+					["g"] = 0.9,
+					["r"] = 0.2,
+				},
+				["DRUID"] = {
+					["b"] = 0.04,
+					["g"] = 0.49,
+					["r"] = 1,
+				},
+				["MONK"] = {
+					["b"] = 0.59,
+					["g"] = 1,
+					["r"] = 0,
+				},
+				["ROGUE"] = {
+					["b"] = 0.41,
+					["g"] = 0.96,
+					["r"] = 1,
+				},
 			},
 			["powerColors"] = {
 				["FUEL"] = {
@@ -16167,11 +16232,6 @@ ShadowedUFDB = {
 					["g"] = 0.259,
 					["r"] = 0.788,
 				},
-				["LUNAR_POWER"] = {
-					["b"] = 0.9,
-					["g"] = 0.52,
-					["r"] = 0.3,
-				},
 				["AMMOSLOT"] = {
 					["b"] = 0.55,
 					["g"] = 0.6,
@@ -16181,6 +16241,11 @@ ShadowedUFDB = {
 					["r"] = 0.35,
 					["g"] = 0.45,
 					["b"] = 0.6,
+				},
+				["LUNAR_POWER"] = {
+					["b"] = 0.9,
+					["g"] = 0.52,
+					["r"] = 0.3,
 				},
 				["STATUE"] = {
 					["b"] = 0.6,
@@ -16208,83 +16273,6 @@ ShadowedUFDB = {
 					["r"] = 0.9,
 				},
 			},
-			["classColors"] = {
-				["HUNTER"] = {
-					["b"] = 0.45,
-					["g"] = 0.83,
-					["r"] = 0.67,
-				},
-				["WARRIOR"] = {
-					["b"] = 0.43,
-					["g"] = 0.61,
-					["r"] = 0.78,
-				},
-				["PALADIN"] = {
-					["b"] = 0.73,
-					["g"] = 0.55,
-					["r"] = 0.96,
-				},
-				["MAGE"] = {
-					["b"] = 0.94,
-					["g"] = 0.8,
-					["r"] = 0.41,
-				},
-				["VEHICLE"] = {
-					["b"] = 0.23,
-					["g"] = 0.41,
-					["r"] = 0.23,
-				},
-				["PRIEST"] = {
-					["b"] = 1,
-					["g"] = 1,
-					["r"] = 1,
-				},
-				["DEATHKNIGHT"] = {
-					["b"] = 0.23,
-					["g"] = 0.12,
-					["r"] = 0.77,
-				},
-				["SHAMAN"] = {
-					["b"] = 1,
-					["g"] = 0.35,
-					["r"] = 0.14,
-				},
-				["WARLOCK"] = {
-					["b"] = 0.79,
-					["g"] = 0.51,
-					["r"] = 0.58,
-				},
-				["DEMONHUNTER"] = {
-					["b"] = 0.79,
-					["g"] = 0.19,
-					["r"] = 0.64,
-				},
-				["PET"] = {
-					["b"] = 0.2,
-					["g"] = 0.9,
-					["r"] = 0.2,
-				},
-				["DRUID"] = {
-					["b"] = 0.04,
-					["g"] = 0.49,
-					["r"] = 1,
-				},
-				["MONK"] = {
-					["b"] = 0.59,
-					["g"] = 1,
-					["r"] = 0,
-				},
-				["ROGUE"] = {
-					["b"] = 0.41,
-					["g"] = 0.96,
-					["r"] = 1,
-				},
-			},
-			["hidden"] = {
-				["cast"] = true,
-				["buffs"] = true,
-				["raid"] = true,
-			},
 			["bars"] = {
 				["backgroundAlpha"] = 1,
 				["spacing"] = 0,
@@ -16297,7 +16285,26 @@ ShadowedUFDB = {
 				},
 				["texture"] = "Details Serenity",
 			},
-			["advanced"] = true,
+			["backdrop"] = {
+				["borderColor"] = {
+					["a"] = 0,
+					["b"] = 0.501960784313726,
+					["g"] = 0.301960784313726,
+					["r"] = 0.301960784313726,
+				},
+				["edgeSize"] = 0,
+				["tileSize"] = 0,
+				["borderTexture"] = "Details BarBorder 3",
+				["backgroundColor"] = {
+					["a"] = 0,
+					["b"] = 0,
+					["g"] = 0.0196078431372549,
+					["r"] = 1,
+				},
+				["backgroundTexture"] = "Solid",
+				["clip"] = 0,
+				["inset"] = 0,
+			},
 			["auraColors"] = {
 				["removable"] = {
 					["b"] = 1,
@@ -16398,11 +16405,6 @@ ShadowedUFDB = {
 					["g"] = 0.259,
 					["b"] = 0.992,
 				},
-				["LUNAR_POWER"] = {
-					["r"] = 0.3,
-					["g"] = 0.52,
-					["b"] = 0.9,
-				},
 				["AMMOSLOT"] = {
 					["r"] = 0.85,
 					["g"] = 0.6,
@@ -16412,6 +16414,11 @@ ShadowedUFDB = {
 					["b"] = 0.6,
 					["g"] = 0.45,
 					["r"] = 0.35,
+				},
+				["LUNAR_POWER"] = {
+					["r"] = 0.3,
+					["g"] = 0.52,
+					["b"] = 0.9,
 				},
 				["STATUE"] = {
 					["r"] = 0.35,
@@ -16454,10 +16461,10 @@ ShadowedUFDB = {
 					["g"] = 0.93,
 					["b"] = 0,
 				},
-				["healAbsorb"] = {
-					["r"] = 0.68,
-					["g"] = 0.47,
-					["b"] = 1,
+				["offline"] = {
+					["r"] = 0.5,
+					["g"] = 0.5,
+					["b"] = 0.5,
 				},
 				["aggro"] = {
 					["a"] = 1,
@@ -16476,10 +16483,10 @@ ShadowedUFDB = {
 					["g"] = 0.9,
 					["b"] = 0.2,
 				},
-				["yellow"] = {
-					["r"] = 0.93,
-					["g"] = 0.93,
-					["b"] = 0,
+				["healAbsorb"] = {
+					["r"] = 0.68,
+					["g"] = 0.47,
+					["b"] = 1,
 				},
 				["incAbsorb"] = {
 					["r"] = 0.93,
@@ -16507,10 +16514,10 @@ ShadowedUFDB = {
 					["g"] = 0.2,
 					["b"] = 0.2,
 				},
-				["offline"] = {
-					["r"] = 0.5,
-					["g"] = 0.5,
-					["b"] = 0.5,
+				["yellow"] = {
+					["r"] = 0.93,
+					["g"] = 0.93,
+					["b"] = 0,
 				},
 				["inc"] = {
 					["r"] = 0,
@@ -16694,25 +16701,25 @@ ShadowedUFDB = {
 					["y"] = -25,
 					["anchorTo"] = "$parent",
 				},
-				["targettarget"] = {
-					["anchorPoint"] = "RT",
-					["x"] = 50,
-					["anchorTo"] = "#SUFUnittarget",
+				["pettarget"] = {
+					["anchorPoint"] = "RC",
+					["x"] = 5,
+					["anchorTo"] = "#SUFUnitpet",
 				},
 				["bosstarget"] = {
 					["anchorPoint"] = "BC",
 					["y"] = -10,
 					["anchorTo"] = "$parent",
 				},
-				["focustarget"] = {
-					["anchorPoint"] = "LT",
-					["x"] = -50,
-					["anchorTo"] = "#SUFUnitfocus",
-				},
-				["pettarget"] = {
-					["anchorPoint"] = "RC",
+				["battlegroundpet"] = {
+					["anchorPoint"] = "RB",
 					["x"] = 5,
-					["anchorTo"] = "#SUFUnitpet",
+					["anchorTo"] = "$parent",
+				},
+				["pet"] = {
+					["anchorPoint"] = "RC",
+					["x"] = 770,
+					["anchorTo"] = "#SUFUnitplayer",
 				},
 				["partypet"] = {
 					["y"] = -30,
@@ -16736,15 +16743,15 @@ ShadowedUFDB = {
 					["top"] = 649.955527891052,
 					["relativePoint"] = "BOTTOMLEFT",
 				},
-				["pet"] = {
-					["anchorPoint"] = "RC",
-					["x"] = 770,
-					["anchorTo"] = "#SUFUnitplayer",
+				["targettarget"] = {
+					["anchorPoint"] = "RT",
+					["x"] = 50,
+					["anchorTo"] = "#SUFUnittarget",
 				},
-				["battlegroundpet"] = {
-					["anchorPoint"] = "RB",
-					["x"] = 5,
-					["anchorTo"] = "$parent",
+				["focustarget"] = {
+					["anchorPoint"] = "LT",
+					["x"] = -50,
+					["anchorTo"] = "#SUFUnitfocus",
 				},
 				["arena"] = {
 					["y"] = -28.3999991416931,
@@ -16852,8 +16859,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -16964,8 +16971,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -17033,14 +17040,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "static",
 						["reactionType"] = "none",
+						["vertical"] = true,
+						["order"] = 10,
 						["reverse"] = false,
 						["height"] = 2,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
 					["width"] = 40,
 					["emptyBar"] = {
@@ -17081,8 +17088,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -17151,8 +17158,8 @@ ShadowedUFDB = {
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["order"] = 20,
 						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -17167,30 +17174,22 @@ ShadowedUFDB = {
 				},
 				["partytarget"] = {
 					["enabled"] = true,
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 10,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 14,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["height"] = 0.5,
-					},
 					["healthBar"] = {
 						["colorType"] = "static",
 						["vertical"] = false,
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 3,
-						["reactionType"] = "none",
+						["order"] = 10,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 					["emptyBar"] = {
 						["reactionType"] = "none",
@@ -17261,8 +17260,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -17299,14 +17298,22 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 10,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 14,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
 						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
 					},
 				},
 				["arenatargettarget"] = {
@@ -17361,8 +17368,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -17428,174 +17435,6 @@ ShadowedUFDB = {
 					},
 				},
 				["raid"] = {
-					["highlight"] = {
-						["debuff"] = true,
-						["height"] = 0.5,
-						["aggro"] = false,
-						["mouseover"] = false,
-						["size"] = 10,
-					},
-					["columnSpacing"] = 25,
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["showParty"] = false,
-					["height"] = 65,
-					["auraIndicators"] = {
-						["enabled"] = true,
-						["height"] = 0.5,
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
-							["size"] = 16,
-						},
-						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["show"] = {
-								["relevant"] = false,
-							},
-							["y"] = 0,
-							["size"] = 16,
-						},
-					},
-					["castBar"] = {
-						["order"] = 5,
-						["name"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["size"] = -3,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = false,
-						},
-						["autoHide"] = false,
-						["height"] = 0.7,
-						["background"] = true,
-						["icon"] = "LEFT",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["vertical"] = false,
-						["background"] = true,
-						["order"] = 100,
-					},
-					["frameSplit"] = false,
-					["groupSpacing"] = 10,
-					["incAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1.2,
-					},
-					["groupBy"] = "ASSIGNEDROLE",
-					["powerBar"] = {
-						["colorType"] = "type",
-						["vertical"] = false,
-						["order"] = 20,
-						["reverse"] = false,
-						["height"] = 0.3,
-						["background"] = true,
-						["invert"] = false,
-						["onlyMana"] = true,
-					},
-					["enabled"] = true,
-					["offset"] = 10,
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[(()afk() )][( )classcolor][name]",
-							["y"] = -20,
-							["size"] = -1,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 0.5,
-							["text"] = "[perhp]",
-							["y"] = 18,
-							["size"] = -2,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "",
-							["y"] = 27,
-							["size"] = -2,
-						}, -- [3]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 0.5,
-							["text"] = "[perpp]",
-							["y"] = 1,
-							["size"] = -2,
-						}, -- [4]
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [5]
-					},
-					["healthBar"] = {
-						["vertical"] = true,
-						["colorType"] = "static",
-						["colorAggro"] = true,
-						["order"] = 10,
-						["height"] = 3,
-						["colorDispel"] = true,
-						["background"] = true,
-						["reactionType"] = "none",
-					},
-					["hideSemiRaid"] = true,
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["unitsPerColumn"] = 10,
-					["attribAnchorPoint"] = "TOP",
-					["width"] = 65,
-					["maxColumns"] = 3,
-					["groupsPerRow"] = 4,
-					["fader"] = {
-						["combatAlpha"] = 0.8,
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-					},
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1.2,
-					},
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 25,
@@ -17671,26 +17510,193 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
+					["height"] = 65,
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["showParty"] = false,
+					["columnSpacing"] = 25,
+					["auraIndicators"] = {
+						["enabled"] = true,
+						["height"] = 0.5,
+					},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["show"] = {
+								["relevant"] = false,
+							},
+							["y"] = 0,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["height"] = 0.7,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = false,
+						["order"] = 5,
+						["background"] = true,
+						["icon"] = "LEFT",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["size"] = -3,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = false,
+						},
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["vertical"] = false,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["frameSplit"] = false,
+					["groupSpacing"] = 10,
+					["groupBy"] = "ASSIGNEDROLE",
+					["incAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1.2,
+					},
+					["powerBar"] = {
+						["colorType"] = "type",
+						["vertical"] = false,
+						["order"] = 20,
+						["reverse"] = false,
+						["height"] = 0.3,
+						["background"] = true,
+						["invert"] = false,
+						["onlyMana"] = true,
+					},
+					["enabled"] = true,
+					["groupsPerRow"] = 4,
+					["attribAnchorPoint"] = "TOP",
+					["healthBar"] = {
+						["colorType"] = "static",
+						["vertical"] = true,
+						["colorAggro"] = true,
+						["height"] = 3,
+						["reactionType"] = "none",
+						["background"] = true,
+						["colorDispel"] = true,
+						["order"] = 10,
+					},
+					["hideSemiRaid"] = true,
+					["unitsPerColumn"] = 10,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[(()afk() )][( )classcolor][name]",
+							["y"] = -20,
+							["size"] = -1,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 0.5,
+							["text"] = "[perhp]",
+							["y"] = 18,
+							["size"] = -2,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "",
+							["y"] = 27,
+							["size"] = -2,
+						}, -- [3]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 0.5,
+							["text"] = "[perpp]",
+							["y"] = 1,
+							["size"] = -2,
+						}, -- [4]
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [5]
+					},
+					["width"] = 65,
+					["maxColumns"] = 3,
+					["offset"] = 10,
+					["fader"] = {
+						["combatAlpha"] = 0.8,
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1.2,
+					},
+					["highlight"] = {
+						["debuff"] = true,
+						["height"] = 0.5,
+						["aggro"] = false,
+						["mouseover"] = false,
+						["size"] = 10,
+					},
 					["attribPoint"] = "LEFT",
 				},
 				["arenapet"] = {
 					["enabled"] = true,
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
-						["height"] = 0.5,
-					},
 					["healthBar"] = {
 						["colorType"] = "class",
 						["order"] = 10,
 						["background"] = true,
 						["height"] = 1.2,
 						["reactionType"] = "npc",
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 					["highlight"] = {
 						["height"] = 0.5,
@@ -17744,8 +17750,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -17777,14 +17783,15 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
 						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
 					},
 				},
 				["mainassisttargettarget"] = {
@@ -17833,8 +17840,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -17942,6 +17949,7 @@ ShadowedUFDB = {
 							["enabled"] = false,
 							["size"] = 22,
 						},
+						["height"] = 0.5,
 						["status"] = {
 							["y"] = -10,
 							["x"] = -10,
@@ -17950,7 +17958,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = 20,
 						},
-						["height"] = 0.5,
 						["class"] = {
 							["y"] = 0,
 							["x"] = 13,
@@ -18035,21 +18042,9 @@ ShadowedUFDB = {
 					["castBar"] = {
 						["enabled"] = true,
 						["order"] = 50,
-						["reverse"] = false,
+						["autoHide"] = false,
 						["invert"] = false,
 						["vertical"] = false,
-						["time"] = {
-							["y"] = 0,
-							["x"] = -2,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = false,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "RIGHT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -18058,6 +18053,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
+						},
+						["reverse"] = false,
+						["height"] = 1,
+						["background"] = true,
+						["icon"] = "RIGHT",
+						["time"] = {
+							["y"] = 0,
+							["x"] = -2,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
 						},
 					},
 					["auraIndicators"] = {
@@ -18089,16 +18096,25 @@ ShadowedUFDB = {
 					["offset"] = 80,
 					["disableVehicle"] = true,
 					["healthBar"] = {
-						["colorType"] = "static",
 						["vertical"] = true,
+						["colorType"] = "static",
 						["colorAggro"] = true,
-						["order"] = 10,
 						["reactionType"] = "none",
-						["background"] = true,
-						["colorDispel"] = true,
 						["height"] = 5,
+						["colorDispel"] = true,
+						["background"] = true,
+						["order"] = 10,
 					},
 					["hideSemiRaid"] = false,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["unitsPerColumn"] = 5,
+					["attribAnchorPoint"] = "BOTTOM",
+					["width"] = 70,
 					["text"] = {
 						{
 							["anchorPoint"] = "C",
@@ -18133,15 +18149,6 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["attribAnchorPoint"] = "BOTTOM",
-					["width"] = 70,
-					["unitsPerColumn"] = 5,
 					["sortOrder"] = "ASC",
 					["fader"] = {
 						["combatAlpha"] = 0.8,
@@ -18151,14 +18158,14 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["columnSpacing"] = 0,
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1.2,
 					},
-					["incHeal"] = {
-						["height"] = 0.5,
-					},
+					["columnSpacing"] = 0,
 					["attribPoint"] = "LEFT",
 				},
 				["maintanktargettarget"] = {
@@ -18207,8 +18214,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -18379,7 +18386,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -18389,26 +18408,14 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["order"] = 20,
 						["height"] = 1,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -18416,14 +18423,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["colorType"] = "static",
 						["vertical"] = true,
+						["colorType"] = "static",
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 5,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 5,
+						["reactionType"] = "none",
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -18635,7 +18642,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -18645,26 +18664,14 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["order"] = 20,
 						["height"] = 1,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -18672,14 +18679,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["colorType"] = "static",
 						["vertical"] = true,
+						["colorType"] = "static",
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 5,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 5,
+						["reactionType"] = "none",
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -18824,8 +18831,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -18944,7 +18951,19 @@ ShadowedUFDB = {
 					},
 					["castBar"] = {
 						["enabled"] = true,
+						["height"] = 0.7,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = false,
 						["order"] = 5,
+						["background"] = true,
+						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -18954,26 +18973,14 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = false,
-						["height"] = 0.7,
-						["background"] = true,
-						["icon"] = "LEFT",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["order"] = 20,
 						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
@@ -18982,14 +18989,14 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["colorType"] = "static",
 						["vertical"] = true,
+						["colorType"] = "static",
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 					},
 					["text"] = {
 						{
@@ -19107,8 +19114,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -19125,8 +19132,9 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["size"] = 10,
 					},
-					["auraIndicators"] = {
+					["incAbsorb"] = {
 						["height"] = 0.5,
+						["cap"] = 1,
 					},
 					["powerBar"] = {
 						["height"] = 0.1,
@@ -19207,29 +19215,6 @@ ShadowedUFDB = {
 						},
 					},
 					["offset"] = 5,
-					["unitsPerColumn"] = 5,
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["colorType"] = "percent",
-						["vertical"] = true,
-						["colorDispel"] = true,
-						["reverse"] = false,
-						["reactionType"] = "npc",
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 3,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
 					["text"] = {
 						{
 							["anchorPoint"] = "C",
@@ -19255,6 +19240,29 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["vertical"] = true,
+						["colorType"] = "percent",
+						["colorDispel"] = true,
+						["reverse"] = false,
+						["height"] = 3,
+						["background"] = true,
+						["invert"] = false,
+						["reactionType"] = "npc",
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["unitsPerColumn"] = 5,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -19270,15 +19278,14 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["columnSpacing"] = 5,
+					["height"] = 60,
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["height"] = 60,
-					["incAbsorb"] = {
+					["columnSpacing"] = 5,
+					["auraIndicators"] = {
 						["height"] = 0.5,
-						["cap"] = 1,
 					},
 				},
 				["raidpet"] = {
@@ -19322,8 +19329,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -19373,6 +19380,12 @@ ShadowedUFDB = {
 						["height"] = 1.2,
 						["reactionType"] = "none",
 					},
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
 					["text"] = {
 						nil, -- [1]
 						{
@@ -19388,34 +19401,28 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["attribAnchorPoint"] = "BOTTOM",
+					["unitsPerColumn"] = 20,
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["width"] = 20,
 					["maxColumns"] = 8,
-					["unitsPerColumn"] = 20,
+					["attribAnchorPoint"] = "BOTTOM",
 					["fader"] = {
 						["height"] = 0.5,
 					},
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["incHeal"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
+					["columnSpacing"] = 5,
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["columnSpacing"] = 5,
+					["incHeal"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
 					["attribPoint"] = "RIGHT",
 				},
 				["battlegroundtargettarget"] = {
@@ -19470,8 +19477,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -19547,14 +19554,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "percent",
 						["reactionType"] = "npc",
+						["vertical"] = true,
+						["order"] = 10,
 						["reverse"] = false,
 						["height"] = 1.5,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "percent",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -19590,8 +19597,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -19668,10 +19675,11 @@ ShadowedUFDB = {
 						["size"] = 10,
 					},
 				},
-				["targettarget"] = {
+				["pettarget"] = {
+					["enabled"] = true,
 					["portrait"] = {
 						["type"] = "3D",
-						["alignment"] = "RIGHT",
+						["alignment"] = "LEFT",
 						["fullAfter"] = 100,
 						["height"] = 0.5,
 						["fullBefore"] = 0,
@@ -19679,16 +19687,16 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "static",
 						["reactionType"] = "none",
+						["vertical"] = true,
+						["order"] = 10,
 						["reverse"] = false,
-						["height"] = 3,
+						["height"] = 2,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "static",
 					},
-					["width"] = 40,
+					["width"] = 45,
 					["emptyBar"] = {
 						["reactionType"] = "none",
 						["background"] = true,
@@ -19727,8 +19735,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -19747,27 +19755,34 @@ ShadowedUFDB = {
 							["x"] = 0,
 							["width"] = 1,
 							["text"] = "[( )perhp]",
-							["y"] = 15,
-							["size"] = -3,
+							["y"] = 25,
+							["size"] = -1,
 						}, -- [1]
 						{
 							["anchorPoint"] = "C",
 							["x"] = 0,
 							["width"] = 1,
 							["text"] = "[colorname]",
-							["y"] = -15,
-							["size"] = -3,
+							["y"] = -29,
+							["size"] = -1,
 						}, -- [2]
 						{
 							["anchorPoint"] = "C",
 							["x"] = 0,
-							["text"] = "[level]",
 							["width"] = 0,
-							["size"] = -3,
+							["text"] = "[level]",
+							["y"] = 25,
+							["size"] = -2,
 						}, -- [3]
 						{
-							["text"] = "",
+							["anchorPoint"] = "C",
+							["text"] = "[perpp]",
+							["x"] = 0,
+							["size"] = -1,
 						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
 					},
 					["altPowerBar"] = {
 						["order"] = 100,
@@ -19780,35 +19795,26 @@ ShadowedUFDB = {
 							["x"] = 0,
 							["anchorTo"] = "$parent",
 							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
+							["size"] = 24,
 						},
 						["height"] = 0.5,
 					},
-					["height"] = 40,
+					["height"] = 75,
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["order"] = 20,
 						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
 					},
 					["highlight"] = {
-						["debuff"] = true,
-						["rareMob"] = false,
 						["height"] = 0.5,
-						["attention"] = true,
-						["mouseover"] = true,
+						["debuff"] = true,
+						["mouseover"] = false,
 						["size"] = 10,
 					},
 				},
@@ -19851,8 +19857,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -19870,22 +19876,22 @@ ShadowedUFDB = {
 					},
 					["powerBar"] = {
 						["vertical"] = false,
-						["order"] = 20,
 						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
 					},
 					["offset"] = 0,
 					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "static",
 						["reactionType"] = "none",
+						["vertical"] = false,
+						["order"] = 10,
 						["reverse"] = false,
 						["height"] = 3,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = false,
+						["colorType"] = "static",
 					},
 					["text"] = {
 						{
@@ -19960,159 +19966,15 @@ ShadowedUFDB = {
 					},
 					["attribPoint"] = "BOTTOM",
 				},
-				["focustarget"] = {
-					["highlight"] = {
-						["height"] = 0.5,
-						["debuff"] = true,
-						["mouseover"] = false,
-						["size"] = 10,
-					},
-					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "static",
-						["reactionType"] = "none",
-						["reverse"] = false,
-						["height"] = 3,
-						["background"] = true,
-						["invert"] = false,
-						["vertical"] = true,
-					},
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[( )perhp]",
-							["y"] = 15,
-							["size"] = -3,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[colorname]",
-							["y"] = -15,
-							["size"] = -3,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[level]",
-							["width"] = 0,
-							["size"] = -3,
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [5]
-					},
-					["width"] = 40,
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
-							["y"] = 0,
-							["x"] = 0,
-							["size"] = 16,
-						},
-						["buffs"] = {
-							["y"] = 0,
-							["selfScale"] = 1,
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["size"] = 16,
-						},
-					},
-					["castBar"] = {
-						["time"] = {
-							["y"] = 0,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["order"] = 40,
-						["height"] = 0.6,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["size"] = 0,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = true,
-						},
-					},
-					["altPowerBar"] = {
-						["order"] = 100,
-						["background"] = true,
-						["height"] = 0.4,
-					},
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-						["enabled"] = true,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "RIGHT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["height"] = 45,
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["vertical"] = false,
-						["order"] = 20,
-						["height"] = 0.2,
-						["background"] = true,
-						["invert"] = false,
-						["colorType"] = "class",
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["height"] = 0.5,
-					},
-				},
-				["pettarget"] = {
+				["battlegroundpet"] = {
 					["enabled"] = true,
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["height"] = 1.2,
+						["reactionType"] = "npc",
+					},
 					["portrait"] = {
 						["type"] = "3D",
 						["alignment"] = "LEFT",
@@ -20122,17 +19984,25 @@ ShadowedUFDB = {
 						["order"] = 15,
 						["width"] = 0.22,
 					},
-					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "static",
-						["reactionType"] = "none",
-						["reverse"] = false,
-						["height"] = 2,
-						["background"] = true,
-						["invert"] = false,
-						["vertical"] = true,
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
 					},
-					["width"] = 45,
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
 					["emptyBar"] = {
 						["reactionType"] = "none",
 						["background"] = true,
@@ -20140,25 +20010,20 @@ ShadowedUFDB = {
 						["height"] = 1,
 					},
 					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
 						["height"] = 0.5,
 					},
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
 							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
-							["y"] = 0,
 							["x"] = 0,
+							["y"] = 0,
 							["size"] = 16,
 						},
 						["buffs"] = {
 							["y"] = 0,
-							["selfScale"] = 1,
-							["anchorPoint"] = "BL",
 							["x"] = 0,
+							["anchorPoint"] = "BL",
 							["size"] = 16,
 						},
 					},
@@ -20171,8 +20036,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -20185,45 +20050,41 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[( )perhp]",
-							["y"] = 25,
-							["size"] = -1,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[colorname]",
-							["y"] = -29,
-							["size"] = -1,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 0,
-							["text"] = "[level]",
-							["y"] = 25,
-							["size"] = -2,
-						}, -- [3]
-						{
-							["anchorPoint"] = "C",
-							["text"] = "[perpp]",
-							["x"] = 0,
-							["size"] = -1,
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
+					["width"] = 40,
 					["altPowerBar"] = {
 						["order"] = 100,
 						["background"] = true,
 						["height"] = 0.4,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["height"] = 40,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["height"] = 0.6,
+						["colorType"] = "type",
+						["background"] = true,
+						["order"] = 20,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
+						["height"] = 0.5,
+					},
+				},
+				["pet"] = {
+					["xpBar"] = {
+						["order"] = 55,
+						["background"] = true,
+						["height"] = 0.25,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -20235,23 +20096,164 @@ ShadowedUFDB = {
 						},
 						["height"] = 0.5,
 					},
-					["height"] = 75,
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["enabled"] = true,
+							["selfScale"] = 1,
+							["anchorOn"] = false,
+							["y"] = 1,
+							["maxRows"] = 2,
+							["perRow"] = 5,
+							["anchorPoint"] = "TL",
+							["x"] = 0,
+							["size"] = 22,
+						},
+						["buffs"] = {
+							["enabled"] = true,
+							["selfScale"] = 1,
+							["anchorOn"] = false,
+							["enlarge"] = {
+								["SELF"] = true,
+							},
+							["anchorPoint"] = "BL",
+							["maxRows"] = 2,
+							["perRow"] = 5,
+							["y"] = 0,
+							["x"] = 0,
+							["size"] = 22,
+						},
+					},
+					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
+						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["size"] = -3,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = false,
+						},
+					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
+						["height"] = 1,
 						["order"] = 20,
-						["height"] = 0.2,
 						["background"] = true,
 						["invert"] = false,
 						["colorType"] = "class",
 					},
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["vertical"] = true,
+						["colorType"] = "static",
+						["colorDispel"] = true,
+						["reverse"] = false,
+						["height"] = 5,
+						["background"] = true,
+						["invert"] = false,
+						["reactionType"] = "none",
+					},
 					["highlight"] = {
-						["height"] = 0.5,
 						["debuff"] = true,
-						["mouseover"] = false,
+						["height"] = 0.5,
+						["aggro"] = true,
+						["attention"] = true,
+						["mouseover"] = true,
 						["size"] = 10,
+					},
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[( )perhp]",
+							["y"] = 23,
+							["width"] = 0,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[smartlevel] [colorname]",
+							["y"] = -23,
+							["width"] = 0,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[perpp]",
+							["y"] = 1,
+							["size"] = -1,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["width"] = 120,
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+						["enabled"] = false,
+					},
+					["height"] = 75,
+					["fader"] = {
+						["combatAlpha"] = 0.8,
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["healAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1,
+					},
+					["incAbsorb"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 				},
 				["partypet"] = {
@@ -20287,7 +20289,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = true,
+						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -20296,18 +20310,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
-						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
 						},
 					},
 					["auraIndicators"] = {
@@ -20323,10 +20325,10 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorType"] = "static",
 						["vertical"] = true,
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 3,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["highlight"] = {
 						["height"] = 0.5,
@@ -20414,14 +20416,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["order"] = 10,
-						["colorType"] = "percent",
 						["reactionType"] = "npc",
+						["vertical"] = true,
+						["order"] = 10,
 						["reverse"] = false,
 						["height"] = 1.5,
 						["background"] = true,
 						["invert"] = false,
-						["vertical"] = true,
+						["colorType"] = "percent",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -20457,8 +20459,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -20673,7 +20675,19 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
+						["height"] = 1,
+						["time"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["autoHide"] = true,
 						["order"] = 0,
+						["background"] = false,
+						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -20683,45 +20697,21 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CLI",
 							["rank"] = false,
 						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = false,
-						["icon"] = "LEFT",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
+					},
+					["priestBar"] = {
+						["order"] = 70,
+						["background"] = true,
+						["height"] = 0.4,
 					},
 					["altPowerBar"] = {
 						["order"] = 90,
 						["background"] = true,
 						["height"] = 1,
 					},
-					["fader"] = {
-						["inactiveAlpha"] = 0.8,
-						["combatAlpha"] = 0.8,
-						["height"] = 0.5,
-						["enabled"] = true,
-					},
 					["staggerBar"] = {
 						["order"] = 70,
 						["background"] = true,
 						["height"] = 1,
-					},
-					["powerBar"] = {
-						["vertical"] = false,
-						["colorType"] = "type",
-						["height"] = 1,
-						["background"] = true,
-						["invert"] = false,
-						["order"] = 20,
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
 					},
 					["comboPoints"] = {
 						["enabled"] = false,
@@ -20736,6 +20726,18 @@ ShadowedUFDB = {
 						["y"] = 8,
 						["size"] = 14,
 					},
+					["incAbsorb"] = {
+						["height"] = 0.5,
+						["cap"] = 1.5,
+					},
+					["powerBar"] = {
+						["vertical"] = false,
+						["colorType"] = "type",
+						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["height"] = 1,
+					},
 					["chi"] = {
 						["anchorTo"] = "$parent",
 						["order"] = 60,
@@ -20748,24 +20750,30 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 14,
 					},
-					["druidBar"] = {
-						["enabled"] = true,
-						["background"] = true,
-						["order"] = 70,
+					["holyPower"] = {
+						["anchorTo"] = "$parent",
+						["order"] = 60,
+						["showAlways"] = true,
+						["growth"] = "LEFT",
+						["anchorPoint"] = "BR",
+						["x"] = -3,
+						["spacing"] = -4,
 						["height"] = 0.4,
+						["y"] = 6,
+						["size"] = 14,
 					},
 					["disableVehicle"] = false,
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["vertical"] = false,
 						["colorType"] = "static",
+						["vertical"] = false,
 						["colorDispel"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 5,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 5,
+						["reactionType"] = "none",
 					},
 					["text"] = {
 						{
@@ -20813,17 +20821,17 @@ ShadowedUFDB = {
 							["width"] = 1,
 						}, -- [9]
 					},
-					["holyPower"] = {
-						["anchorTo"] = "$parent",
-						["order"] = 60,
-						["showAlways"] = true,
-						["growth"] = "LEFT",
-						["anchorPoint"] = "BR",
-						["x"] = -3,
-						["spacing"] = -4,
+					["druidBar"] = {
+						["enabled"] = true,
+						["background"] = true,
+						["order"] = 70,
 						["height"] = 0.4,
-						["y"] = 6,
-						["size"] = 14,
+					},
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
 					},
 					["soulShards"] = {
 						["anchorTo"] = "$parent",
@@ -20838,16 +20846,9 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 12,
 					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
 					["width"] = 170,
-					["incAbsorb"] = {
+					["auraIndicators"] = {
 						["height"] = 0.5,
-						["cap"] = 1.5,
 					},
 					["runeBar"] = {
 						["enabled"] = true,
@@ -20855,10 +20856,11 @@ ShadowedUFDB = {
 						["order"] = 70,
 						["height"] = 1,
 					},
-					["priestBar"] = {
-						["order"] = 70,
-						["background"] = true,
-						["height"] = 0.4,
+					["fader"] = {
+						["inactiveAlpha"] = 0.8,
+						["combatAlpha"] = 0.8,
+						["height"] = 0.5,
+						["enabled"] = true,
 					},
 					["combatText"] = {
 						["height"] = 0.5,
@@ -20937,8 +20939,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -20969,12 +20971,7 @@ ShadowedUFDB = {
 						["cap"] = 1,
 					},
 					["offset"] = 5,
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
+					["unitsPerColumn"] = 5,
 					["healthBar"] = {
 						["colorType"] = "class",
 						["order"] = 10,
@@ -20986,8 +20983,13 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
 					["attribAnchorPoint"] = "LEFT",
-					["unitsPerColumn"] = 5,
 					["altPowerBar"] = {
 						["order"] = 100,
 						["background"] = true,
@@ -21012,12 +21014,12 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["columnSpacing"] = 5,
+					["height"] = 40,
 					["healAbsorb"] = {
 						["height"] = 0.5,
 						["cap"] = 1,
 					},
-					["height"] = 40,
+					["columnSpacing"] = 5,
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 0,
@@ -21085,21 +21087,32 @@ ShadowedUFDB = {
 						},
 					},
 				},
-				["pet"] = {
-					["xpBar"] = {
-						["order"] = 55,
-						["background"] = true,
-						["height"] = 0.25,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 24,
-						},
+				["targettarget"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
 						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["healthBar"] = {
+						["reactionType"] = "none",
+						["vertical"] = true,
+						["order"] = 10,
+						["reverse"] = false,
+						["height"] = 3,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "static",
+					},
+					["width"] = 40,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -21110,216 +21123,17 @@ ShadowedUFDB = {
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["y"] = 1,
-							["maxRows"] = 2,
-							["perRow"] = 5,
-							["anchorPoint"] = "TL",
-							["x"] = 0,
-							["size"] = 22,
-						},
-						["buffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
-							["enlarge"] = {
-								["SELF"] = true,
-							},
 							["anchorPoint"] = "BL",
-							["maxRows"] = 2,
-							["perRow"] = 5,
+							["selfScale"] = 1,
 							["y"] = 0,
 							["x"] = 0,
-							["size"] = 22,
-						},
-					},
-					["castBar"] = {
-						["order"] = 0,
-						["name"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["size"] = -3,
-							["enabled"] = true,
-							["anchorPoint"] = "CLI",
-							["rank"] = false,
-						},
-						["autoHide"] = true,
-						["height"] = 1,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["time"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["enabled"] = true,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["vertical"] = false,
-						["order"] = 20,
-						["height"] = 1,
-						["background"] = true,
-						["invert"] = false,
-						["colorType"] = "class",
-					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["colorType"] = "static",
-						["vertical"] = true,
-						["colorDispel"] = true,
-						["reverse"] = false,
-						["reactionType"] = "none",
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 5,
-					},
-					["highlight"] = {
-						["debuff"] = true,
-						["height"] = 0.5,
-						["aggro"] = true,
-						["attention"] = true,
-						["mouseover"] = true,
-						["size"] = 10,
-					},
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[( )perhp]",
-							["y"] = 23,
-							["width"] = 0,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[smartlevel] [colorname]",
-							["y"] = -23,
-							["width"] = 0,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[perpp]",
-							["y"] = 1,
-							["size"] = -1,
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["width"] = 120,
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-						["enabled"] = false,
-					},
-					["height"] = 75,
-					["fader"] = {
-						["combatAlpha"] = 0.8,
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-					},
-					["healAbsorb"] = {
-						["height"] = 0.5,
-						["cap"] = 1,
-					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-				},
-				["battlegroundpet"] = {
-					["enabled"] = true,
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
-						["height"] = 0.5,
-					},
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["height"] = 1.2,
-						["reactionType"] = "npc",
-					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["reactionType"] = "none",
-						["background"] = true,
-						["order"] = 0,
-						["height"] = 1,
-					},
-					["range"] = {
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
 							["size"] = 16,
 						},
 						["buffs"] = {
 							["y"] = 0,
-							["x"] = 0,
+							["selfScale"] = 1,
 							["anchorPoint"] = "BL",
+							["x"] = 0,
 							["size"] = 16,
 						},
 					},
@@ -21332,8 +21146,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -21346,13 +21160,54 @@ ShadowedUFDB = {
 							["rank"] = true,
 						},
 					},
-					["width"] = 40,
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[( )perhp]",
+							["y"] = 15,
+							["size"] = -3,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[colorname]",
+							["y"] = -15,
+							["size"] = -3,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[level]",
+							["width"] = 0,
+							["size"] = -3,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+					},
 					["altPowerBar"] = {
 						["order"] = 100,
 						["background"] = true,
 						["height"] = 0.4,
 					},
-					["combatText"] = {
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
 						["height"] = 0.5,
 					},
 					["height"] = 40,
@@ -21360,19 +21215,171 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
-						["height"] = 0.6,
-						["colorType"] = "type",
-						["background"] = true,
+						["vertical"] = false,
+						["height"] = 0.2,
 						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "class",
+					},
+					["highlight"] = {
+						["debuff"] = true,
+						["rareMob"] = false,
+						["height"] = 0.5,
+						["attention"] = true,
+						["mouseover"] = true,
+						["size"] = 10,
+					},
+				},
+				["focustarget"] = {
+					["healthBar"] = {
+						["reactionType"] = "none",
+						["vertical"] = true,
+						["order"] = 10,
+						["reverse"] = false,
+						["height"] = 3,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "static",
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
+					},
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[( )perhp]",
+							["y"] = 15,
+							["size"] = -3,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[colorname]",
+							["y"] = -15,
+							["size"] = -3,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[level]",
+							["width"] = 0,
+							["size"] = -3,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [5]
+					},
+					["width"] = 40,
+					["emptyBar"] = {
+						["reactionType"] = "none",
+						["background"] = true,
+						["order"] = 0,
+						["height"] = 1,
+					},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
+							["y"] = 0,
+							["x"] = 0,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["y"] = 0,
+							["selfScale"] = 1,
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["y"] = 0,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["enabled"] = true,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["height"] = 0.6,
+						["order"] = 40,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["size"] = 0,
+							["enabled"] = true,
+							["anchorPoint"] = "CLI",
+							["rank"] = true,
+						},
+					},
+					["altPowerBar"] = {
+						["order"] = 100,
+						["background"] = true,
+						["height"] = 0.4,
+					},
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+						["enabled"] = true,
 					},
 					["portrait"] = {
 						["type"] = "3D",
-						["alignment"] = "LEFT",
+						["alignment"] = "RIGHT",
 						["fullAfter"] = 100,
 						["height"] = 0.5,
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
+					},
+					["height"] = 45,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["vertical"] = false,
+						["height"] = 0.2,
+						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["colorType"] = "class",
+					},
+					["highlight"] = {
+						["height"] = 0.5,
+						["debuff"] = true,
+						["mouseover"] = false,
+						["size"] = 10,
 					},
 				},
 				["arena"] = {
@@ -21436,8 +21443,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -21521,10 +21528,10 @@ ShadowedUFDB = {
 					["healthBar"] = {
 						["colorType"] = "static",
 						["vertical"] = false,
-						["order"] = 10,
+						["reactionType"] = "none",
 						["background"] = true,
 						["height"] = 2,
-						["reactionType"] = "none",
+						["order"] = 10,
 					},
 					["width"] = 40,
 					["emptyBar"] = {
@@ -21563,8 +21570,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 40,
 						["height"] = 0.6,
+						["order"] = 40,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -21700,8 +21707,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["order"] = 60,
 						["height"] = 0.6,
+						["order"] = 60,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -21777,22 +21784,22 @@ ShadowedUFDB = {
 				},
 			},
 			["font"] = {
-				["shadowX"] = 0.8,
-				["name"] = "Friz Quadrata TT",
-				["extra"] = "OUTLINE",
-				["shadowColor"] = {
-					["a"] = 1,
-					["r"] = 0,
-					["g"] = 0,
-					["b"] = 0,
-				},
-				["shadowY"] = -0.8,
 				["color"] = {
 					["a"] = 1,
 					["r"] = 1,
 					["g"] = 1,
 					["b"] = 1,
 				},
+				["name"] = "Friz Quadrata TT",
+				["shadowColor"] = {
+					["a"] = 1,
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
+				},
+				["extra"] = "OUTLINE",
+				["shadowY"] = -0.8,
+				["shadowX"] = 0.8,
 				["size"] = 12,
 			},
 			["advanced"] = true,
@@ -21869,16 +21876,11 @@ ShadowedUFDB = {
 				},
 			},
 			["backdrop"] = {
-				["inset"] = 0,
+				["clip"] = 0,
 				["edgeSize"] = 0,
 				["tileSize"] = 0,
-				["borderColor"] = {
-					["a"] = 0,
-					["r"] = 0.301960784313726,
-					["g"] = 0.301960784313726,
-					["b"] = 0.501960784313726,
-				},
-				["clip"] = 0,
+				["borderTexture"] = "Details BarBorder 3",
+				["inset"] = 0,
 				["backgroundTexture"] = "Solid",
 				["backgroundColor"] = {
 					["a"] = 0.161911368370056,
@@ -21886,7 +21888,12 @@ ShadowedUFDB = {
 					["g"] = 0,
 					["b"] = 0,
 				},
-				["borderTexture"] = "Details BarBorder 3",
+				["borderColor"] = {
+					["a"] = 0,
+					["r"] = 0.301960784313726,
+					["g"] = 0.301960784313726,
+					["b"] = 0.501960784313726,
+				},
 			},
 			["bars"] = {
 				["backgroundAlpha"] = 1,
@@ -21924,10 +21931,10 @@ ShadowedUFDB = {
 					["g"] = 0.93,
 					["r"] = 0.93,
 				},
-				["offline"] = {
-					["b"] = 0.5,
-					["g"] = 0.5,
-					["r"] = 0.5,
+				["yellow"] = {
+					["b"] = 0,
+					["g"] = 0.93,
+					["r"] = 0.93,
 				},
 				["aggro"] = {
 					["a"] = 1,
@@ -21946,10 +21953,10 @@ ShadowedUFDB = {
 					["g"] = 0.9,
 					["r"] = 0.2,
 				},
-				["healAbsorb"] = {
-					["b"] = 1,
-					["g"] = 0.47,
-					["r"] = 0.68,
+				["offline"] = {
+					["b"] = 0.5,
+					["g"] = 0.5,
+					["r"] = 0.5,
 				},
 				["enemyUnattack"] = {
 					["b"] = 0.2,
@@ -21977,10 +21984,10 @@ ShadowedUFDB = {
 					["g"] = 0.75,
 					["r"] = 0.93,
 				},
-				["yellow"] = {
-					["b"] = 0,
-					["g"] = 0.93,
-					["r"] = 0.93,
+				["healAbsorb"] = {
+					["b"] = 1,
+					["g"] = 0.47,
+					["r"] = 0.68,
 				},
 				["inc"] = {
 					["b"] = 0.23,
@@ -22106,25 +22113,25 @@ ShadowedUFDB = {
 					["y"] = -25,
 					["anchorTo"] = "$parent",
 				},
-				["targettarget"] = {
-					["anchorPoint"] = "RT",
-					["x"] = 40,
-					["anchorTo"] = "#SUFUnittarget",
+				["pettarget"] = {
+					["anchorPoint"] = "RC",
+					["x"] = 5,
+					["anchorTo"] = "#SUFUnitpet",
 				},
 				["bosstarget"] = {
 					["anchorPoint"] = "BC",
 					["y"] = -10,
 					["anchorTo"] = "$parent",
 				},
-				["focustarget"] = {
-					["anchorPoint"] = "LT",
-					["x"] = -40,
-					["anchorTo"] = "#SUFUnitfocus",
-				},
-				["pettarget"] = {
-					["anchorPoint"] = "RC",
+				["battlegroundpet"] = {
+					["anchorPoint"] = "RB",
 					["x"] = 5,
-					["anchorTo"] = "#SUFUnitpet",
+					["anchorTo"] = "$parent",
+				},
+				["pet"] = {
+					["anchorPoint"] = "RC",
+					["x"] = 775,
+					["anchorTo"] = "#SUFUnitplayer",
 				},
 				["partypet"] = {
 					["x"] = 16,
@@ -22147,15 +22154,15 @@ ShadowedUFDB = {
 					["bottom"] = 493.511079658401,
 					["y"] = 649.955527891052,
 				},
-				["pet"] = {
-					["anchorPoint"] = "RC",
-					["x"] = 775,
-					["anchorTo"] = "#SUFUnitplayer",
+				["targettarget"] = {
+					["anchorPoint"] = "RT",
+					["x"] = 40,
+					["anchorTo"] = "#SUFUnittarget",
 				},
-				["battlegroundpet"] = {
-					["anchorPoint"] = "RB",
-					["x"] = 5,
-					["anchorTo"] = "$parent",
+				["focustarget"] = {
+					["anchorPoint"] = "LT",
+					["x"] = -40,
+					["anchorTo"] = "#SUFUnitfocus",
 				},
 				["arena"] = {
 					["anchorPoint"] = "LC",
@@ -22263,8 +22270,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -22362,8 +22369,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -22444,14 +22451,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["order"] = 10,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 2,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 2,
+						["reactionType"] = "none",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -22492,8 +22499,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -22563,10 +22570,10 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -22578,17 +22585,18 @@ ShadowedUFDB = {
 				},
 				["partytarget"] = {
 					["enabled"] = true,
-					["healthBar"] = {
-						["colorType"] = "static",
-						["order"] = 10,
-						["reactionType"] = "none",
-						["background"] = true,
-						["height"] = 3,
-						["vertical"] = false,
-					},
 					["highlight"] = {
 						["height"] = 0.5,
 						["size"] = 10,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 					["text"] = {
 						{
@@ -22657,8 +22665,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -22708,14 +22716,13 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
+					["healthBar"] = {
+						["colorType"] = "static",
+						["reactionType"] = "none",
+						["order"] = 10,
+						["background"] = true,
+						["height"] = 3,
+						["vertical"] = false,
 					},
 				},
 				["arenatargettarget"] = {
@@ -22769,8 +22776,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -22836,6 +22843,167 @@ ShadowedUFDB = {
 					},
 				},
 				["raid"] = {
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
+					},
+					["height"] = 65,
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["anchorPoint"] = "BL",
+							["x"] = 0,
+							["y"] = 0,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["show"] = {
+								["relevant"] = false,
+							},
+							["x"] = 0,
+							["anchorPoint"] = "BL",
+							["y"] = 0,
+							["size"] = 16,
+						},
+					},
+					["incHeal"] = {
+						["cap"] = 1.5,
+						["height"] = 0.5,
+					},
+					["incAbsorb"] = {
+						["cap"] = 1.5,
+						["height"] = 0.5,
+					},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["showParty"] = false,
+					["castBar"] = {
+						["enabled"] = true,
+						["order"] = 5,
+						["name"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["rank"] = false,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = -3,
+						},
+						["autoHide"] = false,
+						["height"] = 0.7,
+						["background"] = true,
+						["icon"] = "LEFT",
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["frameSplit"] = false,
+					["groupSpacing"] = 10,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["groupBy"] = "ASSIGNEDROLE",
+					["powerBar"] = {
+						["height"] = 0.3,
+						["colorType"] = "type",
+						["background"] = true,
+						["order"] = 20,
+					},
+					["groupsPerRow"] = 4,
+					["enabled"] = true,
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[(()afk() )][name]",
+							["y"] = -15,
+							["size"] = -1,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 0.5,
+							["text"] = "[perhp]",
+							["y"] = 15,
+							["size"] = -1,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[afk][( )status]",
+							["y"] = 27,
+							["size"] = -2,
+						}, -- [3]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 0.5,
+							["text"] = "[perpp]",
+							["y"] = 1,
+							["size"] = -1,
+						}, -- [4]
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [5]
+					},
+					["healthBar"] = {
+						["reactionType"] = "none",
+						["vertical"] = true,
+						["colorAggro"] = true,
+						["order"] = 10,
+						["height"] = 3,
+						["background"] = true,
+						["colorDispel"] = true,
+						["colorType"] = "static",
+					},
+					["hideSemiRaid"] = false,
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
+					["attribAnchorPoint"] = "TOP",
+					["unitsPerColumn"] = 10,
+					["width"] = 65,
+					["maxColumns"] = 4,
+					["offset"] = 10,
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["columnSpacing"] = 10,
+					["healAbsorb"] = {
+						["cap"] = 1.5,
+						["height"] = 0.5,
+					},
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 8,
@@ -22911,178 +23079,10 @@ ShadowedUFDB = {
 							["size"] = 16,
 						},
 					},
-					["incHeal"] = {
-						["cap"] = 1.5,
-						["height"] = 0.5,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
-							["size"] = 16,
-						},
-						["buffs"] = {
-							["show"] = {
-								["relevant"] = false,
-							},
-							["x"] = 0,
-							["anchorPoint"] = "BL",
-							["y"] = 0,
-							["size"] = 16,
-						},
-					},
-					["height"] = 65,
-					["incAbsorb"] = {
-						["cap"] = 1.5,
-						["height"] = 0.5,
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["showParty"] = false,
-					["castBar"] = {
-						["enabled"] = true,
-						["height"] = 0.7,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = false,
-						["order"] = 5,
-						["background"] = true,
-						["icon"] = "LEFT",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["rank"] = false,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = -3,
-						},
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-					},
-					["frameSplit"] = false,
-					["groupSpacing"] = 10,
-					["groupBy"] = "ASSIGNEDROLE",
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["height"] = 0.3,
-						["colorType"] = "type",
-						["background"] = true,
-						["order"] = 20,
-					},
-					["groupsPerRow"] = 4,
-					["offset"] = 10,
-					["unitsPerColumn"] = 10,
-					["healthBar"] = {
-						["height"] = 3,
-						["colorType"] = "static",
-						["colorAggro"] = true,
-						["reactionType"] = "none",
-						["order"] = 10,
-						["colorDispel"] = true,
-						["background"] = true,
-						["vertical"] = true,
-					},
-					["hideSemiRaid"] = false,
-					["attribAnchorPoint"] = "TOP",
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[(()afk() )][name]",
-							["y"] = -15,
-							["size"] = -1,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 0.5,
-							["text"] = "[perhp]",
-							["y"] = 15,
-							["size"] = -1,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[afk][( )status]",
-							["y"] = 27,
-							["size"] = -2,
-						}, -- [3]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 0.5,
-							["text"] = "[perpp]",
-							["y"] = 1,
-							["size"] = -1,
-						}, -- [4]
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [5]
-					},
-					["width"] = 65,
-					["maxColumns"] = 4,
-					["enabled"] = true,
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["columnSpacing"] = 10,
-					["healAbsorb"] = {
-						["cap"] = 1.5,
-						["height"] = 0.5,
-					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
 					["attribPoint"] = "LEFT",
 				},
 				["arenapet"] = {
 					["enabled"] = true,
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
 					["portrait"] = {
 						["type"] = "3D",
 						["alignment"] = "LEFT",
@@ -23091,6 +23091,16 @@ ShadowedUFDB = {
 						["fullBefore"] = 0,
 						["order"] = 15,
 						["width"] = 0.22,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
+						["height"] = 0.5,
 					},
 					["highlight"] = {
 						["height"] = 0.5,
@@ -23144,8 +23154,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -23177,15 +23187,12 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 20,
-						},
-						["height"] = 0.5,
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
 					},
 				},
 				["mainassisttargettarget"] = {
@@ -23221,8 +23228,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -23343,6 +23350,7 @@ ShadowedUFDB = {
 							["enabled"] = false,
 							["size"] = 22,
 						},
+						["height"] = 0.5,
 						["status"] = {
 							["y"] = -20,
 							["x"] = 0,
@@ -23351,7 +23359,6 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = 24,
 						},
-						["height"] = 0.5,
 						["class"] = {
 							["y"] = 0,
 							["x"] = 13,
@@ -23384,7 +23391,7 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["width"] = 0.22,
 					},
-					["columnSpacing"] = 0,
+					["height"] = 100,
 					["showPlayer"] = true,
 					["range"] = {
 						["enabled"] = true,
@@ -23428,6 +23435,16 @@ ShadowedUFDB = {
 					["castBar"] = {
 						["enabled"] = true,
 						["order"] = 5,
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -2,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+						["icon"] = "RIGHT",
+						["vertical"] = false,
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -23437,26 +23454,16 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
-						["icon"] = "RIGHT",
-						["vertical"] = false,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -2,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = false,
+						["reverse"] = false,
 						["height"] = 0.6,
 						["background"] = true,
 						["invert"] = false,
-						["reverse"] = false,
+						["autoHide"] = false,
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 100,
+					["columnSpacing"] = 0,
 					["sortMethod"] = "INDEX",
 					["altPowerBar"] = {
 						["height"] = 0.4,
@@ -23481,25 +23488,17 @@ ShadowedUFDB = {
 					["offset"] = 80,
 					["disableVehicle"] = true,
 					["healthBar"] = {
-						["reactionType"] = "none",
-						["vertical"] = true,
-						["colorAggro"] = true,
 						["height"] = 3,
-						["order"] = 10,
-						["background"] = true,
-						["colorDispel"] = true,
 						["colorType"] = "static",
+						["colorAggro"] = true,
+						["order"] = 10,
+						["reactionType"] = "none",
+						["colorDispel"] = true,
+						["background"] = true,
+						["vertical"] = true,
 					},
 					["hideSemiRaid"] = false,
-					["unitsPerColumn"] = 5,
 					["attribAnchorPoint"] = "BOTTOM",
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["width"] = 70,
 					["text"] = {
 						{
 							["anchorPoint"] = "C",
@@ -23534,6 +23533,14 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
+					["width"] = 70,
+					["unitsPerColumn"] = 5,
 					["sortOrder"] = "ASC",
 					["fader"] = {
 						["inactiveAlpha"] = 0.3,
@@ -23594,8 +23601,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -23779,19 +23786,7 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
-						["height"] = 1,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -23801,6 +23796,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
+						["autoHide"] = true,
+						["height"] = 1,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
@@ -23808,22 +23815,22 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 					},
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["reactionType"] = "none",
-						["vertical"] = true,
+						["height"] = 3,
+						["colorType"] = "static",
 						["background"] = true,
 						["reverse"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 						["colorDispel"] = true,
 						["invert"] = false,
-						["colorType"] = "static",
+						["vertical"] = true,
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -24029,19 +24036,7 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
-						["height"] = 1,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -24051,6 +24046,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
+						["autoHide"] = true,
+						["height"] = 1,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
@@ -24058,22 +24065,22 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 					},
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["reactionType"] = "none",
-						["vertical"] = true,
+						["height"] = 3,
+						["colorType"] = "static",
 						["background"] = true,
 						["reverse"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 						["colorDispel"] = true,
 						["invert"] = false,
-						["colorType"] = "static",
+						["vertical"] = true,
 					},
 					["highlight"] = {
 						["debuff"] = true,
@@ -24217,8 +24224,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -24335,19 +24342,7 @@ ShadowedUFDB = {
 					},
 					["castBar"] = {
 						["enabled"] = true,
-						["height"] = 0.7,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = false,
 						["order"] = 5,
-						["background"] = true,
-						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -24357,6 +24352,18 @@ ShadowedUFDB = {
 							["enabled"] = true,
 							["size"] = -3,
 						},
+						["autoHide"] = false,
+						["height"] = 0.7,
+						["background"] = true,
+						["icon"] = "LEFT",
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
 					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
@@ -24364,23 +24371,23 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 					},
 					["offset"] = 10,
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["reactionType"] = "none",
-						["vertical"] = true,
+						["height"] = 3,
+						["colorType"] = "static",
 						["background"] = true,
 						["reverse"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 						["colorDispel"] = true,
 						["invert"] = false,
-						["colorType"] = "static",
+						["vertical"] = true,
 					},
 					["text"] = {
 						{
@@ -24494,8 +24501,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -24527,8 +24534,28 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["attribAnchorPoint"] = "LEFT",
+					["unitsPerColumn"] = 5,
 					["offset"] = 5,
+					["attribAnchorPoint"] = "LEFT",
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["height"] = 3,
+						["colorType"] = "percent",
+						["background"] = true,
+						["reverse"] = false,
+						["reactionType"] = "npc",
+						["colorDispel"] = true,
+						["invert"] = false,
+						["vertical"] = true,
+					},
+					["columnSpacing"] = 5,
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
 					["text"] = {
 						{
 							["anchorPoint"] = "C",
@@ -24554,26 +24581,6 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						}, -- [5]
 					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["reactionType"] = "npc",
-						["vertical"] = true,
-						["background"] = true,
-						["reverse"] = false,
-						["height"] = 3,
-						["colorDispel"] = true,
-						["invert"] = false,
-						["colorType"] = "percent",
-					},
-					["columnSpacing"] = 5,
-					["unitsPerColumn"] = 5,
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -24591,15 +24598,15 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 60,
-					["healAbsorb"] = {
-						["cap"] = 1,
-						["height"] = 0.5,
-					},
 					["incHeal"] = {
 						["cap"] = 1,
 						["height"] = 0.5,
 					},
+					["healAbsorb"] = {
+						["cap"] = 1,
+						["height"] = 0.5,
+					},
+					["height"] = 60,
 					["indicators"] = {
 						["raidTarget"] = {
 							["y"] = 0,
@@ -24720,8 +24727,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -24734,15 +24741,15 @@ ShadowedUFDB = {
 							["size"] = 0,
 						},
 					},
-					["incHeal"] = {
-						["cap"] = 1,
-						["height"] = 0.5,
-					},
+					["height"] = 20,
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["groupSpacing"] = 0,
-					["height"] = 20,
+					["incHeal"] = {
+						["cap"] = 1,
+						["height"] = 0.5,
+					},
 					["incAbsorb"] = {
 						["cap"] = 1,
 						["height"] = 0.5,
@@ -24767,12 +24774,6 @@ ShadowedUFDB = {
 						["reactionType"] = "none",
 						["height"] = 1.2,
 					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
 					["text"] = {
 						nil, -- [1]
 						{
@@ -24788,11 +24789,17 @@ ShadowedUFDB = {
 							["text"] = "[name]",
 						}, -- [5]
 					},
-					["unitsPerColumn"] = 20,
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
+					["attribAnchorPoint"] = "BOTTOM",
 					["offset"] = 5,
 					["width"] = 20,
 					["maxColumns"] = 8,
-					["attribAnchorPoint"] = "BOTTOM",
+					["unitsPerColumn"] = 20,
 					["fader"] = {
 						["height"] = 0.5,
 					},
@@ -24861,8 +24868,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -24938,14 +24945,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["vertical"] = true,
 						["colorType"] = "percent",
+						["vertical"] = true,
 						["order"] = 10,
 						["reverse"] = false,
-						["reactionType"] = "npc",
+						["height"] = 1.5,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 1.5,
+						["reactionType"] = "npc",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -24981,8 +24988,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -25059,10 +25066,11 @@ ShadowedUFDB = {
 						["size"] = 10,
 					},
 				},
-				["targettarget"] = {
+				["pettarget"] = {
+					["enabled"] = true,
 					["portrait"] = {
 						["type"] = "3D",
-						["alignment"] = "RIGHT",
+						["alignment"] = "LEFT",
 						["fullAfter"] = 100,
 						["height"] = 0.5,
 						["fullBefore"] = 0,
@@ -25070,16 +25078,16 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["vertical"] = true,
 						["colorType"] = "static",
+						["vertical"] = true,
 						["order"] = 10,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 2,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 					},
-					["width"] = 30,
+					["width"] = 55,
 					["emptyBar"] = {
 						["height"] = 1,
 						["background"] = true,
@@ -25118,8 +25126,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -25138,27 +25146,34 @@ ShadowedUFDB = {
 							["x"] = 0,
 							["width"] = 1,
 							["text"] = "[( )perhp]",
-							["y"] = 15,
-							["size"] = -3,
+							["y"] = 25,
+							["size"] = -1,
 						}, -- [1]
 						{
 							["anchorPoint"] = "C",
 							["x"] = 0,
 							["width"] = 1,
 							["text"] = "[colorname]",
-							["y"] = -15,
-							["size"] = -3,
+							["y"] = -29,
+							["size"] = -1,
 						}, -- [2]
 						{
 							["anchorPoint"] = "C",
 							["x"] = 0,
-							["text"] = "[level]",
 							["width"] = 0,
-							["size"] = -3,
+							["text"] = "[level]",
+							["y"] = 25,
+							["size"] = -2,
 						}, -- [3]
 						{
-							["text"] = "",
+							["anchorPoint"] = "C",
+							["text"] = "[perpp]",
+							["x"] = 0,
+							["size"] = -1,
 						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
 					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
@@ -25171,35 +25186,26 @@ ShadowedUFDB = {
 							["x"] = 0,
 							["anchorTo"] = "$parent",
 							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
+							["size"] = 24,
 						},
 						["height"] = 0.5,
 					},
-					["height"] = 45,
+					["height"] = 85,
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 					},
 					["highlight"] = {
-						["debuff"] = true,
-						["rareMob"] = false,
 						["height"] = 0.5,
-						["mouseover"] = true,
-						["attention"] = true,
+						["debuff"] = true,
+						["mouseover"] = false,
 						["size"] = 10,
 					},
 				},
@@ -25242,8 +25248,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -25262,21 +25268,21 @@ ShadowedUFDB = {
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
 					},
 					["enabled"] = true,
 					["healthBar"] = {
-						["vertical"] = false,
 						["colorType"] = "static",
+						["vertical"] = false,
 						["order"] = 10,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 3,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 3,
+						["reactionType"] = "none",
 					},
 					["text"] = {
 						{
@@ -25352,158 +25358,7 @@ ShadowedUFDB = {
 					},
 					["attribPoint"] = "BOTTOM",
 				},
-				["focustarget"] = {
-					["healthBar"] = {
-						["vertical"] = true,
-						["colorType"] = "static",
-						["order"] = 10,
-						["reverse"] = false,
-						["reactionType"] = "none",
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 3,
-					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["debuff"] = true,
-						["mouseover"] = false,
-						["size"] = 10,
-					},
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[( )perhp]",
-							["y"] = 15,
-							["size"] = -3,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[colorname]",
-							["y"] = -15,
-							["size"] = -3,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[level]",
-							["width"] = 0,
-							["size"] = -3,
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[(()afk() )][name]",
-						}, -- [5]
-					},
-					["width"] = 30,
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
-							["y"] = 0,
-							["x"] = 0,
-							["size"] = 16,
-						},
-						["buffs"] = {
-							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
-							["x"] = 0,
-							["y"] = 0,
-							["size"] = 16,
-						},
-					},
-					["castBar"] = {
-						["time"] = {
-							["enabled"] = true,
-							["x"] = -1,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = 0,
-						},
-						["height"] = 0.6,
-						["order"] = 40,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
-							["y"] = 0,
-							["x"] = 1,
-							["anchorTo"] = "$parent",
-							["rank"] = true,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = 0,
-						},
-					},
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-						["enabled"] = true,
-					},
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 12,
-						},
-						["class"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "BL",
-							["size"] = 16,
-						},
-						["height"] = 0.5,
-					},
-					["height"] = 45,
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["vertical"] = false,
-						["height"] = 0.2,
-						["background"] = true,
-						["invert"] = false,
-						["order"] = 20,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "RIGHT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-				},
-				["pettarget"] = {
+				["battlegroundpet"] = {
 					["enabled"] = true,
 					["portrait"] = {
 						["type"] = "3D",
@@ -25514,17 +25369,35 @@ ShadowedUFDB = {
 						["order"] = 15,
 						["width"] = 0.22,
 					},
-					["healthBar"] = {
-						["vertical"] = true,
-						["colorType"] = "static",
-						["order"] = 10,
-						["reverse"] = false,
-						["reactionType"] = "none",
-						["background"] = true,
-						["invert"] = false,
-						["height"] = 2,
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 20,
+						},
+						["height"] = 0.5,
 					},
-					["width"] = 55,
+					["highlight"] = {
+						["height"] = 0.5,
+						["size"] = 10,
+					},
+					["text"] = {
+						nil, -- [1]
+						{
+							["text"] = "[curhp]",
+						}, -- [2]
+						{
+							["text"] = "",
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
 					["emptyBar"] = {
 						["height"] = 1,
 						["background"] = true,
@@ -25532,23 +25405,18 @@ ShadowedUFDB = {
 						["order"] = 0,
 					},
 					["range"] = {
-						["enabled"] = true,
-						["inAlpha"] = 0.8,
-						["oorAlpha"] = 0.3,
 						["height"] = 0.5,
 					},
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
 							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
-							["y"] = 0,
 							["x"] = 0,
+							["y"] = 0,
 							["size"] = 16,
 						},
 						["buffs"] = {
 							["anchorPoint"] = "BL",
-							["selfScale"] = 1,
 							["x"] = 0,
 							["y"] = 0,
 							["size"] = 16,
@@ -25563,8 +25431,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -25577,45 +25445,38 @@ ShadowedUFDB = {
 							["size"] = 0,
 						},
 					},
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[( )perhp]",
-							["y"] = 25,
-							["size"] = -1,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 1,
-							["text"] = "[colorname]",
-							["y"] = -29,
-							["size"] = -1,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["width"] = 0,
-							["text"] = "[level]",
-							["y"] = 25,
-							["size"] = -2,
-						}, -- [3]
-						{
-							["anchorPoint"] = "C",
-							["text"] = "[perpp]",
-							["x"] = 0,
-							["size"] = -1,
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
+					["width"] = 40,
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["height"] = 40,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["height"] = 0.6,
+						["colorType"] = "type",
+						["background"] = true,
+						["order"] = 20,
+					},
+					["healthBar"] = {
+						["colorType"] = "class",
+						["order"] = 10,
+						["background"] = true,
+						["reactionType"] = "npc",
+						["height"] = 1.2,
+					},
+				},
+				["pet"] = {
+					["xpBar"] = {
+						["height"] = 0.25,
+						["background"] = true,
+						["order"] = 55,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -25627,23 +25488,163 @@ ShadowedUFDB = {
 						},
 						["height"] = 0.5,
 					},
-					["height"] = 85,
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["enabled"] = true,
+							["selfScale"] = 1,
+							["anchorOn"] = false,
+							["anchorPoint"] = "BL",
+							["maxRows"] = 1,
+							["perRow"] = 6,
+							["x"] = -2,
+							["y"] = 0,
+							["size"] = 17,
+						},
+						["buffs"] = {
+							["enabled"] = true,
+							["selfScale"] = 1,
+							["anchorOn"] = true,
+							["enlarge"] = {
+								["SELF"] = true,
+							},
+							["y"] = 0,
+							["maxRows"] = 2,
+							["perRow"] = 6,
+							["x"] = 0,
+							["anchorPoint"] = "TL",
+							["size"] = 17,
+						},
+					},
+					["castBar"] = {
+						["order"] = 0,
+						["name"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["rank"] = false,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = -3,
+						},
+						["autoHide"] = true,
+						["height"] = 1,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = -3,
+						},
+					},
 					["auraIndicators"] = {
 						["height"] = 0.5,
 					},
 					["powerBar"] = {
 						["colorType"] = "class",
 						["vertical"] = false,
-						["height"] = 0.2,
+						["order"] = 20,
 						["background"] = true,
 						["invert"] = false,
-						["order"] = 20,
+						["height"] = 0.2,
+					},
+					["healthBar"] = {
+						["colorAggro"] = false,
+						["order"] = 10,
+						["height"] = 2,
+						["colorType"] = "static",
+						["background"] = true,
+						["reverse"] = false,
+						["reactionType"] = "none",
+						["colorDispel"] = true,
+						["invert"] = false,
+						["vertical"] = true,
 					},
 					["highlight"] = {
-						["height"] = 0.5,
 						["debuff"] = true,
-						["mouseover"] = false,
+						["height"] = 0.5,
+						["aggro"] = true,
+						["mouseover"] = true,
+						["attention"] = true,
 						["size"] = 10,
+					},
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[( )perhp]",
+							["y"] = 25,
+							["width"] = 0,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[smartlevel] [colorname]",
+							["y"] = -28,
+							["width"] = 0,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["text"] = "[perpp]",
+							["x"] = 0,
+							["size"] = -1,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[name]",
+						}, -- [5]
+					},
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
+					["width"] = 110,
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+						["enabled"] = false,
+					},
+					["height"] = 85,
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+					},
+					["combatText"] = {
+						["height"] = 0.5,
+					},
+					["incHeal"] = {
+						["height"] = 0.5,
+					},
+					["healAbsorb"] = {
+						["cap"] = 1,
+						["height"] = 0.5,
+					},
+					["incAbsorb"] = {
+						["height"] = 0.5,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "LEFT",
+						["fullAfter"] = 50,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
 					},
 				},
 				["partypet"] = {
@@ -25679,19 +25680,7 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
-						["height"] = 1,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -25699,6 +25688,18 @@ ShadowedUFDB = {
 							["rank"] = false,
 							["anchorPoint"] = "CLI",
 							["enabled"] = true,
+							["size"] = -3,
+						},
+						["autoHide"] = true,
+						["height"] = 1,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
 							["size"] = -3,
 						},
 					},
@@ -25714,8 +25715,8 @@ ShadowedUFDB = {
 					["enabled"] = true,
 					["healthBar"] = {
 						["colorType"] = "static",
-						["order"] = 10,
 						["reactionType"] = "none",
+						["order"] = 10,
 						["background"] = true,
 						["height"] = 3,
 						["vertical"] = true,
@@ -25803,14 +25804,14 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 					["healthBar"] = {
-						["vertical"] = true,
 						["colorType"] = "percent",
+						["vertical"] = true,
 						["order"] = 10,
 						["reverse"] = false,
-						["reactionType"] = "npc",
+						["height"] = 1.5,
 						["background"] = true,
 						["invert"] = false,
-						["height"] = 1.5,
+						["reactionType"] = "npc",
 					},
 					["width"] = 30,
 					["emptyBar"] = {
@@ -25846,8 +25847,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -25948,15 +25949,19 @@ ShadowedUFDB = {
 						["height"] = 0.5,
 						["width"] = 0.22,
 					},
-					["incHeal"] = {
-						["cap"] = 1.5,
-						["height"] = 0.5,
+					["staggerBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["order"] = 70,
 					},
 					["healAbsorb"] = {
 						["cap"] = 1.5,
 						["height"] = 0.5,
 					},
-					["height"] = 85,
+					["incHeal"] = {
+						["cap"] = 1.5,
+						["height"] = 0.5,
+					},
 					["totemBar"] = {
 						["secure"] = true,
 						["order"] = 70,
@@ -26001,19 +26006,7 @@ ShadowedUFDB = {
 						},
 					},
 					["castBar"] = {
-						["height"] = 1,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
 						["order"] = 0,
-						["background"] = false,
-						["icon"] = "LEFT",
 						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
@@ -26021,6 +26014,18 @@ ShadowedUFDB = {
 							["rank"] = false,
 							["anchorPoint"] = "CLI",
 							["enabled"] = true,
+							["size"] = -3,
+						},
+						["autoHide"] = true,
+						["height"] = 1,
+						["background"] = false,
+						["icon"] = "LEFT",
+						["time"] = {
+							["enabled"] = true,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
 							["size"] = -3,
 						},
 					},
@@ -26099,25 +26104,20 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 70,
 					},
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
 					["incAbsorb"] = {
 						["cap"] = 1.5,
 						["height"] = 0.5,
 					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["comboPoints"] = {
-						["enabled"] = false,
-						["anchorTo"] = "$parent",
-						["order"] = 5,
-						["showAlways"] = false,
-						["growth"] = "LEFT",
-						["anchorPoint"] = "BR",
-						["x"] = -3,
-						["spacing"] = -4,
-						["height"] = 0.5,
-						["y"] = 8,
-						["size"] = 14,
+					["powerBar"] = {
+						["colorType"] = "type",
+						["vertical"] = false,
+						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["height"] = 1,
 					},
 					["chi"] = {
 						["anchorTo"] = "$parent",
@@ -26131,30 +26131,24 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 14,
 					},
-					["holyPower"] = {
-						["anchorTo"] = "$parent",
-						["order"] = 60,
-						["showAlways"] = true,
-						["growth"] = "LEFT",
-						["anchorPoint"] = "BR",
-						["x"] = -3,
-						["spacing"] = -4,
+					["druidBar"] = {
+						["enabled"] = true,
+						["background"] = true,
 						["height"] = 0.4,
-						["y"] = 6,
-						["size"] = 14,
+						["order"] = 70,
 					},
 					["disableVehicle"] = false,
 					["healthBar"] = {
 						["colorAggro"] = false,
 						["order"] = 10,
-						["height"] = 5,
-						["colorType"] = "static",
+						["reactionType"] = "none",
+						["vertical"] = false,
 						["background"] = true,
 						["reverse"] = false,
-						["reactionType"] = "none",
+						["height"] = 5,
 						["colorDispel"] = true,
 						["invert"] = false,
-						["vertical"] = false,
+						["colorType"] = "static",
 					},
 					["text"] = {
 						{
@@ -26199,17 +26193,17 @@ ShadowedUFDB = {
 							["width"] = 1,
 						}, -- [9]
 					},
-					["druidBar"] = {
-						["enabled"] = true,
-						["background"] = true,
+					["holyPower"] = {
+						["anchorTo"] = "$parent",
+						["order"] = 60,
+						["showAlways"] = true,
+						["growth"] = "LEFT",
+						["anchorPoint"] = "BR",
+						["x"] = -3,
+						["spacing"] = -4,
 						["height"] = 0.4,
-						["order"] = 70,
-					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
+						["y"] = 6,
+						["size"] = 14,
 					},
 					["soulShards"] = {
 						["anchorTo"] = "$parent",
@@ -26224,14 +26218,25 @@ ShadowedUFDB = {
 						["y"] = 6,
 						["size"] = 12,
 					},
-					["width"] = 170,
-					["powerBar"] = {
-						["colorType"] = "type",
-						["vertical"] = false,
+					["emptyBar"] = {
 						["height"] = 1,
 						["background"] = true,
-						["invert"] = false,
-						["order"] = 20,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
+					["width"] = 170,
+					["comboPoints"] = {
+						["enabled"] = false,
+						["anchorTo"] = "$parent",
+						["order"] = 5,
+						["showAlways"] = false,
+						["growth"] = "LEFT",
+						["anchorPoint"] = "BR",
+						["x"] = -3,
+						["spacing"] = -4,
+						["height"] = 0.5,
+						["y"] = 8,
+						["size"] = 14,
 					},
 					["runeBar"] = {
 						["enabled"] = true,
@@ -26248,11 +26253,7 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["staggerBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["order"] = 70,
-					},
+					["height"] = 85,
 					["shamanBar"] = {
 						["vertical"] = false,
 						["reverse"] = false,
@@ -26318,8 +26319,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -26408,9 +26409,14 @@ ShadowedUFDB = {
 						["background"] = true,
 						["order"] = 20,
 					},
-					["unitsPerColumn"] = 5,
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
 					["offset"] = 5,
-					["attribAnchorPoint"] = "LEFT",
+					["unitsPerColumn"] = 5,
 					["healthBar"] = {
 						["colorType"] = "class",
 						["order"] = 10,
@@ -26419,12 +26425,6 @@ ShadowedUFDB = {
 						["height"] = 1.2,
 					},
 					["columnSpacing"] = 5,
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
 					["text"] = {
 						{
 							["text"] = "[(()afk() )][name]",
@@ -26436,6 +26436,7 @@ ShadowedUFDB = {
 							["text"] = "[(()afk() )][name]",
 						},
 					},
+					["attribAnchorPoint"] = "LEFT",
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
@@ -26452,15 +26453,15 @@ ShadowedUFDB = {
 					["combatText"] = {
 						["height"] = 0.5,
 					},
-					["height"] = 40,
-					["healAbsorb"] = {
-						["cap"] = 1,
-						["height"] = 0.5,
-					},
 					["incHeal"] = {
 						["cap"] = 1,
 						["height"] = 0.5,
 					},
+					["healAbsorb"] = {
+						["cap"] = 1,
+						["height"] = 0.5,
+					},
+					["height"] = 40,
 					["portrait"] = {
 						["type"] = "3D",
 						["alignment"] = "LEFT",
@@ -26471,21 +26472,32 @@ ShadowedUFDB = {
 						["width"] = 0.22,
 					},
 				},
-				["pet"] = {
-					["xpBar"] = {
-						["height"] = 0.25,
-						["background"] = true,
-						["order"] = 55,
-					},
-					["indicators"] = {
-						["raidTarget"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["anchorPoint"] = "C",
-							["size"] = 24,
-						},
+				["targettarget"] = {
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
 						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["healthBar"] = {
+						["colorType"] = "static",
+						["vertical"] = true,
+						["order"] = 10,
+						["reverse"] = false,
+						["height"] = 3,
+						["background"] = true,
+						["invert"] = false,
+						["reactionType"] = "none",
+					},
+					["width"] = 30,
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
 					},
 					["range"] = {
 						["enabled"] = true,
@@ -26496,212 +26508,15 @@ ShadowedUFDB = {
 					["auras"] = {
 						["height"] = 0.5,
 						["debuffs"] = {
-							["enabled"] = true,
-							["selfScale"] = 1,
-							["anchorOn"] = false,
 							["anchorPoint"] = "BL",
-							["maxRows"] = 1,
-							["perRow"] = 6,
-							["x"] = -2,
-							["y"] = 0,
-							["size"] = 17,
-						},
-						["buffs"] = {
-							["enabled"] = true,
 							["selfScale"] = 1,
-							["anchorOn"] = true,
-							["enlarge"] = {
-								["SELF"] = true,
-							},
-							["y"] = 0,
-							["maxRows"] = 2,
-							["perRow"] = 6,
-							["x"] = 0,
-							["anchorPoint"] = "TL",
-							["size"] = 17,
-						},
-					},
-					["castBar"] = {
-						["height"] = 1,
-						["time"] = {
-							["enabled"] = true,
-							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["y"] = 0,
-							["anchorPoint"] = "CRI",
-							["size"] = -3,
-						},
-						["autoHide"] = true,
-						["order"] = 0,
-						["background"] = true,
-						["icon"] = "HIDE",
-						["name"] = {
 							["y"] = 0,
 							["x"] = 0,
-							["anchorTo"] = "$parent",
-							["rank"] = false,
-							["anchorPoint"] = "CLI",
-							["enabled"] = true,
-							["size"] = -3,
-						},
-					},
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["colorType"] = "class",
-						["vertical"] = false,
-						["height"] = 0.2,
-						["background"] = true,
-						["invert"] = false,
-						["order"] = 20,
-					},
-					["healthBar"] = {
-						["colorAggro"] = false,
-						["order"] = 10,
-						["reactionType"] = "none",
-						["vertical"] = true,
-						["background"] = true,
-						["reverse"] = false,
-						["height"] = 2,
-						["colorDispel"] = true,
-						["invert"] = false,
-						["colorType"] = "static",
-					},
-					["highlight"] = {
-						["debuff"] = true,
-						["height"] = 0.5,
-						["aggro"] = true,
-						["mouseover"] = true,
-						["attention"] = true,
-						["size"] = 10,
-					},
-					["text"] = {
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[( )perhp]",
-							["y"] = 25,
-							["width"] = 0,
-						}, -- [1]
-						{
-							["anchorPoint"] = "C",
-							["x"] = 0,
-							["text"] = "[smartlevel] [colorname]",
-							["y"] = -28,
-							["width"] = 0,
-						}, -- [2]
-						{
-							["anchorPoint"] = "C",
-							["text"] = "[perpp]",
-							["x"] = 0,
-							["size"] = -1,
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["width"] = 110,
-					["altPowerBar"] = {
-						["height"] = 0.4,
-						["background"] = true,
-						["order"] = 100,
-						["enabled"] = false,
-					},
-					["height"] = 85,
-					["fader"] = {
-						["inactiveAlpha"] = 0.3,
-						["height"] = 0.5,
-						["combatAlpha"] = 0.8,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["incHeal"] = {
-						["height"] = 0.5,
-					},
-					["healAbsorb"] = {
-						["cap"] = 1,
-						["height"] = 0.5,
-					},
-					["incAbsorb"] = {
-						["height"] = 0.5,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 50,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-				},
-				["battlegroundpet"] = {
-					["enabled"] = true,
-					["healthBar"] = {
-						["colorType"] = "class",
-						["order"] = 10,
-						["background"] = true,
-						["reactionType"] = "npc",
-						["height"] = 1.2,
-					},
-					["portrait"] = {
-						["type"] = "3D",
-						["alignment"] = "LEFT",
-						["fullAfter"] = 100,
-						["height"] = 0.5,
-						["fullBefore"] = 0,
-						["order"] = 15,
-						["width"] = 0.22,
-					},
-					["highlight"] = {
-						["height"] = 0.5,
-						["size"] = 10,
-					},
-					["text"] = {
-						nil, -- [1]
-						{
-							["text"] = "[curhp]",
-						}, -- [2]
-						{
-							["text"] = "",
-						}, -- [3]
-						{
-							["text"] = "",
-						}, -- [4]
-						{
-							["text"] = "[name]",
-						}, -- [5]
-					},
-					["emptyBar"] = {
-						["height"] = 1,
-						["background"] = true,
-						["reactionType"] = "none",
-						["order"] = 0,
-					},
-					["range"] = {
-						["height"] = 0.5,
-					},
-					["auras"] = {
-						["height"] = 0.5,
-						["debuffs"] = {
-							["anchorPoint"] = "BL",
-							["x"] = 0,
-							["y"] = 0,
 							["size"] = 16,
 						},
 						["buffs"] = {
 							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
 							["x"] = 0,
 							["y"] = 0,
 							["size"] = 16,
@@ -26716,8 +26531,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -26730,24 +26545,38 @@ ShadowedUFDB = {
 							["size"] = 0,
 						},
 					},
-					["width"] = 40,
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[( )perhp]",
+							["y"] = 15,
+							["size"] = -3,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[colorname]",
+							["y"] = -15,
+							["size"] = -3,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[level]",
+							["width"] = 0,
+							["size"] = -3,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+					},
 					["altPowerBar"] = {
 						["height"] = 0.4,
 						["background"] = true,
 						["order"] = 100,
-					},
-					["combatText"] = {
-						["height"] = 0.5,
-					},
-					["height"] = 40,
-					["auraIndicators"] = {
-						["height"] = 0.5,
-					},
-					["powerBar"] = {
-						["height"] = 0.6,
-						["colorType"] = "type",
-						["background"] = true,
-						["order"] = 20,
 					},
 					["indicators"] = {
 						["raidTarget"] = {
@@ -26755,9 +26584,187 @@ ShadowedUFDB = {
 							["x"] = 0,
 							["anchorTo"] = "$parent",
 							["anchorPoint"] = "C",
-							["size"] = 20,
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
 						},
 						["height"] = 0.5,
+					},
+					["height"] = 45,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["colorType"] = "class",
+						["vertical"] = false,
+						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["height"] = 0.2,
+					},
+					["highlight"] = {
+						["debuff"] = true,
+						["rareMob"] = false,
+						["height"] = 0.5,
+						["mouseover"] = true,
+						["attention"] = true,
+						["size"] = 10,
+					},
+				},
+				["focustarget"] = {
+					["highlight"] = {
+						["height"] = 0.5,
+						["debuff"] = true,
+						["mouseover"] = false,
+						["size"] = 10,
+					},
+					["portrait"] = {
+						["type"] = "3D",
+						["alignment"] = "RIGHT",
+						["fullAfter"] = 100,
+						["height"] = 0.5,
+						["fullBefore"] = 0,
+						["order"] = 15,
+						["width"] = 0.22,
+					},
+					["text"] = {
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[( )perhp]",
+							["y"] = 15,
+							["size"] = -3,
+						}, -- [1]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["width"] = 1,
+							["text"] = "[colorname]",
+							["y"] = -15,
+							["size"] = -3,
+						}, -- [2]
+						{
+							["anchorPoint"] = "C",
+							["x"] = 0,
+							["text"] = "[level]",
+							["width"] = 0,
+							["size"] = -3,
+						}, -- [3]
+						{
+							["text"] = "",
+						}, -- [4]
+						{
+							["text"] = "[(()afk() )][name]",
+						}, -- [5]
+					},
+					["width"] = 30,
+					["emptyBar"] = {
+						["height"] = 1,
+						["background"] = true,
+						["reactionType"] = "none",
+						["order"] = 0,
+					},
+					["range"] = {
+						["enabled"] = true,
+						["inAlpha"] = 0.8,
+						["oorAlpha"] = 0.3,
+						["height"] = 0.5,
+					},
+					["auras"] = {
+						["height"] = 0.5,
+						["debuffs"] = {
+							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
+							["y"] = 0,
+							["x"] = 0,
+							["size"] = 16,
+						},
+						["buffs"] = {
+							["anchorPoint"] = "BL",
+							["selfScale"] = 1,
+							["x"] = 0,
+							["y"] = 0,
+							["size"] = 16,
+						},
+					},
+					["castBar"] = {
+						["time"] = {
+							["enabled"] = true,
+							["x"] = -1,
+							["anchorTo"] = "$parent",
+							["y"] = 0,
+							["anchorPoint"] = "CRI",
+							["size"] = 0,
+						},
+						["order"] = 40,
+						["height"] = 0.6,
+						["background"] = true,
+						["icon"] = "HIDE",
+						["name"] = {
+							["y"] = 0,
+							["x"] = 1,
+							["anchorTo"] = "$parent",
+							["rank"] = true,
+							["anchorPoint"] = "CLI",
+							["enabled"] = true,
+							["size"] = 0,
+						},
+					},
+					["fader"] = {
+						["inactiveAlpha"] = 0.3,
+						["height"] = 0.5,
+						["combatAlpha"] = 0.8,
+						["enabled"] = true,
+					},
+					["altPowerBar"] = {
+						["height"] = 0.4,
+						["background"] = true,
+						["order"] = 100,
+					},
+					["indicators"] = {
+						["raidTarget"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "C",
+							["size"] = 12,
+						},
+						["class"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["anchorTo"] = "$parent",
+							["anchorPoint"] = "BL",
+							["size"] = 16,
+						},
+						["height"] = 0.5,
+					},
+					["height"] = 45,
+					["auraIndicators"] = {
+						["height"] = 0.5,
+					},
+					["powerBar"] = {
+						["colorType"] = "class",
+						["vertical"] = false,
+						["order"] = 20,
+						["background"] = true,
+						["invert"] = false,
+						["height"] = 0.2,
+					},
+					["healthBar"] = {
+						["colorType"] = "static",
+						["vertical"] = true,
+						["order"] = 10,
+						["reverse"] = false,
+						["height"] = 3,
+						["background"] = true,
+						["invert"] = false,
+						["reactionType"] = "none",
 					},
 				},
 				["arena"] = {
@@ -26796,8 +26803,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -26905,8 +26912,8 @@ ShadowedUFDB = {
 					},
 					["healthBar"] = {
 						["colorType"] = "static",
-						["order"] = 10,
 						["reactionType"] = "none",
+						["order"] = 10,
 						["background"] = true,
 						["height"] = 2,
 						["vertical"] = false,
@@ -26948,8 +26955,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 40,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -27064,8 +27071,8 @@ ShadowedUFDB = {
 							["anchorPoint"] = "CRI",
 							["size"] = 0,
 						},
-						["height"] = 0.6,
 						["order"] = 60,
+						["height"] = 0.6,
 						["background"] = true,
 						["icon"] = "HIDE",
 						["name"] = {
@@ -27161,22 +27168,22 @@ ShadowedUFDB = {
 				},
 			},
 			["font"] = {
-				["shadowColor"] = {
-					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
+				["shadowX"] = 0.8,
 				["name"] = "Friz Quadrata TT",
+				["extra"] = "OUTLINE",
 				["color"] = {
 					["a"] = 1,
 					["b"] = 1,
 					["g"] = 1,
 					["r"] = 1,
 				},
-				["extra"] = "OUTLINE",
 				["shadowY"] = -0.8,
-				["shadowX"] = 0.8,
+				["shadowColor"] = {
+					["a"] = 1,
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
 				["size"] = 12,
 			},
 			["powerColors"] = {
@@ -27270,11 +27277,6 @@ ShadowedUFDB = {
 					["g"] = 0.259,
 					["r"] = 0.788,
 				},
-				["AMMOSLOT"] = {
-					["b"] = 0.55,
-					["g"] = 0.6,
-					["r"] = 0.85,
-				},
 				["RUNIC_POWER"] = {
 					["r"] = 0.35,
 					["g"] = 0.45,
@@ -27284,6 +27286,11 @@ ShadowedUFDB = {
 					["b"] = 0.9,
 					["g"] = 0.52,
 					["r"] = 0.3,
+				},
+				["AMMOSLOT"] = {
+					["b"] = 0.55,
+					["g"] = 0.6,
+					["r"] = 0.85,
 				},
 				["STATUE"] = {
 					["b"] = 0.6,
@@ -27399,15 +27406,15 @@ ShadowedUFDB = {
 				["texture"] = "Minimalist",
 			},
 			["backdrop"] = {
+				["borderTexture"] = "Details BarBorder 3",
+				["edgeSize"] = 0,
+				["tileSize"] = 0,
 				["borderColor"] = {
 					["a"] = 0,
 					["b"] = 0.501960784313726,
 					["g"] = 0.301960784313726,
 					["r"] = 0.301960784313726,
 				},
-				["edgeSize"] = 0,
-				["tileSize"] = 0,
-				["borderTexture"] = "Details BarBorder 3",
 				["backgroundColor"] = {
 					["a"] = 0.161911368370056,
 					["b"] = 0,
@@ -27415,8 +27422,8 @@ ShadowedUFDB = {
 					["r"] = 0,
 				},
 				["backgroundTexture"] = "Solid",
-				["clip"] = 0,
 				["inset"] = 0,
+				["clip"] = 0,
 			},
 			["auraColors"] = {
 				["removable"] = {

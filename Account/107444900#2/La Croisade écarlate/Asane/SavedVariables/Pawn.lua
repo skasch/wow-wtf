@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Asane-La Croisade écarlate",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128940] = {
 			["Relics"] = {
@@ -50,7 +51,6 @@ PawnOptions = {
 			["Name"] = "Sheilun, Staff of the Mists",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

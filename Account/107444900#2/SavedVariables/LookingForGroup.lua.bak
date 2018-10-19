@@ -2,6 +2,8 @@
 LookingForGroupDB = {
 	["profileKeys"] = {
 		["Skasch - La Croisade écarlate"] = "Default",
+		["Kanpa - Elune"] = "Default",
+		["Skasch - Elune"] = "Default",
 		["Asane - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {

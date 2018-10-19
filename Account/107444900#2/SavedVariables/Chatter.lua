@@ -1337,9 +1337,9 @@ ChatterDB = {
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Edit Box Polish"] = true,
 				["Disable Buttons"] = true,
 				["Borders/Background"] = false,
+				["Edit Box Polish"] = true,
 				["Disable Fading"] = true,
 			},
 			["welcomeMessaged"] = true,
