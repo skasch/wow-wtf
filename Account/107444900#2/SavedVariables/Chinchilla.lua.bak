@@ -20,7 +20,7 @@ Chinchilla2DB = {
 			["profiles"] = {
 				["Default"] = {
 					["buttonBorderAlpha"] = 0.3,
-					["combatAlpha"] = 0.3,
+					["scale"] = 1.2,
 					["borderStyle"] = "Thin",
 					["borderColor"] = {
 						0, -- [1]
@@ -28,16 +28,14 @@ Chinchilla2DB = {
 						0, -- [3]
 					},
 					["shape"] = "SQUARE",
-					["scale"] = 1.2,
+					["combatAlpha"] = 0.3,
 				},
 			},
 		},
-		["Expander"] = {
+		["Zoom"] = {
 			["profiles"] = {
 				["Default"] = {
-					["scale"] = 4,
-					["alpha"] = 0.5,
-					["key"] = "ALT-SHIFT-V",
+					["autoZoomTime"] = 10,
 				},
 			},
 		},
@@ -68,11 +66,11 @@ Chinchilla2DB = {
 		["ShowHide"] = {
 			["profiles"] = {
 				["Default"] = {
-					["track"] = false,
+					["map"] = false,
 					["zoom"] = false,
 					["dayNight"] = false,
 					["clock"] = false,
-					["map"] = false,
+					["track"] = false,
 				},
 			},
 		},
@@ -124,16 +122,18 @@ Chinchilla2DB = {
 					},
 					["lock"] = true,
 					["mail"] = 175,
-					["lfg"] = 195,
-					["garrison"] = 210,
 					["radius"] = 72,
+					["garrison"] = 210,
+					["lfg"] = 195,
 				},
 			},
 		},
-		["Zoom"] = {
+		["Expander"] = {
 			["profiles"] = {
 				["Default"] = {
-					["autoZoomTime"] = 10,
+					["scale"] = 4,
+					["alpha"] = 0.5,
+					["key"] = "ALT-SHIFT-V",
 				},
 			},
 		},
@@ -145,15 +145,15 @@ Chinchilla2DB = {
 		["Fayth - La Croisade écarlate"] = "Default",
 		["Kanpa - Elune"] = "Default",
 		["Isabael - La Croisade écarlate"] = "Default",
-		["Skasch - Elune"] = "Default",
-		["Asane - La Croisade écarlate"] = "Default",
-		["Vermily - La Croisade écarlate"] = "Default",
 		["Sueki - La Croisade écarlate"] = "Default",
+		["Vermily - La Croisade écarlate"] = "Default",
+		["Asane - La Croisade écarlate"] = "Default",
+		["Skasch - Elune"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["trackButton"] = "RightButton",
 			["mouseButton"] = "MiddleButton",
+			["trackButton"] = "RightButton",
 		},
 	},
 }

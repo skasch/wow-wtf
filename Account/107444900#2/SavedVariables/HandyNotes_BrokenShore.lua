@@ -12,13 +12,13 @@ HandyNotes_BrokenShoreDB = {
 		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
 		["Tsuri - La Croisade écarlate"] = "Tsuri - La Croisade écarlate",
 		["Sutoka - La Croisade écarlate"] = "Sutoka - La Croisade écarlate",
-		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
 		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
+		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
 		["Skasch - Elune"] = "Skasch - Elune",
 		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
-		["Nephily - La Croisade écarlate"] = "Nephily - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 		["Higi - La Croisade écarlate"] = "Higi - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
+		["Nephily - La Croisade écarlate"] = "Nephily - La Croisade écarlate",
 		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 	},
 	["profiles"] = {
@@ -44,19 +44,19 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Sutoka - La Croisade écarlate"] = {
 		},
-		["Fayth - La Croisade écarlate"] = {
-		},
 		["Vermily - La Croisade écarlate"] = {
+		},
+		["Fayth - La Croisade écarlate"] = {
 		},
 		["Skasch - Elune"] = {
 		},
 		["Isabael - La Croisade écarlate"] = {
 		},
-		["Nephily - La Croisade écarlate"] = {
+		["Higi - La Croisade écarlate"] = {
 		},
 		["Asane - La Croisade écarlate"] = {
 		},
-		["Higi - La Croisade écarlate"] = {
+		["Nephily - La Croisade écarlate"] = {
 		},
 		["Tsuma - La Croisade écarlate"] = {
 		},

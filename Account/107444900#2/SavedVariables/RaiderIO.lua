@@ -1,18 +1,18 @@
 
 RaiderIO_Config = {
 	["enableKeystoneTooltips"] = true,
-	["enableFriendsTooltips"] = true,
-	["enableUnitTooltips"] = true,
 	["alwaysExtendTooltip"] = false,
+	["enableUnitTooltips"] = true,
+	["enableFriendsTooltips"] = true,
 	["disableScoreColors"] = false,
 	["showDropDownCopyURL"] = true,
-	["enableWhoTooltips"] = true,
+	["showScoreInCombat"] = true,
 	["enableLFGTooltips"] = true,
 	["showSimpleScoreColors"] = false,
 	["showMainsScore"] = true,
 	["enableWhoMessages"] = true,
-	["showScoreInCombat"] = true,
+	["enableWhoTooltips"] = true,
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
-RaiderIO_LastCharacter = "eu-Skasch-la-croisade-ecarlate"
+RaiderIO_LastCharacter = "eu-Fayth-la-croisade-ecarlate"

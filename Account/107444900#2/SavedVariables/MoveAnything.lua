@@ -53,7 +53,6 @@ MADB = {
 					},
 					["name"] = "TalkingHeadFrame",
 					["scale"] = 0.899999976158142,
-					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOM", -- [1]
 						"UIParent", -- [2]
@@ -61,21 +60,22 @@ MADB = {
 						-0.000120878220714715, -- [4]
 						54.9999885559082, -- [5]
 					},
+					["orgScale"] = 1,
 				},
-				["MainMenuBar"] = {
+				["QuickJoinToastMover"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
-						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						17, -- [5]
+						"LEFT", -- [1]
+						"QuickJoinToastButton", -- [2]
+						"RIGHT", -- [3]
+						-13, -- [4]
+						-1, -- [5]
 					},
-					["name"] = "MainMenuBar",
+					["name"] = "QuickJoinToastMover",
 					["pos"] = {
-						"BOTTOM", -- [1]
-						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						-9.15527343750e-005, -- [4]
+						"TOPRIGHT", -- [1]
+						"BNToastFrame", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0.000244140625, -- [4]
 						0, -- [5]
 					},
 				},
@@ -117,38 +117,38 @@ MADB = {
 						-59.9998168945313, -- [5]
 					},
 				},
-				["MainMenuBarVehicleLeaveButton"] = {
+				["AlertFrame"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
+						"BOTTOM", -- [1]
 						nil, -- [2]
-						"TOPLEFT", -- [3]
+						"BOTTOM", -- [3]
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "MainMenuBarVehicleLeaveButton",
+					["name"] = "AlertFrame",
 					["pos"] = {
-						"TOPRIGHT", -- [1]
+						"BOTTOM", -- [1]
 						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						0.0003662109375, -- [4]
-						0, -- [5]
+						"BOTTOM", -- [3]
+						0.000213623046875, -- [4]
+						70.0000228881836, -- [5]
 					},
 				},
-				["VehicleSeatIndicator"] = {
+				["GhostFrame"] = {
 					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						-170.999984741211, -- [4]
-						-0.999923765659332, -- [5]
+						"TOP", -- [1]
+						"UIWidgetTopCenterContainerFrame", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						-4, -- [5]
 					},
-					["name"] = "VehicleSeatIndicator",
+					["name"] = "GhostFrame",
 					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						-140, -- [4]
-						0, -- [5]
+						"TOP", -- [1]
+						"UIWidgetTopCenterContainerFrame", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						-99.9999389648438, -- [5]
 					},
 				},
 				["TooltipMover"] = {
@@ -184,64 +184,64 @@ MADB = {
 						-171.055595853592, -- [5]
 					},
 				},
-				["GhostFrame"] = {
+				["VehicleSeatIndicator"] = {
 					["orgPos"] = {
-						"TOP", -- [1]
-						"UIWidgetTopCenterContainerFrame", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						-4, -- [5]
+						"TOPRIGHT", -- [1]
+						"UIParent", -- [2]
+						"TOPRIGHT", -- [3]
+						-170.999984741211, -- [4]
+						-0.999923765659332, -- [5]
 					},
-					["name"] = "GhostFrame",
+					["name"] = "VehicleSeatIndicator",
 					["pos"] = {
-						"TOP", -- [1]
-						"UIWidgetTopCenterContainerFrame", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						-99.9999389648438, -- [5]
+						"TOPRIGHT", -- [1]
+						"UIParent", -- [2]
+						"TOPRIGHT", -- [3]
+						-140, -- [4]
+						0, -- [5]
 					},
 				},
-				["AlertFrame"] = {
+				["MainMenuBarVehicleLeaveButton"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
+						"TOPLEFT", -- [1]
 						nil, -- [2]
-						"BOTTOM", -- [3]
+						"TOPLEFT", -- [3]
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "AlertFrame",
+					["name"] = "MainMenuBarVehicleLeaveButton",
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"UIParent", -- [2]
+						"TOPRIGHT", -- [3]
+						0.0003662109375, -- [4]
+						0, -- [5]
+					},
+				},
+				["MainMenuBar"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						13.9999990463257, -- [5]
+					},
+					["name"] = "MainMenuBar",
 					["pos"] = {
 						"BOTTOM", -- [1]
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
-						0.000213623046875, -- [4]
-						70.0000228881836, -- [5]
-					},
-				},
-				["QuickJoinToastMover"] = {
-					["orgPos"] = {
-						"LEFT", -- [1]
-						"QuickJoinToastButton", -- [2]
-						"RIGHT", -- [3]
-						-13, -- [4]
-						-1, -- [5]
-					},
-					["name"] = "QuickJoinToastMover",
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"BNToastFrame", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						0.000244140625, -- [4]
+						-9.15527343750e-005, -- [4]
 						0, -- [5]
 					},
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["modifiedFramesOnly"] = true,
-	["noBags"] = false,
-	["playSound"] = false,
-	["tooltips"] = true,
 	["dontSearchFrameNames"] = false,
+	["modifiedFramesOnly"] = true,
+	["tooltips"] = true,
+	["playSound"] = false,
+	["noBags"] = false,
+	["closeGUIOnEscape"] = false,
 }

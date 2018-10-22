@@ -4,7 +4,6 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Skasch-La Croisade écarlate",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128476] = {
 			["Relics"] = {
@@ -51,6 +50,7 @@ PawnOptions = {
 			["Name"] = "The Dreadblades",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "ROGUE",

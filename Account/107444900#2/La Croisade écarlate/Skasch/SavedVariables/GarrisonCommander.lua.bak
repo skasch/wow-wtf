@@ -45,15 +45,15 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1537816665] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1538333040] = {
 						["result"] = 100,
 						["success"] = true,
 					},
 					[1537977918] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1537816665] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -107,11 +107,15 @@ dbGACperChar = {
 					},
 				},
 				[1772] = {
+					[1538941701] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1538803474] = {
 						["result"] = 100,
 						["success"] = true,
 					},
-					[1538941701] = {
+					[1539151632] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -144,8 +148,14 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1925] = {
-					[1535902132] = {
+				[1777] = {
+					[1539151633] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1718] = {
+					[1538491079] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -190,14 +200,18 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1927] = {
-					[1535872936] = {
+				[1340] = {
+					[1538272852] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1538941699] = {
 						["result"] = 100,
 						["success"] = true,
 					},
 				},
-				[1045] = {
-					[1537816664] = {
+				[1927] = {
+					[1535872936] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -212,12 +226,8 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1340] = {
-					[1538272852] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1538941699] = {
+				[1045] = {
+					[1537816664] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -234,8 +244,8 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1718] = {
-					[1538491079] = {
+				[1925] = {
+					[1535902132] = {
 						["result"] = 100,
 						["success"] = true,
 					},

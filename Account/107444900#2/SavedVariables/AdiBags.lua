@@ -12,54 +12,54 @@ AdiBagsDB = {
 						[139839] = "Equipment#Champions",
 						[6948] = "New#Important",
 						[139813] = "Equipment#Champions",
-						[152546] = "Tradeskill#Fish",
+						[152544] = "Tradeskill#Fish",
 						[140192] = "New#Important",
-						[141605] = "New#Important",
-						[152547] = "Tradeskill#Fish",
+						[162515] = "Tradeskill#Fish",
+						[139812] = "Equipment#Champions",
 						[152543] = "Tradeskill#Fish",
 						[152545] = "Tradeskill#Fish",
-						[139812] = "Equipment#Champions",
+						[152547] = "Tradeskill#Fish",
 						[152549] = "Tradeskill#Fish",
 						[139816] = "Equipment#Champions",
 						[110560] = "New#Important",
-						[162515] = "Tradeskill#Fish",
-						[152544] = "Tradeskill#Fish",
+						[141605] = "New#Important",
+						[152546] = "Tradeskill#Fish",
 					},
 				},
 				["Skasch"] = {
 					["version"] = 3,
 					["overrides"] = {
 						[141389] = "Consumable#Artifact",
-						[140518] = "Consumable#Artifact",
+						[140192] = "New#Important",
 						[141401] = "Consumable#Artifact",
-						[141386] = "Consumable#Artifact",
-						[139611] = "Consumable#Artifact",
-						[140519] = "Consumable#Artifact",
 						[138782] = "Consumable#Artifact",
-						[141863] = "Consumable#Artifact",
-						[138783] = "Consumable#Artifact",
-						[139507] = "Consumable#Artifact",
-						[141023] = "Consumable#Artifact",
-						[6948] = "New#Important",
-						[141384] = "Consumable#Artifact",
-						[141383] = "Consumable#Artifact",
+						[139611] = "Consumable#Artifact",
 						[141387] = "Consumable#Artifact",
-						[141391] = "Consumable#Artifact",
+						[140518] = "Consumable#Artifact",
+						[139608] = "Consumable#Artifact",
+						[140519] = "Consumable#Artifact",
+						[141863] = "Consumable#Artifact",
 						[140310] = "Consumable#Artifact",
+						[6948] = "New#Important",
+						[130152] = "Consumable#Artifact",
+						[141383] = "Consumable#Artifact",
+						[138783] = "Consumable#Artifact",
+						[141391] = "Consumable#Artifact",
+						[141023] = "Consumable#Artifact",
 						[141399] = "Consumable#Artifact",
 						[141403] = "Consumable#Artifact",
+						[141384] = "Consumable#Artifact",
+						[141388] = "Consumable#Artifact",
 						[110560] = "New#Important",
 						[141605] = "New#Important",
-						[130152] = "Consumable#Artifact",
-						[141388] = "Consumable#Artifact",
 						[141392] = "Consumable#Artifact",
 						[138885] = "Consumable#Artifact",
 						[141896] = "Consumable#Artifact",
 						[141652] = "New#Important",
-						[139608] = "Consumable#Artifact",
+						[139507] = "Consumable#Artifact",
 						[138839] = "Consumable#Artifact",
 						[138781] = "Consumable#Artifact",
-						[140192] = "New#Important",
+						[141386] = "Consumable#Artifact",
 					},
 				},
 			},
@@ -104,15 +104,9 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["MoneyFrame"] = {
-			["profiles"] = {
-				["Default"] = {
-					["small"] = true,
-				},
-				["Skasch"] = {
-					["small"] = true,
-				},
-			},
+		["Equipment"] = {
+		},
+		["ItemSets"] = {
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -131,9 +125,9 @@ AdiBagsDB = {
 						["Sightless Eye"] = false,
 						["Apexis Crystal"] = false,
 						["Seal of Inevitable Fate"] = false,
-						["Oil"] = false,
-						["Garrison Resources"] = false,
 						["Curious Coin"] = false,
+						["Garrison Resources"] = false,
+						["Oil"] = false,
 						["Legionfall War Supplies"] = false,
 					},
 					["text"] = {
@@ -156,11 +150,17 @@ AdiBagsDB = {
 		},
 		["DataSource"] = {
 		},
-		["ItemSets"] = {
-		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["small"] = true,
+				},
+				["Skasch"] = {
+					["small"] = true,
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
@@ -175,13 +175,13 @@ AdiBagsDB = {
 		["Tenga - La Croisade écarlate"] = "Skasch",
 		["Tsuri - La Croisade écarlate"] = "Default",
 		["Sutoka - La Croisade écarlate"] = "Default",
-		["Fayth - La Croisade écarlate"] = "Default",
 		["Vermily - La Croisade écarlate"] = "Default",
+		["Fayth - La Croisade écarlate"] = "Default",
 		["Skasch - Elune"] = "Default",
 		["Isabael - La Croisade écarlate"] = "Default",
-		["Nephily - La Croisade écarlate"] = "Default",
-		["Simetra - La Croisade écarlate"] = "Default",
 		["Higi - La Croisade écarlate"] = "Default",
+		["Simetra - La Croisade écarlate"] = "Default",
+		["Nephily - La Croisade écarlate"] = "Default",
 		["Tsuma - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
@@ -194,7 +194,9 @@ AdiBagsDB = {
 			["bags"] = {
 				["Bank"] = false,
 			},
-			["maxHeight"] = 0.7,
+			["modules"] = {
+				["Artifact Power Currency"] = false,
+			},
 			["skin"] = {
 				["BackpackColor"] = {
 					nil, -- [1]
@@ -228,9 +230,7 @@ AdiBagsDB = {
 			["sectionFont"] = {
 				["name"] = "Roboto Condensed Bold",
 			},
-			["modules"] = {
-				["Artifact Power Currency"] = false,
-			},
+			["maxHeight"] = 0.7,
 		},
 		["Skasch"] = {
 			["sectionFont"] = {
@@ -246,14 +246,14 @@ AdiBagsDB = {
 				["Artifact Power Currency"] = false,
 			},
 			["skin"] = {
+				["border"] = "Details BarBorder 3",
+				["background"] = "Details Ground",
 				["BackpackColor"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
 					0.659999996423721, -- [4]
 				},
-				["background"] = "Details Ground",
-				["border"] = "Details BarBorder 3",
 				["BankColor"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -264,7 +264,7 @@ AdiBagsDB = {
 			["bagFont"] = {
 				["name"] = "Roboto Condensed Bold",
 			},
-			["compactLayout"] = true,
+			["maxHeight"] = 0.7,
 			["positions"] = {
 				["anchor"] = {
 					["xOffset"] = -25.9998779296875,
@@ -275,7 +275,7 @@ AdiBagsDB = {
 					["yOffset"] = 65.9997876803136,
 				},
 			},
-			["maxHeight"] = 0.7,
+			["compactLayout"] = true,
 		},
 	},
 }

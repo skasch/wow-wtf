@@ -45,15 +45,15 @@ dbGACperChar = {
 						["result"] = 100,
 						["success"] = true,
 					},
+					[1537977918] = {
+						["result"] = 100,
+						["success"] = true,
+					},
 					[1537816665] = {
 						["result"] = 100,
 						["success"] = true,
 					},
 					[1538333040] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1537977918] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -142,8 +142,36 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
+				[2084] = {
+					[1540080621] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
 				[1320] = {
 					[1538444161] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1925] = {
+					[1535902132] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1781] = {
+					[1538422785] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1332] = {
+					[1538333037] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1538803472] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -160,28 +188,6 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1332] = {
-					[1538333037] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1538803472] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-				},
-				[1336] = {
-					[1537977919] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-				},
-				[1781] = {
-					[1538422785] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-				},
 				[1645] = {
 					[1538491077] = {
 						["result"] = 100,
@@ -194,24 +200,8 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1341] = {
-					[1538062841] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-				},
-				[1340] = {
-					[1538272852] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-					[1538941699] = {
-						["result"] = 100,
-						["success"] = true,
-					},
-				},
-				[1927] = {
-					[1535872936] = {
+				[1045] = {
+					[1537816664] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -226,8 +216,24 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1045] = {
-					[1537816664] = {
+				[1927] = {
+					[1535872936] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1340] = {
+					[1538272852] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+					[1538941699] = {
+						["result"] = 100,
+						["success"] = true,
+					},
+				},
+				[1341] = {
+					[1538062841] = {
 						["result"] = 100,
 						["success"] = true,
 					},
@@ -244,8 +250,8 @@ dbGACperChar = {
 						["success"] = true,
 					},
 				},
-				[1925] = {
-					[1535902132] = {
+				[1336] = {
+					[1537977919] = {
 						["result"] = 100,
 						["success"] = true,
 					},

@@ -62,78 +62,78 @@ TipTac_Config = {
 	["mouseOffsetX"] = -10,
 	["colRace"] = "|cffffffff",
 	["classification_normal"] = "%s ",
-	["colReactBack2"] = {
-		0.607843137254902, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.681234568357468, -- [4]
-	},
-	["anchorFrameUnitType"] = "mouse",
-	["colReactBack1"] = {
-		0.52156862745098, -- [1]
-		0.52156862745098, -- [2]
-		0.52156862745098, -- [3]
-		0.730000019073486, -- [4]
-	},
-	["classification_minus"] = "-%s ",
-	["showHiddenTipsOnShift"] = true,
-	["showUnitTip"] = true,
-	["showGuildRank"] = true,
-	["iconCombat"] = false,
-	["fontSize"] = 12,
-	["if_showItemLevelAndId"] = true,
-	["optionsLeft"] = 224.22868347168,
-	["left"] = 1738.83483886719,
-	["barTexture"] = "Interface\\AddOns\\Details\\images\\bar_serenity",
-	["manaBarText"] = "percent",
-	["showStatus"] = true,
-	["anchorWorldTipType"] = "mouse",
-	["colReactBack4"] = {
-		0.56078431372549, -- [1]
-		0.56078431372549, -- [2]
-		0, -- [3]
-		0.753698885440826, -- [4]
-	},
-	["anchorWorldUnitPoint"] = "TOPRIGHT",
-	["talentOnlyInParty"] = false,
-	["classification_worldboss"] = "%s|r (Boss) ",
-	["classification_rareelite"] = "+%s|r (Rare) ",
-	["showPlayerGender"] = true,
-	["if_borderlessIcons"] = false,
-	["anchorWorldTipPoint"] = "TOPRIGHT",
-	["colorNameByClass"] = true,
-	["iconClass"] = false,
-	["classColoredBorder"] = false,
-	["anchorWorldUnitType"] = "mouse",
-	["healthBarColor"] = {
-		0.301960784313726, -- [1]
-		0.901960784313726, -- [2]
-		0.301960784313726, -- [3]
-		1, -- [4]
-	},
-	["anchorFrameTipType"] = "mouse",
-	["hideUFTipsInCombat"] = false,
-	["healthBarText"] = "full",
-	["fontFlags"] = "",
-	["reactText"] = true,
-	["colReactBack5"] = {
-		0, -- [1]
-		0.584313725490196, -- [2]
-		0.2, -- [3]
-		0.71000000834465, -- [4]
-	},
-	["colReactBack6"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		0.729543328285217, -- [4]
-	},
+	["mouseOffsetY"] = -15,
+	["anchorFrameTipPoint"] = "TOPRIGHT",
 	["colReactBack3"] = {
 		0.56078431372549, -- [1]
 		0.27843137254902, -- [2]
 		0, -- [3]
 		0.689999997615814, -- [4]
 	},
-	["anchorFrameTipPoint"] = "TOPRIGHT",
-	["mouseOffsetY"] = -15,
+	["classification_minus"] = "-%s ",
+	["showHiddenTipsOnShift"] = true,
+	["colReactBack5"] = {
+		0, -- [1]
+		0.584313725490196, -- [2]
+		0.2, -- [3]
+		0.71000000834465, -- [4]
+	},
+	["reactText"] = true,
+	["iconCombat"] = false,
+	["fontSize"] = 12,
+	["if_showItemLevelAndId"] = true,
+	["fontFlags"] = "",
+	["healthBarText"] = "full",
+	["barTexture"] = "Interface\\AddOns\\Details\\images\\bar_serenity",
+	["manaBarText"] = "percent",
+	["showStatus"] = true,
+	["anchorFrameTipType"] = "mouse",
+	["healthBarColor"] = {
+		0.301960784313726, -- [1]
+		0.901960784313726, -- [2]
+		0.301960784313726, -- [3]
+		1, -- [4]
+	},
+	["anchorWorldUnitPoint"] = "TOPRIGHT",
+	["talentOnlyInParty"] = false,
+	["classification_worldboss"] = "%s|r (Boss) ",
+	["classColoredBorder"] = false,
+	["showPlayerGender"] = true,
+	["if_borderlessIcons"] = false,
+	["anchorWorldTipPoint"] = "TOPRIGHT",
+	["colorNameByClass"] = true,
+	["iconClass"] = false,
+	["classification_rareelite"] = "+%s|r (Rare) ",
+	["anchorWorldUnitType"] = "mouse",
+	["colReactBack4"] = {
+		0.56078431372549, -- [1]
+		0.56078431372549, -- [2]
+		0, -- [3]
+		0.753698885440826, -- [4]
+	},
+	["anchorWorldTipType"] = "mouse",
+	["hideUFTipsInCombat"] = false,
+	["left"] = 1738.83483886719,
+	["optionsLeft"] = 224.22868347168,
+	["showGuildRank"] = true,
+	["showUnitTip"] = true,
+	["colReactBack6"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		0.729543328285217, -- [4]
+	},
+	["colReactBack1"] = {
+		0.52156862745098, -- [1]
+		0.52156862745098, -- [2]
+		0.52156862745098, -- [3]
+		0.730000019073486, -- [4]
+	},
+	["anchorFrameUnitType"] = "mouse",
+	["colReactBack2"] = {
+		0.607843137254902, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.681234568357468, -- [4]
+	},
 }

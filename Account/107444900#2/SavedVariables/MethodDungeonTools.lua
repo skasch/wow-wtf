@@ -7,9 +7,9 @@ MethodDungeonToolsDB = {
 		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
 		["Kanpa - Elune"] = "Kanpa - Elune",
 		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
-		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
 		["Skasch - Elune"] = "Skasch - Elune",
+		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 	},
 	["global"] = {
 		["presets"] = {

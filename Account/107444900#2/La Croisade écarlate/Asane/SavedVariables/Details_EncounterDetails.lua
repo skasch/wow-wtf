@@ -965,12 +965,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[198030] = {
-			["school"] = 124,
+		[12888] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Maorgath-KhazModan",
+			["source"] = "Avatar of Hakkar",
 		},
 		[273238] = {
 			["school"] = 1,
@@ -991,14 +993,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreamscythe",
 		},
-		[12888] = {
-			["school"] = 32,
+		[164815] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Avatar of Hakkar",
+			["source"] = "Nastycheat-Suramar",
 		},
 		[31884] = {
 			["school"] = 2,
@@ -1083,15 +1086,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[33763] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[30455] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Kalmà-KhazModan",
+			["source"] = "Zunar-KhazModan",
 		},
 		[108853] = {
 			["school"] = 4,
@@ -1101,19 +1101,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[157982] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Ayyaa-Garona",
-		},
-		[30455] = {
-			["school"] = 16,
+		[265374] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zunar-KhazModan",
+		},
+		[33763] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Kalmà-KhazModan",
 		},
 		[132467] = {
 			["school"] = 8,
@@ -1293,6 +1296,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
+		[227034] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Junshîro-Archimonde",
+		},
 		[269085] = {
 			["school"] = 2,
 			["type"] = "BUFF",
@@ -1300,13 +1310,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Nastycheat-Suramar",
-		},
-		[227034] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Junshîro-Archimonde",
 		},
 		[272790] = {
 			["school"] = 1,
@@ -1599,13 +1602,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ikkitokken-KhazModan",
 		},
-		[273310] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[233490] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Nissëruivë-Chantséternels",
+			["source"] = "Kuragari-Ysondre",
 		},
 		[129250] = {
 			["school"] = 2,
@@ -1945,15 +1949,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fineous Darkvire",
 		},
-		[8258] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fineous Darkvire",
-		},
 		[20572] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1962,6 +1957,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ðøkers-KhazModan",
+		},
+		[8258] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fineous Darkvire",
 		},
 		[203539] = {
 			["school"] = 2,
@@ -1977,22 +1981,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[101546] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[233496] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ikkitokken-KhazModan",
+			["source"] = "Kuragari-Ysondre",
 		},
-		[260643] = {
-			["school"] = 1,
+		[585] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lortank-KhazModan",
+			["source"] = "Nissëruivë-Chantséternels",
 		},
 		[13899] = {
 			["school"] = 4,
@@ -2161,13 +2164,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[276138] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[258921] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Almîrø-Archimonde",
+			["source"] = "Easybiatch-Archimonde",
 		},
 		[124255] = {
 			["school"] = 1,
@@ -2341,13 +2343,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Junshîro-Archimonde",
 		},
-		[273974] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[81269] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Jrshow-Uldaman",
+			["source"] = "Nastycheat-Suramar",
 		},
 		[267329] = {
 			["school"] = 32,
@@ -2364,12 +2365,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pillecaillou",
 		},
-		[81269] = {
-			["school"] = 8,
+		[273974] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Jrshow-Uldaman",
 		},
 		[980] = {
 			["school"] = 32,
@@ -2389,13 +2391,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ayline-Kael'thas",
 		},
-		[267331] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[153595] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Xuercus-Ysondre",
+			["source"] = "Zunar-KhazModan",
 		},
 		[853] = {
 			["school"] = 2,
@@ -2406,27 +2407,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Almîrø-Archimonde",
 		},
-		[14099] = {
+		[281000] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Incendius",
+			["source"] = "Elfianis-Archimonde",
 		},
-		[153595] = {
-			["school"] = 16,
+		[267331] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Zunar-KhazModan",
+			["source"] = "Xuercus-Ysondre",
 		},
-		[276146] = {
-			["school"] = 2,
+		[127802] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Pourriture-Varimathras",
 		},
 		[196608] = {
 			["school"] = 8,
@@ -2466,13 +2468,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Torel-Dalaran",
 		},
-		[6307] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[125439] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Karrin",
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[162794] = {
 			["school"] = 127,
@@ -2517,6 +2518,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ayline-Kael'thas",
 		},
+		[273340] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Xuercus-Ysondre",
+		},
 		[271296] = {
 			["school"] = 32,
 			["token"] = {
@@ -2524,14 +2533,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Taloc",
-		},
-		[100784] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ikkitokken-KhazModan",
 		},
 		[193455] = {
 			["school"] = 1,
@@ -2557,13 +2558,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kuragari-Ysondre",
 		},
-		[273340] = {
+		[100784] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Xuercus-Ysondre",
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[197277] = {
 			["school"] = 2,
@@ -2784,12 +2785,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nissëruivë-Chantséternels",
 		},
-		[125439] = {
-			["school"] = 1,
+		[6307] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ikkitokken-KhazModan",
+			["source"] = "Karrin",
 		},
 		[82326] = {
 			["school"] = 2,
@@ -2817,13 +2819,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Torel-Dalaran",
 		},
-		[127802] = {
-			["school"] = 32,
+		[276146] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_HEAL"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Pourriture-Varimathras",
+			["source"] = "Nastycheat-Suramar",
 		},
 		[2948] = {
 			["school"] = 4,
@@ -2834,12 +2835,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wayther-Illidan",
 		},
-		[281000] = {
+		[14099] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Elfianis-Archimonde",
+			["source"] = "Lord Incendius",
 		},
 		[278497] = {
 			["school"] = 1,
@@ -2910,12 +2912,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Êdàm-Hyjal",
 		},
-		[258921] = {
-			["school"] = 4,
+		[276138] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Easybiatch-Archimonde",
+			["source"] = "Almîrø-Archimonde",
 		},
 		[228354] = {
 			["school"] = 16,
@@ -2931,21 +2934,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Renifle",
 		},
-		[585] = {
-			["school"] = 2,
+		[260643] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nissëruivë-Chantséternels",
+			["source"] = "Lortank-KhazModan",
 		},
-		[233496] = {
-			["school"] = 32,
+		[101546] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kuragari-Ysondre",
+			["source"] = "Ikkitokken-KhazModan",
 		},
 		[272586] = {
 			["school"] = 4,
@@ -3088,14 +3092,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nastycheat-Suramar",
 		},
-		[233490] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[273310] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Kuragari-Ysondre",
+			["source"] = "Nissëruivë-Chantséternels",
 		},
 		[271636] = {
 			["school"] = 1,
@@ -3343,12 +3346,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Muggsy-Illidan",
 		},
-		[265374] = {
-			["school"] = 32,
+		[157982] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
+			["source"] = "Ayyaa-Garona",
 		},
 		[16870] = {
 			["school"] = 8,
@@ -3375,15 +3378,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xeetal-Sargeras",
 		},
-		[164815] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[198030] = {
+			["school"] = 124,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nastycheat-Suramar",
+			["source"] = "Maorgath-KhazModan",
 		},
 		[15621] = {
 			["school"] = 1,

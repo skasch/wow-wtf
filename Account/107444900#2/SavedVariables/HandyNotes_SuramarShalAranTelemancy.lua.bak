@@ -11,13 +11,13 @@ HandyNotes_SuramarShalAranTelemancyDB = {
 		["Kanpa - La Croisade écarlate"] = "Kanpa - La Croisade écarlate",
 		["Tenga - La Croisade écarlate"] = "Tenga - La Croisade écarlate",
 		["Tsuri - La Croisade écarlate"] = "Tsuri - La Croisade écarlate",
-		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
 		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
+		["Vermily - La Croisade écarlate"] = "Vermily - La Croisade écarlate",
 		["Skasch - Elune"] = "Skasch - Elune",
 		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
-		["Suzui - La Croisade écarlate"] = "Suzui - La Croisade écarlate",
-		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
 		["Nephily - La Croisade écarlate"] = "Nephily - La Croisade écarlate",
+		["Simetra - La Croisade écarlate"] = "Simetra - La Croisade écarlate",
+		["Suzui - La Croisade écarlate"] = "Suzui - La Croisade écarlate",
 		["Tsuma - La Croisade écarlate"] = "Tsuma - La Croisade écarlate",
 	},
 	["profiles"] = {
@@ -41,19 +41,19 @@ HandyNotes_SuramarShalAranTelemancyDB = {
 		},
 		["Tsuri - La Croisade écarlate"] = {
 		},
-		["Vermily - La Croisade écarlate"] = {
-		},
 		["Fayth - La Croisade écarlate"] = {
+		},
+		["Vermily - La Croisade écarlate"] = {
 		},
 		["Skasch - Elune"] = {
 		},
 		["Isabael - La Croisade écarlate"] = {
 		},
-		["Suzui - La Croisade écarlate"] = {
+		["Nephily - La Croisade écarlate"] = {
 		},
 		["Simetra - La Croisade écarlate"] = {
 		},
-		["Nephily - La Croisade écarlate"] = {
+		["Suzui - La Croisade écarlate"] = {
 		},
 		["Tsuma - La Croisade écarlate"] = {
 		},

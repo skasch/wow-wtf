@@ -7,9 +7,9 @@ HandyNotes_BoralusRPDB = {
 		["Fayth - La Croisade écarlate"] = "Fayth - La Croisade écarlate",
 		["Kanpa - Elune"] = "Kanpa - Elune",
 		["Isabael - La Croisade écarlate"] = "Isabael - La Croisade écarlate",
-		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
-		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
 		["Skasch - Elune"] = "Skasch - Elune",
+		["Sueki - La Croisade écarlate"] = "Sueki - La Croisade écarlate",
+		["Asane - La Croisade écarlate"] = "Asane - La Croisade écarlate",
 	},
 	["profiles"] = {
 		["Simetra - La Croisade écarlate"] = {
@@ -24,11 +24,11 @@ HandyNotes_BoralusRPDB = {
 		},
 		["Isabael - La Croisade écarlate"] = {
 		},
-		["Asane - La Croisade écarlate"] = {
+		["Skasch - Elune"] = {
 		},
 		["Sueki - La Croisade écarlate"] = {
 		},
-		["Skasch - Elune"] = {
+		["Asane - La Croisade écarlate"] = {
 		},
 	},
 }

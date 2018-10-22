@@ -308,11 +308,11 @@ Een_ChannelColours = {
 		1, -- [4]
 		false, -- [5]
 	},
-	["CHANNEL20"] = {
-		"CHANNEL20", -- [1]
+	["RESTRICTED"] = {
+		"RESTRICTED", -- [1]
 		1, -- [2]
-		0.752941250801086, -- [3]
-		0.752941250801086, -- [4]
+		0, -- [3]
+		0, -- [4]
 		false, -- [5]
 	},
 	["CHANNEL8"] = {
@@ -378,11 +378,11 @@ Een_ChannelColours = {
 		0.752941250801086, -- [4]
 		true, -- [5]
 	},
-	["CHANNEL13"] = {
-		"CHANNEL13", -- [1]
-		1, -- [2]
-		0.752941250801086, -- [3]
-		0.752941250801086, -- [4]
+	["BN_WHISPER"] = {
+		"BN_WHISPER", -- [1]
+		0, -- [2]
+		1, -- [3]
+		0.964705944061279, -- [4]
 		false, -- [5]
 	},
 	["ACHIEVEMENT"] = {
@@ -399,12 +399,12 @@ Een_ChannelColours = {
 		0.964705944061279, -- [4]
 		false, -- [5]
 	},
-	["CHANNEL15"] = {
-		"CHANNEL15", -- [1]
+	["RAID"] = {
+		"RAID", -- [1]
 		1, -- [2]
-		0.752941250801086, -- [3]
-		0.752941250801086, -- [4]
-		false, -- [5]
+		0.498039245605469, -- [3]
+		0, -- [4]
+		true, -- [5]
 	},
 	["EMOTE"] = {
 		"EMOTE", -- [1]
@@ -434,12 +434,12 @@ Een_ChannelColours = {
 		0.474509835243225, -- [4]
 		true, -- [5]
 	},
-	["CHANNEL9"] = {
-		"CHANNEL9", -- [1]
+	["COMMUNITIES_CHANNEL"] = {
+		"COMMUNITIES_CHANNEL", -- [1]
 		1, -- [2]
 		0.752941250801086, -- [3]
 		0.752941250801086, -- [4]
-		true, -- [5]
+		false, -- [5]
 	},
 	["BG_SYSTEM_ALLIANCE"] = {
 		"BG_SYSTEM_ALLIANCE", -- [1]
@@ -462,11 +462,11 @@ Een_ChannelColours = {
 		1, -- [4]
 		true, -- [5]
 	},
-	["AFK"] = {
-		"AFK", -- [1]
+	["RAID_LEADER"] = {
+		"RAID_LEADER", -- [1]
 		1, -- [2]
-		0.501960813999176, -- [3]
-		1, -- [4]
+		0.282352954149246, -- [3]
+		0.0352941192686558, -- [4]
 		true, -- [5]
 	},
 	["CHANNEL_NOTICE"] = {
@@ -483,11 +483,11 @@ Een_ChannelColours = {
 		0, -- [4]
 		false, -- [5]
 	},
-	["RAID_LEADER"] = {
-		"RAID_LEADER", -- [1]
+	["AFK"] = {
+		"AFK", -- [1]
 		1, -- [2]
-		0.282352954149246, -- [3]
-		0.0352941192686558, -- [4]
+		0.501960813999176, -- [3]
+		1, -- [4]
 		true, -- [5]
 	},
 	["CHANNEL17"] = {
@@ -504,25 +504,11 @@ Een_ChannelColours = {
 		0, -- [4]
 		false, -- [5]
 	},
-	["INSTANCE_CHAT"] = {
-		"INSTANCE_CHAT", -- [1]
-		1, -- [2]
-		0.498039245605469, -- [3]
-		0, -- [4]
-		true, -- [5]
-	},
-	["CHANNEL_NOTICE_USER"] = {
-		"CHANNEL_NOTICE_USER", -- [1]
-		0.752941250801086, -- [2]
-		0.752941250801086, -- [3]
-		0.752941250801086, -- [4]
-		false, -- [5]
-	},
-	["ARENA_POINTS"] = {
-		"ARENA_POINTS", -- [1]
+	["MONSTER_SAY"] = {
+		"MONSTER_SAY", -- [1]
 		1, -- [2]
 		1, -- [3]
-		1, -- [4]
+		0.623529434204102, -- [4]
 		false, -- [5]
 	},
 	["MONEY"] = {
@@ -532,12 +518,26 @@ Een_ChannelColours = {
 		0, -- [4]
 		false, -- [5]
 	},
-	["MONSTER_SAY"] = {
-		"MONSTER_SAY", -- [1]
+	["ARENA_POINTS"] = {
+		"ARENA_POINTS", -- [1]
 		1, -- [2]
 		1, -- [3]
-		0.623529434204102, -- [4]
+		1, -- [4]
 		false, -- [5]
+	},
+	["CHANNEL_NOTICE_USER"] = {
+		"CHANNEL_NOTICE_USER", -- [1]
+		0.752941250801086, -- [2]
+		0.752941250801086, -- [3]
+		0.752941250801086, -- [4]
+		false, -- [5]
+	},
+	["INSTANCE_CHAT"] = {
+		"INSTANCE_CHAT", -- [1]
+		1, -- [2]
+		0.498039245605469, -- [3]
+		0, -- [4]
+		true, -- [5]
 	},
 	["BN_INLINE_TOAST_CONVERSATION"] = {
 		"BN_INLINE_TOAST_CONVERSATION", -- [1]
@@ -546,12 +546,12 @@ Een_ChannelColours = {
 		1, -- [4]
 		false, -- [5]
 	},
-	["COMMUNITIES_CHANNEL"] = {
-		"COMMUNITIES_CHANNEL", -- [1]
+	["CHANNEL9"] = {
+		"CHANNEL9", -- [1]
 		1, -- [2]
 		0.752941250801086, -- [3]
 		0.752941250801086, -- [4]
-		false, -- [5]
+		true, -- [5]
 	},
 	["BN_INLINE_TOAST_BROADCAST"] = {
 		"BN_INLINE_TOAST_BROADCAST", -- [1]
@@ -560,18 +560,18 @@ Een_ChannelColours = {
 		1, -- [4]
 		false, -- [5]
 	},
-	["RAID"] = {
-		"RAID", -- [1]
+	["CHANNEL15"] = {
+		"CHANNEL15", -- [1]
 		1, -- [2]
-		0.498039245605469, -- [3]
-		0, -- [4]
-		true, -- [5]
+		0.752941250801086, -- [3]
+		0.752941250801086, -- [4]
+		false, -- [5]
 	},
-	["BN_WHISPER"] = {
-		"BN_WHISPER", -- [1]
-		0, -- [2]
-		1, -- [3]
-		0.964705944061279, -- [4]
+	["CHANNEL13"] = {
+		"CHANNEL13", -- [1]
+		1, -- [2]
+		0.752941250801086, -- [3]
+		0.752941250801086, -- [4]
 		false, -- [5]
 	},
 	["PET_BATTLE_COMBAT_LOG"] = {
@@ -595,11 +595,11 @@ Een_ChannelColours = {
 		0, -- [4]
 		false, -- [5]
 	},
-	["RESTRICTED"] = {
-		"RESTRICTED", -- [1]
+	["CHANNEL20"] = {
+		"CHANNEL20", -- [1]
 		1, -- [2]
-		0, -- [3]
-		0, -- [4]
+		0.752941250801086, -- [3]
+		0.752941250801086, -- [4]
 		false, -- [5]
 	},
 }
